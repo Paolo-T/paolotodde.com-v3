@@ -5,10 +5,10 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
     siteMetadata: {
-        siteUrl: `https://www.spacedigest.live`,
-        title: `spacedigest.live`,
-        description: `For space aficionados`,
-        author: ``,
+        siteUrl: `https://www.paolotodde.com`,
+        title: `paolotodde.com`,
+        description: `UI Designer | Web Designer | Product Designer | Front-end Developer`,
+        author: `Paolo Todde | Designer | Developer`,
     },
     plugins: [
         `gatsby-plugin-layout`,
@@ -20,13 +20,13 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingId: "UA-80068675-2",
+                trackingId: "",
             },
         },
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `spacedigest.live`,
+                name: `paolotodde.com`,
                 short_name: `starter`,
                 start_url: `/`,
                 background_color: fullConfig.theme.colors.white,

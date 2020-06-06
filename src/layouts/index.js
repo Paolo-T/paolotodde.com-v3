@@ -2,21 +2,29 @@ import PropTypes from "prop-types";
 import React from "react";
 import Navigation from "../components/base/Navigation";
 import Footer from "../components/base/Footer";
-import { SpacexLaunchesProvider } from "../context/SpacexLaunchesContext";
+import SEO from "../components/Seo";
+// import { SpacexLaunchesProvider } from "../context/SpacexLaunchesContext";
 import SimpleReactLightbox from "simple-react-lightbox";
 
 function Layout({ children }) {
     return (
         <>
-            <SpacexLaunchesProvider>
-                <SimpleReactLightbox>
-                    <Navigation />
+            <SEO
+                keywords={[
+                    `UI Designer`,
+                    `Web Designer`,
+                    `Product Designer`,
+                    `Front-end Developer`,
+                ]}
+                title="Home"
+            />
+            <SimpleReactLightbox>
+                <Navigation />
 
-                    <main className="bg-black">{children}</main>
+                <main className="bg-black">{children}</main>
 
-                    <Footer />
-                </SimpleReactLightbox>
-            </SpacexLaunchesProvider>
+                <Footer />
+            </SimpleReactLightbox>
         </>
     );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import SEO from "../components/seo";
+import SEO from "../components/Seo";
 import { useSpring, animated } from "react-spring";
 import TransitionPageIn from "../components/TransitionPageIn";
 
@@ -10,14 +10,10 @@ function AboutPage() {
         <>
             <SEO
                 keywords={[
-                    `Nasa`,
-                    `Spacex`,
-                    `Space`,
-                    `star`,
-                    `gatsby`,
-                    `tailwind`,
-                    `react`,
-                    `tailwindcss`,
+                    `UI Designer`,
+                    `Web Designer`,
+                    `Product Designer`,
+                    `Front-end Developer`,
                 ]}
                 title="About"
             />

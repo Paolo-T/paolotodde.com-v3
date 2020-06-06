@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
-import SEO from "../components/seo";
-// import Hero from "../components/Hero";
-import { useSpring, animated } from "react-spring";
+import SEO from "../components/Seo";
+// import Hero from "../comp ts/Hero";
+import { useSpring } from "react-spring";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
-import portfolio_tile_2 from "../images/portfolio_tile_2.png";
+import shuush_banner_1 from "../images/shuush/shuush_banner_1.png";
+import dc_banner_1 from "../images/three-dc/dc_banner_1.png";
 
 function IndexPage() {
     //Fade animation
@@ -14,28 +15,33 @@ function IndexPage() {
         <>
             <SEO
                 keywords={[
-                    `Nasa`,
-                    `Spacex`,
-                    `Space`,
-                    `star`,
-                    `gatsby`,
-                    `tailwind`,
-                    `react`,
-                    `tailwindcss`,
+                    `UI Designer`,
+                    `Web Designer`,
+                    `Product Designer`,
+                    `Front-end Developer`,
                 ]}
-                title="home"
+                title="Home"
             />
             <TransitionPageIn>
                 <div className="container md:px-0 mx-auto py-32">
                     <TransitionInview>
-                        <div className="w-full my-24">
-                            <img src={portfolio_tile_2} />
+                        <div className="w-full my-24 cursor-pointer">
+                            <Link to="/shuush">
+                                <img
+                                    src={shuush_banner_1}
+                                    className="rounded"
+                                />
+                            </Link>
                         </div>
+                    </TransitionInview>
+                    <TransitionInview>
                         <div className="w-full  my-24">
-                            <img src={portfolio_tile_2} />
+                            <img src={dc_banner_1} className="rounded" />
                         </div>
+                    </TransitionInview>
+                    <TransitionInview>
                         <div className="w-full mt-24">
-                            <img src={portfolio_tile_2} />
+                            <img src={shuush_banner_1} className="rounded" />
                         </div>
                     </TransitionInview>
                 </div>
