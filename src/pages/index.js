@@ -7,8 +7,9 @@ import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 import shuush_banner_1 from "../images/shuush/shuush_banner_1.png";
 import dc_banner_1 from "../images/three-dc/dc_banner_1.png";
+import classica_banner_1 from "../images/classica/classica_banner_1.png";
 
-function IndexPage() {
+function Home() {
     //Fade animation
     const fade = useSpring({ opacity: 1, from: { opacity: 0 } });
     return (
@@ -35,15 +36,20 @@ function IndexPage() {
                         </div>
                     </TransitionInview>
                     <TransitionInview>
-                        <div className="w-full  my-24">
-                            <Link to="/three">
-                                <img src={dc_banner_1} className="rounded" />
+                        <div className="w-full mt-24 cursor-pointer">
+                            <Link to="/classica ">
+                                <img
+                                    src={classica_banner_1}
+                                    className="rounded"
+                                />
                             </Link>
                         </div>
                     </TransitionInview>
                     <TransitionInview>
-                        <div className="w-full mt-24">
-                            <img src={shuush_banner_1} className="rounded" />
+                        <div className="w-full my-24 cursor-pointer">
+                            <Link to="/three">
+                                <img src={dc_banner_1} className="rounded" />
+                            </Link>
                         </div>
                     </TransitionInview>
                 </div>
@@ -52,4 +58,4 @@ function IndexPage() {
     );
 }
 
-export default IndexPage;
+export default Home;

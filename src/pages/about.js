@@ -3,7 +3,7 @@ import SEO from "../components/Seo";
 import { useSpring, animated } from "react-spring";
 import TransitionPageIn from "../components/TransitionPageIn";
 
-function AboutPage() {
+function About() {
     const fade = useSpring({ opacity: 1, from: { opacity: 0 } });
 
     return (
@@ -62,4 +62,4 @@ function AboutPage() {
     );
 }
 
-export default AboutPage;
+export default About;

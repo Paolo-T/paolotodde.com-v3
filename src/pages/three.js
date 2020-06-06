@@ -19,7 +19,7 @@ import three_12 from "../images/three/three_12.jpg";
 import three_13 from "../images/three/three_13.jpg";
 import three_14 from "../images/three/three_14.jpg";
 
-function shuush() {
+function Three() {
     return (
         <>
             <SEO
@@ -29,7 +29,7 @@ function shuush() {
                     `Product Designer`,
                     `Front-end Developer`,
                 ]}
-                title="Home"
+                title="Three"
             />
             <TransitionPageIn>
                 <div className="w-full max-w-full mx-auto mb-24">
@@ -37,25 +37,17 @@ function shuush() {
                     <img src={three_banner_2} className="rounded w-full" />
                     <img src={three_3} className="rounded w-full" />
 
-                    <div class="flex">
-                        <img src={three_4} className="sm:w-1/2" />
-                        <img src={three_5} className="sm:w-1/2" />
-                    </div>
-                    <div class="flex">
-                        <img src={three_6} className="sm:w-1/2" />
-                        <img src={three_7} className="sm:w-1/2" />
-                    </div>
-                    <div class="flex">
-                        <img src={three_8} className="sm:w-1/2" />
-                        <img src={three_9} className="sm:w-1/2" />
-                    </div>
-                    <div class="flex">
-                        <img src={three_10} className="sm:w-1/2" />
-                        <img src={three_11} className="sm:w-1/2" />
-                    </div>
-                    <div class="flex">
-                        <img src={three_12} className="sm:w-1/2" />
-                        <img src={three_13} className="sm:w-1/2" />
+                    <div class="grid sm:grid-cols-2">
+                        <img src={three_4} />
+                        <img src={three_5} />
+                        <img src={three_6} />
+                        <img src={three_7} />
+                        <img src={three_8} />
+                        <img src={three_9} />
+                        <img src={three_10} />
+                        <img src={three_11} />
+                        <img src={three_12} />
+                        <img src={three_13} />
                     </div>
                     <img src={three_2} className="rounded w-full" />
                     <img src={three_14} className="w-full" />
@@ -65,4 +57,4 @@ function shuush() {
     );
 }
 
-export default shuush;
+export default Three;

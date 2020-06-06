@@ -12,7 +12,7 @@ import shuush_6__animated from "../images/shuush/shuush_6__animated.gif";
 import shuush_7 from "../images/shuush/shuush_7.png";
 import shuush_8__animated from "../images/shuush/shuush_8__animated.gif";
 
-function shuush() {
+function Shuush() {
     return (
         <>
             <SEO
@@ -22,7 +22,7 @@ function shuush() {
                     `Product Designer`,
                     `Front-end Developer`,
                 ]}
-                title="Home"
+                title="Shuush"
             />
             <TransitionPageIn>
                 <div className="w-full max-w-full mx-auto mb-24">
@@ -41,4 +41,4 @@ function shuush() {
     );
 }
 
-export default shuush;
+export default Shuush;
