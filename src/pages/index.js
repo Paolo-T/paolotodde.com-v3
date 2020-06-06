@@ -36,7 +36,9 @@ function IndexPage() {
                     </TransitionInview>
                     <TransitionInview>
                         <div className="w-full  my-24">
-                            <img src={dc_banner_1} className="rounded" />
+                            <Link to="/three">
+                                <img src={dc_banner_1} className="rounded" />
+                            </Link>
                         </div>
                     </TransitionInview>
                     <TransitionInview>

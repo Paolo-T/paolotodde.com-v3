@@ -8,7 +8,7 @@ function Navigation() {
             <div className="w-10/12 md:w-9/12 mx-auto flex justify-between py-4 md:pt-24 ">
                 <Link className="text-primary" to="/">
                     <img
-                        className="w-10 md:w-8 mr-8 md:mr-4"
+                        className="md:w-10 mr-8 md:mr-4"
                         src={logo}
                         alt="nasa-logo"
                     />
