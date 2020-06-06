@@ -22,7 +22,7 @@ function AboutPage() {
                 title="About"
             />
             <TransitionPageIn>
-                <div className="container md:w-3/4 mx-auto pt-24 md:pt-30 md:mb-32">
+                <div className="container md:w-3/4 mx-auto pt-24 md:pt-30">
                     <h2 className="w-2/4 text-5xl md:text-6xl mb-3 pt-10">
                         About
                     </h2>

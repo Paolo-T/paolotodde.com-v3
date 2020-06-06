@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 function Navigation() {
     return (
         <header className="w-full fixed bg-gray-100 md:bg-transparent z-10">
-            <div className="w-10/12 md:container mx-auto flex justify-between py-4 md:pt-6 ">
+            <div className="w-10/12 md:w-9/12 mx-auto flex justify-between py-4 md:pt-12 ">
                 <Link className="text-primary" to="/">
                     <img
                         className="w-8 md:w-12 mr-8 md:mr-4"
@@ -14,24 +14,12 @@ function Navigation() {
                     />
                 </Link>
 
-                <nav className="w-3/4 md:w-1/4 flex justify-between">
+                <nav className=" flex justify-between">
                     <Link
-                        className="inline-block text-primary text-xl md:text-2xl leading-normal hover:text-black"
-                        to="/nasa"
+                        className="inline-block text-xl md:text-2xl leading-normal hover:text-black"
+                        to="/about"
                     >
-                        Nasa
-                    </Link>
-                    <Link
-                        className="inline-block text-primary text-xl md:text-2xl  leading-normal hover:text-black"
-                        to="/spacex"
-                    >
-                        SpaceX
-                    </Link>
-                    <Link
-                        className="inline-block text-primary text-xl md:text-2xl leading-normal hover:text-black"
-                        to="/photos"
-                    >
-                        Photos
+                        about
                     </Link>
                 </nav>
             </div>
