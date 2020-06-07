@@ -80,18 +80,18 @@ function Home() {
                     <TransitionInview>
                         <div className="w-full my-24 cursor-pointer relative transition duration-500 transform hover:scale-95">
                             <Link to="/three">
-                                <h2
-                                    className="absolute z-50 inset-0 content-center"
-                                    style={centerAbsolute}
+                                {/* <h2
+                                    className="absolute w-auto z-50 inset-0 content-center  text-opacity-0 w-32 h-24"
+                                    style={{ top: "50%", left: "45%" }}
                                 >
                                     3DC
                                 </h2>
                                 <span
-                                    className="absolute z-50"
-                                    style={{ top: "55%", left: "50%" }}
+                                    className="absolute block z-50"
+                                    style={{ top: "57%", left: "46%" }}
                                 >
                                     BRANDING
-                                </span>
+                                </span> */}
                                 <span className="absolute z-0 inset-0 transition duration-500 ease-in-out bg-black bg-opacity-0 hover:bg-opacity-75"></span>
                                 <img src={dc_banner_1} className="rounded" />
                             </Link>
