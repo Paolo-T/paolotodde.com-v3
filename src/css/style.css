@@ -5,7 +5,7 @@
 /* purgecss end ignore */
 
 body {
-    @apply text-white;
+    @apply text-white bg-black;
 }
 
 h1 {

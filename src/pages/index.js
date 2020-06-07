@@ -28,7 +28,7 @@ function Home() {
                 title="Home"
             />
             <TransitionPageIn>
-                <div className="container md:px-0 mx-auto py-32">
+                <div className="container md:px-0 mx-auto pt-32">
                     <TransitionInview>
                         <div className="w-full my-24 cursor-pointer relative transition duration-500 transform hover:scale-95">
                             <Link to="/shuush">
@@ -78,7 +78,7 @@ function Home() {
                     </TransitionInview>
 
                     <TransitionInview>
-                        <div className="w-full my-24 cursor-pointer relative transition duration-500 transform hover:scale-95">
+                        <div className="w-full mt-24 cursor-pointer relative transition duration-500 transform hover:scale-95">
                             <Link to="/three">
                                 {/* <h2
                                     className="absolute w-auto z-50 inset-0 content-center  text-opacity-0 w-32 h-24"

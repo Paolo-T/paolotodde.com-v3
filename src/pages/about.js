@@ -18,44 +18,33 @@ function About() {
                 title="About"
             />
             <TransitionPageIn>
-                <div className="container md:w-3/4 mx-auto pt-24 md:pt-30">
-                    <h2 className="w-2/4 text-5xl md:text-6xl mb-3 pt-10">
-                        About
-                    </h2>
-                    <p className="md:w-2/4 block">
-                        Space Digest is an informational website created as a
-                        personal project for fans of Nasa, SpaceX and space in
-                        general. Here you will find data, media, past and future
-                        space missions.
-                    </p>
-                    <p className="md:w-2/4 block mt-6">
-                        Special thanks to the teams at NASA and SpaceX for
-                        providing and maintaining all the data this website is
-                        built upon.
-                    </p>
-                    <p className="md:w-2/4 block mt-6">
-                        The plan for the future includes further development for
-                        a better experience.
-                    </p>
-
-                    <p className="md:w-2/4 block mt-6">
-                        Thanks for visiting
-                        <span
-                            className="ml-3"
-                            role="img"
-                            aria-label="horns up emoji"
-                        >
-                            🤘🏻
-                        </span>{" "}
-                    </p>
-                    <p className="md:w-2/4 block mt-6">P.</p>
-                    {/* <a
-                        className="inline-block text-xl md:text-2xl underline mt-10"
-                        rel="noopener noreferrer"
-                        href="mailto:webmaster@example.com"
-                    >
-                        hi@spacedigest.live
-                    </a> */}
+                <div className="bg-white pt-24 md:pt-30">
+                    <div className="md:w-9/12 mx-auto md:flex flex-initial py-32">
+                        <h2 className="w-12/12 text-5xl md:text-6xl text-black flex-1 pl-20">
+                            Hi
+                        </h2>
+                        <div className="md:w-8/12 block text-black flex-2">
+                            <p className="pr-20">
+                                Paolo here. Designer + Coder, based in Brighton
+                                (UK).<br></br>I have a passion for visual
+                                communication, creating and developing well
+                                crafted designs, user focused utilitarian
+                                interfaces. Contributing to the great web
+                                environment making the best experience mixing
+                                creativity and technology.
+                            </p>
+                            <p className="pr-20 mt-8">
+                                Staying curious and up to date with the latest
+                                technology movements. Constantly seeking new
+                                skills, discovering better ways of implementing
+                                techniques, sifting out the unnecessary.
+                            </p>
+                            <p className="pr-20 mt-8">
+                                Currently focusing on Vanilla Javascript,
+                                Mastering React and web animations.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </TransitionPageIn>
         </>
