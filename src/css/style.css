@@ -4,10 +4,6 @@
 @tailwind components;
 /* purgecss end ignore */
 
-html {
-    @apply text-white bg-black;
-}
-
 body {
     @apply text-white bg-black;
 }
