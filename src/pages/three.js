@@ -13,6 +13,7 @@ import three_14 from "../images/three/three_14.jpg";
 import three_15 from "../images/three/three_15.png";
 import three_16 from "../images/three/three_16.png";
 import three_17 from "../images/three/three_17.png";
+import three_18 from "../images/three/three_18.png";
 
 function Three() {
     return (
@@ -33,6 +34,7 @@ function Three() {
                     <img src={three_15} className="w-full" />
                     <img src={three_16} className="w-full" />
                     <img src={three_17} className="w-full" />
+                    <img src={three_18} className="w-full" />
                     {/* <img src={three_banner_2} className="w-full" /> */}
                     {/* <div class="grid sm:grid-cols-2">
                         <img src={three_4} />
