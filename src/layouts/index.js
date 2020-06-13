@@ -21,7 +21,7 @@ function Layout({ children }) {
             <SimpleReactLightbox>
                 <Navigation />
 
-                <main className="bg-black">{children}</main>
+                <main>{children}</main>
 
                 <Footer />
             </SimpleReactLightbox>
