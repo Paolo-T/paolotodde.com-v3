@@ -4,10 +4,9 @@ import SEO from "../components/Seo";
 // import Hero from "../comp ts/Hero";
 import { useSpring } from "react-spring";
 import TransitionPageIn from "../components/TransitionPageIn";
-import TransitionInview from "../components/TransitionInview";
+// import TransitionInview from "../components/TransitionInview";
 import shuush_banner_1 from "../images/shuush/shuush_banner_1.png";
-import dc_banner_3 from "../images/three/three_3.jpg";
-import three_banner_3 from "../images/three/three_banner_3.png";
+import three_15 from "../images/three/three_15.png";
 import classica_banner_1 from "../images/classica/classica_banner_1.png";
 import ImgTile from "../components/base/ImgTile";
 
@@ -48,7 +47,7 @@ function Home() {
                     <ImgTile
                         title="3DC"
                         subTitle="BRANDING"
-                        img={three_banner_3}
+                        img={three_15}
                         link="/three"
                     />
                 </div>
