@@ -4,14 +4,10 @@ import { Link } from "gatsby";
 
 function Navigation() {
     return (
-        <header className="w-full fixed bg-gray-100 md:bg-transparent z-10">
-            <div className="w-9/12 md:w-9/12 mx-auto flex justify-between py-4 md:pt-24 ">
+        <header className="w-full fixed bg-transparent z-10">
+            <div className="w-9/12 mx-auto flex justify-between pt-12 md:pt-24 ">
                 <Link className="text-primary" to="/">
-                    <img
-                        className="md:w-10 mr-8 md:mr-4"
-                        src={logo}
-                        alt="nasa-logo"
-                    />
+                    <img className="w-8 md:w-8" src={logo} alt="nasa-logo" />
                 </Link>
 
                 <nav className=" flex justify-between">

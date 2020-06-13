@@ -18,9 +18,9 @@ function About() {
                 title="About"
             />
             <TransitionPageIn>
-                <div className="bg-white pt-24 md:pt-30">
-                    <div className="md:w-9/12 mx-auto md:flex flex-initial py-32">
-                        <h2 className="w-12/12 text-5xl md:text-6xl text-black flex-1 pl-20">
+                <div className="bg-white pt-10 md:pt-24 md:pt-30">
+                    <div className="w-10/12 md:w-9/12 mx-auto md:flex flex-initial py-32">
+                        <h2 className="md:w-12/12 text-5xl md:text-6xl text-black flex-1 md:pl-20">
                             Hi
                         </h2>
                         <div className="md:w-8/12 block text-black flex-2">

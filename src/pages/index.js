@@ -6,8 +6,10 @@ import { useSpring } from "react-spring";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 import shuush_banner_1 from "../images/shuush/shuush_banner_1.png";
-import dc_banner_1 from "../images/three/three_banner_1.png";
+import dc_banner_3 from "../images/three/three_3.jpg";
+import three_banner_3 from "../images/three/three_banner_3.png";
 import classica_banner_1 from "../images/classica/classica_banner_1.png";
+import ImgTile from "../components/base/ImgTile";
 
 function Home() {
     //Fade animation
@@ -16,6 +18,7 @@ function Home() {
         top: "50%",
         left: "40%",
     };
+
     return (
         <>
             <SEO
@@ -28,75 +31,26 @@ function Home() {
                 title="Home"
             />
             <TransitionPageIn>
-                <div className="container md:px-0 mx-auto pt-32">
-                    <TransitionInview>
-                        <div className="w-full my-24 cursor-pointer relative transition duration-500 transform hover:scale-95">
-                            <Link to="/shuush">
-                                <h2
-                                    className="absolute z-50 inset-0 content-center"
-                                    style={centerAbsolute}
-                                >
-                                    Shuush!
-                                </h2>
-                                <span
-                                    className="absolute z-50"
-                                    style={{ top: "58%", left: "42.75%" }}
-                                >
-                                    PRODUCT DESIGN
-                                </span>
-                                <span className="absolute z-0 inset-0 transition duration-500 ease-in-out bg-black bg-opacity-0 hover:bg-opacity-75"></span>
-                                <img
-                                    src={shuush_banner_1}
-                                    className="rounded"
-                                />
-                            </Link>
-                        </div>
-                    </TransitionInview>
+                <div className="w-11/12 md:container md:px-0 mx-auto pt-32">
+                    <ImgTile
+                        title="Classica"
+                        subTitle="UI DESIGN"
+                        img={classica_banner_1}
+                        link="/classica"
+                    />
+                    <ImgTile
+                        title="shuush!"
+                        subTitle="PRODUCT DESIGN"
+                        img={shuush_banner_1}
+                        link="/shuush"
+                    />
 
-                    <TransitionInview>
-                        <div className="w-full my-24 cursor-pointer relative transition duration-500 transform hover:scale-95">
-                            <Link to="/classica">
-                                <h2
-                                    className="absolute z-50 inset-0 content-center"
-                                    style={centerAbsolute}
-                                >
-                                    Classica
-                                </h2>
-                                <span
-                                    className="absolute z-50"
-                                    style={{ top: "58%", left: "42.75%" }}
-                                >
-                                    UI DESIGN
-                                </span>
-                                <span className="absolute z-0 inset-0 transition duration-500 ease-in-out bg-black bg-opacity-0 hover:bg-opacity-75"></span>
-                                <img
-                                    src={classica_banner_1}
-                                    className="rounded"
-                                />
-                            </Link>
-                        </div>
-                    </TransitionInview>
-
-                    <TransitionInview>
-                        <div className="w-full mt-24 cursor-pointer relative transition duration-500 transform hover:scale-95">
-                            <Link to="/three">
-                                {/* <h2
-                                    className="absolute w-auto z-50 inset-0 content-center  text-opacity-0 w-32 h-24"
-                                    style={{ top: "50%", left: "45%" }}
-                                >
-                                    3DC
-                                </h2>
-                                <span
-                                    className="absolute block z-50"
-                                    style={{ top: "57%", left: "46%" }}
-                                >
-                                    BRANDING
-                                </span> */}
-                                <span className="absolute z-0 inset-0 transition duration-500 ease-in-out bg-black bg-opacity-0 hover:bg-opacity-75"></span>
-                                <img src={dc_banner_1} className="rounded" />
-                            </Link>
-                        </div>
-                    </TransitionInview>
+                    <ImgTile
+                        title="3DC"
+                        subTitle="BRANDING"
+                        img={three_banner_3}
+                        link="/three"
+                    />
                 </div>
             </TransitionPageIn>
         </>

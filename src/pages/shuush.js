@@ -1,16 +1,12 @@
 import React from "react";
 import SEO from "../components/Seo";
-// import { useSpring } from "react-spring";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 import shuush_banner_1 from "../images/shuush/shuush_banner_1.png";
-import shuush_1__animated from "../images/shuush/shuush_1__animated.gif";
-import shuush_2 from "../images/shuush/shuush_2.png";
-import shuush_3 from "../images/shuush/shuush_3.png";
-import shuush_5 from "../images/shuush/shuush_5.png";
-import shuush_6__animated from "../images/shuush/shuush_6__animated.gif";
-import shuush_7 from "../images/shuush/shuush_7.png";
-import shuush_8__animated from "../images/shuush/shuush_8__animated.gif";
+import shuush_9 from "../images/shuush/shuush_9.png";
+import shuush_10 from "../images/shuush/shuush_10.png";
+import shuush_11 from "../images/shuush/shuush_11.png";
+import shuush_12 from "../images/shuush/shuush_12.png";
 
 function Shuush() {
     return (
@@ -25,16 +21,12 @@ function Shuush() {
                 title="Shuush"
             />
             <TransitionPageIn>
-                <div className="w-full max-w-full mx-auto mb-24">
-                    <img src={shuush_banner_1} className="rounded w-full" />
-                    <img src={shuush_1__animated} className="rounded w-full" />
-                    <img src={shuush_2} className="rounded w-full" />
-                    <img src={shuush_3} className="rounded w-full" />
-                    {/* <img src={shuush_4} className="rounded w-full" /> */}
-                    <img src={shuush_5} className="rounded w-full" />
-                    <img src={shuush_6__animated} className="rounded w-full" />
-                    <img src={shuush_7} className="rounded w-full" />
-                    <img src={shuush_8__animated} className="rounded w-full" />
+                <div className="w-full max-w-full mx-auto mb-24 bg-off_white">
+                    <img src={shuush_banner_1} className="w-full" />
+                    <img src={shuush_9} className="w-full pt-32" />
+                    <img src={shuush_10} className="w-full" />
+                    <img src={shuush_11} className="w-full pb-32" />
+                    <img src={shuush_12} className="w-full" />
                 </div>
             </TransitionPageIn>
         </>
