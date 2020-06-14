@@ -17,12 +17,12 @@ module.exports = {
         `gatsby-plugin-styled-components`,
         `gatsby-plugin-postcss`,
         `gatsby-plugin-sitemap`,
-        // {
-        //     resolve: `gatsby-plugin-google-analytics`,
-        //     options: {
-        //         trackingId: "",
-        //     },
-        // },
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: "UA-80068675-1",
+            },
+        },
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
