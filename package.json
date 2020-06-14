@@ -1,5 +1,5 @@
 {
-  "name": "spacedigest.live",
+  "name": "paolotodde.com",
   "description": "",
   "version": "2.0.0",
   "author": "Paolo Todde",
@@ -15,7 +15,6 @@
     "gatsby-plugin-sharp": "2.6.0",
     "gatsby-plugin-sitemap": "^2.4.2",
     "gatsby-plugin-styled-components": "^3.3.1",
-    "moment": "^2.25.3",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
@@ -24,7 +23,6 @@
     "react-player": "^2.0.1",
     "react-select": "^3.1.0",
     "react-spring": "^8.0.27",
-    "simple-react-lightbox": "^3.1.1",
     "styled-components": "^5.1.0"
   },
   "keywords": [

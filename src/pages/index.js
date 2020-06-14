@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
 import SEO from "../components/Seo";
-// import Hero from "../comp ts/Hero";
 import { useSpring } from "react-spring";
 import TransitionPageIn from "../components/TransitionPageIn";
 // import TransitionInview from "../components/TransitionInview";
@@ -20,15 +19,6 @@ function Home() {
 
     return (
         <>
-            <SEO
-                keywords={[
-                    `UI Designer`,
-                    `Web Designer`,
-                    `Product Designer`,
-                    `Front-end Developer`,
-                ]}
-                title="Home"
-            />
             <TransitionPageIn>
                 <div className="w-11/12 md:container md:px-0 mx-auto pt-32">
                     <ImgTile

@@ -3,9 +3,6 @@
 
 @tailwind components;
 /* purgecss end ignore */
-html {
-    background-color: #000000;
-}
 
 body {
     @apply text-white bg-black;
