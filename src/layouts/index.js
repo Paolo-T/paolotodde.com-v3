@@ -8,7 +8,7 @@ function Layout({ children }) {
         <>
             <Navigation />
 
-            <main className="min-h-screen bg-black">{children}</main>
+            <main>{children}</main>
 
             <Footer />
         </>

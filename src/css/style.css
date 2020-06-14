@@ -4,10 +4,6 @@
 @tailwind components;
 /* purgecss end ignore */
 
-body {
-    @apply text-white bg-black;
-}
-
 h1 {
     @apply font-header font-bold text-9xl inline-block leading-none tracking-tighter mt-4 mb-8;
 }
