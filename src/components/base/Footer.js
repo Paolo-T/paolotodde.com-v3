@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 function Footer() {
     return (
-        <footer className="w-full pb-24 pt-20 bg-black">
+        <footer className="w-full max-w-screen-xxl mx-auto pb-24 pt-20 bg-black">
             <div className="w-10/12 md:w-9/12 mx-auto lg:flex justify-between">
                 <div className="flex-1">
                     <Link
