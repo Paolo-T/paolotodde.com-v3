@@ -11,12 +11,12 @@ function Footer() {
                         className="block md:text-2xl"
                         to="/about"
                     >
-                        <h2 className="text-4xl text-red-600 text-center lg:text-left mb-10 lg:mb-0">
-                            info@paolotodde.com
+                        <h2 className="md:text-4xl text-red-600 text-center lg:text-left mb-10 lg:mb-0">
+                            iampaolotodde@gmail.com
                         </h2>
                     </Link>
                 </div>
-                <ul className="flex-1 flex justify-between content-end">
+                <ul className="flex-1 flex justify-between content-end md:ml-32">
                     <a
                         rel="noopener noreferrer"
                         target="_blank"
