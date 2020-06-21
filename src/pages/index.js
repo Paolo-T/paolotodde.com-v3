@@ -7,6 +7,7 @@ import TransitionPageIn from "../components/TransitionPageIn";
 import shuush_banner_1 from "../images/shuush/shuush_banner_1.png";
 import three_15 from "../images/three/three_15.png";
 import classica_banner_1 from "../images/classica/classica_banner_1.png";
+import three_banner_3 from "../images/three/three_banner_3.png";
 import ImgTile from "../components/base/ImgTile";
 
 function Home() {
@@ -40,7 +41,7 @@ function Home() {
                     <ImgTile
                         title="3DC"
                         subTitle="BRANDING"
-                        img={three_15}
+                        img={three_banner_3}
                         link="/three"
                     />
                 </div>

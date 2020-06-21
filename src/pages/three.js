@@ -29,11 +29,11 @@ function Three() {
             <TransitionPageIn>
                 <div className="w-full max-w-full mx-auto mb-24">
                     <img src={three_15} className="w-full" />
-                    <img src={three_16} className="w-full" />
-                    <img src={three_17} className="w-full" />
-                    <img src={three_18} className="w-full" />
-                    <img src={three_19} className="w-full" />
-                    <img src={three_20} className="w-full" />
+                    <img src={three_16} className="w-full mt-20" />
+                    <img src={three_17} className="w-full mt-20" />
+                    <img src={three_18} className="w-full mt-20" />
+                    <img src={three_19} className="w-full mt-20" />
+                    <img src={three_20} className="w-full mt-20" />
                     <img src={three_21} className="w-full" />
                     <img src={three_banner_3} className="w-full" />
                     <img src={three_1} className="w-full" />
