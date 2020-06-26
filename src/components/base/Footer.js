@@ -11,7 +11,7 @@ function Footer() {
                         className="block md:text-2xl"
                         to="/about"
                     >
-                        <h2 className="text-xl md:text-4xl text-red-600 text-center lg:text-left mb-10 lg:mb-0">
+                        <h2 className="text-xl md:text-4xl text-red-600 text-center lg:text-left lg:mb-0">
                             iampaolotodde@gmail.com
                         </h2>
                     </Link>
