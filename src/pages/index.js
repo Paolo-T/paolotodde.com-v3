@@ -23,7 +23,7 @@ function Home() {
             <TransitionPageIn>
                 <div
                     id="tileContainer"
-                    className="w-11/12 md:container md:px-0 mx-auto pt-32"
+                    className="w-11/12 md:container md:px-0 mx-auto pt-24 md:pt-32"
                 >
                     <ImgTile
                         title="Classica"
