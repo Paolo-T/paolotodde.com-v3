@@ -23,10 +23,10 @@ function Shuush() {
             <TransitionPageIn>
                 <div className="w-full max-w-full mx-auto bg-offWhite">
                     <img src={shuush_banner_1} className="w-full" />
-                    <img src={shuush_9} className="w-full" />
-                    <img src={shuush_10} className="w-full" />
-                    <img src={shuush_11} className="w-full" />
-                    <img src={shuush_12} className="w-full" />
+                    <img src={shuush_9} className="w-full -mt-1" />
+                    <img src={shuush_10} className="w-full -mt-1" />
+                    <img src={shuush_11} className="w-full -mt-1" />
+                    <img src={shuush_12} className="w-full -mt-1" />
                 </div>
             </TransitionPageIn>
         </>
