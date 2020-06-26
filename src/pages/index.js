@@ -42,12 +42,14 @@ function Home() {
                         subTitle="UI DESIGN"
                         img={classica_banner_1}
                         link="/classica"
+                        padding="my-4 md:my-24"
                     />
                     <ImgTile
                         title="shuush!"
                         subTitle="PRODUCT DESIGN"
                         img={shuush_banner_1}
                         link="/shuush"
+                        padding="my-4 md:my-24"
                     />
 
                     <ImgTile
@@ -55,6 +57,7 @@ function Home() {
                         subTitle="BRANDING"
                         img={three_banner_3}
                         link="/three"
+                        padding="mt-4 md:mt-24"
                     />
                 </div>
             </TransitionPageIn>
