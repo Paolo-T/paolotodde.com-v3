@@ -19,18 +19,26 @@ function Three() {
         <>
             <SEO
                 keywords={[
+                    `UI Design`,
+                    `Product Design`,
+                    `Product Designer`,
+                    `Messaging App`,
+                    `App`,
                     `UI Designer`,
                     `Web Designer`,
                     `Product Designer`,
                     `Front-end Developer`,
+                    `Portfolio`,
+                    `Brighton`,
+                    `Uk`,
                 ]}
                 title="Three"
             />
             <TransitionPageIn>
                 <div className="w-full max-w-full mx-auto ">
-                    <img src={three_21} className="w-full -mt-1" />
                     <img src={three_15} className="w-full -mt-1" />
                     <img src={three_16} className="w-full -mt-1" />
+                    <img src={three_21} className="w-full -mt-1" />
                     <img src={three_17} className="w-full -mt-1" />
                     <img src={three_18} className="w-full -mt-1" />
                     <img src={three_19} className="w-full -mt-1" />

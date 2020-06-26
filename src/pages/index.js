@@ -20,6 +20,18 @@ function Home() {
 
     return (
         <>
+            <SEO
+                keywords={[
+                    `UI Designer`,
+                    `Web Designer`,
+                    `Product Designer`,
+                    `Front-end Developer`,
+                    `Portfolio`,
+                    `Brighton`,
+                    `Uk`,
+                ]}
+                title="Home"
+            />
             <TransitionPageIn>
                 <div
                     id="tileContainer"

@@ -10,10 +10,18 @@ function About() {
         <>
             <SEO
                 keywords={[
+                    `UI Design`,
+                    `Product Design`,
+                    `Product Designer`,
+                    `Messaging App`,
+                    `App`,
                     `UI Designer`,
                     `Web Designer`,
                     `Product Designer`,
                     `Front-end Developer`,
+                    `Portfolio`,
+                    `Brighton`,
+                    `Uk`,
                 ]}
                 title="About"
             />
