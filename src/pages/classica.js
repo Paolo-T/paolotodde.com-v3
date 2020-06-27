@@ -3,22 +3,16 @@ import SEO from "../components/Seo";
 // import { useSpring } from "react-spring";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
-import classica_banner_1 from "../images/classica/classica_banner_1.png";
-import classica_1 from "../images/classica/classica_1.png";
-import classica_2 from "../images/classica/classica_2.png";
-import classica_3 from "../images/classica/classica_3.png";
-import classica_4 from "../images/classica/classica_4.png";
-// import classica_5 from "../images/classica/classica_5.png";
-// import classica_6 from "../images/classica/classica_6.png";
-// import classica_7 from "../images/classica/classica_7.png";
-// import classica_8 from "../images/classica/classica_8.png";
-// import classica_10 from "../images/classica/classica_10.png";
-// import classica_11 from "../images/classica/classica_11.png";
-import classica_12 from "../images/classica/classica_12.png";
-import classica_13 from "../images/classica/classica_13.png";
-import classica_14 from "../images/classica/classica_14.png";
-import classica_15 from "../images/classica/classica_15.png";
-import classica_16 from "../images/classica/classica_16.png";
+import classica_banner_1 from "../images/classica/classica_banner_1.webp";
+import classica_1 from "../images/classica/classica_1.webp";
+import classica_2 from "../images/classica/classica_2.webp";
+import classica_3 from "../images/classica/classica_3.webp";
+import classica_4 from "../images/classica/classica_4.webp";
+import classica_12 from "../images/classica/classica_12.webp";
+import classica_13 from "../images/classica/classica_13.webp";
+import classica_14 from "../images/classica/classica_14.webp";
+import classica_15 from "../images/classica/classica_15.webp";
+import classica_16 from "../images/classica/classica_16.webp";
 
 function Classica() {
     return (

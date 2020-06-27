@@ -10,7 +10,11 @@ function ImgTile({ img, link, padding }) {
                     className={`w-full cursor-pointer relative transition duration-500 transform hover:scale-95 ${padding}`}
                 >
                     <Link to={link}>
-                        <img src={img} className="rounded" />
+                        <img
+                            src={img}
+                            alt="Portfolio tile"
+                            className="rounded"
+                        />
                     </Link>
                 </div>
             </TransitionInview>
