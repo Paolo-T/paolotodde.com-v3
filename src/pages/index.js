@@ -1,11 +1,8 @@
 import React from "react";
-import { Link } from "gatsby";
 import SEO from "../components/Seo";
 import { useSpring } from "react-spring";
 import TransitionPageIn from "../components/TransitionPageIn";
-// import TransitionInview from "../components/TransitionInview";
-import shuush_banner_1 from "../images/shuush/shuush_banner_1.png";
-import three_15 from "../images/three/three_15.png";
+import shuush_banner_1 from "../images/shuush/shuush_banner_1.webp";
 import classica_banner_1 from "../images/classica/classica_banner_1.webp";
 import three_banner_3 from "../images/three/three_banner_3.png";
 import ImgTile from "../components/base/ImgTile";

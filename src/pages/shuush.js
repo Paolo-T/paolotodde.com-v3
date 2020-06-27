@@ -1,12 +1,11 @@
 import React from "react";
 import SEO from "../components/Seo";
 import TransitionPageIn from "../components/TransitionPageIn";
-import TransitionInview from "../components/TransitionInview";
-import shuush_banner_1 from "../images/shuush/shuush_banner_1.png";
-import shuush_9 from "../images/shuush/shuush_9.png";
-import shuush_10 from "../images/shuush/shuush_10.png";
-import shuush_11 from "../images/shuush/shuush_11.png";
-import shuush_12 from "../images/shuush/shuush_12.png";
+import shuush_banner_1 from "../images/shuush/shuush_banner_1.webp";
+import shuush_9 from "../images/shuush/shuush_9.webp";
+import shuush_10 from "../images/shuush/shuush_10.webp";
+import shuush_11 from "../images/shuush/shuush_11.webp";
+import shuush_12 from "../images/shuush/shuush_12.webp";
 
 function Shuush() {
     return (
