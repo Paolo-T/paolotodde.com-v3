@@ -14,7 +14,7 @@ function Home() {
     const data = useStaticQuery(graphql`
         query homeImages {
             classicaImg: file(
-                relativePath: { eq: "classica/classica_banner_1.webp" }
+                relativePath: { eq: "classica/classica_1.webp" }
             ) {
                 id
                 childImageSharp {
@@ -23,9 +23,7 @@ function Home() {
                     }
                 }
             }
-            shuushImg: file(
-                relativePath: { eq: "shuush/shuush_banner_1.webp" }
-            ) {
+            shuushImg: file(relativePath: { eq: "shuush/shuush_1.webp" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
@@ -33,7 +31,7 @@ function Home() {
                     }
                 }
             }
-            threeImg: file(relativePath: { eq: "three/three_banner_1.webp" }) {
+            threeImg: file(relativePath: { eq: "three/three_1.webp" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
@@ -66,10 +64,11 @@ function Home() {
                     className="w-11/12 md:container md:px-0 mx-auto pt-24 md:pt-32"
                 >
                     <TransitionInview>
-                        <Link to="/classica">
+                        <Link to="/classica" className="mt-20">
                             <Img
                                 fluid={data.classicaImg.childImageSharp.fluid}
                                 alt="classica app ui design"
+                                className="mt-32"
                             />
                         </Link>
                     </TransitionInview>
@@ -79,6 +78,7 @@ function Home() {
                             <Img
                                 fluid={data.shuushImg.childImageSharp.fluid}
                                 alt="classica app ui design"
+                                className="mt-32"
                             />
                         </Link>
                     </TransitionInview>
@@ -88,6 +88,7 @@ function Home() {
                             <Img
                                 fluid={data.threeImg.childImageSharp.fluid}
                                 alt="classica app ui design"
+                                className="mt-32"
                             />
                         </Link>
                     </TransitionInview>

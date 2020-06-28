@@ -9,6 +9,7 @@ function Three() {
         query threeImages {
             threeImages: allFile(
                 filter: { relativeDirectory: { eq: "three" } }
+                sort: { order: ASC, fields: name }
             ) {
                 nodes {
                     id
@@ -21,7 +22,6 @@ function Three() {
             }
         }
     `);
-    console.log(data);
 
     return (
         <>

@@ -1,13 +1,28 @@
 import React from "react";
 import SEO from "../components/Seo";
+import { graphql, useStaticQuery } from "gatsby";
+import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
-import shuush_banner_1 from "../images/shuush/shuush_banner_1.webp";
-import shuush_9 from "../images/shuush/shuush_9.webp";
-import shuush_10 from "../images/shuush/shuush_10.webp";
-import shuush_11 from "../images/shuush/shuush_11.webp";
-import shuush_12 from "../images/shuush/shuush_12.webp";
 
 function Shuush() {
+    const data = useStaticQuery(graphql`
+        query shuushImages {
+            shuushImages: allFile(
+                filter: { relativeDirectory: { eq: "shuush" } }
+                sort: { order: ASC, fields: name }
+            ) {
+                nodes {
+                    id
+                    childImageSharp {
+                        fluid(maxWidth: 2880) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
+        }
+    `);
+
     return (
         <>
             <SEO
@@ -28,12 +43,13 @@ function Shuush() {
                 title="Shuush"
             />
             <TransitionPageIn>
-                <div className="w-full max-w-full mx-auto bg-offWhite">
-                    <img src={shuush_banner_1} className="w-full" />
-                    <img src={shuush_9} className="w-full -mt-1" />
-                    <img src={shuush_10} className="w-full -mt-1" />
-                    <img src={shuush_11} className="w-full -mt-1" />
-                    <img src={shuush_12} className="w-full -mt-1" />
+                <div className="w-full max-w-full mx-auto ">
+                    {data.shuushImages.nodes.map((image) => (
+                        <Img
+                            key={image.id}
+                            fluid={image.childImageSharp.fluid}
+                        />
+                    ))}
                 </div>
             </TransitionPageIn>
         </>
