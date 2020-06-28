@@ -1,8 +1,6 @@
 import React from "react";
 import SEO from "../components/Seo";
-// import { useSpring } from "react-spring";
 import TransitionPageIn from "../components/TransitionPageIn";
-import TransitionInview from "../components/TransitionInview";
 import classica_banner_1 from "../images/classica/classica_banner_1.webp";
 import classica_1 from "../images/classica/classica_1.webp";
 import classica_2 from "../images/classica/classica_2.webp";
@@ -43,7 +41,7 @@ function Classica() {
                     {/* <img src={classica_11} className="w-full" /> */}
                     <img src={classica_12} className="w-full pt-8" />
                     {/* <img src={classica_5} className="w-full pt-6" /> */}
-                    <div class="grid sm:grid-cols-2 gap-6 py-8">
+                    <div className="grid sm:grid-cols-2 gap-6 py-8">
                         <img src={classica_1} />
                         <img src={classica_2} />
                         <img src={classica_3} />

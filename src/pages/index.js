@@ -1,19 +1,50 @@
 import React from "react";
-import SEO from "../components/Seo";
+import { graphql, useStaticQuery } from "gatsby";
+import { Link } from "gatsby";
 import { useSpring } from "react-spring";
+import SEO from "../components/Seo";
 import TransitionPageIn from "../components/TransitionPageIn";
-import shuush_banner_1 from "../images/shuush/shuush_banner_1.webp";
-import classica_banner_1 from "../images/classica/classica_banner_1.webp";
-import three_banner_3 from "../images/three/three_banner_3.webp";
-import ImgTile from "../components/base/ImgTile";
+import TransitionInview from "../components/TransitionInview";
+import Img from "gatsby-image";
 
 function Home() {
-    //Fade animation
+    // Animation
     const fade = useSpring({ opacity: 1, from: { opacity: 0 } });
-    const centerAbsolute = {
-        top: "50%",
-        left: "40%",
-    };
+
+    const data = useStaticQuery(graphql`
+        query Images {
+            classicaImg: file(
+                relativePath: { eq: "classica/classica_banner_1.webp" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            shuushImg: file(
+                relativePath: { eq: "shuush/shuush_banner_1.webp" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            threeImg: file(relativePath: { eq: "three/three_banner_1.webp" }) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+        }
+    `);
+
+    console.log(data);
 
     return (
         <>
@@ -34,28 +65,32 @@ function Home() {
                     id="tileContainer"
                     className="w-11/12 md:container md:px-0 mx-auto pt-24 md:pt-32"
                 >
-                    <ImgTile
-                        title="Classica"
-                        subTitle="UI DESIGN"
-                        img={classica_banner_1}
-                        link="/classica"
-                        padding="my-4 md:my-24"
-                    />
-                    <ImgTile
-                        title="shuush!"
-                        subTitle="PRODUCT DESIGN"
-                        img={shuush_banner_1}
-                        link="/shuush"
-                        padding="my-4 md:my-24"
-                    />
+                    <TransitionInview>
+                        <Link to="/classica">
+                            <Img
+                                fluid={data.classicaImg.childImageSharp.fluid}
+                                alt="classica app ui design"
+                            />
+                        </Link>
+                    </TransitionInview>
 
-                    <ImgTile
-                        title="3DC"
-                        subTitle="BRANDING"
-                        img={three_banner_3}
-                        link="/three"
-                        padding="mt-4 md:mt-24"
-                    />
+                    <TransitionInview>
+                        <Link to="/shuush">
+                            <Img
+                                fluid={data.shuushImg.childImageSharp.fluid}
+                                alt="classica app ui design"
+                            />
+                        </Link>
+                    </TransitionInview>
+
+                    <TransitionInview>
+                        <Link to="/three">
+                            <Img
+                                fluid={data.threeImg.childImageSharp.fluid}
+                                alt="classica app ui design"
+                            />
+                        </Link>
+                    </TransitionInview>
                 </div>
             </TransitionPageIn>
         </>

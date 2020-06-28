@@ -17,6 +17,9 @@ module.exports = {
         `gatsby-plugin-styled-components`,
         `gatsby-plugin-postcss`,
         `gatsby-plugin-sitemap`,
+        `gatsby-plugin-offline`,
+        `gatsby-transformer-sharp`,
+        `gatsby-plugin-sharp`,
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
@@ -47,6 +50,12 @@ module.exports = {
                 ],
             },
         },
-        `gatsby-plugin-offline`,
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: `${__dirname}/src/images`,
+            },
+        },
     ],
 };
