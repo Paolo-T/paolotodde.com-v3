@@ -33,7 +33,7 @@ function About() {
                         </h2>
                         <div className="md:w-8/12 block text-black flex-2">
                             <p className="md:pr-20">
-                                Paolo here. Designer + Coder, based in Brighton
+                                Paolo here. Designer + Coder based in Brighton
                                 (UK).<br></br>I have a passion for visual
                                 communication, creating and developing well
                                 crafted designs, user focused utilitarian
@@ -48,8 +48,8 @@ function About() {
                                 techniques, sifting out the unnecessary.
                             </p>
                             <p className="md:pr-20 mt-8">
-                                Currently focusing on Vanilla Javascript,
-                                Mastering React and web animations.
+                                Currently focusing on Vanilla Javascript, React
+                                and web animations.
                             </p>
                         </div>
                     </div>
