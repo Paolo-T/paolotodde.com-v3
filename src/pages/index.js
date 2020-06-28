@@ -42,8 +42,6 @@ function Home() {
         }
     `);
 
-    console.log(data);
-
     return (
         <>
             <SEO
