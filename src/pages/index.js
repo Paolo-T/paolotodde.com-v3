@@ -3,16 +3,16 @@ import { graphql, useStaticQuery } from "gatsby";
 import { Link } from "gatsby";
 import { useSpring } from "react-spring";
 import SEO from "../components/Seo";
+import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
-import Img from "gatsby-image";
 
 function Home() {
     // Animation
     const fade = useSpring({ opacity: 1, from: { opacity: 0 } });
 
     const data = useStaticQuery(graphql`
-        query Images {
+        query homeImages {
             classicaImg: file(
                 relativePath: { eq: "classica/classica_banner_1.webp" }
             ) {
