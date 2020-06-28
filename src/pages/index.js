@@ -68,7 +68,7 @@ function Home() {
                             <Img
                                 fluid={data.classicaImg.childImageSharp.fluid}
                                 alt="classica app ui design"
-                                className="mt-32"
+                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-95"
                             />
                         </Link>
                     </TransitionInview>
@@ -78,7 +78,7 @@ function Home() {
                             <Img
                                 fluid={data.shuushImg.childImageSharp.fluid}
                                 alt="classica app ui design"
-                                className="mt-32"
+                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-95"
                             />
                         </Link>
                     </TransitionInview>
@@ -88,7 +88,7 @@ function Home() {
                             <Img
                                 fluid={data.threeImg.childImageSharp.fluid}
                                 alt="classica app ui design"
-                                className="mt-32"
+                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-95"
                             />
                         </Link>
                     </TransitionInview>
