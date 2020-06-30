@@ -1,7 +1,9 @@
 import React from "react";
 import SEO from "../components/Seo";
+import { graphql, useStaticQuery } from "gatsby";
+import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
-import classica_1 from "../images/classica/classica_1.webp";
+// import classica_1 from "../images/classica/classica_1.webp";
 import classica_2 from "../images/classica/classica_2.webp";
 import classica_3 from "../images/classica/classica_3.webp";
 import classica_4 from "../images/classica/classica_4.webp";
@@ -13,6 +15,21 @@ import classica_9 from "../images/classica/classica_9.webp";
 import classica_10 from "../images/classica/classica_10.webp";
 
 function Classica() {
+    const data = useStaticQuery(graphql`
+        query classicaImages {
+            classicaHero: file(
+                relativePath: { eq: "classica/classica_1.webp" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+        }
+    `);
+
     return (
         <>
             <SEO
@@ -34,7 +51,11 @@ function Classica() {
             />
             <TransitionPageIn>
                 <div className="w-full max-w-full mx-auto mb-10">
-                    <img src={classica_1} className="w-full" />
+                    <Img
+                        fluid={data.classicaHero.childImageSharp.fluid}
+                        alt="classica app ui design"
+                        className="w-full cursor-pointer relative transition duration-500 transform"
+                    />
                     <img src={classica_2} className="w-full pt-8" />
                     <img src={classica_3} className="w-full pt-8" />
                     <img src={classica_4} className="w-full pt-8" />

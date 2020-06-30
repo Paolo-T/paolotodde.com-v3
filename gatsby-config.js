@@ -7,8 +7,8 @@ module.exports = {
     siteMetadata: {
         siteUrl: `https://www.paolotodde.com`,
         title: `paolotodde.com`,
-        description: `UI Designer | Web Designer | Product Designer | Front-end Developer`,
-        author: `Paolo Todde | Designer | Developer`,
+        description: `Paolo Todde | UI Designer | Web Designer | Product Designer | Front-end Developer`,
+        author: `Paolo Todde | Designer | Developer.`,
     },
     plugins: [
         `gatsby-plugin-layout`,

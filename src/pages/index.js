@@ -1,9 +1,9 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
+import Img from "gatsby-image";
 import { Link } from "gatsby";
 import { useSpring } from "react-spring";
 import SEO from "../components/Seo";
-import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 
