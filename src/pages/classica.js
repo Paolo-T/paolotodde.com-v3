@@ -54,7 +54,7 @@ function Classica() {
                     <Img
                         fluid={data.classicaHero.childImageSharp.fluid}
                         alt="classica app ui design"
-                        className="w-full cursor-pointer relative transition duration-500 transform"
+                        className="w-full"
                     />
                     <img src={classica_2} className="w-full pt-8" />
                     <img src={classica_3} className="w-full pt-8" />
