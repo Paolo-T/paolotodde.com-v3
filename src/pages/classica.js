@@ -3,8 +3,6 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
-// import classica_1 from "../images/classica/classica_1.webp";
-import classica_2 from "../images/classica/classica_2.webp";
 import classica_3 from "../images/classica/classica_3.webp";
 import classica_4 from "../images/classica/classica_4.webp";
 import classica_5 from "../images/classica/classica_5.webp";
@@ -19,6 +17,16 @@ function Classica() {
         query classicaImages {
             classicaHero: file(
                 relativePath: { eq: "classica/classica_1.webp" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            classicaImg2: file(
+                relativePath: { eq: "classica/classica_2.webp" }
             ) {
                 id
                 childImageSharp {
@@ -56,7 +64,11 @@ function Classica() {
                         alt="classica app ui design"
                         className="w-full"
                     />
-                    <img src={classica_2} className="w-full pt-8" />
+                    <Img
+                        fluid={data.classicaImg2.childImageSharp.fluid}
+                        alt="classica app ui design"
+                        className="w-full"
+                    />
                     <img src={classica_3} className="w-full pt-8" />
                     <img src={classica_4} className="w-full pt-8" />
                     <img src={classica_5} className="w-full pt-8" />
