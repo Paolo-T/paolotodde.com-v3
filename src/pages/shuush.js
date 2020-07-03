@@ -8,7 +8,7 @@ function Shuush() {
     const data = useStaticQuery(graphql`
         query shuushImages {
             shuushImages: allFile(
-                filter: { relativeDirectory: { eq: "shuush" },name: {ne: "shuush_1__tile"}}
+                filter: { relativeDirectory: { eq: "shuush" }, name: {ne: "shuush_1__tile"}}
                 sort: { order: ASC, fields: name }
             ) {
                 nodes {
