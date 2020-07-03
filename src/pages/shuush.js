@@ -8,7 +8,7 @@ function Shuush() {
     const data = useStaticQuery(graphql`
         query shuushImages {
             shuushImages: allFile(
-                filter: { relativeDirectory: { eq: "shuush" } }
+                filter: { relativeDirectory: { eq: "shuush" },name: {ne: "shuush_1__tile"}}
                 sort: { order: ASC, fields: name }
             ) {
                 nodes {
@@ -48,6 +48,7 @@ function Shuush() {
                         <Img
                             key={image.id}
                             fluid={image.childImageSharp.fluid}
+                            className="-mt-1"
                         />
                     ))}
                 </div>

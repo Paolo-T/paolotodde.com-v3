@@ -23,7 +23,7 @@ function Home() {
                     }
                 }
             }
-            shuushImg: file(relativePath: { eq: "shuush/shuush_1.webp" }) {
+            shuushImg: file(relativePath: { eq: "shuush/shuush_1__tile.webp" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
