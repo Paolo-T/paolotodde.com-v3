@@ -3,35 +3,23 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
-import classica_3 from "../images/classica/classica_3.webp";
-import classica_4 from "../images/classica/classica_4.webp";
-import classica_5 from "../images/classica/classica_5.webp";
-import classica_6 from "../images/classica/classica_6.webp";
-import classica_7 from "../images/classica/classica_7.webp";
-import classica_8 from "../images/classica/classica_8.webp";
-import classica_9 from "../images/classica/classica_9.webp";
-import classica_10 from "../images/classica/classica_10.webp";
 
 function Classica() {
     const data = useStaticQuery(graphql`
         query classicaImages {
-            classicaHero: file(
-                relativePath: { eq: "classica/classica_1.webp" }
-            ) {
-                id
-                childImageSharp {
-                    fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
-                    }
+            classicaImages: allFile(
+                filter: {
+                    relativeDirectory: { eq: "classica" }
+                    name: { ne: "classica__tile" }
                 }
-            }
-            classicaImg2: file(
-                relativePath: { eq: "classica/classica_2.webp" }
+                sort: { order: ASC, fields: name }
             ) {
-                id
-                childImageSharp {
-                    fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                nodes {
+                    id
+                    childImageSharp {
+                        fluid(maxWidth: 2880) {
+                            ...GatsbyImageSharpFluid
+                        }
                     }
                 }
             }
@@ -55,34 +43,30 @@ function Classica() {
                     `Brighton`,
                     `Uk`,
                 ]}
-                title="Classica"
+                title="Shuush"
             />
             <TransitionPageIn>
-                <div className="w-full max-w-full mx-auto mb-10">
-                    <Img
-                        fluid={data.classicaHero.childImageSharp.fluid}
-                        alt="classica app ui design"
-                        className="w-full"
-                    />
-                    <Img
-                        fluid={data.classicaImg2.childImageSharp.fluid}
-                        alt="classica app ui design"
-                        className="w-full"
-                    />
-                    <img src={classica_3} className="w-full pt-8" />
-                    <img src={classica_4} className="w-full pt-8" />
-                    <img src={classica_5} className="w-full pt-8" />
-                    <div className="grid sm:grid-cols-2 gap-6 py-8">
-                        <img src={classica_6} />
-                        <img src={classica_7} />
-                        <img src={classica_8} />
-                        <img src={classica_9} />
-                    </div>
-                    <img src={classica_10} className="w-full" />
+                <div className="w-full max-w-full mx-auto ">
+                    {data.classicaImages.nodes.map((image) => (
+                        <Img
+                            key={image.id}
+                            fluid={image.childImageSharp.fluid}
+                            className="-mt-1"
+                        />
+                    ))}
                 </div>
             </TransitionPageIn>
         </>
     );
+}
+
+{
+    /* <div className="grid sm:grid-cols-2 gap-6 py-8">
+    <img src={classica_6} />
+    <img src={classica_7} />
+    <img src={classica_8} />
+    <img src={classica_9} />
+</div> */
 }
 
 export default Classica;

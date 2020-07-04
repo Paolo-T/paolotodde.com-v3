@@ -14,7 +14,7 @@ function Home() {
     const data = useStaticQuery(graphql`
         query homeImages {
             classicaImg: file(
-                relativePath: { eq: "classica/classica_1.webp" }
+                relativePath: { eq: "classica/classica__tile.webp" }
             ) {
                 id
                 childImageSharp {

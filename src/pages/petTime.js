@@ -4,13 +4,14 @@ import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 
-
-
 function petTime() {
     const data = useStaticQuery(graphql`
         query petTimeImages {
             petTimeImages: allFile(
-                filter: { relativeDirectory: { eq: "petTime" }, name: {ne: "petTime__tile"}}
+                filter: {
+                    relativeDirectory: { eq: "petTime" }
+                    name: { ne: "petTime__tile" }
+                }
                 sort: { order: ASC, fields: name }
             ) {
                 nodes {
