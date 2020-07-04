@@ -14,7 +14,7 @@ function Home() {
     const data = useStaticQuery(graphql`
         query homeImages {
             classicaImg: file(
-                relativePath: { eq: "classica/classica_1.webp" }
+                relativePath: { eq: "classica/classica__tile.webp" }
             ) {
                 id
                 childImageSharp {
@@ -23,7 +23,15 @@ function Home() {
                     }
                 }
             }
-            shuushImg: file(relativePath: { eq: "shuush/shuush_1__tile.webp" }) {
+            shuushImg: file(relativePath: { eq: "shuush/shuush__tile.webp" }) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            petImg: file(relativePath: { eq: "petTime/petTime__tile.webp" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
@@ -75,7 +83,17 @@ function Home() {
                         <Link to="/shuush">
                             <Img
                                 fluid={data.shuushImg.childImageSharp.fluid}
-                                alt="classica app ui design"
+                                alt="shuush app ui design"
+                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98"
+                            />
+                        </Link>
+                    </TransitionInview>
+
+                    <TransitionInview>
+                        <Link to="/petTime">
+                            <Img
+                                fluid={data.petImg.childImageSharp.fluid}
+                                alt="pet time app ui design"
                                 className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98"
                             />
                         </Link>
@@ -85,7 +103,7 @@ function Home() {
                         <Link to="/three">
                             <Img
                                 fluid={data.threeImg.childImageSharp.fluid}
-                                alt="classica app ui design"
+                                alt="3dc designs"
                                 className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98"
                             />
                         </Link>
