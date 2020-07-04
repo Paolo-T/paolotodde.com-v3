@@ -31,7 +31,7 @@ function Home() {
                     }
                 }
             }
-            petImg: file(relativePath: { eq: "petTime/petTime__tile.jpg" }) {
+            petImg: file(relativePath: { eq: "petTime/petTime__tile.webp" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
