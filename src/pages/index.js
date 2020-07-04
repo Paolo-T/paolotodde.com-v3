@@ -81,10 +81,10 @@ function Home() {
                     </TransitionInview>
 
                     <TransitionInview>
-                        <Link to="/shuush">
+                        <Link to="/petTime">
                             <Img
-                                fluid={data.shuushImg.childImageSharp.fluid}
-                                alt="shuush app ui design"
+                                fluid={data.petImg.childImageSharp.fluid}
+                                alt="pet time app ui design"
                                 className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98"
                                 loading="eager"
                             />
@@ -92,10 +92,10 @@ function Home() {
                     </TransitionInview>
 
                     <TransitionInview>
-                        <Link to="/petTime">
+                        <Link to="/shuush">
                             <Img
-                                fluid={data.petImg.childImageSharp.fluid}
-                                alt="pet time app ui design"
+                                fluid={data.shuushImg.childImageSharp.fluid}
+                                alt="shuush app ui design"
                                 className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98"
                                 loading="eager"
                             />
