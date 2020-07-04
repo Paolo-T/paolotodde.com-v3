@@ -52,21 +52,13 @@ function Classica() {
                             key={image.id}
                             fluid={image.childImageSharp.fluid}
                             className="-mt-1"
+                            loading="eager"
                         />
                     ))}
                 </div>
             </TransitionPageIn>
         </>
     );
-}
-
-{
-    /* <div className="grid sm:grid-cols-2 gap-6 py-8">
-    <img src={classica_6} />
-    <img src={classica_7} />
-    <img src={classica_8} />
-    <img src={classica_9} />
-</div> */
 }
 
 export default Classica;

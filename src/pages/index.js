@@ -75,6 +75,7 @@ function Home() {
                                 fluid={data.classicaImg.childImageSharp.fluid}
                                 alt="classica app ui design"
                                 className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98"
+                                loading="eager"
                             />
                         </Link>
                     </TransitionInview>
@@ -85,6 +86,7 @@ function Home() {
                                 fluid={data.shuushImg.childImageSharp.fluid}
                                 alt="shuush app ui design"
                                 className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98"
+                                loading="eager"
                             />
                         </Link>
                     </TransitionInview>
@@ -95,6 +97,7 @@ function Home() {
                                 fluid={data.petImg.childImageSharp.fluid}
                                 alt="pet time app ui design"
                                 className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98"
+                                loading="eager"
                             />
                         </Link>
                     </TransitionInview>
@@ -105,6 +108,7 @@ function Home() {
                                 fluid={data.threeImg.childImageSharp.fluid}
                                 alt="3dc designs"
                                 className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98"
+                                loading="eager"
                             />
                         </Link>
                     </TransitionInview>

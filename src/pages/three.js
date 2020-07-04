@@ -48,6 +48,7 @@ function Three() {
                         <Img
                             key={image.id}
                             fluid={image.childImageSharp.fluid}
+                            loading="eager"
                         />
                     ))}
                 </div>

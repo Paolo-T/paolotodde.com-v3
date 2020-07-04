@@ -52,6 +52,7 @@ function petTime() {
                             key={image.id}
                             fluid={image.childImageSharp.fluid}
                             className="-mt-1"
+                            loading="eager"
                         />
                     ))}
                 </div>
