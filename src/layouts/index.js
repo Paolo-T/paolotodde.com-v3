@@ -5,13 +5,13 @@ import Footer from "../components/base/Footer";
 
 function Layout({ children }) {
     return (
-        <>
+        <div className="h-screen">
             <Navigation />
 
             <main className="max-w-screen-xxl mx-auto">{children}</main>
 
             <Footer />
-        </>
+        </div>
     );
 }
 
