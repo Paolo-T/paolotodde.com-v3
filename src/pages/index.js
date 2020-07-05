@@ -1,11 +1,12 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import Img from "gatsby-image";
-import { Link } from "gatsby";
-import { useSpring } from "react-spring";
 import SEO from "../components/Seo";
+import { Link } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
+import { useSpring } from "react-spring";
+import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
+// import ImageReel from "../components/ImageReel";
 
 function Home() {
     // Animation
@@ -65,10 +66,7 @@ function Home() {
                 title="Home"
             />
             <TransitionPageIn>
-                <div
-                    id="tileContainer"
-                    className="w-11/12 md:container md:px-0 mx-auto pt-24 md:pt-32"
-                >
+                <div className="w-11/12 md:container md:px-0 mx-auto pt-24 md:pt-2">
                     <TransitionInview>
                         <Link to="/classica" className="mt-20">
                             <Img
