@@ -6,7 +6,6 @@ import { useSpring } from "react-spring";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
-// import ImageReel from "../components/ImageReel";
 
 function Home() {
     // Animation
@@ -51,6 +50,36 @@ function Home() {
         }
     `);
 
+    var i = 0; // Start Point
+    var images = []; // Images Array
+    var time = 3000; // Time Between Switch
+
+    // Image List
+    images[0] = "http://lorempixel.com/400/200/animals";
+    images[1] = "http://lorempixel.com/400/200/sports";
+    images[2] = "http://lorempixel.com/400/200/food";
+    images[3] = "http://lorempixel.com/400/200/people";
+
+    // Change Image
+    function changeImg() {
+        document.slide.src = images[i];
+
+        // Check If Index Is Under Max
+        if (i < images.length - 1) {
+            // Add 1 to Index
+            i++;
+        } else {
+            // Reset Back To O
+            i = 0;
+        }
+
+        // Run function every x seconds
+        setTimeout(changeImg(), time);
+    }
+
+    // Run function when page loads
+    window.onload = changeImg;
+
     return (
         <>
             <SEO
@@ -66,7 +95,7 @@ function Home() {
                 title="Home"
             />
             <TransitionPageIn>
-                <div className="w-11/12 md:container md:px-0 mx-auto pt-24 md:pt-2">
+                <div className="w-10/12 md:container md:px-0 mx-auto pt-24 md:pt-2">
                     <TransitionInview>
                         <Link to="/classica" className="mt-20">
                             <Img
