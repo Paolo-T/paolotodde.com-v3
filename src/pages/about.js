@@ -26,12 +26,12 @@ function About() {
                 title="About"
             />
             <TransitionPageIn>
-                <div className="bg-white pt-10 md:pt-24 md:pt-30">
-                    <div className="w-10/12 md:w-9/12 mx-auto md:flex flex-initial py-20 md:py-32">
-                        <h2 className="md:w-12/12 text-5xl md:text-5xl text-black flex-1 md:pl-20">
+                <div className="w-full bg-white pt-20 md:pt-48 pb-20 md:pb-48">
+                    <div className="w-10/12 md:w-9/12 mx-auto md:flex flex-initial ">
+                        <h2 className="md:w-12/12 text-5xl md:text-5xl text-black flex-1 md:pl-20 pt-16">
                             Hey__
                         </h2>
-                        <div className="md:w-8/12 block text-black flex-2">
+                        <div className="md:w-8/12 block text-black flex-2 pt-16">
                             <p className="md:pr-20">
                                 Paolo here. Designer + Coder based in Brighton
                                 (UK).<br></br>I have a passion for visual
