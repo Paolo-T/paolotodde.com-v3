@@ -40,7 +40,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             href="mailto:webmaster@example.com"
                         >
-                            <li className="inline-block text-lg md:text-4xl">
+                            <li className="inline-block text-lg md:text-4xl ">
                                 iampaolotodde[@]gmail.com
                             </li>
                         </a>
