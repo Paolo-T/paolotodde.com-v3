@@ -52,7 +52,7 @@ function About() {
                                 and web animations.
                             </p>
                             <p className="md:pr-20 mt-8">
-                                Part of the Jury Panel at{" "}
+                                Member of the Jury Panel at{" "}
                                 <a
                                     className="text-red-600"
                                     rel="noopener noreferrer"
