@@ -28,8 +28,8 @@ function About() {
             <TransitionPageIn>
                 <div className="bg-white pt-10 md:pt-24 md:pt-30">
                     <div className="w-10/12 md:w-9/12 mx-auto md:flex flex-initial py-20 md:py-32">
-                        <h2 className="md:w-12/12 text-5xl md:text-6xl text-black flex-1 md:pl-20">
-                            Hi
+                        <h2 className="md:w-12/12 text-5xl md:text-5xl text-black flex-1 md:pl-20">
+                            Hey__
                         </h2>
                         <div className="md:w-8/12 block text-black flex-2">
                             <p className="md:pr-20">
@@ -50,6 +50,17 @@ function About() {
                             <p className="md:pr-20 mt-8">
                                 Currently focusing on Vanilla Javascript, React
                                 and web animations.
+                            </p>
+                            <p className="md:pr-20 mt-8">
+                                Part of the Jury Panel at{" "}
+                                <a
+                                    className="text-red-600"
+                                    rel="noopener noreferrer"
+                                    href="https://www.cssdesignawards.com/"
+                                    target="_blank"
+                                >
+                                    CSS Design Awards
+                                </a>
                             </p>
                         </div>
                     </div>
