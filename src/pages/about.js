@@ -48,8 +48,8 @@ function About() {
                                 techniques, sifting out the unnecessary.
                             </p>
                             <p className="md:pr-20 mt-8">
-                                Currently focusing on Vanilla Javascript, React
-                                and web animations.
+                                Currently focusing on Design, Vanilla
+                                Javascript, React and web animations.
                             </p>
                             <p className="md:pr-20 mt-8">
                                 Member of the Jury Panel at{" "}
