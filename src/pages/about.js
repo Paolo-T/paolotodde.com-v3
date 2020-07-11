@@ -25,8 +25,9 @@ function About() {
                 ]}
                 title="About"
             />
-            <TransitionPageIn>
-                <div className="w-full bg-offWhite pt-20 md:pt-48 pb-20 md:pb-48">
+
+            <div className="w-full bg-offWhite pt-20 md:pt-48 pb-20 md:pb-48">
+                <TransitionPageIn>
                     <div className="w-10/12 md:w-9/12 mx-auto md:flex flex-initial ">
                         <h2 className="md:w-12/12 text-5xl md:text-5xl text-black flex-1 md:pl-20 pt-16">
                             Hey__
@@ -64,8 +65,8 @@ function About() {
                             </p>
                         </div>
                     </div>
-                </div>
-            </TransitionPageIn>
+                </TransitionPageIn>
+            </div>
         </>
     );
 }
