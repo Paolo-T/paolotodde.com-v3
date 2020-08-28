@@ -6,20 +6,74 @@ import TransitionPageIn from "../components/TransitionPageIn";
 
 function Classica() {
     const data = useStaticQuery(graphql`
-        query classicaImages {
-            classicaImages: allFile(
-                filter: {
-                    relativeDirectory: { eq: "classica" }
-                    name: { ne: "classica__tile" }
-                }
-                sort: { order: ASC, fields: name }
+        query classicaImg {
+            classicaImg_1: file(
+                relativePath: { eq: "classica/classica_1.webp" }
             ) {
-                nodes {
-                    id
-                    childImageSharp {
-                        fluid(maxWidth: 2880) {
-                            ...GatsbyImageSharpFluid
-                        }
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            classicaImg_2: file(
+                relativePath: { eq: "classica/classica_2.webp" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            classicaImg_3: file(
+                relativePath: { eq: "classica/classica_3.webp" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            classicaImg_4: file(
+                relativePath: { eq: "classica/classica_4.webp" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            classicaImg_5: file(
+                relativePath: { eq: "classica/classica_5.webp" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            classicaImg_6: file(
+                relativePath: { eq: "classica/classica_6.webp" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            classicaImg_7: file(
+                relativePath: { eq: "classica/classica_7.webp" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
@@ -43,29 +97,31 @@ function Classica() {
                     `Brighton`,
                     `Uk`,
                 ]}
-                title="Shuush"
+                title="Classica"
             />
             <TransitionPageIn>
-                <div className="w-full max-w-full mx-auto ">
-                    {data.classicaImages.nodes.map((image) => (
-                        <Img
-                            key={image.id}
-                            fluid={image.childImageSharp.fluid}
-                            className="-mt-1"
-                            loading="eager"
-                        />
-                    ))}
+                <div className="w-full max-w-full mx-auto bg-blackPure">
+                    <Img
+                        fluid={data.classicaImg_1.childImageSharp.fluid}
+                        className=""
+                        loading="eager"
+                    />
 
-                    <div class="w-9/12 max-w-screen-xl mx-auto md:flex my-32">
-                        <div class="flex-2 mt-24">
-                            <h4 class="font-bold uppercase">Skills applied</h4>
-                            <h4 class="pt-4">
-                                Strategy Concept Product Design UI Design
-                                Prototyping.
+                    <div className="w-9/12 max-w-screen-xl mx-auto text-white md:flex mt-16 mb-0">
+                        <div className="flex-2 mt-24">
+                            <h4 className="font-bold uppercase">
+                                Skills applied
+                            </h4>
+                            <h4 className="pt-4">
+                                Strategy
+                                <br /> Concept
+                                <br /> Product
+                                <br /> Design
+                                <br /> UI Design
                             </h4>
                         </div>
-                        <div class="flex-3 pl-48 pr-24">
-                            <h2 class="mb-10">The brief</h2>
+                        <div className="flex-3 mt-16 md:mt-0 md:pl-48 md:pr-24">
+                            <h2 className="mb-8 md:mb-10">The brief</h2>
                             <p>
                                 You’re asked to design some materials for a
                                 mobile app to be run on smartphones only. Here
@@ -91,10 +147,10 @@ function Classica() {
                                 <br />• &nbsp; DISCOVER. Here users are
                                 recommended content,​
                                 <br />• &nbsp; SEARCH​. Here they can search for
-                                content),
+                                content,
                                 <br />
-                                ​• &nbsp; LEARN. This is where users can follow
-                                an educational track and test their knowledge,
+                                ​• &nbsp; LEARN. Users can follow an educational
+                                track and test their knowledge,
                                 <br />• &nbsp; ​PROFILE​. This includes their
                                 history of content consumption, their favorites,
                                 their achievements, and some settings.
@@ -105,6 +161,31 @@ function Classica() {
                             </p>
                         </div>
                     </div>
+                    <Img
+                        fluid={data.classicaImg_2.childImageSharp.fluid}
+                        className=""
+                        loading="eager"
+                    />
+                    <Img
+                        fluid={data.classicaImg_3.childImageSharp.fluid}
+                        className=""
+                        loading="eager"
+                    />
+                    <Img
+                        fluid={data.classicaImg_4.childImageSharp.fluid}
+                        className=""
+                        loading="eager"
+                    />
+                    <Img
+                        fluid={data.classicaImg_5.childImageSharp.fluid}
+                        className=""
+                        loading="eager"
+                    />
+                    <Img
+                        fluid={data.classicaImg_7.childImageSharp.fluid}
+                        className=""
+                        loading="eager"
+                    />
                 </div>
             </TransitionPageIn>
         </>
