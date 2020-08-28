@@ -108,19 +108,18 @@ function Classica() {
                     />
 
                     <div className="w-9/12 max-w-screen-xl mx-auto text-white md:flex mt-16 mb-0">
-                        <div className="flex-2 mt-24">
+                        <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">
                                 Skills applied
                             </h4>
                             <h4 className="pt-4">
                                 Strategy
                                 <br /> Concept
-                                <br /> Product
-                                <br /> Design
+                                <br /> Product Design
                                 <br /> UI Design
                             </h4>
                         </div>
-                        <div className="flex-3 mt-16 md:mt-0 md:pl-48 md:pr-24">
+                        <div className="md:w-7/12 mt-16 md:mt-0 md:pr-24">
                             <h2 className="mb-8 md:mb-10">The brief</h2>
                             <p>
                                 You’re asked to design some materials for a

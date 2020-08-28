@@ -78,56 +78,55 @@ function petTime() {
                     />
 
                     <div className="w-9/12 max-w-screen-xl mx-auto text-white md:flex mt-16 mb-0">
-                        <div className="flex-2 mt-24">
+                        <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">
                                 Skills applied
                             </h4>
                             <h4 className="pt-4">
                                 Strategy
                                 <br /> Concept
-                                <br /> Product
-                                <br /> Design
                                 <br /> UI Design
+                                <br /> Product Design
                             </h4>
                         </div>
-                        <div className="flex-3 mt-16 md:mt-0 md:pl-48 md:pr-24">
+                        <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
                             <h2 className="mb-8 md:mb-10">The brief</h2>
                             <p>
-                                You’re asked to design some materials for a
-                                mobile app to be run on smartphones only. Here
-                                some information on the app itself: The app is
-                                for listening to and learning about classical
-                                music.
+                                The app is for those passionate about pets, and
+                                who want to learn more about domestic animals.
                                 <br />
-                                The app monetizes through subscriptions. Some of
-                                the content and features are free for all users,
-                                while some are reserved to subscribers.
-                                <br />
-                                <br />
-                                The target customers are the newbie with
-                                curiosity for the topic, but that so far has
-                                lacked a convenient opportunity to educate
-                                themselves on it; and the long-standing
-                                aficionado that’s looking for a high-quality,
-                                comprehensive library of classical music and
+                                The target customers are the curious newbie who
+                                has, so far, lacked a convenient opportunity to
+                                educate themselves on the topic, and the
+                                long-standing aficionado who’s looking for a
+                                high-quality, comprehensive app to teach them
+                                how to take care of their beloved pets, plus
                                 related content to enjoy on the go.
                                 <br />
                                 <br />
-                                There are four sections: <br />
-                                <br />• &nbsp; DISCOVER. Here users are
-                                recommended content,​
-                                <br />• &nbsp; SEARCH​. Here they can search for
-                                content,
+                                The app monetizes through subscriptions. Some
+                                content and features are free for all users,
+                                while others are reserved for subscribers.
                                 <br />
-                                ​• &nbsp; LEARN. Users can follow an educational
-                                track and test their knowledge,
-                                <br />• &nbsp; ​PROFILE​. This includes their
-                                history of content consumption, their favorites,
-                                their achievements, and some settings.
+                                <br />
+                                There are four sections: <br />
+                                <br />• &nbsp; DISCOVER. The User are
+                                recommended content.
+                                <br />• &nbsp; MAPS. The User can find pet’s
+                                shops, veterinary clinics, and so on.
+                                <br />
+                                ​• &nbsp; LEARN. The User can follow an
+                                educational track and test their knowledge on
+                                pets
+                                <br />• &nbsp; ​PROFILE​. This includes the
+                                User's history of content consumption, their
+                                favourites, their achievements, and some
+                                settings.
                                 <br />
                                 <br />
                                 The main navigation between sections may happen
-                                through a tab bar UI.
+                                through a tab bar UI, or another system of your
+                                choosing.
                             </p>
                         </div>
                     </div>
