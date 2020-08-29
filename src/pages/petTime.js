@@ -47,7 +47,7 @@ function petTime() {
                     }
                 }
             }
-            petTime_6: file(relativePath: { eq: "petTime/Rectangle.png" }) {
+            petTime_6: file(relativePath: { eq: "petTime/petTime_6.webp" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
