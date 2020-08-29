@@ -96,7 +96,7 @@ function Shuush() {
                         loading="eager"
                     />
 
-                    <div className="w-9/12 max-w-screen-xl mx-auto text-black md:flex mt-32 mb-0">
+                    {/* <div className="w-9/12 max-w-screen-xl mx-auto text-black md:flex mt-32 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">
                                 Skills applied
@@ -116,7 +116,7 @@ function Shuush() {
                                 fluid user experience.
                             </p>
                         </div>
-                    </div>
+                    </div> */}
                     <Img
                         fluid={data.shuushImg_2.childImageSharp.fluid}
                         className=""
