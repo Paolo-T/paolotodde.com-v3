@@ -111,41 +111,9 @@ function Shuush() {
                         <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
                             <h2 className="mb-8 md:mb-10">The concept</h2>
                             <p>
-                                The app is for those passionate about pets, and
-                                who want to learn more about domestic animals.
-                                <br />
-                                The target customers are the curious newbie who
-                                has, so far, lacked a convenient opportunity to
-                                educate themselves on the topic, and the
-                                long-standing aficionado who’s looking for a
-                                high-quality, comprehensive app to teach them
-                                how to take care of their beloved pets, plus
-                                related content to enjoy on the go.
-                                <br />
-                                <br />
-                                The app monetizes through subscriptions. Some
-                                content and features are free for all users,
-                                while others are reserved for subscribers.
-                                <br />
-                                <br />
-                                There are four sections: <br />
-                                <br />• &nbsp; DISCOVER. The User are
-                                recommended content.
-                                <br />• &nbsp; MAPS. The User can find pet’s
-                                shops, veterinary clinics, and so on.
-                                <br />
-                                ​• &nbsp; LEARN. The User can follow an
-                                educational track and test their knowledge on
-                                pets
-                                <br />• &nbsp; ​PROFILE​. This includes the
-                                User's history of content consumption, their
-                                favourites, their achievements, and some
-                                settings.
-                                <br />
-                                <br />
-                                The main navigation between sections may happen
-                                through a tab bar UI, or another system of your
-                                choosing.
+                                Shuuush is a fun and efficient messaging app.
+                                Its clean and intuitive interface allows for a
+                                fluid user experience.
                             </p>
                         </div>
                     </div>
