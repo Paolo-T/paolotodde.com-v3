@@ -97,7 +97,7 @@ function Classica() {
                     `Brighton`,
                     `Uk`,
                 ]}
-                title="Classica"
+                title="Classica App"
             />
             <TransitionPageIn>
                 <div className="w-full max-w-full mx-auto bg-blackPure">

@@ -67,7 +67,7 @@ function petTime() {
                     `Brighton`,
                     `Uk`,
                 ]}
-                title="Shuush"
+                title="PetTime App"
             />
             <TransitionPageIn>
                 <div className="w-full max-w-full mx-auto bg-blackPure">
