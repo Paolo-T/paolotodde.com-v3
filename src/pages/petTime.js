@@ -152,13 +152,12 @@ function petTime() {
                                 posts, podcasts as well as information on the
                                 best vets in the area, the best pet friendly
                                 shops, pet friendly shops and cafes.
-                                <br /> and aficionados to the pet world want to
-                                get to know more about domestic animals and how
-                                to take care of them. They can’t find a platform
-                                that can provide them reliable content and help
-                                them reach their goals. The app is for those
-                                passionate about pets, and who want to learn
-                                more about domestic animals.
+                                <br />
+                                The curious newbie and aficionados looking for a
+                                high-quality, comprehensive app to teach them
+                                how to take care of their beloved pets. The app
+                                is for those passionate about pets, and who want
+                                to learn more about domestic animals.
                             </p>
                         </div>
                     </section>
