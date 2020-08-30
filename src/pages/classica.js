@@ -180,8 +180,9 @@ function Classica() {
                         <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
                             <h2 className="mb-8 md:mb-8">The problem</h2>
                             <p>
-                                The need for a comprehensive resource hub for
-                                classical music enthusiasts.
+                                The need for a comprehensive resource hub to
+                                satisfy the curiosity of the classical music
+                                enthusiasts.
                                 <br />A place for the curious newbie searching
                                 for high-quality learning resources, discover
                                 interesting content to learn about the classical
@@ -199,9 +200,10 @@ function Classica() {
                         <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
                             <h2 className="mb-8 md:mb-8">The solution</h2>
                             <p>
-                                An app that besides the music player, provides a
-                                learning center to access articles, podcasts,
-                                blogs and relevevant personalities in the field.
+                                An app that besides the excellent music player,
+                                provides a learning center to access articles,
+                                podcasts, blogs and relevevant personalities in
+                                the field.
                             </p>
                         </div>
                     </section>
