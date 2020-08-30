@@ -47,14 +47,6 @@ function petTime() {
                     }
                 }
             }
-            petTime_6: file(relativePath: { eq: "petTime/petTime_6.webp" }) {
-                id
-                childImageSharp {
-                    fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
-                    }
-                }
-            }
         }
     `);
 
@@ -75,7 +67,7 @@ function petTime() {
                     `Brighton`,
                     `Uk`,
                 ]}
-                title="PetTime App"
+                title="Shuush"
             />
             <TransitionPageIn>
                 <div className="w-full max-w-full mx-auto bg-blackPure">
@@ -85,7 +77,7 @@ function petTime() {
                         loading="eager"
                     />
 
-                    <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
+                    <div className="w-9/12 max-w-screen-xl mx-auto text-white md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">
                                 Skills applied
@@ -98,7 +90,7 @@ function petTime() {
                             </h4>
                         </div>
                         <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-8">The brief</h2>
+                            <h2 className="mb-8 md:mb-10">The brief</h2>
                             <p>
                                 The app is for those passionate about pets, and
                                 who want to learn more about domestic animals.
@@ -120,7 +112,7 @@ function petTime() {
                                 There are four sections: <br />
                                 <br />• &nbsp; DISCOVER. The User are
                                 recommended content.
-                                <br />• &nbsp; MAPS. The User can find pet
+                                <br />• &nbsp; MAPS. The User can find pet’s
                                 shops, veterinary clinics, and so on.
                                 <br />
                                 ​• &nbsp; LEARN. The User can follow an
@@ -137,73 +129,7 @@ function petTime() {
                                 choosing.
                             </p>
                         </div>
-                    </section>
-                    <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
-                        <div className="md:w-4/12 mt-24">
-                            <h4 className="font-bold uppercase">Problem</h4>
-                        </div>
-                        <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-8">The problem</h2>
-                            <p>
-                                Pet owners need a resource to help looking after
-                                their pet friends and making sure they are happy
-                                and pampered. They need a hub to gather
-                                educational material such as articles, blog
-                                posts, podcasts as well as information on the
-                                best vets in the area, the best pet friendly
-                                shops, pet friendly shops and cafes.
-                                <br /> and aficionados to the pet world want to
-                                get to know more about domestic animals and how
-                                to take care of them. They can’t find a platform
-                                that can provide them reliable content and help
-                                them reach their goals. The app is for those
-                                passionate about pets, and who want to learn
-                                more about domestic animals.
-                            </p>
-                        </div>
-                    </section>
-                    <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
-                        <div className="md:w-4/12 mt-24">
-                            <h4 className="font-bold uppercase">Solution</h4>
-                        </div>
-                        <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-8">The solution</h2>
-                            <p>
-                                An app that provides a dedicated section for
-                                interesting articles, news, podcasts, learning
-                                resources. A section to help finding pet
-                                friendly locations and facilities. The UI will
-                                be user friendly and easy to navigate. All
-                                resources will be easy to access and quick to
-                                find.
-                            </p>
-                        </div>
-                    </section>
-                    <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
-                        <div className="md:w-4/12 mt-24">
-                            <h4 className="font-bold uppercase">Flow</h4>
-                        </div>
-                        <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-8">User Flow</h2>
-                            <p>
-                                An app that provides a dedicated section for
-                                interesting articles, news, podcasts, learning
-                                resources. A section to help finding pet
-                                friendly locations and facilities. The UI will
-                                be user friendly and easy to navigate. All
-                                resources will be easy to access and quick to
-                                find.
-                            </p>
-                        </div>
-                    </section>
-                    <section className="w-9/12 mx-auto my-20">
-                        <Img
-                            fluid={data.petTime_6.childImageSharp.fluid}
-                            className=""
-                            loading="eager"
-                        />
-                    </section>
-
+                    </div>
                     <Img
                         fluid={data.petTime_2.childImageSharp.fluid}
                         className=""
