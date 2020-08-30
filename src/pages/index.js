@@ -65,7 +65,7 @@ function Home() {
                 title="Home"
             />
             <TransitionPageIn>
-                <div className="w-10/12 md:container md:px-0 mx-auto pt-24 md:pt-4">
+                <div className="w-10/12 md:container md:px-0 mx-auto pt-24 md:pt-24">
                     <TransitionInview>
                         <Link to="/classica" className="mt-20">
                             <Img
