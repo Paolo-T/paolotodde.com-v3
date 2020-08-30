@@ -118,176 +118,149 @@ function Classica() {
                         loading="eager"
                     />
 
-                    <TransitionInview>
-                        <section className="w-9/12 max-w-screen-xl mx-auto text-white md:flex mt-16 mb-0">
-                            <div className="md:w-4/12 mt-24">
-                                <h4 className="font-bold uppercase">
-                                    Skills applied
-                                </h4>
-                                <h4 className="pt-4">
-                                    Strategy
-                                    <br /> Concept
-                                    <br /> Product Design
-                                    <br /> UI Design
-                                </h4>
-                            </div>
+                    <section className="w-9/12 max-w-screen-xl mx-auto text-white md:flex mt-16 mb-0">
+                        <div className="md:w-4/12 mt-24">
+                            <h4 className="font-bold uppercase">
+                                Skills applied
+                            </h4>
+                            <h4 className="pt-4">
+                                Strategy
+                                <br /> Concept
+                                <br /> Product Design
+                                <br /> UI Design
+                            </h4>
+                        </div>
 
-                            <div className="md:w-7/12 mt-16 md:mt-0 md:pr-24">
-                                <h2 className="mb-8 md:mb-10">The brief</h2>
-                                <p>
-                                    You’re asked to design some materials for a
-                                    mobile app to be run on smartphones only.
-                                    Here some information on the app itself: The
-                                    app is for listening to and learning about
-                                    classical music.
-                                    <br />
-                                    The app monetizes through subscriptions.
-                                    Some of the content and features are free
-                                    for all users, while some are reserved to
-                                    subscribers.
-                                    <br />
-                                    <br />
-                                    The target customers are the newbie with
-                                    curiosity for the topic, but that so far has
-                                    lacked a convenient opportunity to educate
-                                    themselves on it; and the long-standing
-                                    aficionado that’s looking for a
-                                    high-quality, comprehensive library of
-                                    classical music and related content to enjoy
-                                    on the go.
-                                    <br />
-                                    <br />
-                                    There are four sections: <br />
-                                    <br />• &nbsp; DISCOVER. Here users are
-                                    recommended content,​
-                                    <br />• &nbsp; SEARCH​. Here they can search
-                                    for content,
-                                    <br />
-                                    ​• &nbsp; LEARN. Users can follow an
-                                    educational track and test their knowledge,
-                                    <br />• &nbsp; ​PROFILE​. This includes
-                                    their history of content consumption, their
-                                    favorites, their achievements, and some
-                                    settings.
-                                    <br />
-                                    <br />
-                                    The main navigation between sections may
-                                    happen through a tab bar UI.
-                                </p>
-                            </div>
-                        </section>
-                    </TransitionInview>
-                    <TransitionInview>
-                        <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
-                            <div className="md:w-4/12 mt-24">
-                                <h4 className="font-bold uppercase">Problem</h4>
-                            </div>
-                            <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
-                                <h2 className="mb-8 md:mb-8">The problem</h2>
-                                <p>
-                                    Pet owners need a resource to help looking
-                                    after their pet friends and making sure they
-                                    are happy and pampered. They need a hub to
-                                    gather educational material such as
-                                    articles, blog posts, podcasts as well as
-                                    information on the best vets in the area,
-                                    the best pet friendly shops, pet friendly
-                                    shops and cafes.
-                                    <br />
-                                    The curious newbie and aficionados looking
-                                    for a high-quality, comprehensive app to
-                                    teach them how to take care of their beloved
-                                    pets. The app is for those passionate about
-                                    pets, and who want to learn more about
-                                    domestic animals.
-                                </p>
-                            </div>
-                        </section>
-                    </TransitionInview>
-                    <TransitionInview>
-                        <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
-                            <div className="md:w-4/12 mt-24">
-                                <h4 className="font-bold uppercase">
-                                    Solution
-                                </h4>
-                            </div>
-                            <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
-                                <h2 className="mb-8 md:mb-8">The solution</h2>
-                                <p>
-                                    An app that provides a dedicated section for
-                                    interesting articles, news, podcasts,
-                                    learning resources. A section to help
-                                    finding pet friendly locations and
-                                    facilities. The UI will be user friendly and
-                                    easy to navigate. All resources will be easy
-                                    to access and quick to find.
-                                </p>
-                            </div>
-                        </section>
-                    </TransitionInview>
-                    <TransitionInview>
-                        <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
-                            <div className="md:w-4/12 mt-24">
-                                <h4 className="font-bold uppercase">Flow</h4>
-                            </div>
-                            <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
-                                <h2 className="mb-8 md:mb-8">User Flow</h2>
-                                <p>
-                                    An app that provides a dedicated section for
-                                    interesting articles, news, podcasts,
-                                    learning resources. A section to help
-                                    finding pet friendly locations and
-                                    facilities. The UI will be user friendly and
-                                    easy to navigate. All resources will be easy
-                                    to access and quick to find.
-                                </p>
-                            </div>
-                        </section>
-                    </TransitionInview>
-                    <TransitionInview>
-                        <section className="w-9/12 mx-auto my-20">
-                            <Img
-                                fluid={data.classicaImg_8.childImageSharp.fluid}
-                                className=""
-                                loading="eager"
-                            />
-                        </section>
-                    </TransitionInview>
-                    <TransitionInview>
+                        <div className="md:w-7/12 mt-16 md:mt-0 md:pr-24">
+                            <h2 className="mb-8 md:mb-10">The brief</h2>
+                            <p>
+                                You’re asked to design some materials for a
+                                mobile app to be run on smartphones only. Here
+                                some information on the app itself: The app is
+                                for listening to and learning about classical
+                                music.
+                                <br />
+                                The app monetizes through subscriptions. Some of
+                                the content and features are free for all users,
+                                while some are reserved to subscribers.
+                                <br />
+                                <br />
+                                The target customers are the newbie with
+                                curiosity for the topic, but that so far has
+                                lacked a convenient opportunity to educate
+                                themselves on it; and the long-standing
+                                aficionado that’s looking for a high-quality,
+                                comprehensive library of classical music and
+                                related content to enjoy on the go.
+                                <br />
+                                <br />
+                                There are four sections: <br />
+                                <br />• &nbsp; DISCOVER. Here users are
+                                recommended content,​
+                                <br />• &nbsp; SEARCH​. Here they can search for
+                                content,
+                                <br />
+                                ​• &nbsp; LEARN. Users can follow an educational
+                                track and test their knowledge,
+                                <br />• &nbsp; ​PROFILE​. This includes their
+                                history of content consumption, their favorites,
+                                their achievements, and some settings.
+                                <br />
+                                <br />
+                                The main navigation between sections may happen
+                                through a tab bar UI.
+                            </p>
+                        </div>
+                    </section>
+
+                    <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
+                        <div className="md:w-4/12 mt-24">
+                            <h4 className="font-bold uppercase">Problem</h4>
+                        </div>
+                        <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
+                            <h2 className="mb-8 md:mb-8">The problem</h2>
+                            <p>
+                                The need for a comprehensive resource hub for
+                                classical music enthusiasts.
+                                <br />A place for the curious newbie searching
+                                for high-quality learning resources, discover
+                                interesting content to learn about the classical
+                                music world. A hub for the expert to dig deep
+                                into the details of their passion subject,
+                                discover new music and enjoy the classics.
+                            </p>
+                        </div>
+                    </section>
+
+                    <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
+                        <div className="md:w-4/12 mt-24">
+                            <h4 className="font-bold uppercase">Solution</h4>
+                        </div>
+                        <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
+                            <h2 className="mb-8 md:mb-8">The solution</h2>
+                            <p>
+                                An app that besides the music player, provides a
+                                learning center to access articles, podcasts,
+                                blogs and relevevant personalities in the field.
+                            </p>
+                        </div>
+                    </section>
+
+                    {/* <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
+                        <div className="md:w-4/12 mt-24">
+                            <h4 className="font-bold uppercase">Flow</h4>
+                        </div>
+                        <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
+                            <h2 className="mb-8 md:mb-8">User Flow</h2>
+                            <p>
+                                An app that provides a dedicated section for
+                                interesting articles, news, podcasts, learning
+                                resources. A section to help finding pet
+                                friendly locations and facilities. The UI will
+                                be user friendly and easy to navigate. All
+                                resources will be easy to access and quick to
+                                find.
+                            </p>
+                        </div>
+                    </section>
+
+                    <section className="w-9/12 mx-auto my-20">
                         <Img
-                            fluid={data.classicaImg_2.childImageSharp.fluid}
+                            fluid={data.classicaImg_8.childImageSharp.fluid}
                             className=""
                             loading="eager"
                         />
-                    </TransitionInview>
-                    <TransitionInview>
-                        <Img
-                            fluid={data.classicaImg_3.childImageSharp.fluid}
-                            className=""
-                            loading="eager"
-                        />
-                    </TransitionInview>
-                    <TransitionInview>
-                        <Img
-                            fluid={data.classicaImg_4.childImageSharp.fluid}
-                            className=""
-                            loading="eager"
-                        />
-                    </TransitionInview>
-                    <TransitionInview>
-                        <Img
-                            fluid={data.classicaImg_5.childImageSharp.fluid}
-                            className=""
-                            loading="eager"
-                        />
-                    </TransitionInview>
-                    <TransitionInview>
-                        <Img
-                            fluid={data.classicaImg_7.childImageSharp.fluid}
-                            className=""
-                            loading="eager"
-                        />
-                    </TransitionInview>
+                    </section> */}
+
+                    <Img
+                        fluid={data.classicaImg_2.childImageSharp.fluid}
+                        className=""
+                        loading="eager"
+                    />
+
+                    <Img
+                        fluid={data.classicaImg_3.childImageSharp.fluid}
+                        className=""
+                        loading="eager"
+                    />
+
+                    <Img
+                        fluid={data.classicaImg_4.childImageSharp.fluid}
+                        className=""
+                        loading="eager"
+                    />
+
+                    <Img
+                        fluid={data.classicaImg_5.childImageSharp.fluid}
+                        className=""
+                        loading="eager"
+                    />
+
+                    <Img
+                        fluid={data.classicaImg_7.childImageSharp.fluid}
+                        className=""
+                        loading="eager"
+                    />
                 </div>
             </TransitionPageIn>
         </>

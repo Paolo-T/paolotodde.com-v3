@@ -185,13 +185,18 @@ function petTime() {
                         <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
                             <h2 className="mb-8 md:mb-8">User Flow</h2>
                             <p>
-                                An app that provides a dedicated section for
-                                interesting articles, news, podcasts, learning
-                                resources. A section to help finding pet
-                                friendly locations and facilities. The UI will
-                                be user friendly and easy to navigate. All
-                                resources will be easy to access and quick to
-                                find.
+                                After the initial Log in / Sign Up, the user is
+                                presented with the Home screen where they can
+                                browse the most important topics regarding the
+                                care of their beloved pets. After choosing their
+                                subject of interest, they are presented with all
+                                the available resources and content focused on
+                                that particular topic. Some of the content is
+                                free and some is "Premium" that requires a paid
+                                subscription to access. If the user is not yet
+                                subscribed, is directed to a paywall where they
+                                can subscribe before accessing the Premium
+                                content.
                             </p>
                         </div>
                     </section>
