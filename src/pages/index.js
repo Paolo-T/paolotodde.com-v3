@@ -65,23 +65,22 @@ function Home() {
                 title="Home"
             />
             <TransitionPageIn>
-                <div className="w-10/12 md:container md:px-0 mx-auto pt-24 md:pt-24">
+                <div className="w-10/12 md:container md:px-0 mx-auto pt-24 md:pt-40">
                     <TransitionInview>
+                        <TransitionInview>
+                            <Link to="/petTime">
+                                <Img
+                                    fluid={data.petImg.childImageSharp.fluid}
+                                    alt="pet time app ui design"
+                                    className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-sm"
+                                    loading="eager"
+                                />
+                            </Link>
+                        </TransitionInview>
                         <Link to="/classica" className="mt-20">
                             <Img
                                 fluid={data.classicaImg.childImageSharp.fluid}
                                 alt="classica app ui design"
-                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-sm"
-                                loading="eager"
-                            />
-                        </Link>
-                    </TransitionInview>
-
-                    <TransitionInview>
-                        <Link to="/petTime">
-                            <Img
-                                fluid={data.petImg.childImageSharp.fluid}
-                                alt="pet time app ui design"
                                 className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-sm"
                                 loading="eager"
                             />
