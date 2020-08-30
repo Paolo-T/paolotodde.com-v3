@@ -206,7 +206,7 @@ function Classica() {
                         </div>
                     </section>
 
-                    {/* <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
+                    <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">Flow</h4>
                         </div>
@@ -230,7 +230,7 @@ function Classica() {
                             className=""
                             loading="eager"
                         />
-                    </section> */}
+                    </section>
 
                     <Img
                         fluid={data.classicaImg_2.childImageSharp.fluid}
