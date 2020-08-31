@@ -238,30 +238,35 @@ function Classica() {
                         fluid={data.classicaImg_2.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
 
                     <Img
                         fluid={data.classicaImg_3.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
 
                     <Img
                         fluid={data.classicaImg_4.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
 
                     <Img
                         fluid={data.classicaImg_5.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
 
                     <Img
                         fluid={data.classicaImg_7.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
                 </div>
             </TransitionPageIn>

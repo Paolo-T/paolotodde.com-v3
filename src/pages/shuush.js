@@ -121,31 +121,37 @@ function Shuush() {
                         fluid={data.shuushImg_2.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
                     <Img
                         fluid={data.shuushImg_3.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
                     <Img
                         fluid={data.shuushImg_4.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
                     <Img
                         fluid={data.shuushImg_5.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
                     <Img
                         fluid={data.shuushImg_6.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
                     <Img
                         fluid={data.shuushImg_7.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
                 </div>
             </TransitionPageIn>

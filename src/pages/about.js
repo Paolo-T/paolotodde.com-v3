@@ -20,6 +20,16 @@ function About() {
                     }
                 }
             }
+            digitalArtImg: file(
+                relativePath: { eq: "about/digitalArtThumb.webp" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
     `);
 
@@ -86,14 +96,14 @@ function About() {
                         </section>
                     </TransitionInview>
                     <TransitionInview>
-                        <section className="w-10/12 md:w-9/12 mx-auto md:flex flex-initial mt-32">
-                            <h4 className="md:w-12/12 text-5xl md:text-lg font-bold uppercase text-black flex-1 md:pl-20">
+                        <section className="w-10/12 md:w-9/12 mx-auto md:flex flex-initial mt-20 md:mt-32">
+                            <h3 className="md:w-12/12 text-5xl md:text-lg font-bold uppercase text-black flex-1 md:pt-8 md:pl-20">
                                 Side Projects
-                            </h4>
+                            </h3>
                             <div className="md:w-8/12 block text-black">
                                 <div className="w-full">
-                                    <h3 className="">3DC (Brand)</h3>
-                                    <Link to="/three">
+                                    <h3 className="font-bold">3DC (Brand)</h3>
+                                    <Link to="/three" target="_blank">
                                         <Img
                                             fluid={
                                                 data.threeImg.childImageSharp
@@ -105,20 +115,23 @@ function About() {
                                         />
                                     </Link>
                                 </div>
-                                {/* <div className="w-full mt-10">
+                                <div className="w-full mt-10 md:mt-20">
                                     <h3 className="">Digital Art</h3>
-                                    <Link to="/three">
+                                    <a
+                                        href="https://www.instagram.com/paolo_tde/"
+                                        target="_blank"
+                                    >
                                         <Img
                                             fluid={
-                                                data.threeImg.childImageSharp
-                                                    .fluid
+                                                data.digitalArtImg
+                                                    .childImageSharp.fluid
                                             }
-                                            alt="3dc designs"
-                                            className="cursor-pointer transition duration-500 transform hover:scale-98 rounded-sm"
+                                            alt="Digital Art"
+                                            className="cursor-pointer transition duration-500 transform hover:scale-98 rounded-lg"
                                             loading="eager"
                                         />
-                                    </Link>
-                                </div> */}
+                                    </a>
+                                </div>
                             </div>
                         </section>
                     </TransitionInview>

@@ -212,21 +212,25 @@ function petTime() {
                         fluid={data.petTime_2.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
                     <Img
                         fluid={data.petTime_3.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
                     <Img
                         fluid={data.petTime_4.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
                     <Img
                         fluid={data.petTime_5.childImageSharp.fluid}
                         className=""
                         loading="eager"
+                        alt="App screen"
                     />
                 </div>
             </TransitionPageIn>

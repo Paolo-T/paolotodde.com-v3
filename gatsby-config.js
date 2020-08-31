@@ -62,12 +62,12 @@ module.exports = {
             options: {
                 fonts: [
                     {
-                        family: `Cormorant+Garamond`,
-                        variants: [`400`, `700`],
+                        family: `Oswald`,
+                        subsets: [`latin`],
                     },
                     {
-                        family: `Cormorant+Garamond`,
-                        subsets: [`latin`],
+                        family: `Open Sans`,
+                        variants: [`400`, `700`],
                     },
                 ],
             },
