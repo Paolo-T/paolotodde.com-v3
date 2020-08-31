@@ -241,8 +241,16 @@ module.exports = {
             default: "1",
         },
         fontFamily: {
-            header: ["Avenir", "Lora", "Montserrat", "Calibre", "Avenir"],
+            header: [
+                "Titillium Web",
+                "Avenir",
+                "Lora",
+                "Montserrat",
+                "Calibre",
+                "Avenir",
+            ],
             sans: [
+                "Titillium Web",
                 "Avenir",
                 "Helvetica Neue",
                 "Calibre",
