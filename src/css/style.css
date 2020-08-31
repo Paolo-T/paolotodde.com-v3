@@ -9,11 +9,11 @@ h1 {
 }
 
 h2 {
-    @apply font-header text-3xl font-bold mb-2 leading-none tracking-normal;
+    @apply font-header text-3xl font-extrabold mb-2 leading-none tracking-normal;
 }
 
 h3 {
-    @apply text-lg font-bold leading-tight mb-4;
+    @apply text-lg font-extrabold leading-tight mb-4;
 }
 
 p {
