@@ -69,14 +69,7 @@ function Home() {
                     <section>
                         <div className="md:w-8/12 pl-16">
                             <TransitionInview>
-                                <h1
-                                    className="mb-8 md:mb-10"
-                                    style={{
-                                        fontFamily: "Oswald",
-                                        fontWeight: "700",
-                                        letterSpacing: "0.001rem",
-                                    }}
-                                >
+                                <h1 className="mb-8 md:mb-10">
                                     Product Designer, Front-end Developer
                                 </h1>
                             </TransitionInview>
