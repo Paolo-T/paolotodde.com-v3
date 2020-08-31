@@ -66,30 +66,29 @@ function Home() {
             />
             <TransitionPageIn>
                 <div className="w-10/12 md:container md:px-0 mx-auto pt-24 md:pt-40">
-                    {/* <section>
-                        <div className="md:w-7/12 pl-16">
-                            <h2
-                                className="mb-8 md:mb-10"
-                                style={{ fontFamily: "Helvetica" }}
-                            >
-                                UI / Product Designer + Coder
-                            </h2>
-                            <p>
-                                You’re asked to design some materials for a
-                                mobile app to be run on smartphones only. Here
-                                some information on the app itself: The app is
-                                for listening to and learning about classical
-                                music.
-                            </p>
+                    <section>
+                        <div className="md:w-8/12 pl-16">
+                            <TransitionInview>
+                                <h1
+                                    className="mb-8 md:mb-10"
+                                    style={{
+                                        fontFamily: "Oswald",
+                                        fontWeight: "700",
+                                        letterSpacing: "0.001rem",
+                                    }}
+                                >
+                                    Product Designer, Front-end Developer
+                                </h1>
+                            </TransitionInview>
                         </div>
-                    </section> */}
+                    </section>
 
                     <TransitionInview>
                         <Link to="/petTime">
                             <Img
                                 fluid={data.petImg.childImageSharp.fluid}
                                 alt="pet time app ui design"
-                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
+                                className="w-full my-4 md:mb-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
                                 loading="eager"
                             />
                         </Link>

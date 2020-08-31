@@ -66,7 +66,7 @@ module.exports = {
                         subsets: [`latin`],
                     },
                     {
-                        family: `Open Sans`,
+                        family: `Oswald`,
                         variants: [`400`, `700`],
                     },
                 ],

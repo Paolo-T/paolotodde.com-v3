@@ -57,7 +57,14 @@ function About() {
                 <TransitionPageIn>
                     <TransitionInview>
                         <section className="w-10/12 md:w-9/12 mx-auto md:flex flex-initial ">
-                            <h2 className="md:w-12/12 text-5xl md:text-5xl text-black flex-1 md:pl-20 pt-16">
+                            <h2
+                                className="md:w-12/12 text-5xl md:text-5xl text-black flex-1 md:pl-20 pt-16"
+                                style={{
+                                    fontFamily: "Oswald",
+                                    fontWeight: "700",
+                                    letterSpacing: "0.001rem",
+                                }}
+                            >
                                 Hello_
                             </h2>
                             <div className="md:w-8/12 block text-black flex-2 pt-20">
@@ -97,7 +104,7 @@ function About() {
                     </TransitionInview>
                     <TransitionInview>
                         <section className="w-10/12 md:w-9/12 mx-auto md:flex flex-initial mt-20 md:mt-32">
-                            <h3 className="md:w-12/12 text-5xl md:text-lg font-bold uppercase text-black flex-1 md:pt-8 md:pl-20">
+                            <h3 className="md:w-12/12 text-5xl md:text-base font-bold uppercase text-black flex-1 md:pt-8 md:pl-20">
                                 Side Projects
                             </h3>
                             <div className="md:w-8/12 block text-black">
