@@ -89,7 +89,7 @@ function Home() {
                             <Img
                                 fluid={data.petImg.childImageSharp.fluid}
                                 alt="pet time app ui design"
-                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-sm"
+                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
                                 loading="eager"
                             />
                         </Link>
@@ -99,7 +99,7 @@ function Home() {
                             <Img
                                 fluid={data.classicaImg.childImageSharp.fluid}
                                 alt="classica app ui design"
-                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-sm"
+                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
                                 loading="eager"
                             />
                         </Link>
@@ -110,7 +110,7 @@ function Home() {
                             <Img
                                 fluid={data.shuushImg.childImageSharp.fluid}
                                 alt="shuush app ui design"
-                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-sm"
+                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
                                 loading="eager"
                             />
                         </Link>
