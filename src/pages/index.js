@@ -66,16 +66,15 @@ function Home() {
             />
             <TransitionPageIn>
                 <div className="w-10/12 md:container md:px-0 mx-auto pt-24 md:pt-40">
-                    <section>
-                        <div className="md:w-8/12 pl-16">
-                            <TransitionInview>
-                                <h1 className="mb-8 md:mb-10">
-                                    Product Designer, Front-end Developer
-                                </h1>
-                            </TransitionInview>
-                        </div>
-                    </section>
-
+                    <TransitionInview>
+                        <section className="w-12/12 md:w-8/12 pl-5 md:pl-16">
+                            <h1 className="text-2xl md:text-7xl mb-4">
+                                Product Designer
+                                <br />
+                                Front-end Developer
+                            </h1>
+                        </section>
+                    </TransitionInview>
                     <TransitionInview>
                         <Link to="/petTime">
                             <Img
