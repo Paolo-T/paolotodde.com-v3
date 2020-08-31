@@ -66,17 +66,35 @@ function Home() {
             />
             <TransitionPageIn>
                 <div className="w-10/12 md:container md:px-0 mx-auto pt-24 md:pt-40">
+                    {/* <section>
+                        <div className="md:w-7/12 pl-16">
+                            <h2
+                                className="mb-8 md:mb-10"
+                                style={{ fontFamily: "Helvetica" }}
+                            >
+                                UI / Product Designer + Coder
+                            </h2>
+                            <p>
+                                You’re asked to design some materials for a
+                                mobile app to be run on smartphones only. Here
+                                some information on the app itself: The app is
+                                for listening to and learning about classical
+                                music.
+                            </p>
+                        </div>
+                    </section> */}
+
                     <TransitionInview>
-                        <TransitionInview>
-                            <Link to="/petTime">
-                                <Img
-                                    fluid={data.petImg.childImageSharp.fluid}
-                                    alt="pet time app ui design"
-                                    className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-sm"
-                                    loading="eager"
-                                />
-                            </Link>
-                        </TransitionInview>
+                        <Link to="/petTime">
+                            <Img
+                                fluid={data.petImg.childImageSharp.fluid}
+                                alt="pet time app ui design"
+                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-sm"
+                                loading="eager"
+                            />
+                        </Link>
+                    </TransitionInview>
+                    <TransitionInview>
                         <Link to="/classica" className="mt-20">
                             <Img
                                 fluid={data.classicaImg.childImageSharp.fluid}
@@ -98,7 +116,7 @@ function Home() {
                         </Link>
                     </TransitionInview>
 
-                    <TransitionInview>
+                    {/* <TransitionInview>
                         <Link to="/three">
                             <Img
                                 fluid={data.threeImg.childImageSharp.fluid}
@@ -107,7 +125,7 @@ function Home() {
                                 loading="eager"
                             />
                         </Link>
-                    </TransitionInview>
+                    </TransitionInview> */}
                 </div>
             </TransitionPageIn>
         </>

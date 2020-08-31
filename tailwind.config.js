@@ -241,7 +241,7 @@ module.exports = {
             default: "1",
         },
         fontFamily: {
-            header: ["Montserrat", "Calibre", "Avenir"],
+            header: ["Lora", "Montserrat", "Calibre", "Avenir"],
             sans: [
                 "Avenir",
                 "Helvetica Neue",

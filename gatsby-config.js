@@ -57,5 +57,20 @@ module.exports = {
                 path: `${__dirname}/src/images`,
             },
         },
+        {
+            resolve: `gatsby-plugin-prefetch-google-fonts`,
+            options: {
+                fonts: [
+                    {
+                        family: `Cormorant+Garamond`,
+                        variants: [`400`, `700`],
+                    },
+                    {
+                        family: `Cormorant+Garamond`,
+                        subsets: [`latin`],
+                    },
+                ],
+            },
+        },
     ],
 };
