@@ -242,6 +242,7 @@ module.exports = {
         },
         fontFamily: {
             header: [
+                "Libre Baskerville",
                 "Titillium Web",
                 "Avenir",
                 "Lora",
@@ -250,6 +251,7 @@ module.exports = {
                 "Avenir",
             ],
             sans: [
+                "Libre Baskerville",
                 "Titillium Web",
                 "Avenir",
                 "Helvetica Neue",
