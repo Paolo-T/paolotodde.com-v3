@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../../images/logo.svg";
-import aboutIcon from "../../images/aboutIcon.svg";
+import logo from "../images/logo.svg";
+import aboutIcon from "../images/aboutIcon.svg";
 import { Link } from "gatsby";
 
 function Navigation() {

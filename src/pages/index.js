@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import { graphql, useStaticQuery } from "gatsby";
 import { useSpring } from "react-spring";
 import Img from "gatsby-image";
+import ImgSlider from "../components/ImgSlider";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 
@@ -39,14 +40,6 @@ function Home() {
                     }
                 }
             }
-            threeImg: file(relativePath: { eq: "three/three_1.webp" }) {
-                id
-                childImageSharp {
-                    fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
-                    }
-                }
-            }
         }
     `);
 
@@ -65,6 +58,7 @@ function Home() {
                 title="Home"
             />
             <TransitionPageIn>
+                {/* <ImgSlider /> */}
                 <div className="w-10/12 md:container md:px-0 mx-auto pt-24 md:pt-40">
                     <TransitionInview>
                         <h1 className="w-12/12 pl-5 md:pl-16 text-2xl md:text-7xl mb-4">
@@ -104,17 +98,6 @@ function Home() {
                             />
                         </Link>
                     </TransitionInview>
-
-                    {/* <TransitionInview>
-                        <Link to="/three">
-                            <Img
-                                fluid={data.threeImg.childImageSharp.fluid}
-                                alt="3dc designs"
-                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-sm"
-                                loading="eager"
-                            />
-                        </Link>
-                    </TransitionInview> */}
                 </div>
             </TransitionPageIn>
         </>

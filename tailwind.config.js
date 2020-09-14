@@ -241,18 +241,9 @@ module.exports = {
             default: "1",
         },
         fontFamily: {
-            header: [
-                "Libre Baskerville",
-                "Titillium Web",
-                "Avenir",
-                "Lora",
-                "Montserrat",
-                "Calibre",
-                "Avenir",
-            ],
+            header: ["Oswald", "Lora", "Montserrat", "Calibre"],
             sans: [
-                "Libre Baskerville",
-                "Titillium Web",
+                "Oswald",
                 "Avenir",
                 "Helvetica Neue",
                 "Calibre",

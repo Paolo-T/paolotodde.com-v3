@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import TransitionPageIn from "../TransitionPageIn";
-import TransitionInview from "../TransitionInview";
+import TransitionPageIn from "./TransitionPageIn";
+import TransitionInview from "./TransitionInview";
 
 function Footer() {
     return (

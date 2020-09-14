@@ -8,12 +8,12 @@ function TransitionPageIn({ children }) {
         config: spring,
         from: {
             opacity: 0,
-            transform: `translate3d(0,5rem,0)`
+            transform: `translate3d(0,5rem,0)`,
         },
         to: {
             opacity: 1,
-            transform: `translate3d(0rem,0,0)`
-        }
+            transform: `translate3d(0rem,0,0)`,
+        },
     });
 
     return <animated.div style={fadeIn}>{children}</animated.div>;

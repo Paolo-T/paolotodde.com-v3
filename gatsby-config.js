@@ -60,8 +60,15 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-fonts`,
             options: {
-                fonts: [`Titillium Web \:400, 700`],
+                fonts: [`Oswald \:400, 700`],
                 display: "swap",
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `backgrounds`,
+                path: `${__dirname}/src/images/petTime`, // wherever background images are stored
             },
         },
     ],
