@@ -58,10 +58,10 @@ function About() {
                     <TransitionInview>
                         <section className="w-10/12 md:w-9/12 mx-auto md:flex flex-initial ">
                             <h2 className="md:w-12/12 text-5xl md:text-5xl text-black flex-1 md:pl-20 pt-16">
-                                Hello,
+                                Hello
                             </h2>
                             <div className="md:w-8/12 block text-black flex-2 pt-20">
-                                <p className="md:pr-20">
+                                <p className="md:pr-20 mt-2">
                                     I'm Paolo Todde. Designer and Front-end
                                     coder based in Brighton (UK).<br></br>I have
                                     a passion for visual communication, creating
@@ -97,12 +97,14 @@ function About() {
                     </TransitionInview>
                     <TransitionInview>
                         <section className="w-10/12 md:w-9/12 mx-auto md:flex flex-initial mt-20 md:mt-32">
-                            <h3 className="md:w-12/12 text-5xl md:text-base font-bold uppercase text-black flex-1 md:pt-8 md:pl-20">
+                            <h3 className="md:w-12/12 text-5xl md:text-base font-bold uppercase text-black flex-1 md:pt-12 md:pl-20 ">
                                 Side Projects
                             </h3>
                             <div className="md:w-8/12 block text-black">
                                 <div className="w-full">
-                                    <h3 className="font-bold">3DC (Brand)</h3>
+                                    <h2 className="text-4xl mb-4">
+                                        3DC (Brand)
+                                    </h2>
                                     <Link to="/three" target="_blank">
                                         <Img
                                             fluid={
@@ -116,7 +118,9 @@ function About() {
                                     </Link>
                                 </div>
                                 <div className="w-full mt-10 md:mt-20">
-                                    <h3 className="">Digital Art</h3>
+                                    <h2 className="text-4xl mb-4">
+                                        Digital Art
+                                    </h2>
                                     <a
                                         href="https://www.instagram.com/paolo_tde/"
                                         target="_blank"
