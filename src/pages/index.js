@@ -60,10 +60,11 @@ function Home() {
             <TransitionPageIn>
                 <div className="w-10/12 md:container md:px-0 mx-auto pt-24 md:pt-40">
                     <TransitionInview>
-                        <div className="w-12/12 pl-5 md:pl-16 mb-10 md:pt-32">
-                            <h1 className="text-2xl md:text-6xl">
+                        <div className="w-12/12 pl-5 md:pl-16 mb-10 md:pt-32 mb-32">
+                            <h1 className="text-2xl md:text-8xl">
                                 Hello, I'm Paolo.
-                                <br /> Designer and Front-end coder
+                                <br /> Designer and <br />
+                                Front-end coder
                             </h1>
                         </div>
                     </TransitionInview>
