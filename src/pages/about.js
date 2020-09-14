@@ -58,14 +58,14 @@ function About() {
                     <TransitionInview>
                         <section className="w-10/12 md:w-9/12 mx-auto md:flex flex-initial ">
                             <h2 className="md:w-12/12 text-5xl md:text-5xl text-black flex-1 md:pl-20 pt-16">
-                                Hi
+                                Hello,
                             </h2>
                             <div className="md:w-8/12 block text-black flex-2 pt-20">
                                 <p className="md:pr-20">
-                                    Paolo here. Designer + Coder based in
-                                    Brighton (UK).<br></br>I have a passion for
-                                    visual communication, creating and
-                                    developing well crafted designs, user
+                                    I'm Paolo Todde. Designer and Front-end
+                                    coder based in Brighton (UK).<br></br>I have
+                                    a passion for visual communication, creating
+                                    and developing well crafted designs, user
                                     focused utilitarian interfaces. Contributing
                                     to the great web environment making the best
                                     experience mixing creativity and technology.

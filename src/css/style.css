@@ -5,11 +5,11 @@
 /* purgecss end ignore */
 
 h1 {
-    @apply font-header font-bold text-9xl inline-block  mt-4 mb-8;
+    @apply font-header font-bold text-9xl inline-block leading-tight  mt-4 mb-8;
 }
 
 h2 {
-    @apply font-header text-3xl font-bold mb-2;
+    @apply font-header font-bold text-3xl font-bold mb-2;
 }
 
 h3 {

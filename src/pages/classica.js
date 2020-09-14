@@ -132,7 +132,9 @@ function Classica() {
                         </div>
 
                         <div className="md:w-7/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-10">The brief</h2>
+                            <h2 className="mb-8 md:mb-6 text-yellow-500">
+                                The brief
+                            </h2>
                             <p>
                                 You’re asked to design some materials for a
                                 mobile app to be run on smartphones only. Here
@@ -178,7 +180,9 @@ function Classica() {
                             <h4 className="font-bold uppercase">Problem</h4>
                         </div>
                         <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-8">The problem</h2>
+                            <h2 className="mb-8 md:mb-6 text-yellow-500">
+                                The problem
+                            </h2>
                             <p>
                                 The need for a comprehensive resource hub to
                                 satisfy the curiosity of the classical music
@@ -198,7 +202,9 @@ function Classica() {
                             <h4 className="font-bold uppercase">Solution</h4>
                         </div>
                         <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-8">The solution</h2>
+                            <h2 className="mb-8 md:mb-6 text-yellow-500">
+                                The solution
+                            </h2>
                             <p>
                                 An app that besides the excellent music player,
                                 provides a learning center to access articles,

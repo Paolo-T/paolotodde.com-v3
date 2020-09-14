@@ -60,12 +60,14 @@ function Home() {
             <TransitionPageIn>
                 <div className="w-10/12 md:container md:px-0 mx-auto pt-24 md:pt-40">
                     <TransitionInview>
-                        <h1 className="w-12/12 pl-5 md:pl-16 text-2xl md:text-6xl mb-4">
-                            Product Designer
-                            <br />
-                            Front-end Developer
-                        </h1>
+                        <div className="w-12/12 pl-5 md:pl-16 mb-10 md:pt-32">
+                            <h1 className="text-2xl md:text-6xl">
+                                Hello, I'm Paolo.
+                                <br /> Designer and Front-end coder
+                            </h1>
+                        </div>
                     </TransitionInview>
+                    {/* <ImgSlider /> */}
                     <TransitionInview>
                         <Link to="/petTime">
                             <Img

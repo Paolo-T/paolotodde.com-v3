@@ -14,7 +14,7 @@ function Footer() {
                             target="_blank"
                             href="https://www.linkedin.com/in/paolo-todde/"
                         >
-                            <li className="md:inline-block text-2xl md:text-4xl hover:text-red-700 ease-in-out">
+                            <li className="md:inline-block text-2xl md:text-4xl hover:text-red-800 ease-in-out">
                                 LinkedIn
                             </li>
                         </a>
@@ -23,7 +23,7 @@ function Footer() {
                             target="_blank"
                             href="https://www.instagram.com/three_design_company/"
                         >
-                            <li className="md:inline-block text-2xl md:text-4xl hover:text-red-700 ease-in-out">
+                            <li className="md:inline-block text-2xl md:text-4xl hover:text-red-800 ease-in-out">
                                 Instagram
                             </li>
                         </a>
@@ -32,7 +32,7 @@ function Footer() {
                             target="_blank"
                             href="https://www.behance.net/paolotodde"
                         >
-                            <li className="md:inline-block text-2xl md:text-4xl hover:text-red-700 ease-in-out">
+                            <li className="md:inline-block text-2xl md:text-4xl hover:text-red-800 ease-in-out">
                                 Behance
                             </li>
                         </a>
@@ -40,7 +40,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             href="mailto:webmaster@example.com"
                         >
-                            <li className="md:inline-block text-2xl md:text-4xl hover:text-red-700 ease-in-out">
+                            <li className="md:inline-block text-2xl md:text-4xl hover:text-red-800 ease-in-out">
                                 iampaolotodde[at]gmail.com
                             </li>
                         </a>
