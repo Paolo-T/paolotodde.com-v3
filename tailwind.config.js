@@ -334,7 +334,7 @@ module.exports = {
         },
         lineHeight: {
             none: "1",
-            tight: "1.25",
+            tight: "1.2",
             snug: "1.375",
             normal: "1.5",
             relaxed: "1.625",
