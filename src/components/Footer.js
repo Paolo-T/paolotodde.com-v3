@@ -8,13 +8,21 @@ function Footer() {
         <TransitionPageIn>
             <TransitionInview>
                 <footer className="w-full max-w-screen-xxl mx-auto pb-10 md:pb-24 pt-10 md:pt-20 bg-black">
-                    <ul className="w-10/12 mx-auto sm:flex font-bold text-center text-red-600 justify-between md:ml-32">
+                    <ul className="w-10/12 mx-auto lg:flex font-bold text-center text-red-600 justify-between xlg:ml-32">
+                        <a
+                            rel="noopener noreferrer"
+                            href="mailto:webmaster@example.com"
+                        >
+                            <li className="xlg:inline-block text-1xl md:text-2xl lg:text-4xl hover:text-red-800 ease-in-out">
+                                iampaolotodde[at]gmail.com
+                            </li>
+                        </a>
                         <a
                             rel="noopener noreferrer"
                             target="_blank"
                             href="https://www.linkedin.com/in/paolo-todde/"
                         >
-                            <li className="md:inline-block text-2xl md:text-4xl hover:text-red-800 ease-in-out">
+                            <li className="xlg:inline-block text-1xl md:text-2xl lg:text-4xl hover:text-red-800 ease-in-out">
                                 LinkedIn
                             </li>
                         </a>
@@ -23,7 +31,7 @@ function Footer() {
                             target="_blank"
                             href="https://www.instagram.com/three_design_company/"
                         >
-                            <li className="md:inline-block text-2xl md:text-4xl hover:text-red-800 ease-in-out">
+                            <li className="xlg:inline-block text-1xl md:text-2xl lg:text-4xl hover:text-red-800 ease-in-out">
                                 Instagram
                             </li>
                         </a>
@@ -32,16 +40,8 @@ function Footer() {
                             target="_blank"
                             href="https://www.behance.net/paolotodde"
                         >
-                            <li className="md:inline-block text-2xl md:text-4xl hover:text-red-800 ease-in-out">
+                            <li className="xlg:inline-block text-1xl md:text-2xl lg:text-4xl hover:text-red-800 ease-in-out">
                                 Behance
-                            </li>
-                        </a>
-                        <a
-                            rel="noopener noreferrer"
-                            href="mailto:webmaster@example.com"
-                        >
-                            <li className="md:inline-block text-2xl md:text-4xl hover:text-red-800 ease-in-out">
-                                iampaolotodde[at]gmail.com
                             </li>
                         </a>
                     </ul>
