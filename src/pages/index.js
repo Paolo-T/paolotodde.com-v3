@@ -64,7 +64,8 @@ function Home() {
                             <h1 className="text-5xl md:text-8xl md:mb-32">
                                 Hello, I'm Paolo.
                                 <br /> Designer and <br />
-                                Front-end coder
+                                front-end coder
+                                <span className="inline text-red-500">.</span>
                             </h1>
                         </div>
                     </TransitionInview>
