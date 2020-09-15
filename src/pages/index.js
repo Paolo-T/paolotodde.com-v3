@@ -59,23 +59,6 @@ function Home() {
             />
             <TransitionPageIn>
                 <div className="w-10/12 md:container md:px-0 mx-auto pt-24 md:pt-40">
-                    <TransitionInview>
-                        <div className="w-12/12 md:pl-5 lg:pl-40 md:mb-10 md:pt-48">
-                            <h1 className="text-4xl md:text-6xl lg:text-8xl md:mb-32">
-                                Hello, I'm Paolo.
-                                <br />
-                                <span className="inline text-yellow-500">
-                                    Product designer
-                                </span>{" "}
-                                <br />
-                                &&nbsp;
-                                <span className="inline text-yellow-500">
-                                    front-end coder
-                                </span>
-                                .
-                            </h1>
-                        </div>
-                    </TransitionInview>
                     {/* <ImgSlider /> */}
                     <TransitionInview>
                         <Link to="/petTime">
