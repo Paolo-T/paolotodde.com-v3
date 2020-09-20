@@ -7,7 +7,7 @@ function Footer() {
         <TransitionPageIn>
             <TransitionInview>
                 <footer className="w-full max-w-screen-xxl mx-auto pb-10 md:pb-24 pt-10 md:pt-10 lg:pt-20 bg-black">
-                    <ul className="w-10/12 mx-auto lg:flex font-bold text-center text-red-600 justify-between xlg:ml-32">
+                    <ul className="w-10/12 md:w-9/12 max-w-screen-xl mx-auto lg:flex font-bold text-center text-red-600 justify-between xlg:ml-32">
                         <a
                             rel="noopener noreferrer"
                             href="mailto:webmaster@example.com"
