@@ -66,10 +66,11 @@ function Home() {
                                 <span className="inline text-yellow-500">
                                     UI designer
                                 </span>{" "}
-                                <br />
                                 &&nbsp;
+                                <br />
+                                <span className="inline">front-end</span>{" "}
                                 <span className="inline text-yellow-500">
-                                    front-end coder
+                                    coder
                                 </span>
                                 .
                             </h1>
