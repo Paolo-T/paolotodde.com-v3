@@ -60,7 +60,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-fonts`,
             options: {
-                fonts: [`Unna\:400`],
+                fonts: [`Nunito Sans\:400, 700, 900`],
                 display: "swap",
             },
         },

@@ -5,15 +5,15 @@
 /* purgecss end ignore */
 
 h1 {
-    @apply font-header text-9xl inline-block leading-tight mt-4 mb-8;
+    @apply font-header font-black text-9xl inline-block leading-tight tracking-tight mt-4 mb-8;
 }
 
 h2 {
-    @apply font-header text-3xl leading-tight mb-2;
+    @apply font-header font-bold text-3xl leading-tight tracking-tight mb-2;
 }
 
 h3 {
-    @apply text-lg leading-tight mb-4;
+    @apply text-lg font-bold leading-tight tracking-tight mb-4;
 }
 
 p {

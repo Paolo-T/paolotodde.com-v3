@@ -19,10 +19,10 @@ module.exports = {
             },
             transparent: "transparent",
 
-            black: "#0f0f0f",
+            black: "#212121",
             blackPure: "#000000",
             white: "#fefefe",
-            offWhite: "#fcf3d9",
+            offWhite: "#f6f6f6",
             // offWhite: "#f1efe8",
             gray: {
                 100: "#f7fafc",
@@ -243,15 +243,18 @@ module.exports = {
         },
         fontFamily: {
             header: [
-                "Unna",
-                "Abel",
+                "Nunito Sans",
                 "Avenir",
+                "Helvetica",
+                "Montserrat",
+                // "Unna",
+                "Abel",
                 "Oswald",
                 "Lora",
-                "Montserrat",
                 "Calibre",
             ],
             sans: [
+                "Nunito Sans",
                 "Avenir",
                 "Oswald",
                 "Helvetica Neue",
