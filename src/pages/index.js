@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import { graphql, useStaticQuery } from "gatsby";
 import { useSpring } from "react-spring";
 import Img from "gatsby-image";
-import ImgSlider from "../components/ImgSlider";
+// import ImgSlider from "../components/ImgSlider";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 
@@ -64,7 +64,7 @@ function Home() {
                                 Hello, I'm Paolo.
                                 <br />
                                 <span className="inline text-yellow-500">
-                                    Product designer
+                                    UI designer
                                 </span>{" "}
                                 <br />
                                 &&nbsp;
