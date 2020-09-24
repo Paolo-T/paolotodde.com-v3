@@ -5,7 +5,7 @@
 /* purgecss end ignore */
 
 h1 {
-    @apply font-header font-black text-9xl inline-block leading-tight tracking-tight mt-4 mb-8;
+    @apply font-header font-extrabold text-9xl inline-block leading-tight tracking-tight mt-4 mb-8;
 }
 
 h2 {
@@ -13,7 +13,7 @@ h2 {
 }
 
 h3 {
-    @apply text-lg font-bold leading-tight tracking-tight mb-4;
+    @apply text-lg font-bold leading-tight mb-4;
 }
 
 p {

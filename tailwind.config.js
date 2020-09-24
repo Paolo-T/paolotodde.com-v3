@@ -243,7 +243,7 @@ module.exports = {
         },
         fontFamily: {
             header: [
-                "Nunito Sans",
+                "Epilogue",
                 "Avenir",
                 "Helvetica",
                 "Montserrat",
@@ -254,7 +254,7 @@ module.exports = {
                 "Calibre",
             ],
             sans: [
-                "Nunito Sans",
+                "Epilogue",
                 "Avenir",
                 "Oswald",
                 "Helvetica Neue",
