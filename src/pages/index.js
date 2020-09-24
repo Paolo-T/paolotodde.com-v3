@@ -88,21 +88,21 @@ function Home() {
                         </Link>
                     </TransitionInview>
                     <TransitionInview>
-                        <Link to="/petTime">
-                            <Img
-                                fluid={data.petImg.childImageSharp.fluid}
-                                alt="pet time app ui design"
-                                className="w-full my-4 md:mb-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
-                                loading="eager"
-                            />
-                        </Link>
-                    </TransitionInview>
-                    <TransitionInview>
                         <Link to="/shuush">
                             <Img
                                 fluid={data.shuushImg.childImageSharp.fluid}
                                 alt="shuush app ui design"
                                 className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
+                                loading="eager"
+                            />
+                        </Link>
+                    </TransitionInview>
+                    <TransitionInview>
+                        <Link to="/petTime">
+                            <Img
+                                fluid={data.petImg.childImageSharp.fluid}
+                                alt="pet time app ui design"
+                                className="w-full my-4 md:mb-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
                                 loading="eager"
                             />
                         </Link>
