@@ -59,7 +59,7 @@ function Home() {
             <TransitionPageIn>
                 <div className="w-9/12 md:container md:px-0 mx-auto pt-24 md:pt-40">
                     <TransitionInview>
-                        <div className="w-12/12 md:pl-5 lg:pl-40 md:mb-2 md:pt-32">
+                        <div className="w-12/12 md:pl-5 lg:pl-32 md:mb-2 md:pt-32">
                             <h1 className="text-4xl md:text-6xl lg:text-8xl md:mb-10 lg:mb-24">
                                 Hello, I'm Paolo.
                                 <br />
@@ -78,16 +78,6 @@ function Home() {
                     </TransitionInview>
                     {/* <ImgSlider /> */}
                     <TransitionInview>
-                        <Link to="/petTime">
-                            <Img
-                                fluid={data.petImg.childImageSharp.fluid}
-                                alt="pet time app ui design"
-                                className="w-full my-4 md:mb-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
-                                loading="eager"
-                            />
-                        </Link>
-                    </TransitionInview>
-                    <TransitionInview>
                         <Link to="/classica" className="mt-20">
                             <Img
                                 fluid={data.classicaImg.childImageSharp.fluid}
@@ -97,7 +87,16 @@ function Home() {
                             />
                         </Link>
                     </TransitionInview>
-
+                    <TransitionInview>
+                        <Link to="/petTime">
+                            <Img
+                                fluid={data.petImg.childImageSharp.fluid}
+                                alt="pet time app ui design"
+                                className="w-full my-4 md:mb-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
+                                loading="eager"
+                            />
+                        </Link>
+                    </TransitionInview>
                     <TransitionInview>
                         <Link to="/shuush">
                             <Img
