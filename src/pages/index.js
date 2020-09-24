@@ -69,10 +69,7 @@ function Home() {
                                 &&nbsp;
                                 <br />
                                 <span className="inline">front-end</span>{" "}
-                                <span className="inline text-yellow-500">
-                                    coder
-                                </span>
-                                .
+                                <span className="inline">dev</span>
                             </h1>
                         </div>
                     </TransitionInview>
