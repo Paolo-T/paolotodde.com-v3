@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import { graphql, useStaticQuery } from "gatsby";
 import { useSpring } from "react-spring";
 import Img from "gatsby-image";
-// import ImgSlider from "../components/ImgSlider";
+import ImgSlider from "../components/ImgSlider";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 
@@ -56,10 +56,14 @@ function Home() {
                 ]}
                 title="Home"
             />
+
             <TransitionPageIn>
-                <div className="w-9/12 md:container md:px-0 mx-auto pt-24 md:pt-40">
+                <div className="w-8/12 md:container md:px-0 mx-auto pt-24 md:pt-40">
+                    {/* <TransitionInview>
+                        <ImgSlider />
+                    </TransitionInview> */}
                     <TransitionInview>
-                        <div className="w-12/12 md:pl-5 lg:pl-32 md:mb-2 md:pt-32">
+                        <div className="w-12/12 md:pl-5 md:mb-2 md:pt-32">
                             <h1 className="text-4xl md:text-6xl lg:text-8xl md:mb-10 lg:mb-24">
                                 Hello, I'm Paolo.
                                 <br />
@@ -73,7 +77,7 @@ function Home() {
                             </h1>
                         </div>
                     </TransitionInview>
-                    {/* <ImgSlider /> */}
+
                     <TransitionInview>
                         <Link to="/classica" className="mt-20">
                             <Img

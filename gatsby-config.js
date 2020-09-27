@@ -68,6 +68,13 @@ module.exports = {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `backgrounds`,
+                path: `${__dirname}/src/bg`, // wherever background images are stored
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `backgrounds`,
                 path: `${__dirname}/src/images/petTime`, // wherever background images are stored
             },
         },
