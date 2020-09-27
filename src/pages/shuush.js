@@ -104,6 +104,25 @@ function Shuush() {
                         className=""
                         loading="eager"
                     />
+                    <section className="w-9/12 max-w-screen-xl mx-auto text-blue-900 md:flex mt-10 mb-32">
+                        <div className="md:w-4/12 mt-24">
+                            <h4 className="font-bold uppercase">Description</h4>
+                            <h4 className="pt-4">App design</h4>
+                        </div>
+
+                        <div className="md:w-7/12 mt-16 md:mt-0 md:pr-24">
+                            <h2 className="mb-8 md:mb-6">Description</h2>
+                            <p>
+                                <span className="font-extrabold">Shuush!</span>{" "}
+                                is a fun messaging app. Its fresh and friendly
+                                design will help you keeping in contact with
+                                your loved ones. The simple and intuitive user
+                                interface will facilitate communications and
+                                sharing.
+                            </p>
+                        </div>
+                    </section>
+
                     <Img
                         fluid={data.shuushImg_1.childImageSharp.fluid}
                         className=""

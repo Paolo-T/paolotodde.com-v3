@@ -128,11 +128,12 @@ function Classica() {
                                 Description
                             </h2>
                             <p>
-                                <strong>Classica</strong> is a fun and friendly
-                                app for the classical music lovers. Whether they
-                                are seasoned aficionados or enthusiastic
-                                newbies, they'll find plenty of learning
-                                material to support their listening experience.
+                                <span className="font-extrabold">Classica</span>{" "}
+                                is a fun and friendly app for the classical
+                                music lovers. Whether they are seasoned
+                                aficionados or enthusiastic newbies, they'll
+                                find plenty of learning material to support
+                                their listening experience.
                             </p>
                         </div>
                     </section>

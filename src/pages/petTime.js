@@ -84,6 +84,26 @@ function petTime() {
                         className=""
                         loading="eager"
                     />
+                    <section className="w-9/12 max-w-screen-xl mx-auto text-white md:flex mt-16 mb-0">
+                        <div className="md:w-4/12 mt-24">
+                            <h4 className="font-bold uppercase">Description</h4>
+                            <h4 className="pt-4">App design</h4>
+                        </div>
+
+                        <div className="md:w-7/12 mt-16 md:mt-0 md:pr-24">
+                            <h2 className="mb-8 md:mb-6 text-yellow-500">
+                                Description
+                            </h2>
+                            <p>
+                                <span className="font-extrabold">Pet Time</span>{" "}
+                                is a fun and friendly managing app for animal
+                                lovers. Whether you are experts or enthusiastic
+                                newbies, you'll find plenty of learning
+                                resources to help taking care of your pet
+                                friends.
+                            </p>
+                        </div>
+                    </section>
 
                     <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
