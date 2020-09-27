@@ -117,6 +117,25 @@ function Classica() {
                         className=""
                         loading="eager"
                     />
+                    <section className="w-9/12 max-w-screen-xl mx-auto text-white md:flex mt-16 mb-0">
+                        <div className="md:w-4/12 mt-24">
+                            <h4 className="font-bold uppercase">Description</h4>
+                            <h4 className="pt-4">App design</h4>
+                        </div>
+
+                        <div className="md:w-7/12 mt-16 md:mt-0 md:pr-24">
+                            <h2 className="mb-8 md:mb-6 text-yellow-500">
+                                Description
+                            </h2>
+                            <p>
+                                <strong>Classica</strong> is a fun and friendly
+                                app for the classical music lovers. Whether they
+                                are seasoned aficionados or enthusiastic
+                                newbies, they'll find plenty of learning
+                                material to support their listening experience.
+                            </p>
+                        </div>
+                    </section>
 
                     <section className="w-9/12 max-w-screen-xl mx-auto text-white md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
