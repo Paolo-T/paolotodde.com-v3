@@ -62,15 +62,14 @@ function About() {
                             </h2>
                             <div className="lg:w-8/12 block text-black flex-2 pt-4 lg:pt-20">
                                 <p className="md:pr-20 mt-2">
-                                    I'm Paolo Todde. Designer and Front-end
-                                    coder based in Brighton.
+                                    I'm Paolo Todde, designer based in Brighton.
                                     <br />
                                     <br />I have a passion for visual
                                     communication, creating and developing well
                                     crafted designs, user focused utilitarian
                                     interfaces. Contributing to the great web
-                                    environment making the best experience
-                                    mixing creativity and technology.
+                                    environment<br></br> making the best
+                                    experience mixing creativity and technology.
                                 </p>
                                 <p className="md:pr-20 mt-8">
                                     Staying curious and up to date with the
@@ -80,8 +79,8 @@ function About() {
                                     unnecessary.
                                 </p>
                                 <p className="md:pr-20 mt-8">
-                                    Currently focusing on Design, Javascript,
-                                    React and web animations.
+                                    Currently focusing on UI Design, Javascript,
+                                    React and<br></br> web animations.
                                 </p>
                                 <p className="md:pr-20 mt-8">
                                     Member of the Jury Panel at{" "}
