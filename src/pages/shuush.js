@@ -7,6 +7,15 @@ import TransitionPageIn from "../components/TransitionPageIn";
 function Shuush() {
     const data = useStaticQuery(graphql`
         query shuushImages {
+            shuushImg_0: file(relativePath: { eq: "shuush/shuush_0.webp" }) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+
             shuushImg_1: file(relativePath: { eq: "shuush/shuush_1.webp" }) {
                 id
                 childImageSharp {
@@ -90,6 +99,11 @@ function Shuush() {
                     className="w-full max-w-full mx-auto"
                     style={{ backgroundColor: "#f6f6f6" }}
                 >
+                    <Img
+                        fluid={data.shuushImg_0.childImageSharp.fluid}
+                        className=""
+                        loading="eager"
+                    />
                     <Img
                         fluid={data.shuushImg_1.childImageSharp.fluid}
                         className=""

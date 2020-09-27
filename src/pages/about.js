@@ -105,22 +105,6 @@ function About() {
                             <div className="md:w-8/12 block text-black">
                                 <div className="w-full">
                                     <h2 className="text-4xl mb-4">
-                                        3DC (Brand)
-                                    </h2>
-                                    <Link to="/three" target="_blank">
-                                        <Img
-                                            fluid={
-                                                data.threeImg.childImageSharp
-                                                    .fluid
-                                            }
-                                            alt="3dc designs"
-                                            className="cursor-pointer transition duration-500 transform hover:scale-98 rounded-lg"
-                                            loading="eager"
-                                        />
-                                    </Link>
-                                </div>
-                                <div className="w-full mt-10 md:mt-20">
-                                    <h2 className="text-4xl mb-4">
                                         Digital Art
                                     </h2>
                                     <a
@@ -137,6 +121,22 @@ function About() {
                                             loading="eager"
                                         />
                                     </a>
+                                </div>
+                                <div className="w-full mt-10 md:mt-20">
+                                    <h2 className="text-4xl mb-4">
+                                        3DC (Brand)
+                                    </h2>
+                                    <Link to="/three" target="_blank">
+                                        <Img
+                                            fluid={
+                                                data.threeImg.childImageSharp
+                                                    .fluid
+                                            }
+                                            alt="3dc designs"
+                                            className="cursor-pointer transition duration-500 transform hover:scale-98 rounded-lg"
+                                            loading="eager"
+                                        />
+                                    </Link>
                                 </div>
                             </div>
                         </section>
