@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import { graphql, useStaticQuery } from "gatsby";
 import { useSpring } from "react-spring";
 import Img from "gatsby-image";
-// import ImgSlider from "../components/ImgSlider";
+import TileImg from "../components/TileImg";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 
@@ -78,35 +78,68 @@ function Home() {
                             </h1>
                         </div>
                     </TransitionInview>
+
                     <TransitionInview>
-                        <Link to="/classica" className="mt-20">
-                            <Img
-                                fluid={data.classicaImg.childImageSharp.fluid}
-                                alt="classica app ui design"
-                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
-                                loading="eager"
-                            />
+                        <Link to="/classica" className="w-full h-full">
+                            <div className="group w-full my-4 md:my-20 mt-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg text-center">
+                                <div
+                                    className="text-red-600 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-700"
+                                    style={{ top: "45%", left: "40%" }}
+                                >
+                                    <h1 className="mb-2">Classica</h1>
+                                    <p>Music app</p>
+                                </div>
+                                <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75"></div>
+                                <Img
+                                    fluid={
+                                        data.classicaImg.childImageSharp.fluid
+                                    }
+                                    alt="classica app ui design"
+                                    loading="eager"
+                                />
+                            </div>
                         </Link>
                     </TransitionInview>
+
                     <TransitionInview>
-                        <Link to="/petTime" className="mt-20">
-                            <Img
-                                fluid={data.petImg.childImageSharp.fluid}
-                                alt="Pet Time app ui design"
-                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
-                                loading="eager"
-                            />
+                        <Link to="/petTime" className="mt-20 w-full h-full">
+                            <div className="group w-full my-4 md:my-20 mt-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg text-center">
+                                <div
+                                    className="text-red-600 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
+                                    style={{ top: "43%", left: "39%" }}
+                                >
+                                    <h1 className="mb-2">Pet Time</h1>
+                                    <p>Pet management</p>
+                                </div>
+                                <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75"></div>
+                                <Img
+                                    fluid={data.petImg.childImageSharp.fluid}
+                                    alt="Pet Time app ui design"
+                                    className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
+                                    loading="eager"
+                                />
+                            </div>
                         </Link>
                     </TransitionInview>
 
                     <TransitionInview>
                         <Link to="/shuush">
-                            <Img
-                                fluid={data.shuushImg.childImageSharp.fluid}
-                                alt="shuush app ui design"
-                                className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
-                                loading="eager"
-                            />
+                            <div className="group w-full my-4 md:my-20 mt-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg text-center">
+                                <div
+                                    className="text-red-600 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
+                                    style={{ top: "45%", left: "40%" }}
+                                >
+                                    <h1 className="mb-2">Shuush!</h1>
+                                    <p>Messaging app</p>
+                                </div>
+                                <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75"></div>
+                                <Img
+                                    fluid={data.shuushImg.childImageSharp.fluid}
+                                    alt="shuush app ui design"
+                                    className="w-full my-4 md:my-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg"
+                                    loading="eager"
+                                />
+                            </div>
                         </Link>
                     </TransitionInview>
                 </div>
