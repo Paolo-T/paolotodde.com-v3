@@ -83,13 +83,13 @@ function Home() {
                         <Link to="/classica" className="w-full h-full">
                             <div className="group w-full my-4 md:my-20 mt-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg text-center">
                                 <div
-                                    className="text-red-600 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-700"
+                                    className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition-all duration-700"
                                     style={{ top: "45%", left: "40%" }}
                                 >
-                                    <h1 className="mb-2">Classica</h1>
+                                    <h1 className="mb-1">Classica</h1>
                                     <p>Music app</p>
                                 </div>
-                                <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75"></div>
+                                <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
                                 <Img
                                     fluid={
                                         data.classicaImg.childImageSharp.fluid
@@ -105,13 +105,13 @@ function Home() {
                         <Link to="/petTime" className="mt-20 w-full h-full">
                             <div className="group w-full my-4 md:my-20 mt-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg text-center">
                                 <div
-                                    className="text-red-600 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
+                                    className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
                                     style={{ top: "43%", left: "39%" }}
                                 >
-                                    <h1 className="mb-2">Pet Time</h1>
+                                    <h1 className="mb-1">Pet Time</h1>
                                     <p>Pet management</p>
                                 </div>
-                                <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75"></div>
+                                <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
                                 <Img
                                     fluid={data.petImg.childImageSharp.fluid}
                                     alt="Pet Time app ui design"
@@ -126,13 +126,13 @@ function Home() {
                         <Link to="/shuush">
                             <div className="group w-full my-4 md:my-20 mt-20 cursor-pointer relative transition duration-500 transform hover:scale-98 rounded-lg text-center">
                                 <div
-                                    className="text-red-600 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
+                                    className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
                                     style={{ top: "45%", left: "40%" }}
                                 >
-                                    <h1 className="mb-2">Shuush!</h1>
+                                    <h1 className="mb-1">Shuush!</h1>
                                     <p>Messaging app</p>
                                 </div>
-                                <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75"></div>
+                                <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
                                 <Img
                                     fluid={data.shuushImg.childImageSharp.fluid}
                                     alt="shuush app ui design"
