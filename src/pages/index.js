@@ -1,12 +1,11 @@
 import React from "react";
 import SEO from "../components/Seo";
-import { Link } from "gatsby";
-import { graphql, useStaticQuery } from "gatsby";
 import { useSpring } from "react-spring";
-import Img from "gatsby-image";
-import TileImg from "../components/TileImg";
+import { Link } from "gatsby";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
+import { graphql, useStaticQuery } from "gatsby";
+import Img from "gatsby-image";
 
 function Home() {
     const fade = useSpring({ opacity: 1, from: { opacity: 0 } });

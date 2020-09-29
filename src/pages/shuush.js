@@ -104,7 +104,7 @@ function Shuush() {
                         className=""
                         loading="eager"
                     />
-                    <section className="w-9/12 max-w-screen-xl mx-auto text-blue-900 md:flex mt-10 mb-32">
+                    <section className="w-8/12 max-w-screen-xl mx-auto text-blue-900 md:flex mt-10 mb-32">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">Description</h4>
                             <h4 className="pt-4">App design</h4>

@@ -84,7 +84,7 @@ function petTime() {
                         className=""
                         loading="eager"
                     />
-                    <section className="w-9/12 max-w-screen-xl mx-auto text-white md:flex mt-16 mb-0">
+                    <section className="w-8/12 max-w-screen-xl mx-auto text-white md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">Description</h4>
                             <h4 className="pt-4">App design</h4>
@@ -101,11 +101,18 @@ function petTime() {
                                 newbies, you'll find plenty of learning
                                 resources to help taking care of your pet
                                 friends.
+                                {/* <span className="font-extrabold">Pet Time</span>{" "}
+                                provides a dedicated section for interesting
+                                articles, news, podcasts, learning resources. A
+                                section to help finding pet friendly locations
+                                and facilities. The UI will be user friendly and
+                                easy to navigate. All resources will be easy to
+                                access and quick to find. */}
                             </p>
                         </div>
                     </section>
 
-                    <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
+                    <section className="w-8/12 mx-auto text-white md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">
                                 Skills applied
@@ -160,7 +167,7 @@ function petTime() {
                             </p>
                         </div>
                     </section>
-                    <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
+                    <section className="w-8/12 mx-auto text-white md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">Problem</h4>
                         </div>
@@ -185,7 +192,7 @@ function petTime() {
                             </p>
                         </div>
                     </section>
-                    <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
+                    <section className="w-8/12 mx-auto text-white md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">Solution</h4>
                         </div>
@@ -204,7 +211,7 @@ function petTime() {
                             </p>
                         </div>
                     </section>
-                    <section className="w-9/12 mx-auto text-white md:flex mt-16 mb-0">
+                    <section className="w-8/12 mx-auto text-white md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">Flow</h4>
                         </div>
@@ -228,7 +235,7 @@ function petTime() {
                             </p>
                         </div>
                     </section>
-                    <section className="w-9/12 mx-auto my-20">
+                    <section className="w-8/12 mx-auto my-20">
                         <Img
                             fluid={data.petTime_6.childImageSharp.fluid}
                             className=""
