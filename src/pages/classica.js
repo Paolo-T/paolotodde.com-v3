@@ -3,7 +3,7 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
-// import TransitionInview from "../components/TransitionInview";
+import ImgTiles from "../components/ImgTiles";
 
 function Classica() {
     const data = useStaticQuery(graphql`

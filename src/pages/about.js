@@ -96,14 +96,15 @@ function About() {
                             </div>
                         </section>
                     </TransitionInview>
+
                     <TransitionInview>
-                        <section className="w-10/12 md:w-9/12 mx-auto lg:flex flex-initial mt-20 lg:mt-32">
-                            <h3 className="md:w-12/12 text-xl md:text-base font-bold uppercase text-black flex-1 md:pt-12 lg:pl-20 mb-10 md:mb-10">
-                                Side Projects
-                            </h3>
-                            <div className="md:w-8/12 block text-black">
+                        <section className="w-10/12 md:w-8/12 mx-auto mt-20 md:mt-24">
+                            <h2 className="text-5xl md:text-5xl text-black flex-1 mb-8">
+                                Side projects
+                            </h2>
+                            <div className="grid md:grid-cols-2 gap-8 block text-black">
                                 <div className="w-full">
-                                    <h2 className="text-4xl mb-4">
+                                    <h2 className="text-2xl mb-4">
                                         Digital Art
                                     </h2>
                                     <a
@@ -121,8 +122,8 @@ function About() {
                                         />
                                     </a>
                                 </div>
-                                <div className="w-full mt-10 md:mt-20">
-                                    <h2 className="text-4xl mb-4">
+                                <div className="w-full">
+                                    <h2 className="text-2xl mb-4">
                                         3DC (Brand)
                                     </h2>
                                     <Link to="/three" target="_blank">
