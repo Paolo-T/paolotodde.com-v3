@@ -3,6 +3,7 @@ import SEO from "../components/Seo";
 import ImgTiles from "../components/ImgTiles";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
+import InPageNav from "../components/InpageNav";
 
 function Home() {
     return (

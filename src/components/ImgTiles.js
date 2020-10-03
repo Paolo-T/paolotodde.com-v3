@@ -4,9 +4,9 @@ import TransitionInview from "./TransitionInview";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 
-function Home({ gridCol, gap }) {
+function ImgTiles({ gridCol, gap }) {
     const data = useStaticQuery(graphql`
-        query homeImages {
+        query TileImages {
             classicaImg: file(
                 relativePath: { eq: "classica/classica__tile.webp" }
             ) {
@@ -106,4 +106,4 @@ function Home({ gridCol, gap }) {
     );
 }
 
-export default Home;
+export default ImgTiles;

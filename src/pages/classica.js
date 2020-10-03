@@ -2,8 +2,8 @@ import React from "react";
 import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
+import InPageNav from "../components/InpageNav";
 import TransitionPageIn from "../components/TransitionPageIn";
-import ImgTiles from "../components/ImgTiles";
 
 function Classica() {
     const data = useStaticQuery(graphql`
@@ -268,6 +268,9 @@ function Classica() {
                         loading="eager"
                         alt="App screen"
                     />
+                    <div className="lg:w-9/12 mx-auto">
+                        <InPageNav />
+                    </div>
                 </div>
             </TransitionPageIn>
         </>

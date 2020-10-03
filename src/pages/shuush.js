@@ -2,6 +2,7 @@ import React from "react";
 import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
+import InPageNav from "../components/InpageNav";
 import TransitionPageIn from "../components/TransitionPageIn";
 
 function Shuush() {
@@ -128,28 +129,6 @@ function Shuush() {
                         className=""
                         loading="eager"
                     />
-
-                    {/* <div className="w-9/12 max-w-screen-xl mx-auto text-black md:flex mt-32 mb-0">
-                        <div className="md:w-4/12 mt-24">
-                            <h4 className="font-bold uppercase">
-                                Skills applied
-                            </h4>
-                            <h4 className="pt-4">
-                                Strategy
-                                <br /> Concept
-                                <br /> UI Design
-                                <br /> Product Design
-                            </h4>
-                        </div>
-                        <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-10">The concept</h2>
-                            <p>
-                                Shuuush is a fun and efficient messaging app.
-                                Its clean and intuitive interface allows for a
-                                fluid user experience.
-                            </p>
-                        </div>
-                    </div> */}
                     <Img
                         fluid={data.shuushImg_2.childImageSharp.fluid}
                         className=""
@@ -186,6 +165,9 @@ function Shuush() {
                         loading="eager"
                         alt="App screen"
                     />
+                    <div className="bg-blackPure">
+                        <InPageNav width="9/12" />
+                    </div>
                 </div>
             </TransitionPageIn>
         </>

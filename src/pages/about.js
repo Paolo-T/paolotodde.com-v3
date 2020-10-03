@@ -3,13 +3,11 @@ import SEO from "../components/Seo";
 import { Link } from "gatsby";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
-import { useSpring } from "react-spring";
+import InPageNav from "../components/InpageNav";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 
 function About() {
-    const fade = useSpring({ opacity: 1, from: { opacity: 0 } });
-
     const data = useStaticQuery(graphql`
         query aboutImages {
             threeImg: file(relativePath: { eq: "three/three_1.webp" }) {
@@ -142,6 +140,9 @@ function About() {
                         </section>
                     </TransitionInview>
                 </TransitionPageIn>
+            </div>
+            <div className="lg:w-8/12 mx-auto">
+                <InPageNav />
             </div>
         </>
     );
