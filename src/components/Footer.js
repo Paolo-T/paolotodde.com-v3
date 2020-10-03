@@ -30,8 +30,17 @@ function Footer() {
                             target="_blank"
                             href="https://www.instagram.com/three_design_company/"
                         >
-                            <li className="xlg:inline-block sm:text-2xl md:text-2xl lg:text-4xl hover:text-red-800 ease-in-out mb-3 md:mb-0">
+                            <li className="xlg:inline-block sm:text-2xl md:text-2xl lg:text-4xl hover:text-red-800 ease-in-out mb-3">
                                 Instagram
+                            </li>
+                        </a>
+                        <a
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            href="https://github.com/Paolo-T"
+                        >
+                            <li className="xlg:inline-block sm:text-2xl md:text-2xl lg:text-4xl hover:text-red-800 ease-in-out mb-3">
+                                Github
                             </li>
                         </a>
                         {/* <a
