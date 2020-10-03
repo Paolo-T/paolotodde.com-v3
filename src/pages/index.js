@@ -27,7 +27,7 @@ function Home() {
                                 Hello, I'm Paolo.
                                 <br />
                                 <span className="inline text-yellow-500">
-                                    UI designer
+                                    Designer
                                 </span>{" "}
                                 &&nbsp;
                                 <br />

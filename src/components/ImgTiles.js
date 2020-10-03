@@ -47,7 +47,7 @@ function ImgTiles({ gridCol, gap }) {
                                 style={{
                                     top: "50%",
                                     left: "50%",
-                                    transform: "translate(-50%, 0)",
+                                    transform: "translate(-50%, -40%)",
                                 }}
                             >
                                 <h1 className="mt-0 mb-0 md:mb-1 text-5xl sm:text-7xl md:text-8xl lg:text-9xl">
@@ -74,7 +74,7 @@ function ImgTiles({ gridCol, gap }) {
                                 style={{
                                     top: "50%",
                                     left: "50%",
-                                    transform: "translate(-50%, 0)",
+                                    transform: "translate(-50%, -40%)",
                                 }}
                             >
                                 <h1 className="mb-1 text-5xl md:text-9xl">
@@ -101,7 +101,7 @@ function ImgTiles({ gridCol, gap }) {
                                 style={{
                                     top: "50%",
                                     left: "50%",
-                                    transform: "translate(-50%, 0)",
+                                    transform: "translate(-50%, -40%)",
                                 }}
                             >
                                 <h1 className="mb-1 text-5xl md:text-9xl">
