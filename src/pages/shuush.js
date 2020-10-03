@@ -3,6 +3,7 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
+import InPageNav from "../components/InPageNav";
 
 function Shuush() {
     const data = useStaticQuery(graphql`
@@ -164,9 +165,9 @@ function Shuush() {
                         loading="eager"
                         alt="App screen"
                     />
-                    {/* <div className="bg-blackPure">
+                    <div className="bg-blackPure">
                         <InPageNav width="9/12" />
-                    </div> */}
+                    </div>
                 </div>
             </TransitionPageIn>
         </>

@@ -3,6 +3,7 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
+import InPageNav from "../components/InPageNav";
 
 function Classica() {
     const data = useStaticQuery(graphql`
@@ -268,7 +269,7 @@ function Classica() {
                         alt="App screen"
                     />
                     <div className="lg:w-9/12 mx-auto">
-                        {/* <InPageNav /> */}
+                        <InPageNav />
                     </div>
                 </div>
             </TransitionPageIn>
