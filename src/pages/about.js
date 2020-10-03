@@ -5,6 +5,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
+import InPageNav from "../components/InPageNav";
 
 function About() {
     const data = useStaticQuery(graphql`
@@ -140,9 +141,9 @@ function About() {
                     </TransitionInview>
                 </TransitionPageIn>
             </div>
-            {/* <div className="lg:w-8/12 mx-auto">
+            <div className="lg:w-8/12 mx-auto">
                 <InPageNav />
-            </div> */}
+            </div>
         </>
     );
 }
