@@ -7,7 +7,7 @@ import TransitionPageIn from "../components/TransitionPageIn";
 
 function Classica() {
     const data = useStaticQuery(graphql`
-        query classicaImg {
+        query {
             classicaImg_1: file(
                 relativePath: { eq: "classica/classica_1.webp" }
             ) {

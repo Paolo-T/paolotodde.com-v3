@@ -7,7 +7,7 @@ import TransitionPageIn from "../components/TransitionPageIn";
 
 function petTime() {
     const data = useStaticQuery(graphql`
-        query petTime {
+        query {
             petTime_1: file(relativePath: { eq: "petTime/petTime_1.webp" }) {
                 id
                 childImageSharp {

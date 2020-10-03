@@ -7,7 +7,7 @@ import TransitionPageIn from "../components/TransitionPageIn";
 
 function Shuush() {
     const data = useStaticQuery(graphql`
-        query shuushImages {
+        query {
             shuushImg_0: file(relativePath: { eq: "shuush/shuush_0.webp" }) {
                 id
                 childImageSharp {
