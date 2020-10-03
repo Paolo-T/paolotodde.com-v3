@@ -3,7 +3,6 @@ import SEO from "../components/Seo";
 import { Link } from "gatsby";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
-import InPageNav from "../components/InpageNav";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 
@@ -141,9 +140,9 @@ function About() {
                     </TransitionInview>
                 </TransitionPageIn>
             </div>
-            <div className="lg:w-8/12 mx-auto">
+            {/* <div className="lg:w-8/12 mx-auto">
                 <InPageNav />
-            </div>
+            </div> */}
         </>
     );
 }

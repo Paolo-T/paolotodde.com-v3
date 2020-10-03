@@ -2,7 +2,6 @@ import React from "react";
 import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
-import InPageNav from "../components/InpageNav";
 import TransitionPageIn from "../components/TransitionPageIn";
 
 function Classica() {
@@ -269,7 +268,7 @@ function Classica() {
                         alt="App screen"
                     />
                     <div className="lg:w-9/12 mx-auto">
-                        <InPageNav />
+                        {/* <InPageNav /> */}
                     </div>
                 </div>
             </TransitionPageIn>

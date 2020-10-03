@@ -2,7 +2,6 @@ import React from "react";
 import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
-import InPageNav from "../components/InpageNav";
 import TransitionPageIn from "../components/TransitionPageIn";
 
 function petTime() {
@@ -268,9 +267,9 @@ function petTime() {
                         loading="eager"
                         alt="App screen"
                     />
-                    <div className="bg-blackPure">
+                    {/* <div className="bg-blackPure">
                         <InPageNav width="9/12" />
-                    </div>
+                    </div> */}
                 </div>
             </TransitionPageIn>
         </>
