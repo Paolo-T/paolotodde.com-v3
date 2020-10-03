@@ -9,82 +9,82 @@ function Classica() {
     const data = useStaticQuery(graphql`
         query {
             classicaImg_1: file(
-                relativePath: { eq: "classica/classica_1.webp" }
+                relativePath: { eq: "classica/classica_1.png" }
             ) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
             classicaImg_2: file(
-                relativePath: { eq: "classica/classica_2.webp" }
+                relativePath: { eq: "classica/classica_2.png" }
             ) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
             classicaImg_3: file(
-                relativePath: { eq: "classica/classica_3.webp" }
+                relativePath: { eq: "classica/classica_3.png" }
             ) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
             classicaImg_4: file(
-                relativePath: { eq: "classica/classica_4.webp" }
+                relativePath: { eq: "classica/classica_4.png" }
             ) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
             classicaImg_5: file(
-                relativePath: { eq: "classica/classica_5.webp" }
+                relativePath: { eq: "classica/classica_5.png" }
             ) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
             classicaImg_6: file(
-                relativePath: { eq: "classica/classica_6.webp" }
+                relativePath: { eq: "classica/classica_6.png" }
             ) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
             classicaImg_7: file(
-                relativePath: { eq: "classica/classica_7.webp" }
+                relativePath: { eq: "classica/classica_7.png" }
             ) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
             classicaImg_8: file(
-                relativePath: { eq: "classica/classica_8.webp" }
+                relativePath: { eq: "classica/classica_8.png" }
             ) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }

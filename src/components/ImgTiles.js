@@ -8,28 +8,28 @@ function ImgTiles({ gridCol, gap }) {
     const data = useStaticQuery(graphql`
         query {
             classicaImg: file(
-                relativePath: { eq: "classica/classica__tile.webp" }
+                relativePath: { eq: "classica/classica__tile.png" }
             ) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            shuushImg: file(relativePath: { eq: "shuush/shuush__tile.webp" }) {
+            shuushImg: file(relativePath: { eq: "shuush/shuush__tile.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            petImg: file(relativePath: { eq: "petTime/petTime__tile.webp" }) {
+            petImg: file(relativePath: { eq: "petTime/petTime__tile.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }

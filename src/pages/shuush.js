@@ -8,68 +8,68 @@ import InPageNav from "../components/InPageNav";
 function Shuush() {
     const data = useStaticQuery(graphql`
         query {
-            shuushImg_0: file(relativePath: { eq: "shuush/shuush_0.webp" }) {
+            shuushImg_0: file(relativePath: { eq: "shuush/shuush_0.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
 
-            shuushImg_1: file(relativePath: { eq: "shuush/shuush_1.webp" }) {
+            shuushImg_1: file(relativePath: { eq: "shuush/shuush_1.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            shuushImg_2: file(relativePath: { eq: "shuush/shuush_2.webp" }) {
+            shuushImg_2: file(relativePath: { eq: "shuush/shuush_2.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            shuushImg_3: file(relativePath: { eq: "shuush/shuush_3.webp" }) {
+            shuushImg_3: file(relativePath: { eq: "shuush/shuush_3.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            shuushImg_4: file(relativePath: { eq: "shuush/shuush_4.webp" }) {
+            shuushImg_4: file(relativePath: { eq: "shuush/shuush_4.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            shuushImg_5: file(relativePath: { eq: "shuush/shuush_5.webp" }) {
+            shuushImg_5: file(relativePath: { eq: "shuush/shuush_5.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            shuushImg_6: file(relativePath: { eq: "shuush/shuush_6.webp" }) {
+            shuushImg_6: file(relativePath: { eq: "shuush/shuush_6.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            shuushImg_7: file(relativePath: { eq: "shuush/shuush_7.webp" }) {
+            shuushImg_7: file(relativePath: { eq: "shuush/shuush_7.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }

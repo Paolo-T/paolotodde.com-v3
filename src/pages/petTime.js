@@ -8,51 +8,51 @@ import InPageNav from "../components/InPageNav";
 function petTime() {
     const data = useStaticQuery(graphql`
         query {
-            petTime_1: file(relativePath: { eq: "petTime/petTime_1.webp" }) {
+            petTime_1: file(relativePath: { eq: "petTime/petTime_1.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            petTime_2: file(relativePath: { eq: "petTime/petTime_2.webp" }) {
+            petTime_2: file(relativePath: { eq: "petTime/petTime_2.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            petTime_3: file(relativePath: { eq: "petTime/petTime_3.webp" }) {
+            petTime_3: file(relativePath: { eq: "petTime/petTime_3.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            petTime_4: file(relativePath: { eq: "petTime/petTime_4.webp" }) {
+            petTime_4: file(relativePath: { eq: "petTime/petTime_4.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            petTime_5: file(relativePath: { eq: "petTime/petTime_5.webp" }) {
+            petTime_5: file(relativePath: { eq: "petTime/petTime_5.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
-            petTime_6: file(relativePath: { eq: "petTime/petTime_6.webp" }) {
+            petTime_6: file(relativePath: { eq: "petTime/petTime_6.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
@@ -241,6 +241,7 @@ function petTime() {
                             fluid={data.petTime_6.childImageSharp.fluid}
                             className=""
                             loading="eager"
+                            alt="App screen"
                         />
                     </section>
 

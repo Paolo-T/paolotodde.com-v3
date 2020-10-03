@@ -14,7 +14,7 @@ function About() {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
@@ -24,7 +24,7 @@ function About() {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                     }
                 }
             }
