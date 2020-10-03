@@ -6,7 +6,7 @@ import Img from "gatsby-image";
 
 function ImgTiles({ gridCol, gap }) {
     const data = useStaticQuery(graphql`
-        query TileImages {
+        query {
             classicaImg: file(
                 relativePath: { eq: "classica/classica__tile.webp" }
             ) {
