@@ -10,7 +10,7 @@ import InPageNav from "../components/InPageNav";
 function About() {
     const data = useStaticQuery(graphql`
         query aboutImages {
-            threeImg: file(relativePath: { eq: "three/three_1.webp" }) {
+            threeImg: file(relativePath: { eq: "three/three_1.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
@@ -19,7 +19,7 @@ function About() {
                 }
             }
             digitalArtImg: file(
-                relativePath: { eq: "about/digitalArtThumb.webp" }
+                relativePath: { eq: "about/digitalArtThumb.png" }
             ) {
                 id
                 childImageSharp {
