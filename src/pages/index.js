@@ -39,7 +39,7 @@ function Home() {
                             </h1>
                         </div>
                     </TransitionInview>
-                    <ImgTiles gridCol="1" gap="16" />
+                    <ImgTiles gridCol="1" />
                 </div>
             </TransitionPageIn>
         </>
