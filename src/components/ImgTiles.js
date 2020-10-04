@@ -80,8 +80,8 @@ function ImgTiles({ gridCol, gap }) {
                                 <h1 className="mb-1 text-5xl md:text-9xl">
                                     Pet Time
                                 </h1>
-                                <p class="text-md md:text-3xl">
-                                    Pet management
+                                <p class="text-md md:text-3xl ">
+                                    Pet management app
                                 </p>
                             </div>
                             <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
