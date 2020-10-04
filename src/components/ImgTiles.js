@@ -53,7 +53,7 @@ function ImgTiles({ gridCol, gap }) {
                                 <h1 className="mt-0 mb-0 md:mb-1 text-5xl sm:text-7xl md:text-8xl lg:text-9xl">
                                     Classica
                                 </h1>
-                                <p className="text-md md:text-xl">Music app</p>
+                                <p class="text-md md:text-3xl">Music app</p>
                             </div>
                             <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
                             <Img
@@ -80,7 +80,9 @@ function ImgTiles({ gridCol, gap }) {
                                 <h1 className="mb-1 text-5xl md:text-9xl">
                                     Pet Time
                                 </h1>
-                                <p>Pet management</p>
+                                <p class="text-md md:text-3xl">
+                                    Pet management
+                                </p>
                             </div>
                             <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
                             <Img
@@ -107,7 +109,7 @@ function ImgTiles({ gridCol, gap }) {
                                 <h1 className="mb-1 text-5xl md:text-9xl">
                                     Shuush!
                                 </h1>
-                                <p>Messaging app</p>
+                                <p class="text-md md:text-3xl">Messaging app</p>
                             </div>
                             <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
                             <Img
