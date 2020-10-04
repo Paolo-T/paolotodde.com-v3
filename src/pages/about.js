@@ -58,7 +58,7 @@ function About() {
                             <h2 className="md:w-12/12 text-5xl md:text-5xl text-black flex-1 lg:pl-20 pt-16">
                                 Hello
                             </h2>
-                            <div className="lg:w-8/12 block text-black flex-2 pt-4 lg:pt-20">
+                            <div className="lg:w-6/12 block text-black flex-2 pt-4 lg:pt-20">
                                 <p className="md:pr-20 mt-2">
                                     I'm Paolo Todde, designer based in Brighton.
                                     <br />
@@ -66,8 +66,8 @@ function About() {
                                     communication, creating and developing well
                                     crafted designs, user focused utilitarian
                                     interfaces. Contributing to the great web
-                                    environment<br></br> making the best
-                                    experience mixing creativity and technology.
+                                    environment making the best experience
+                                    mixing creativity and technology.
                                 </p>
                                 <p className="md:pr-20 mt-8">
                                     Staying curious and up to date with the
@@ -78,7 +78,7 @@ function About() {
                                 </p>
                                 <p className="md:pr-20 mt-8">
                                     Currently focusing on UI Design, Javascript,
-                                    React and<br></br> web animations.
+                                    React and web animations.
                                 </p>
                                 <p className="md:pr-20 mt-8">
                                     Member of the Jury Panel at{" "}
@@ -96,8 +96,8 @@ function About() {
                     </TransitionInview>
 
                     <TransitionInview>
-                        <section className="w-10/12 md:w-8/12 mx-auto mt-20 md:mt-24">
-                            <h2 className="text-5xl md:text-5xl text-black flex-1 mb-8">
+                        <section className="w-10/12 md:w-8/12 mx-auto mt-20 md:mt-32">
+                            <h2 className="text-5xl md:text-5xl text-black flex-1 mb-20 mt-10">
                                 Side projects
                             </h2>
                             <div className="grid md:grid-cols-2 gap-8 block text-black">
