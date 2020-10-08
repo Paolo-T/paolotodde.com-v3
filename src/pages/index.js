@@ -29,7 +29,7 @@ function Home() {
                                 <span className="inline text-yellow-500">
                                     Designer
                                 </span>{" "}
-                                &&nbsp;
+                                &nbsp;
                                 <br />
                                 <span className="inline">front-end</span>{" "}
                                 <span className="inline text-yellow-500">
