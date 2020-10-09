@@ -60,7 +60,8 @@ function About() {
                             </h2>
                             <div className="lg:w-6/12 block text-black flex-2 pt-4 lg:pt-20">
                                 <p className="mt-2">
-                                    I'm Paolo Todde, designer based in Brighton.
+                                    I'm Paolo Todde, Designer based in Brighton
+                                    (UK).
                                     <br />
                                     <br />I have a passion for visual
                                     communication, creating and developing well
