@@ -12,7 +12,9 @@ function Navigation() {
                 </Link>
 
                 <Link to="/about">
-                    <p className="text-2xl md:text-3xl font-bold">About</p>
+                    <p className="text-2xl md:text-3xl text-yellow-500 font-bold">
+                        About
+                    </p>
                     {/* <img
                         className="w-8 md:w-8"
                         src={aboutIcon}
