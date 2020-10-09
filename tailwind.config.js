@@ -19,9 +19,10 @@ module.exports = {
             },
             transparent: "transparent",
 
-            black: "#212121",
+            // black: "#212121",
+            black: "#1c2d35",
             blackPure: "#000000",
-            white: "#fefefe",
+            white: "#ffffff",
             offWhite: "#f6f6f6",
             // offWhite: "#f1efe8",
             gray: {

@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/logo.svg";
-import aboutIcon from "../images/aboutIcon.svg";
+// import aboutIcon from "../images/aboutIcon.svg";
 import { Link } from "gatsby";
 
 function Navigation() {
@@ -12,11 +12,12 @@ function Navigation() {
                 </Link>
 
                 <Link to="/about">
-                    <img
+                    <p className="text-2xl md:text-3xl font-bold">About</p>
+                    {/* <img
                         className="w-8 md:w-8"
                         src={aboutIcon}
                         alt="nasa-logo"
-                    />
+                    /> */}
                 </Link>
             </nav>
         </header>

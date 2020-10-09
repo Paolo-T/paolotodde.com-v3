@@ -51,15 +51,15 @@ function About() {
                 title="About"
             />
 
-            <div className="w-full bg-offWhite pt-20 md:pt-48 pb-20 md:pb-48">
+            <div className="w-full bg-white pt-20 md:pt-48">
                 <TransitionPageIn>
                     <TransitionInview>
                         <section className="w-10/12 md:w-9/12 mx-auto lg:flex flex-initial ">
-                            <h2 className="md:w-12/12 text-5xl md:text-5xl text-black flex-1 lg:pl-20 pt-16">
+                            <h2 className="md:w-12/12 text-5xl md:text-5xl font-bold  text-black flex-1 lg:pl-20 pt-16">
                                 Hello
                             </h2>
                             <div className="lg:w-6/12 block text-black flex-2 pt-4 lg:pt-20">
-                                <p className="md:pr-20 mt-2">
+                                <p className="mt-2">
                                     I'm Paolo Todde, designer based in Brighton.
                                     <br />
                                     <br />I have a passion for visual
@@ -69,18 +69,18 @@ function About() {
                                     environment making the best experience
                                     mixing creativity and technology.
                                 </p>
-                                <p className="md:pr-20 mt-8">
+                                <p className="mt-8">
                                     Staying curious and up to date with the
                                     latest technology movements. Constantly
                                     seeking new skills, discovering better ways
                                     of implementing techniques, sifting out the
                                     unnecessary.
                                 </p>
-                                <p className="md:pr-20 mt-8">
+                                <p className="mt-8">
                                     Currently focusing on UI Design, Javascript,
                                     React and web animations.
                                 </p>
-                                <p className="md:pr-20 mt-8">
+                                <p className="mt-8">
                                     Member of the Jury Panel at{" "}
                                     <a
                                         className="text-red-600"
@@ -96,45 +96,47 @@ function About() {
                     </TransitionInview>
 
                     <TransitionInview>
-                        <section className="w-10/12 md:w-8/12 mx-auto mt-20 md:mt-32">
-                            <h2 className="text-5xl md:text-5xl text-black flex-1 mb-20 mt-10">
-                                Side projects
-                            </h2>
-                            <div className="grid md:grid-cols-2 gap-8 block text-black">
-                                <div className="w-full">
-                                    <h2 className="text-2xl mb-4">
-                                        Digital Art
-                                    </h2>
-                                    <a
-                                        href="https://www.instagram.com/paolo_tde/"
-                                        target="_blank"
-                                    >
-                                        <Img
-                                            fluid={
-                                                data.digitalArtImg
-                                                    .childImageSharp.fluid
-                                            }
-                                            alt="Digital Art"
-                                            className="cursor-pointer transition duration-500 transform hover:scale-98 rounded-lg"
-                                            loading="eager"
-                                        />
-                                    </a>
-                                </div>
-                                <div className="w-full">
-                                    <h2 className="text-2xl mb-4">
-                                        3DC (Brand)
-                                    </h2>
-                                    <Link to="/three" target="_blank">
-                                        <Img
-                                            fluid={
-                                                data.threeImg.childImageSharp
-                                                    .fluid
-                                            }
-                                            alt="3dc designs"
-                                            className="cursor-pointer transition duration-500 transform hover:scale-98 rounded-lg"
-                                            loading="eager"
-                                        />
-                                    </Link>
+                        <section className="w-full bg-orange-100 mt-20 md:mt-32 pt-20 pb-20 md:pb-48">
+                            <div className="w-10/12 md:w-8/12 mx-auto">
+                                <h2 className="text-5xl md:text-5xl text-black flex-1 mb-20 mt-10">
+                                    Side projects
+                                </h2>
+                                <div className="grid md:grid-cols-2 gap-8 block text-black">
+                                    <div className="w-full">
+                                        <h2 className="text-2xl mb-4">
+                                            Digital Art
+                                        </h2>
+                                        <a
+                                            href="https://www.instagram.com/paolo_tde/"
+                                            target="_blank"
+                                        >
+                                            <Img
+                                                fluid={
+                                                    data.digitalArtImg
+                                                        .childImageSharp.fluid
+                                                }
+                                                alt="Digital Art"
+                                                className="cursor-pointer transition duration-500 transform hover:scale-98 rounded-lg"
+                                                loading="eager"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div className="w-full">
+                                        <h2 className="text-2xl mb-4">
+                                            3DC (Brand)
+                                        </h2>
+                                        <Link to="/three" target="_blank">
+                                            <Img
+                                                fluid={
+                                                    data.threeImg
+                                                        .childImageSharp.fluid
+                                                }
+                                                alt="3dc designs"
+                                                className="cursor-pointer transition duration-500 transform hover:scale-98 rounded-lg"
+                                                loading="eager"
+                                            />
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </section>
