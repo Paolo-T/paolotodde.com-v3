@@ -78,8 +78,19 @@ function About() {
                                     unnecessary.
                                 </p>
                                 <p className="mt-8">
-                                    Currently focusing on UI Design, Javascript,
+                                    Learning focus on UI Design, Javascript,
                                     React and web animations.
+                                </p>
+                                <p className="mt-8">
+                                    Currently designing at{" "}
+                                    <a
+                                        className="text-red-600"
+                                        rel="noopener noreferrer"
+                                        href="https://www.brandwatch.com/"
+                                        target="_blank"
+                                    >
+                                        Brandwatch
+                                    </a>
                                 </p>
                                 <p className="mt-8">
                                     Member of the Jury Panel at{" "}
