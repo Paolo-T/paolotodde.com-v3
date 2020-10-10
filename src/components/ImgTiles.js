@@ -41,7 +41,7 @@ function ImgTiles({ gridCol, gap }) {
             <div className={`grid grid-cols-${gridCol} gap-${gap}`}>
                 <TransitionInview>
                     <Link to="/petTime" className="mt-20 w-full h-full">
-                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center my-2 md:my-10">
+                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center my-2 md:my-8">
                             <div
                                 className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500 "
                                 style={{
@@ -69,7 +69,7 @@ function ImgTiles({ gridCol, gap }) {
                 </TransitionInview>
                 <TransitionInview>
                     <Link to="/shuush">
-                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center md:my-10">
+                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center md:my-8">
                             <div
                                 className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
                                 style={{
@@ -98,7 +98,7 @@ function ImgTiles({ gridCol, gap }) {
 
                 <TransitionInview>
                     <Link to="/classica" className="w-full h-full">
-                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-2 md:mt-10">
+                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-2 md:mt-8">
                             <div
                                 className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition-all duration-700"
                                 style={{
