@@ -85,7 +85,7 @@ function petTime() {
                         className=""
                         loading="eager"
                     />
-                    <section className="w-8/12 max-w-screen-xl mx-auto text-black md:flex mt-32 mb-0">
+                    <section className="w-8/12 max-w-screen-xl mx-auto md:flex mt-32 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">Description</h4>
                             <h4 className="pt-4">App design</h4>
@@ -111,7 +111,7 @@ function petTime() {
                         </div>
                     </section>
 
-                    <section className="w-8/12 mx-auto text-black md:flex mt-16 mb-0">
+                    <section className="w-8/12 mx-auto md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">
                                 Skills applied
@@ -164,7 +164,7 @@ function petTime() {
                             </p>
                         </div>
                     </section>
-                    <section className="w-8/12 mx-auto text-black md:flex mt-16 mb-0">
+                    <section className="w-8/12 mx-auto md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">Problem</h4>
                         </div>
@@ -187,7 +187,7 @@ function petTime() {
                             </p>
                         </div>
                     </section>
-                    <section className="w-8/12 mx-auto text-black md:flex mt-16 mb-0">
+                    <section className="w-8/12 mx-auto md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">Solution</h4>
                         </div>
@@ -204,7 +204,7 @@ function petTime() {
                             </p>
                         </div>
                     </section>
-                    <section className="w-8/12 mx-auto text-black md:flex mt-16 mb-0">
+                    <section className="w-8/12 mx-auto md:flex mt-16 mb-0">
                         <div className="md:w-4/12 mt-24">
                             <h4 className="font-bold uppercase">Flow</h4>
                         </div>
