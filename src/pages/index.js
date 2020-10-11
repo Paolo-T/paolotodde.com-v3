@@ -31,7 +31,7 @@ function Home() {
                                 </span>{" "}
                                 <span className="inline text-white">and</span>
                                 <br />
-                                <span className="inline">Front-end</span>{" "}
+                                <span className="inline">front-end</span>{" "}
                                 <span className="inline text-yellow-500">
                                     coder
                                 </span>
