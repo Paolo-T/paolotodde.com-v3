@@ -24,7 +24,7 @@ function Home() {
                     <TransitionInview>
                         <div className="w-12/12 md:pl-5 lg:pl-32 md:mb-2 md:pt-32">
                             <h1 className="text-4xl md:text-6xl lg:text-8xl md:mb-10 lg:mb-24">
-                                Hello, I‘m Paolo.
+                                Hello, I’m Paolo.
                                 <br />
                                 <span className="inline text-yellow-500">
                                     Designer and
