@@ -53,6 +53,19 @@ function Three() {
                     ))}
                 </div>
             </TransitionPageIn>
+            <TransitionPageIn>
+                <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://www.instagram.com/three_design_company/"
+                >
+                    <div className="w-10/12 md:w-8/12 max-w-screen-xl mx-auto pt-20">
+                        <h2 className="xlg:inline-block sm:text-2xl lg:text-4xl text-yellow-500 hover:text-red-800 ease-in-out mb-3 underline">
+                            Instagram
+                        </h2>
+                    </div>
+                </a>
+            </TransitionPageIn>
         </>
     );
 }

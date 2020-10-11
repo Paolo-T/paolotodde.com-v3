@@ -25,7 +25,7 @@ function Footer() {
                                 LinkedIn
                             </li>
                         </a>
-                        <a
+                        {/* <a
                             rel="noopener noreferrer"
                             target="_blank"
                             href="https://www.instagram.com/three_design_company/"
@@ -33,7 +33,7 @@ function Footer() {
                             <li className="xlg:inline-block sm:text-2xl lg:text-4xl hover:text-red-800 ease-in-out mb-3">
                                 Instagram
                             </li>
-                        </a>
+                        </a> */}
                         <a
                             rel="noopener noreferrer"
                             target="_blank"
