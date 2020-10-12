@@ -86,7 +86,7 @@ function petTime() {
                         loading="eager"
                     />
 
-                    <div className="w-11/12 md:w-8/12 mx-auto md:flex mt-10 md:mt-32 mb-0">
+                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-10 md:mt-32 mb-0">
                         <div className="md:w-4/12 mt-0 hidden md:block md:mt-20">
                             <h4 className="font-bold uppercase">Description</h4>
                             <h4 className="pt-4">App design</h4>
@@ -110,9 +110,9 @@ function petTime() {
                                 access and quick to find. */}
                             </p>
                         </div>
-                    </div>
+                    </section>
 
-                    <div className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
+                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                             <h4 className="font-bold uppercase">
                                 Skills applied
@@ -164,8 +164,8 @@ function petTime() {
                                 choosing.
                             </p>
                         </div>
-                    </div>
-                    <div className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
+                    </section>
+                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                             <h4 className="font-bold uppercase">Problem</h4>
                         </div>
@@ -187,8 +187,8 @@ function petTime() {
                                 to learn more about domestic animals.
                             </p>
                         </div>
-                    </div>
-                    <div className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
+                    </section>
+                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                             <h4 className="font-bold uppercase">Solution</h4>
                         </div>
@@ -204,8 +204,8 @@ function petTime() {
                                 find.
                             </p>
                         </div>
-                    </div>
-                    <div className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
+                    </section>
+                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                             <h4 className="font-bold uppercase">Flow</h4>
                         </div>
@@ -226,15 +226,15 @@ function petTime() {
                                 content.
                             </p>
                         </div>
-                    </div>
-                    <div className="w-12/12 mx-auto bg-blackPure mt-20 px-0 md:px-50 py-24">
+                    </section>
+                    <section className="w-12/12 mx-auto bg-blackPure mt-20 px-0 md:px-50 py-24">
                         <Img
                             fluid={data.petTime_6.childImageSharp.fluid}
                             className=""
                             loading="eager"
                             alt="App screen"
                         />
-                    </div>
+                    </section>
 
                     <Img
                         fluid={data.petTime_2.childImageSharp.fluid}
@@ -261,7 +261,7 @@ function petTime() {
                         alt="App screen"
                     />
                     <div className="bg-blackPure">
-                        <InPageNav width="9/12" />
+                        <InPageNav width="12/12" />
                     </div>
                 </div>
             </TransitionPageIn>

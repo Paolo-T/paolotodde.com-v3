@@ -166,7 +166,7 @@ function Shuush() {
                         alt="App screen"
                     />
                     <div className="bg-blackPure">
-                        <InPageNav width="9/12" />
+                        <InPageNav width="12/12" />
                     </div>
                 </div>
             </TransitionPageIn>
