@@ -79,20 +79,21 @@ function petTime() {
                 title="PetTime App"
             />
             <TransitionPageIn>
-                <div className="w-full max-w-full mx-auto bg-white">
+                <div className="w-12/12 mx-auto bg-white">
                     <Img
                         fluid={data.petTime_1.childImageSharp.fluid}
                         className=""
                         loading="eager"
                     />
-                    <section className="w-11/12 md:w-8/12 max-w-screen-xl mx-auto md:flex mt-10 md:mt-32 mb-0">
-                        <div className="md:w-4/12 mt-0 md:mt-20">
+
+                    <div className="w-11/12 md:w-8/12 mx-auto md:flex mt-10 md:mt-32 mb-0">
+                        <div className="md:w-4/12 mt-0 hidden md:block md:mt-20">
                             <h4 className="font-bold uppercase">Description</h4>
                             <h4 className="pt-4">App design</h4>
                         </div>
 
-                        <div className="md:w-7/12 mt-16 md:mt-0 pr-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-6">Description</h2>
+                        <div className="md:w-7/12 mt-10 md:mt-0 pr-0 md:pr-24">
+                            <h2 className="mb-4 md:mb-6">Description</h2>
                             <p>
                                 <span className="font-extrabold">Pet Time</span>{" "}
                                 is a fun and friendly managing app for animal
@@ -109,10 +110,10 @@ function petTime() {
                                 access and quick to find. */}
                             </p>
                         </div>
-                    </section>
+                    </div>
 
-                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
-                        <div className="md:w-4/12 mt-0 md:mt-20">
+                    <div className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
+                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                             <h4 className="font-bold uppercase">
                                 Skills applied
                             </h4>
@@ -124,7 +125,7 @@ function petTime() {
                             </h4>
                         </div>
                         <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-6">The brief</h2>
+                            <h2 className="mb-4 md:mb-6">The brief</h2>
                             <p>
                                 The app is for those passionate about pets, and
                                 who want to learn more about domestic animals.
@@ -163,13 +164,13 @@ function petTime() {
                                 choosing.
                             </p>
                         </div>
-                    </section>
-                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
-                        <div className="md:w-4/12 mt-0 md:mt-20">
+                    </div>
+                    <div className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
+                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                             <h4 className="font-bold uppercase">Problem</h4>
                         </div>
                         <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-6">The problem</h2>
+                            <h2 className="mb-4 md:mb-6">The problem</h2>
                             <p>
                                 Pet owners need a resource to help looking after
                                 their pet friends and making sure they are happy
@@ -186,13 +187,13 @@ function petTime() {
                                 to learn more about domestic animals.
                             </p>
                         </div>
-                    </section>
-                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
-                        <div className="md:w-4/12 mt-0 md:mt-20">
+                    </div>
+                    <div className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
+                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                             <h4 className="font-bold uppercase">Solution</h4>
                         </div>
                         <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-6">The solution</h2>
+                            <h2 className="mb-4 md:mb-6">The solution</h2>
                             <p>
                                 An app that provides a dedicated section for
                                 interesting articles, news, podcasts, learning
@@ -203,13 +204,13 @@ function petTime() {
                                 find.
                             </p>
                         </div>
-                    </section>
-                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
-                        <div className="md:w-4/12 mt-0 md:mt-20">
+                    </div>
+                    <div className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
+                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                             <h4 className="font-bold uppercase">Flow</h4>
                         </div>
                         <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-6">User Flow</h2>
+                            <h2 className="mb-4 md:mb-6">User Flow</h2>
                             <p>
                                 After the initial Log in / Sign Up, the user is
                                 presented with the Home screen where they can
@@ -225,15 +226,15 @@ function petTime() {
                                 content.
                             </p>
                         </div>
-                    </section>
-                    <section className="w-full mx-auto bg-blackPure mt-20 px-50 py-24">
+                    </div>
+                    <div className="w-12/12 mx-auto bg-blackPure mt-20 px-0 md:px-50 py-24">
                         <Img
                             fluid={data.petTime_6.childImageSharp.fluid}
                             className=""
                             loading="eager"
                             alt="App screen"
                         />
-                    </section>
+                    </div>
 
                     <Img
                         fluid={data.petTime_2.childImageSharp.fluid}

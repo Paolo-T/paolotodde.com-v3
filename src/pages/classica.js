@@ -117,8 +117,8 @@ function Classica() {
                         className=""
                         loading="eager"
                     />
-                    <section className="w-full bg-white">
-                        <div className="w-8/12 max-w-screen-xl mx-auto md:flex pt-32 mb-0">
+                    <section className="w-full max-w-screen-xl bg-white">
+                        <div className="w-8/12  mx-auto md:flex pt-32 mb-0">
                             <div className="md:w-4/12 mt-24">
                                 <h4 className="font-bold uppercase">
                                     Description
