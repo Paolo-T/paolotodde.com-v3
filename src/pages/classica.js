@@ -111,10 +111,10 @@ function Classica() {
                 title="Classica App"
             />
             <TransitionPageIn>
-                <div className="w-12/12 mx-autolmx-auto bg-white pt-32">
+                <div className="w-12/12 mx-auto bg-white">
                     <Img
                         fluid={data.classicaImg_1.childImageSharp.fluid}
-                        className=""
+                        className="bg-blackPure"
                         loading="eager"
                     />
 
