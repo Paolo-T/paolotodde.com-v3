@@ -155,8 +155,8 @@ function About() {
                     </TransitionInview>
                 </TransitionPageIn>
             </div>
-            <div className="lg:w-8/12 mx-auto">
-                <InPageNav />
+            <div className=" bg-blackPure">
+                <InPageNav width="12/12" />
             </div>
         </>
     );
