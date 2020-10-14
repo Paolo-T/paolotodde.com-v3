@@ -78,8 +78,8 @@ function About() {
                                     unnecessary.
                                 </p>
                                 <p className="mt-8">
-                                    Learning focus on UI Design, Javascript,
-                                    React and web animations.
+                                    Learning focus on UI/UX Design, Javascript,
+                                    React.
                                 </p>
                                 <p className="mt-8">
                                     Currently designing at{" "}
