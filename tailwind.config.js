@@ -14,17 +14,18 @@ module.exports = {
             xxl: "2000px",
         },
         colors: {
-            primary: {
-                100: "#ffeb42",
-            },
-            transparent: "transparent",
+            primary: "#e21e3b",
+            secondary: "#fac22c",
+            grey: "#858585",
+            lightGrey: "dedfdf",
 
             // black: "#212121",
             black: "#1c2d35",
             blackPure: "#000000",
             white: "#ffffff",
-            offWhite: "#f6f6f6",
+            offWhite: "#ededee",
             // offWhite: "#f1efe8",
+            transparent: "transparent",
             gray: {
                 100: "#f7fafc",
                 200: "#edf2f7",
@@ -191,8 +192,9 @@ module.exports = {
             full: "9999px",
         },
         borderWidth: {
-            default: "1px",
+            default: "0.3px",
             "0": "0",
+            "1": "1px",
             "2": "2px",
             "4": "4px",
             "8": "8px",

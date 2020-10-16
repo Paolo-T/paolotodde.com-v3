@@ -86,7 +86,7 @@ function petTime() {
                         loading="eager"
                     />
 
-                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-10 md:mt-32 mb-0">
+                    <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-10 md:mt-32 mb-0">
                         <div className="md:w-4/12 mt-0 hidden md:block md:mt-20">
                             <h4 className="font-bold uppercase">Description</h4>
                             <h4 className="pt-4">App design</h4>
@@ -112,7 +112,7 @@ function petTime() {
                         </div>
                     </section>
 
-                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
+                    <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                             <h4 className="font-bold uppercase">
                                 Skills applied
@@ -165,7 +165,7 @@ function petTime() {
                             </p>
                         </div>
                     </section>
-                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
+                    <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                             <h4 className="font-bold uppercase">Problem</h4>
                         </div>
@@ -188,7 +188,7 @@ function petTime() {
                             </p>
                         </div>
                     </section>
-                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
+                    <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                             <h4 className="font-bold uppercase">Solution</h4>
                         </div>
@@ -205,7 +205,7 @@ function petTime() {
                             </p>
                         </div>
                     </section>
-                    <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-16 mb-0">
+                    <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                             <h4 className="font-bold uppercase">Flow</h4>
                         </div>
@@ -261,7 +261,7 @@ function petTime() {
                         alt="App screen"
                     />
                     <div className="bg-blackPure">
-                        <InPageNav width="12/12" />
+                        <InPageNav width="9/12" />
                     </div>
                 </div>
             </TransitionPageIn>

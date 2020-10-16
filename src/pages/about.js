@@ -54,11 +54,11 @@ function About() {
             <div className="w-full bg-white pt-20 md:pt-48">
                 <TransitionPageIn>
                     <TransitionInview>
-                        <section className="w-10/12 md:w-9/12 mx-auto lg:flex flex-initial ">
-                            <h2 className="md:w-12/12 text-5xl md:text-5xl font-bold  text-black flex-1 lg:pl-20 pt-16">
+                        <section className="w-10/12 mx-auto pt-20 md:pt-10 md:pl-56">
+                            <h2 className="md:w-12/12 text-5xl md:text-5xl font-bold  text-black ">
                                 Hello
                             </h2>
-                            <div className="lg:w-6/12 block text-black flex-2 pt-4 lg:pt-20">
+                            <div className="lg:w-6/12 block text-black flex-2 pt-4 lg:pt-10">
                                 <p className="mt-2">
                                     I'm Paolo Todde, Designer based in Brighton
                                     (UK).
@@ -156,7 +156,7 @@ function About() {
                 </TransitionPageIn>
             </div>
             <div className=" bg-blackPure">
-                <InPageNav width="12/12" />
+                <InPageNav width="9/12" />
             </div>
         </>
     );

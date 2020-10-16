@@ -22,23 +22,26 @@ function Home() {
             <TransitionPageIn>
                 <div className="w-10/12 md:container md:px-0 mx-auto pt-40 md:pt-40">
                     <TransitionInview>
-                        <div className="w-12/12 md:pl-5 lg:pl-32 md:mb-2 md:pt-32 text-white">
+                        <div className="w-12/12 md:pl-5 lg:pl-32 md:mb-2 md:pt-32 text-offWhite">
                             <h1 className="text-4xl md:text-6xl lg:text-8xl md:mb-10 lg:mb-24">
                                 Hello, I’m Paolo.
                                 <br />
-                                <span className="inline text-yellow-500">
+                                <span className="inline text-secondary">
                                     Designer
                                 </span>{" "}
-                                <span className="inline text-white">and</span>
+                                <span className="inline text-offWhite">
+                                    and
+                                </span>
                                 <br />
                                 <span className="inline">front-end</span>{" "}
-                                <span className="inline text-yellow-500">
+                                <span className="inline text-secondary">
                                     coder
                                 </span>
                                 .
                             </h1>
                         </div>
                     </TransitionInview>
+
                     <ImgTiles gridCol="1" />
                 </div>
             </TransitionPageIn>
