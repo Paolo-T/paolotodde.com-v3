@@ -43,7 +43,7 @@ function ImgTiles({ width, gridCol, gap, marginTop }) {
             >
                 <TransitionInview>
                     <Link to="/petTime" className="mt-20 w-full h-full">
-                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center my-2 md:mb-16">
+                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-4 md:mb-12">
                             <div
                                 className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500 "
                                 style={{
@@ -71,7 +71,7 @@ function ImgTiles({ width, gridCol, gap, marginTop }) {
                 </TransitionInview>
                 <TransitionInview>
                     <Link to="/shuush">
-                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center md:my-16">
+                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center my-4 md:my-12">
                             <div
                                 className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
                                 style={{
@@ -100,7 +100,7 @@ function ImgTiles({ width, gridCol, gap, marginTop }) {
 
                 <TransitionInview>
                     <Link to="/classica" className="w-full h-full">
-                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-2 md:mt-8">
+                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-2 mt-4 md:mt-12">
                             <div
                                 className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition-all duration-700"
                                 style={{

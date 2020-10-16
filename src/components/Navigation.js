@@ -12,12 +12,12 @@ function Navigation() {
                 </Link>
 
                 <Link to="/about">
-                    <div className="flex group">
-                        <p className="text-xl md:text-2xl text-grey group-hover:text-secondary font-bold ">
+                    <div className="group flex">
+                        <p className="text-xl md:text-2xl text-grey hover:text-secondary font-bold ">
                             About
                         </p>
                         <svg
-                            className="pt-2 group-hover:text-secondary"
+                            className="inline pt-2 group-hover:text-secondary"
                             width="50"
                             height="50"
                             viewBox="0 0 30 30"
