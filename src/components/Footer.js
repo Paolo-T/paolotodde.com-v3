@@ -13,25 +13,25 @@ function Footer() {
                             target="_blank"
                             href="https://www.linkedin.com/in/paolo-todde/"
                         >
-                            <li className="xlg:inline-block sm:text-2xl lg:text-4xl font-bold hover:text-primary ease-in-out mb-3 underline">
+                            <li className="xlg:inline-block sm:text-2xl lg:text-4xl font-bold hover:text-primary hover:underline ease-in-out mb-3">
                                 LinkedIn
                             </li>
                         </a>
-                        {/* <a
+                        <a
                             rel="noopener noreferrer"
                             target="_blank"
                             href="https://www.instagram.com/three_design_company/"
                         >
-                            <li className="xlg:inline-block sm:text-2xl lg:text-4xl hover:text-primary ease-in-out mb-3">
+                            <li className="xlg:inline-block sm:text-2xl lg:text-4xl hover:text-primary hover:underline ease-in-out mb-3">
                                 Instagram
                             </li>
-                        </a> */}
+                        </a>
                         <a
                             rel="noopener noreferrer"
                             target="_blank"
                             href="https://github.com/Paolo-T"
                         >
-                            <li className="xlg:inline-block sm:text-2xl lg:text-4xl  hover:text-primary ease-in-out mb-3 underline">
+                            <li className="xlg:inline-block sm:text-2xl lg:text-4xl  hover:text-primary hover:underline ease-in-out mb-3">
                                 Github
                             </li>
                         </a>
@@ -39,7 +39,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             href="mailto:webmaster@example.com"
                         >
-                            <li className="xlg:inline-block sm:text-2xl lg:text-4xl  hover:text-primary ease-in-out mb-3 underline">
+                            <li className="xlg:inline-block sm:text-2xl lg:text-4xl  hover:text-primary hover:underline ease-in-out mb-3">
                                 iampaolotodde@gmail.com
                             </li>
                         </a>
@@ -48,7 +48,7 @@ function Footer() {
                             target="_blank"
                             href="https://www.behance.net/paolotodde"
                         >
-                            <li className="xlg:inline-block sm:text-2xl md:text-2xl lg:text-4xl hover:text-primary ease-in-out">
+                            <li className="xlg:inline-block sm:text-2xl md:text-2xl lg:text-4xl hover:text-primary hover:underline ease-in-out">
                                 Behance
                             </li>
                         </a> */}
