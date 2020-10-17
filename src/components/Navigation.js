@@ -13,7 +13,7 @@ function Navigation() {
 
                 <Link to="/about">
                     <div className="group flex">
-                        <p className="text-xl md:text-2xl text-grey hover:text-primary font-bold ">
+                        <p className="text-xl md:text-2xl text-grey hover:text-primary hover:underline">
                             About
                         </p>
                         {/* <svg
