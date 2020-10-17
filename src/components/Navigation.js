@@ -16,7 +16,7 @@ function Navigation() {
                         <p className="text-xl md:text-2xl text-grey hover:text-primary font-bold ">
                             About
                         </p>
-                        <svg
+                        {/* <svg
                             className="inline pt-2 group-hover:text-primary"
                             width="50"
                             height="50"
@@ -30,7 +30,7 @@ function Navigation() {
                                 fill-rule="evenodd"
                                 clip-rule="evenodd"
                             ></path>
-                        </svg>
+                        </svg> */}
                     </div>
                 </Link>
             </nav>
