@@ -7,13 +7,13 @@ function Footer() {
         <TransitionPageIn>
             <TransitionInview>
                 <footer className="w-full max-w-screen-xxl mx-auto pb-10 md:pb-24 pt-10 md:pt-10 lg:pt-32 ">
-                    <ul className="w-10/12 md:w-8/12 max-w-screen-xl mx-auto flex flex-col md:flex-row font-bold text-center text-grey justify-between xlg:ml-32 pt-10 border-t border-grey">
+                    <ul className="w-10/12 md:w-8/12 max-w-screen-xl mx-auto flex flex-col md:flex-row font-bold text-center text-grey justify-between xlg:ml-32 pt-10 ">
                         <a
                             rel="noopener noreferrer"
                             target="_blank"
                             href="https://www.linkedin.com/in/paolo-todde/"
                         >
-                            <li className="xlg:inline-block sm:text-2xl lg:text-4xl hover:text-secondary ease-in-out mb-3">
+                            <li className="xlg:inline-block sm:text-2xl lg:text-4xl font-bold hover:text-secondary ease-in-out mb-3">
                                 LinkedIn
                             </li>
                         </a>

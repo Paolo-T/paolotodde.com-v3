@@ -60,23 +60,18 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-fonts`,
             options: {
-                fonts: [`Nunito Sans\:400, 700, 900`],
+                fonts: [`Avenir\:300, 400, 700, 800`],
                 display: "swap",
             },
         },
-        {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-                name: `backgrounds`,
-                path: `${__dirname}/src/bg`, // wherever background images are stored
-            },
-        },
-        {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-                name: `backgrounds`,
-                path: `${__dirname}/src/images/petTime`, // wherever background images are stored
-            },
-        },
+        // {
+        //     resolve: "gatsby-plugin-web-font-loader",
+        //     options: {
+        //         custom: {
+        //             families: ["YoungSerif"],
+        //             urls: ["/fonts/fonts.css"],
+        //         },
+        //     },
+        // },
     ],
 };
