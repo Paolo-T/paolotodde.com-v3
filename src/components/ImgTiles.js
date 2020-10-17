@@ -41,7 +41,7 @@ function ImgTiles({ width, gridCol, gap, marginTop }) {
             <div
                 className={`w-${width} grid grid-cols-${gridCol} gap-${gap} mt-${marginTop} mx-auto`}
             >
-                <Link to="/petTime" className="mt-20 w-full h-full">
+                <Link to="/petTime" className="mt-4 md:mt-20 w-full h-full">
                     <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-4 md:mb-12">
                         <div
                             className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500 "
