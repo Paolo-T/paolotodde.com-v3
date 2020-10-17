@@ -54,11 +54,11 @@ function About() {
             <div className="w-full bg-white pt-20 md:pt-48">
                 <TransitionPageIn>
                     <TransitionInview>
-                        <section className="w-9/12 mx-auto pt-20 md:pt-10 md:pl-56">
+                        <section className="w-10/12 md:w-6/12 mx-auto pt-20 md:pt-10">
                             <h2 className="md:w-12/12 text-4xl md:text-5xl font-bold  ">
                                 Hello
                             </h2>
-                            <div className="lg:w-8/12 block flex-2 pt-4 lg:pt-10">
+                            <div className="lg:w-8/12 block  flex-2 pt-4 lg:pt-10">
                                 <p className="mt-2">
                                     My name is Paolo Todde, and I am a designer
                                     specializing in web and mobile experiences.
@@ -71,7 +71,7 @@ function About() {
                                     >
                                         Brandwatch
                                     </a>{" "}
-                                    in Brighton (UK).
+                                    in Brighton.
                                     <br />
                                     <br />I have a passion for visual
                                     communication, creating and developing well
@@ -103,11 +103,7 @@ function About() {
                                         CSS Design Awards
                                     </a>
                                 </p>
-                            </div>
-                        </section>
-                        <section className="w-9/12 mx-auto pt-20 md:pt-10 md:pl-56">
-                            <div className="lg:w-8/12 block flex-2 pt-4 lg:pt-10">
-                                <h2 className="text-3xl md:text-4xl mt-2">
+                                <h2 className="text-3xl md:text-4xl mt-16">
                                     <a
                                         className="cursor-pointer text-primary underline "
                                         rel="noopener noreferrer"
@@ -121,9 +117,9 @@ function About() {
                     </TransitionInview>
 
                     <TransitionInview>
-                        <section className="w-full bg-orange-100 mt-20 md:mt-46 pt-20 pb-20 md:pb-48">
-                            <div className="w-10/12 md:w-8/12 mx-auto">
-                                <h2 className="text-5xl md:text-3xl flex-1 mb-20 mt-10">
+                        <section className="w-full bg-orange-100 mt-20 md:mt-46 pt-10 pb-10 md:pb-32">
+                            <div className="w-10/12 md:w-6/12 mx-auto">
+                                <h2 className="text-5xl md:text-3xl flex-1 mb-10 mt-10">
                                     Side projects
                                 </h2>
                                 <div className="grid md:grid-cols-2 gap-8">
