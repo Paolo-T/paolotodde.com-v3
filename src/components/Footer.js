@@ -6,7 +6,7 @@ function Footer() {
     return (
         <TransitionPageIn>
             <TransitionInview>
-                <footer className="w-full max-w-screen-xxl mx-auto pb-10 md:pb-24 pt-10 md:pt-10 lg:pt-20 ">
+                <footer className="w-full max-w-screen-xxl mx-auto pb-10 md:pb-20 pt-10">
                     <ul className="w-10/12 md:w-8/12 max-w-screen-xl mx-auto flex flex-col md:flex-row font-bold text-center text-grey justify-between xlg:ml-32 pt-10 ">
                         <a
                             rel="noopener noreferrer"
@@ -37,10 +37,10 @@ function Footer() {
                         </a>
                         <a
                             rel="noopener noreferrer"
-                            href="mailto:webmaster@example.com"
+                            href="mailto:iampaolotodde@gmail.com"
                         >
                             <li className="xlg:inline-block sm:text-2xl lg:text-4xl  hover:text-primary hover:underline ease-in-out mb-3">
-                                iampaolotodde@gmail.com
+                                Email
                             </li>
                         </a>
                         {/* <a
