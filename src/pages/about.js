@@ -55,7 +55,7 @@ function About() {
                 <TransitionPageIn>
                     <TransitionInview>
                         <section className="w-10/12 mx-auto pt-20 md:pt-10 md:pl-56">
-                            <h2 className="md:w-12/12 text-7xl md:text-5xl font-bold  ">
+                            <h2 className="md:w-12/12 text-4xl md:text-5xl font-bold  ">
                                 Hello
                             </h2>
                             <div className="lg:w-8/12 block flex-2 pt-4 lg:pt-10">
