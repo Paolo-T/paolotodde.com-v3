@@ -112,7 +112,7 @@ function Shuush() {
                         </div>
 
                         <div className="md:w-7/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-8 md:mb-6">Description</h2>
+                            <h2 className="mb-8 md:mb-8">Description</h2>
                             <p>
                                 <span className="font-extrabold">Shuush!</span>{" "}
                                 is a fun messaging app. Its fresh and friendly

@@ -93,7 +93,7 @@ function petTime() {
                         </div>
 
                         <div className="md:w-7/12 mt-10 md:mt-0 pr-0 md:pr-24">
-                            <h2 className="mb-4 md:mb-6">Description</h2>
+                            <h2 className="mb-4 md:mb-8">Description</h2>
                             <p>
                                 <span className="font-extrabold">Pet Time</span>{" "}
                                 is a fun and friendly managing app for animal
@@ -125,7 +125,7 @@ function petTime() {
                             </h4>
                         </div>
                         <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
-                            <h2 className="mb-4 md:mb-6">The brief</h2>
+                            <h2 className="mb-4 md:mb-8">The brief</h2>
                             <p>
                                 The app is for those passionate about pets, and
                                 who want to learn more about domestic animals.
@@ -170,7 +170,7 @@ function petTime() {
                             <h4 className="font-bold uppercase">Problem</h4>
                         </div>
                         <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
-                            <h2 className="mb-4 md:mb-6">The problem</h2>
+                            <h2 className="mb-4 md:mb-8">The problem</h2>
                             <p>
                                 Pet owners need a resource to help looking after
                                 their pet friends and making sure they are happy
@@ -193,7 +193,7 @@ function petTime() {
                             <h4 className="font-bold uppercase">Solution</h4>
                         </div>
                         <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
-                            <h2 className="mb-4 md:mb-6">The solution</h2>
+                            <h2 className="mb-4 md:mb-8">The solution</h2>
                             <p>
                                 An app that provides a dedicated section for
                                 interesting articles, news, podcasts, learning
@@ -210,7 +210,7 @@ function petTime() {
                             <h4 className="font-bold uppercase">Flow</h4>
                         </div>
                         <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
-                            <h2 className="mb-4 md:mb-6">User Flow</h2>
+                            <h2 className="mb-4 md:mb-8">User Flow</h2>
                             <p>
                                 After the initial Log in / Sign Up, the user is
                                 presented with the Home screen where they can

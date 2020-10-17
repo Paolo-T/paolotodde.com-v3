@@ -125,7 +125,7 @@ function Classica() {
                         </div>
 
                         <div className="w-12/12 md:w-7/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-4 md:mb-6">Description</h2>
+                            <h2 className="mb-4 md:mb-8">Description</h2>
                             <p>
                                 <span className="font-extrabold">Classica</span>{" "}
                                 is a fun and friendly app for the classical
@@ -151,7 +151,7 @@ function Classica() {
                         </div>
 
                         <div className="w-11/12 md:w-7/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-4 md:mb-6">The brief</h2>
+                            <h2 className="mb-4 md:mb-8">The brief</h2>
                             <p>
                                 You’re asked to design some materials for a
                                 mobile app to be run on smartphones only. Here
@@ -199,7 +199,7 @@ function Classica() {
                             </h4>
                         </div>
                         <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-4 md:mb-6">The problem</h2>
+                            <h2 className="mb-4 md:mb-8">The problem</h2>
                             <p>
                                 The need for a comprehensive resource hub to
                                 satisfy the curiosity of the classical music
@@ -219,7 +219,7 @@ function Classica() {
                             <h4 className="font-bold uppercase">Solution</h4>
                         </div>
                         <div className="md:w-8/12 mt-16 md:mt-0 md:pr-24">
-                            <h2 className="mb-4 md:mb-6">The solution</h2>
+                            <h2 className="mb-4 md:mb-8">The solution</h2>
                             <p>
                                 An app that besides the excellent music player,
                                 provides a learning center to access articles,
