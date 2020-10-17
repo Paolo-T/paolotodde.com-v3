@@ -26,13 +26,13 @@ function Home() {
                             <h1 className="text-4xl md:text-6xl lg:text-8xl md:mb-10 lg:mb-24">
                                 Hello, I’m Paolo.
                                 <br />
-                                <span className="inline text-secondary">
+                                <span className="inline text-primary">
                                     Designer
                                 </span>{" "}
                                 <span className="inline">and</span>
                                 <br />
                                 <span className="inline">front-end</span>{" "}
-                                <span className="inline text-secondary">
+                                <span className="inline text-primary">
                                     coder
                                 </span>
                                 .

@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-    @apply font-header text-3xl leading-tight mb-2;
+    @apply font-header text-3xl leading-tight tracking-normal mb-2;
 }
 
 h3 {

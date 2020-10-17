@@ -55,10 +55,10 @@ function About() {
                 <TransitionPageIn>
                     <TransitionInview>
                         <section className="w-10/12 mx-auto pt-20 md:pt-10 md:pl-56">
-                            <h2 className="md:w-12/12 text-5xl md:text-5xl font-bold  text-black ">
+                            <h2 className="md:w-12/12 text-7xl md:text-5xl font-bold  ">
                                 Hello
                             </h2>
-                            <div className="lg:w-6/12 block text-black flex-2 pt-4 lg:pt-10">
+                            <div className="lg:w-8/12 block flex-2 pt-4 lg:pt-10">
                                 <p className="mt-2">
                                     I'm Paolo Todde, Designer based in Brighton
                                     (UK).
@@ -84,7 +84,7 @@ function About() {
                                 <p className="mt-8">
                                     Currently designing at{" "}
                                     <a
-                                        className="text-red-600"
+                                        className="cursor-pointer text-primary underline"
                                         rel="noopener noreferrer"
                                         href="https://www.brandwatch.com/"
                                         target="_blank"
@@ -95,7 +95,7 @@ function About() {
                                 <p className="mt-8">
                                     Member of the Jury Panel at{" "}
                                     <a
-                                        className="text-red-600"
+                                        className="cursor-pointer text-primary underline "
                                         rel="noopener noreferrer"
                                         href="https://www.cssdesignawards.com/"
                                         target="_blank"
@@ -110,10 +110,10 @@ function About() {
                     <TransitionInview>
                         <section className="w-full bg-orange-100 mt-20 md:mt-32 pt-20 pb-20 md:pb-48">
                             <div className="w-10/12 md:w-8/12 mx-auto">
-                                <h2 className="text-5xl md:text-5xl text-black flex-1 mb-20 mt-10">
+                                <h2 className="text-5xl md:text-5xl flex-1 mb-20 mt-10">
                                     Side projects
                                 </h2>
-                                <div className="grid md:grid-cols-2 gap-8 block text-black">
+                                <div className="grid md:grid-cols-2 gap-8">
                                     <div className="w-full">
                                         <h2 className="text-2xl mb-4">
                                             Digital Art
@@ -128,7 +128,7 @@ function About() {
                                                         .childImageSharp.fluid
                                                 }
                                                 alt="Digital Art"
-                                                className="cursor-pointer transition duration-500 transform hover:scale-98 rounded-lg"
+                                                className="transition duration-500 transform hover:scale-98 rounded-lg cursor-pointer underline"
                                                 loading="eager"
                                             />
                                         </a>
@@ -144,7 +144,7 @@ function About() {
                                                         .childImageSharp.fluid
                                                 }
                                                 alt="3dc designs"
-                                                className="cursor-pointer transition duration-500 transform hover:scale-98 rounded-lg"
+                                                className="transition duration-500 transform hover:scale-98 rounded-lg cursor-pointer underline"
                                                 loading="eager"
                                             />
                                         </Link>

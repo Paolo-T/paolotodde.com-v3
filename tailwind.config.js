@@ -14,8 +14,8 @@ module.exports = {
             xxl: "2000px",
         },
         colors: {
-            primary: "#e21e3b",
-            secondary: "#ffad1e",
+            primary: "#ffad1e",
+            secondary: "#e21e3b",
             grey: "#858585",
             lightGrey: "dedfdf",
 
