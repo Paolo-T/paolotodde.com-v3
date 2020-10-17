@@ -165,7 +165,7 @@ function Shuush() {
                         loading="eager"
                         alt="App screen"
                     />
-                    <div className="bg-blackPure">
+                    <div className="bg-gray-100">
                         <InPageNav width="9/12" />
                     </div>
                 </div>

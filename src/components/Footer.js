@@ -36,6 +36,7 @@ function Footer() {
                             </li>
                         </a>
                         <a
+                            target="_parent"
                             rel="noopener noreferrer"
                             href="mailto:iampaolotodde@gmail.com"
                         >

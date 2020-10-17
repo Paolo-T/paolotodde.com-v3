@@ -44,6 +44,7 @@ function Home() {
                     <section class="mt-5 md:mt-20 bg-gray-100 py-10">
                         <h2 className="text-2xl md:text-5xl mt-2 text-center">
                             <a
+                                target="_top"
                                 className="cursor-pointer text-primary underline "
                                 rel="noopener noreferrer"
                                 href="mailto:iampaolotodde@gmail.com"
