@@ -41,34 +41,32 @@ function ImgTiles({ width, gridCol, gap, marginTop }) {
             <div
                 className={`w-${width} grid grid-cols-${gridCol} gap-${gap} mt-${marginTop} mx-auto`}
             >
-                <TransitionInview>
-                    <Link to="/petTime" className="mt-20 w-full h-full">
-                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-4 md:mb-12">
-                            <div
-                                className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500 "
-                                style={{
-                                    top: "50%",
-                                    left: "50%",
-                                    transform: "translate(-50%, -40%)",
-                                }}
-                            >
-                                <h1 className="mb-1 text-3xl md:text-6xl lg:text-9xl">
-                                    Pet Time
-                                </h1>
-                                <p className="text-xs md:text-md md:text-3xl">
-                                    Pet management app
-                                </p>
-                            </div>
-                            <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
-                            <Img
-                                fluid={data.petImg.childImageSharp.fluid}
-                                alt="Pet Time app ui design"
-                                className="rounded-md"
-                                loading="eager"
-                            />
+                <Link to="/petTime" className="mt-20 w-full h-full">
+                    <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-4 md:mb-12">
+                        <div
+                            className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500 "
+                            style={{
+                                top: "50%",
+                                left: "50%",
+                                transform: "translate(-50%, -40%)",
+                            }}
+                        >
+                            <h1 className="mb-1 text-3xl md:text-6xl lg:text-9xl">
+                                Pet Time
+                            </h1>
+                            <p className="text-xs md:text-md md:text-3xl">
+                                Pet management app
+                            </p>
                         </div>
-                    </Link>
-                </TransitionInview>
+                        <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
+                        <Img
+                            fluid={data.petImg.childImageSharp.fluid}
+                            alt="Pet Time app ui design"
+                            className="rounded-md"
+                            loading="eager"
+                        />
+                    </div>
+                </Link>
                 <TransitionInview>
                     <Link to="/shuush">
                         <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center my-4 md:my-12">
