@@ -5,6 +5,13 @@ module.exports = {
     separator: ":",
     purge: ["./src/**/*.js"],
     theme: {
+        extend: {
+            backgroundImage: {
+                ImageHomeBg_lg: "url('../images/home/guides-lg.svg')",
+                ImageHomeBg_md: "url('../images/home/guides-lg.svg')",
+                ImageHomeBg_sm: "url('../images/home/guides-lg.svg')",
+            },
+        },
         screens: {
             xs: "313px",
             sm: "640px",
@@ -678,6 +685,7 @@ module.exports = {
         appearance: ["responsive"],
         backgroundAttachment: ["responsive"],
         backgroundColor: ["responsive", "hover", "focus"],
+        backgroundImage: ["responsive", "hover", "focus"],
         backgroundPosition: ["responsive"],
         backgroundRepeat: ["responsive"],
         backgroundSize: ["responsive"],

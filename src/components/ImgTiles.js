@@ -4,7 +4,7 @@ import TransitionInview from "./TransitionInview";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 
-function ImgTiles({ width, gridCol, gap, marginTop }) {
+function ImgTiles({ width, gridCol, gap }) {
     const data = useStaticQuery(graphql`
         query {
             classicaImg: file(
@@ -39,7 +39,7 @@ function ImgTiles({ width, gridCol, gap, marginTop }) {
     return (
         <>
             <div
-                className={`w-${width} grid grid-cols-${gridCol} gap-${gap} mt-${marginTop} mx-auto`}
+                className={`w-${width} grid grid-cols-${gridCol} gap-${gap} mx-auto`}
             >
                 <Link to="/petTime" className="mt-4 md:mt-20 w-full h-full">
                     <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-4 md:mb-12">

@@ -6,7 +6,7 @@ function Footer() {
     return (
         <TransitionPageIn>
             <TransitionInview>
-                <footer className="w-full max-w-screen-xxl mx-auto pb-10 md:pb-20 pt-10">
+                <footer className="w-full max-w-screen-xxl mx-auto pb-10 md:pb-20 pt-10 bg-ImageHomeBg_lg">
                     <ul className="w-10/12 md:w-8/12 max-w-screen-xl mx-auto flex flex-col md:flex-row font-bold text-center text-grey justify-between xlg:ml-32 pt-10 ">
                         <a
                             rel="noopener noreferrer"

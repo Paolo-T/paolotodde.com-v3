@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 function Layout({ children }) {
     return (
-        <div className="h-screen ">
+        <div className="h-screen">
             <Navigation />
 
             <main className="max-w-screen-xxl mx-auto">{children}</main>
