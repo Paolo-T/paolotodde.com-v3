@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1700px" height="3748px" viewBox="0 0 1700 3748" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>guides</title>
-    <g id="guides" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-Copy-2" transform="translate(-1357.000000, -148.000000)">
-            <rect id="Rectangle" fill="#B8F5EF" x="1628" y="146" width="1.141707" height="3748"></rect>
-            <rect id="Rectangle-Copy-5" fill="#B8F5EF" x="1659" y="146" width="1.141707" height="3748"></rect>
-            <rect id="Rectangle-Copy-3" fill="#FDD3E4" transform="translate(1874.570854, 634.000000) rotate(-270.000000) translate(-1874.570854, -634.000000) " x="1874" y="-1240" width="1.141707" height="3748"></rect>
-            <rect id="Rectangle-Copy-4" fill="#FDD3E4" transform="translate(1874.570854, 561.000000) rotate(-270.000000) translate(-1874.570854, -561.000000) " x="1874" y="-1313" width="1.141707" height="3748"></rect>
-            <rect id="Rectangle-Copy-6" fill="#FDD3E4" transform="translate(1874.570854, 539.000000) rotate(-270.000000) translate(-1874.570854, -539.000000) " x="1874" y="-1335" width="1.141707" height="3748"></rect>
-            <rect id="Rectangle-Copy" fill="#B8F5EF" x="2809" y="146" width="1.141707" height="3748"></rect>
-            <rect id="Rectangle" fill="#B8F5EF" x="1530" y="0" width="1.141707" height="3748"></rect>
-            <rect id="Rectangle-Copy-2" fill="#B8F5EF" x="2712" y="0" width="1.141707" height="3748"></rect>
+    <title>guides-lg</title>
+    <g id="guides-lg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-Copy-2" transform="translate(-2.000000, -3.000000)">
+            <rect id="Rectangle" fill="#B8F5EF" x="201" y="1" width="1.141707" height="3748"></rect>
+            <rect id="Rectangle-Copy-5" fill="#B8F5EF" x="232" y="1" width="1.141707" height="3748"></rect>
+            <rect id="Rectangle-Copy-3" fill="#FDD3E4" transform="translate(852.070853, 489.000000) rotate(-270.000000) translate(-852.070853, -489.000000) " x="851.5" y="-362.5" width="1.141707" height="1703"></rect>
+            <rect id="Rectangle-Copy-4" fill="#FDD3E4" transform="translate(852.070853, 416.000000) rotate(-270.000000) translate(-852.070853, -416.000000) " x="851.5" y="-435.5" width="1.141707" height="1703"></rect>
+            <rect id="Rectangle-Copy-6" fill="#FDD3E4" transform="translate(852.070853, 394.000000) rotate(-270.000000) translate(-852.070853, -394.000000) " x="851.5" y="-457.5" width="1.141707" height="1703"></rect>
+            <rect id="Rectangle-Copy" fill="#B8F5EF" x="1111" y="1" width="1.141707" height="3748"></rect>
+            <rect id="Rectangle" fill="#B8F5EF" x="85" y="0" width="1.141707" height="3756"></rect>
+            <rect id="Rectangle-Copy-2" fill="#B8F5EF" x="996" y="0" width="1.141707" height="3756"></rect>
         </g>
     </g>
 </svg>

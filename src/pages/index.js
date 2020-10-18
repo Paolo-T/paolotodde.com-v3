@@ -20,27 +20,23 @@ function Home() {
                 title="Home"
             />
             <TransitionPageIn>
-                <div className="w-full bg-ImageHomeBg_lg cover">
+                <div className="w-screen lg:bg-ImageHomeBg_lg xl:bg-ImageHomeBg_xl cover">
                     <div className="w-10/12 md:container md:px-0 mx-auto pt-40 md:pt-40">
                         <TransitionInview>
-                            <section className="md:pl-5 lg:pl-32 md:mb-2 md:pt-32 ">
-                                <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl md:mb-10 lg:mb-24">
-                                    Hello, I’m Paolo.
-                                    <br />
-                                    <span className="inline text-primary">
-                                        Designer
-                                    </span>{" "}
-                                    <span className="inline">and</span>
-                                    <br />
-                                    <span className="inline">
-                                        front-end
-                                    </span>{" "}
-                                    <span className="inline text-primary">
-                                        coder
-                                    </span>
-                                    .
-                                </h1>
-                            </section>
+                            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl md:pl-12 lg:pl-32 md:pt-32 md:mb-10 lg:mb-24">
+                                Hello, I’m Paolo.
+                                <br />
+                                <span className="inline text-primary">
+                                    Designer
+                                </span>{" "}
+                                <span className="inline">and</span>
+                                <br />
+                                <span className="inline">front-end</span>{" "}
+                                <span className="inline text-primary">
+                                    coder
+                                </span>
+                                .
+                            </h1>
                         </TransitionInview>
 
                         <ImgTiles gridCol="1" />

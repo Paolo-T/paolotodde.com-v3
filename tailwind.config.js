@@ -7,9 +7,10 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
+                ImageHomeBg_xl: "url('../images/home/guides-xl.svg')",
                 ImageHomeBg_lg: "url('../images/home/guides-lg.svg')",
-                ImageHomeBg_md: "url('../images/home/guides-lg.svg')",
-                ImageHomeBg_sm: "url('../images/home/guides-lg.svg')",
+                // ImageHomeBg_md: "url('../images/home/guides-md.svg')",
+                // ImageHomeBg_sm: "url('../images/home/guides-sm.svg')",
             },
         },
         screens: {
