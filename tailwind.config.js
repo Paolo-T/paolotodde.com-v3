@@ -7,6 +7,7 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
+                ImageHomeBg__xl: "url('../images/home/guides--xl.svg')",
                 ImageHomeBg__lg: "url('../images/home/guides--lg.svg')",
                 ImageHomeBg__md: "url('../images/home/guides--md.svg')",
                 ImageHomeBg__sm: "url('../images/home/guides--sm.svg')",
