@@ -81,11 +81,9 @@ function About() {
                                     mixing creativity and technology.
                                 </p>
                                 <p className="mt-8">
-                                    Staying curious and up to date with the
-                                    latest technology movements. Constantly
-                                    seeking new skills, discovering better ways
-                                    of implementing techniques, sifting out the
-                                    unnecessary.
+                                    Staying curious and seeking new skills,
+                                    discovering better ways of implementing
+                                    techniques, sifting out the unnecessary.
                                 </p>
                                 <p className="mt-8">
                                     Learning focus: UI/UX Design, Javascript,
