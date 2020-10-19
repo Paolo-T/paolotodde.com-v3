@@ -5,15 +5,6 @@ module.exports = {
     separator: ":",
     purge: ["./src/**/*.js"],
     theme: {
-        extend: {
-            backgroundImage: {
-                ImageHomeBg__xl: "url('../images/home/guides--xl.svg')",
-                ImageHomeBg__lg: "url('../images/home/guides--lg.svg')",
-                ImageHomeBg__md: "url('../images/home/guides--md.svg')",
-                ImageHomeBg__sm: "url('../images/home/guides--sm.svg')",
-                ImageHomeBg: "url('../images/home/guides.svg')",
-            },
-        },
         screens: {
             xs: "313px",
             sm: "640px",
@@ -171,6 +162,14 @@ module.exports = {
             "68": "17rem",
             "74": "22rem",
         },
+        backgroundImage: {
+            ImageHomeBg__xl: "url('../images/home/guides--xl.svg')",
+            ImageHomeBg__lg: "url('../images/home/guides--lg.svg')",
+            ImageHomeBg__md: "url('../images/home/guides--md.svg')",
+            ImageHomeBg__sm: "url('../images/home/guides--sm.svg')",
+            ImageHomeBg: "url('../images/home/guides.svg')",
+        },
+
         backgroundColor: (theme) => theme("colors"),
         backgroundPosition: {
             bottom: "bottom",

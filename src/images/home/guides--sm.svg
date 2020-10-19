@@ -2,13 +2,14 @@
 <svg width="1700px" height="3748px" viewBox="0 0 1700 3748" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>guides--sm</title>
     <g id="guides--sm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-Copy-2" transform="translate(-6.000000, 78.000000)" fill="#B8F5EF">
-            <rect id="Rectangle-Copy-3" transform="translate(855.070853, 189.000000) rotate(-270.000000) translate(-855.070853, -189.000000) " x="854.5" y="-662.5" width="1.141707" height="1703"></rect>
-            <rect id="Rectangle-Copy-5" transform="translate(856.070853, 237.000000) rotate(-270.000000) translate(-856.070853, -237.000000) " x="855.5" y="-614.5" width="1.141707" height="1703"></rect>
-            <rect id="Rectangle-Copy-8" transform="translate(856.070853, 291.000000) rotate(-270.000000) translate(-856.070853, -291.000000) " x="855.5" y="-560.5" width="1.141707" height="1703"></rect>
-            <rect id="Rectangle-Copy-4" transform="translate(852.070853, 153.000000) rotate(-270.000000) translate(-852.070853, -153.000000) " x="851.5" y="-698.5" width="1.141707" height="1703"></rect>
-            <rect id="Rectangle-Copy-6" transform="translate(852.070853, 140.453125) rotate(-270.000000) translate(-852.070853, -140.453125) " x="851.5" y="-711.046875" width="1.141707" height="1703"></rect>
-            <rect id="Rectangle-Copy-7" transform="translate(856.070853, 1.000000) rotate(-270.000000) translate(-856.070853, -1.000000) " x="855.5" y="-850.5" width="1.141707" height="1703"></rect>
+        <g id="Group-Copy-2" transform="translate(-6.000000, 47.000000)" fill="#B8F5EF">
+            <rect id="Rectangle-Copy-3" transform="translate(855.070853, 220.000000) rotate(-270.000000) translate(-855.070853, -220.000000) " x="854.5" y="-631.5" width="1.141707" height="1703"></rect>
+            <rect id="Rectangle-Copy-5" transform="translate(856.070853, 268.000000) rotate(-270.000000) translate(-856.070853, -268.000000) " x="855.5" y="-583.5" width="1.141707" height="1703"></rect>
+            <rect id="Rectangle-Copy-8" transform="translate(856.070853, 322.000000) rotate(-270.000000) translate(-856.070853, -322.000000) " x="855.5" y="-529.5" width="1.141707" height="1703"></rect>
+            <rect id="Rectangle-Copy-4" transform="translate(852.070853, 184.000000) rotate(-270.000000) translate(-852.070853, -184.000000) " x="851.5" y="-667.5" width="1.141707" height="1703"></rect>
+            <rect id="Rectangle-Copy-6" transform="translate(852.070853, 171.453125) rotate(-270.000000) translate(-852.070853, -171.453125) " x="851.5" y="-680.046875" width="1.141707" height="1703"></rect>
+            <rect id="Rectangle-Copy-7" transform="translate(856.070853, 32.000000) rotate(-270.000000) translate(-856.070853, -32.000000) " x="855.5" y="-819.5" width="1.141707" height="1703"></rect>
+            <rect id="Rectangle-Copy-9" transform="translate(856.070853, 1.000000) rotate(-270.000000) translate(-856.070853, -1.000000) " x="855.5" y="-850.5" width="1.141707" height="1703"></rect>
         </g>
     </g>
 </svg>
