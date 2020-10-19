@@ -42,9 +42,9 @@ function ImgTiles({ width, gridCol, gap }) {
                 className={`w-${width} grid grid-cols-${gridCol} gap-${gap} mx-auto`}
             >
                 <Link to="/petTime" className="mt-4 md:mt-20 w-full h-full">
-                    <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-4 md:mb-12">
+                    <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-4 md:mb-12 rounded-md overflow-hidden">
                         <div
-                            className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500 "
+                            className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
                             style={{
                                 top: "50%",
                                 left: "50%",
@@ -62,14 +62,13 @@ function ImgTiles({ width, gridCol, gap }) {
                         <Img
                             fluid={data.petImg.childImageSharp.fluid}
                             alt="Pet Time app ui design"
-                            className="rounded-md"
                             loading="eager"
                         />
                     </div>
                 </Link>
                 <TransitionInview>
                     <Link to="/shuush">
-                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center my-4 md:my-12">
+                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center my-4 md:my-12 rounded-md overflow-hidden">
                             <div
                                 className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
                                 style={{
@@ -89,7 +88,6 @@ function ImgTiles({ width, gridCol, gap }) {
                             <Img
                                 fluid={data.shuushImg.childImageSharp.fluid}
                                 alt="shuush app ui design"
-                                className="rounded-md"
                                 loading="eager"
                             />
                         </div>
@@ -98,7 +96,7 @@ function ImgTiles({ width, gridCol, gap }) {
 
                 <TransitionInview>
                     <Link to="/classica" className="w-full h-full">
-                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-2 mt-4 md:mt-12">
+                        <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center mb-2 mt-4 md:mt-12 rounded-md overflow-hidden">
                             <div
                                 className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition-all duration-700"
                                 style={{
@@ -117,7 +115,6 @@ function ImgTiles({ width, gridCol, gap }) {
                             <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
                             <Img
                                 fluid={data.classicaImg.childImageSharp.fluid}
-                                className="rounded-md"
                                 alt="classica app ui design"
                                 loading="eager"
                             />
