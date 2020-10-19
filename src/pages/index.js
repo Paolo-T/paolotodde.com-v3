@@ -27,9 +27,9 @@ function Home() {
                                 Hello, I’m Paolo.
                                 <br />
                                 <span className="inline text-primary">
-                                    Designer
+                                    UI Designer
                                 </span>{" "}
-                                <span className="inline">and</span>
+                                <span className="inline">&</span>
                                 <br />
                                 <span className="inline">front-end</span>{" "}
                                 <span className="inline text-primary">

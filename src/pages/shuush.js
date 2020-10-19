@@ -95,11 +95,11 @@ function Shuush() {
                 ]}
                 title="Shuush App"
             />
-            <TransitionPageIn>
-                <div
-                    className="w-full max-w-full mx-auto"
-                    style={{ backgroundColor: "#f6f6f6" }}
-                >
+            <div
+                className="w-full max-w-full mx-auto bg"
+                style={{ backgroundColor: "#f6f6f6" }}
+            >
+                <TransitionPageIn>
                     <Img
                         fluid={data.shuushImg_0.childImageSharp.fluid}
                         className=""
@@ -168,8 +168,8 @@ function Shuush() {
                     <div className="bg-gray-100">
                         <InPageNav width="9/12" />
                     </div>
-                </div>
-            </TransitionPageIn>
+                </TransitionPageIn>
+            </div>
         </>
     );
 }
