@@ -67,7 +67,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                 )
                 .concat(meta)}
             title={title}
-            titleTemplate={` ${site.siteMetadata.title} | %s `}
+            titleTemplate={` %s | ${site.siteMetadata.title} | Product Designer | Developer `}
         />
     );
 }

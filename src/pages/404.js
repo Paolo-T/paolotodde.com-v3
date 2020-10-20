@@ -22,13 +22,13 @@ function NotFoundPage() {
                 ]}
                 title="404: Not found"
             />
-            <div className="container mx-auto mb-32">
-                <h1 className="md:w-1/3 md:mt-40 text-5xl md:text-7xl mt-32 py-5 md:ml-32 text-left rounded-md">
+            <div className="container w-10/12 md:w-10/12 lg:w-8/12 md:pl-20 pt-56">
+                <h1 className="text-4xl md:text-5xl lg:text-7xl text-left">
                     Sorry, the page you are looking for is not here.
                 </h1>
 
                 <Link
-                    className="block text-black text-base text-2xl underline md:ml-32"
+                    className="block text-black text-base md:text-2xl underline  mb-56"
                     to="/"
                 >
                     Back

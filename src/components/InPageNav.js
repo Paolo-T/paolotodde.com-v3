@@ -3,6 +3,7 @@ import Img from "gatsby-image";
 import { Link } from "gatsby";
 import { graphql, useStaticQuery } from "gatsby";
 import TransitionInview from "../components/TransitionInview";
+import ScrollToTop from "./ScrollToTop";
 
 function InPageNav({ width }) {
     const data = useStaticQuery(graphql`
@@ -36,16 +37,15 @@ function InPageNav({ width }) {
         }
     `);
 
-    // console.log(data);
-
     return (
-        <div
-            className={`lg:w-${width} mx-auto mb-10 pt-12 md:pt-20 text-center`}
-        >
+        <div className={`lg:w-${width} mx-auto mb-10 pt-12 md:pt-20`}>
             <TransitionInview>
-                <h2 className="text-2xl md:text-5xl text-yellow-500 flex-1 mb-5 md:mb-16">
-                    All projects
-                </h2>
+                <section className="md:w-9/12 lg:w-11/12 mx-auto flex flex-col-reverse md:flex-row md:justify-between mb-5 md:mb-16 text-center md:text-left px-4 justify-center ">
+                    <h2 className="text-2xl md:text-4xl text-primary">
+                        All projects
+                    </h2>
+                    <ScrollToTop showBelow="250" />
+                </section>
             </TransitionInview>
             <div className="grid grid-cols-3 gap-0 mx-auto">
                 <TransitionInview>
