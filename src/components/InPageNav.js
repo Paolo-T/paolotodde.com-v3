@@ -38,11 +38,11 @@ function InPageNav({ width }) {
     `);
 
     return (
-        <div className={`lg:w-${width} mx-auto mb-10 pt-12 md:pt-20`}>
+        <div className="w-full mb-10 pt-12 md:pt-20">
             <TransitionInview>
-                <section className="md:w-8/12 mx-auto flex flex-col-reverse md:flex-row md:justify-between mb-5 md:mb-16 text-center md:text-left justify-center">
+                <section className="md:w-8/12 mx-auto flex flex-col-reverse md:flex-row md:justify-between mb-6 text-center md:text-left justify-center">
                     <h2 className="text-2xl md:text-4xl text-primary">
-                        All projects
+                        Check other projects
                     </h2>
                     <ScrollToTop showBelow="250" />
                 </section>
