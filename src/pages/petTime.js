@@ -275,7 +275,7 @@ function petTime() {
                         alt="App screen"
                     />
                     <div className="bg-blackPure">
-                        <InPageNav width="9/12" />
+                        <InPageNav />
                     </div>
                 </TransitionPageIn>
             </div>

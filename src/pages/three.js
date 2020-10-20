@@ -3,6 +3,7 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
+import InPageNav from "../components/InPageNav";
 
 function Three() {
     const data = useStaticQuery(graphql`
@@ -59,13 +60,19 @@ function Three() {
                     target="_blank"
                     href="https://www.instagram.com/three_design_company/"
                 >
-                    <div className="w-10/12 md:w-8/12 max-w-screen-xl mx-auto pt-20">
-                        <h2 className="xlg:inline-block sm:text-2xl lg:text-4xl text-yellow-500 hover:text-red-800 ease-in-out mb-3 underline">
+                    <div
+                        className="w-full pb-20 text-center"
+                        style={{ backgroundColor: "#f7f7f7" }}
+                    >
+                        <h2 className="xlg:inline-block sm:text-2xl lg:text-4xl text-primary ease-in-out mb-3 underline w-10/12 md:w-8/12 mx-auto ">
                             Instagram
                         </h2>
                     </div>
                 </a>
             </TransitionPageIn>
+            <div className=" bg-white">
+                <InPageNav />
+            </div>
         </>
     );
 }

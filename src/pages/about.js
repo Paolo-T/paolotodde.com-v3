@@ -163,7 +163,7 @@ function About() {
                 </TransitionPageIn>
             </div>
             <div className=" bg-white">
-                <InPageNav width="9/12" />
+                <InPageNav />
             </div>
         </>
     );
