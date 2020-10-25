@@ -8,7 +8,7 @@ function Layout({ children }) {
         <div className="h-screen">
             <Navigation />
 
-            <main className="max-w-screen-xxl mx-auto">{children}</main>
+            <main className="mx-auto">{children}</main>
 
             <Footer />
         </div>

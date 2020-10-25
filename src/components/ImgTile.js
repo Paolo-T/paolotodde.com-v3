@@ -22,7 +22,7 @@ function ImgTile({
                         style={{
                             top: "50%",
                             left: "50%",
-                            transform: "translate(-50%, -40%)",
+                            transform: "translate(-50%, -50%)",
                         }}
                     >
                         <h1 className="mb-1 text-3xl md:text-6xl lg:text-9xl">
