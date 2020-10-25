@@ -33,6 +33,16 @@ function ImgTiles({ width, gridCol, gap }) {
                     }
                 }
             }
+            spaceDigestImg: file(
+                relativePath: { eq: "spaceDigest/spaceDigest__tile.png" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid_withWebp
+                    }
+                }
+            }
         }
     `);
 
