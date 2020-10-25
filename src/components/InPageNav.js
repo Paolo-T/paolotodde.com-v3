@@ -55,6 +55,8 @@ function InPageNav({ width }) {
                     TileImg={data.petImg.childImageSharp.fluid}
                     LinkTo="/petTime"
                     ImgAlt="Pet Time app ui design"
+                    MarginTop="0"
+                    MarginBottom="0"
                 />
 
                 <ImgTile
@@ -63,6 +65,8 @@ function InPageNav({ width }) {
                     TileImg={data.shuushImg.childImageSharp.fluid}
                     LinkTo="/shuush"
                     ImgAlt="Shuush! app ui design"
+                    MarginTop="0"
+                    MarginBottom="0"
                 />
 
                 <ImgTile
@@ -71,6 +75,8 @@ function InPageNav({ width }) {
                     TileImg={data.classicaImg.childImageSharp.fluid}
                     LinkTo="/classica"
                     ImgAlt="Classica app ui design"
+                    MarginTop="0"
+                    MarginBottom="0"
                 />
             </div>
         </div>
