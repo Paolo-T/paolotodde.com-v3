@@ -2,11 +2,21 @@ import React from "react";
 import { Link } from "gatsby";
 import Img from "gatsby-image";
 
-function ImgTile({ LinkTo, Title, SubTitle, TileImg, ImgAlt }) {
+function ImgTile({
+    LinkTo,
+    Title,
+    SubTitle,
+    TileImg,
+    ImgAlt,
+    MarginTop,
+    MarginBottom,
+}) {
     return (
         <>
             <Link to={LinkTo}>
-                <div className="group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center my-4 md:my-12 rounded-md overflow-hidden">
+                <div
+                    className={`group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center rounded-md overflow-hidden my-4 md:mt-${MarginTop} md:mb-${MarginBottom}`}
+                >
                     <div
                         className="text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
                         style={{
@@ -25,7 +35,6 @@ function ImgTile({ LinkTo, Title, SubTitle, TileImg, ImgAlt }) {
                     <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
                     <Img fluid={TileImg} alt={ImgAlt} loading="eager" />
                 </div>
-                {console.log(TileImg)}
             </Link>
         </>
     );

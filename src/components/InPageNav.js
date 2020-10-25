@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import { graphql, useStaticQuery } from "gatsby";
 import TransitionInview from "../components/TransitionInview";
 import ScrollToTop from "./ScrollToTop";
+import ImgTile from "./ImgTile";
 
 function InPageNav({ width }) {
     const data = useStaticQuery(graphql`
@@ -48,35 +49,29 @@ function InPageNav({ width }) {
                 </section>
             </TransitionInview>
             <div className="grid grid-cols-3 gap-0 mx-auto">
-                <TransitionInview>
-                    <Link to="/classica">
-                        <Img
-                            fluid={data.classicaImg.childImageSharp.fluid}
-                            alt="classica app ui design"
-                            className="w-full cursor-pointer transition duration-500 transform hover:scale-98"
-                        />
-                    </Link>
-                </TransitionInview>
+                <ImgTile
+                    Title=""
+                    SubTitle=""
+                    TileImg={data.petImg.childImageSharp.fluid}
+                    LinkTo="/petTime"
+                    ImgAlt="Pet Time app ui design"
+                />
 
-                <TransitionInview>
-                    <Link to="/shuush">
-                        <Img
-                            fluid={data.shuushImg.childImageSharp.fluid}
-                            alt="shuush app ui design"
-                            className="w-full cursor-pointer transition duration-500 transform hover:scale-98"
-                        />
-                    </Link>
-                </TransitionInview>
+                <ImgTile
+                    Title=""
+                    SubTitle=""
+                    TileImg={data.shuushImg.childImageSharp.fluid}
+                    LinkTo="/shuush"
+                    ImgAlt="Shuush! app ui design"
+                />
 
-                <TransitionInview>
-                    <Link to="/petTime">
-                        <Img
-                            fluid={data.petImg.childImageSharp.fluid}
-                            alt="pet time app ui design"
-                            className="w-full cursor-pointer transition duration-500 transform hover:scale-98"
-                        />
-                    </Link>
-                </TransitionInview>
+                <ImgTile
+                    Title=""
+                    SubTitle=""
+                    TileImg={data.classicaImg.childImageSharp.fluid}
+                    LinkTo="/classica"
+                    ImgAlt="Classica app ui design"
+                />
             </div>
         </div>
     );
