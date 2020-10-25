@@ -1,12 +1,10 @@
 import React from "react";
-import Img from "gatsby-image";
-import { Link } from "gatsby";
 import { graphql, useStaticQuery } from "gatsby";
 import TransitionInview from "../components/TransitionInview";
 import ScrollToTop from "./ScrollToTop";
 import ImgTile from "./ImgTile";
 
-function InPageNav({ width }) {
+function InPageNav() {
     const data = useStaticQuery(graphql`
         query Images {
             classicaImg: file(
