@@ -87,7 +87,7 @@ function Home() {
                             TileImg={data.petImg.childImageSharp.fluid}
                             LinkTo="/petTime"
                             ImgAlt="Pet Time app ui design"
-                            MarginTop="12"
+                            MarginTop="20"
                             MarginBottom="20"
                         />
 
