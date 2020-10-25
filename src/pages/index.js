@@ -88,7 +88,7 @@ function Home() {
                             LinkTo="/petTime"
                             ImgAlt="Pet Time app ui design"
                             MarginTop="12"
-                            MarginBottom="10"
+                            MarginBottom="20"
                         />
 
                         <TransitionInview>
@@ -98,8 +98,8 @@ function Home() {
                                 TileImg={data.shuushImg.childImageSharp.fluid}
                                 LinkTo="/shuush"
                                 ImgAlt="Shuush! app ui design"
-                                MarginTop="10"
-                                MarginBottom="10"
+                                MarginTop="20"
+                                MarginBottom="20"
                             />
                         </TransitionInview>
 
@@ -110,7 +110,7 @@ function Home() {
                                 TileImg={data.classicaImg.childImageSharp.fluid}
                                 LinkTo="/classica"
                                 ImgAlt="Classica app ui design"
-                                MarginTop="10"
+                                MarginTop="20"
                                 MarginBottom="20"
                             />
                         </TransitionInview>
