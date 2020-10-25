@@ -1,10 +1,52 @@
 import React from "react";
 import SEO from "../components/Seo";
-import ImgTiles from "../components/ImgTiles";
+import { graphql, useStaticQuery } from "gatsby";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
+import ImgTile from "../components/ImgTile";
 
 function Home() {
+    const data = useStaticQuery(graphql`
+        query {
+            classicaImg: file(
+                relativePath: { eq: "classica/classica__tile.png" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid_withWebp
+                    }
+                }
+            }
+            shuushImg: file(relativePath: { eq: "shuush/shuush__tile.png" }) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid_withWebp
+                    }
+                }
+            }
+            petImg: file(relativePath: { eq: "petTime/petTime__tile.png" }) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid_withWebp
+                    }
+                }
+            }
+            spaceDigestImg: file(
+                relativePath: { eq: "spaceDigest/spaceDigest__tile.png" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid_withWebp
+                    }
+                }
+            }
+        }
+    `);
+
     return (
         <>
             <SEO
@@ -39,7 +81,31 @@ function Home() {
                             </h1>
                         </TransitionInview>
 
-                        <ImgTiles gridCol="1" />
+                        <ImgTile
+                            Title="Pet Time"
+                            SubTitle="Pet management app"
+                            TileImg={data.petImg.childImageSharp.fluid}
+                            LinkTo="/petTime"
+                            ImgAlt="Pet Time app ui design"
+                        />
+                        <TransitionInview>
+                            <ImgTile
+                                Title=" Shuush!"
+                                SubTitle="Messaging app"
+                                TileImg={data.shuushImg.childImageSharp.fluid}
+                                LinkTo="/shuush"
+                                ImgAlt="Shuush app ui design"
+                            />
+                        </TransitionInview>
+                        <TransitionInview>
+                            <ImgTile
+                                Title="Classica"
+                                SubTitle="Music app"
+                                TileImg={data.classicaImg.childImageSharp.fluid}
+                                LinkTo="/classica"
+                                ImgAlt="Classica app ui design"
+                            />
+                        </TransitionInview>
 
                         <section className="mt-5 md:mt-20 bg-gray-100 py-10">
                             <h2 className="text-2xl md:text-5xl mt-2 text-center">
