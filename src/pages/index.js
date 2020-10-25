@@ -114,6 +114,19 @@ function Home() {
                                 MarginBottom="20"
                             />
                         </TransitionInview>
+                        <TransitionInview>
+                            <ImgTile
+                                Title="Space Digest"
+                                SubTitle="Visit website"
+                                TileImg={
+                                    data.spaceDigestImg.childImageSharp.fluid
+                                }
+                                Href="https://www.spacedigest.live/"
+                                ImgAlt="Space Digest website"
+                                MarginTop="20"
+                                MarginBottom="20"
+                            />
+                        </TransitionInview>
 
                         <section className="mt-5 md:mt-20 bg-gray-100 py-10">
                             <h2 className="text-2xl md:text-5xl mt-2 text-center">
