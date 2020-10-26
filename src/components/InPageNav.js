@@ -33,6 +33,16 @@ function InPageNav() {
                     }
                 }
             }
+            spaceDigestImg: file(
+                relativePath: { eq: "spaceDigest/spaceDigest__tile.png" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid_withWebp
+                    }
+                }
+            }
         }
     `);
 
@@ -46,7 +56,7 @@ function InPageNav() {
                     <ScrollToTop showBelow="250" />
                 </section>
             </TransitionInview>
-            <div className="grid grid-cols-3 gap-0 mx-auto">
+            <div className="grid grid-cols-4 gap-0 mx-auto">
                 <ImgTile
                     Title=""
                     SubTitle=""
@@ -79,7 +89,7 @@ function InPageNav() {
                 <ImgTile
                     Title=""
                     SubTitle=""
-                    TileImg={data.classicaImg.childImageSharp.fluid}
+                    TileImg={data.spaceDigestImg.childImageSharp.fluid}
                     LinkTo="/classica"
                     ImgAlt="Classica app ui design"
                     MarginTop="0"
