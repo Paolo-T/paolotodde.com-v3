@@ -90,10 +90,10 @@ function InPageNav() {
                     Title=""
                     SubTitle=""
                     TileImg={data.spaceDigestImg.childImageSharp.fluid}
-                    LinkTo="/classica"
-                    ImgAlt="Classica app ui design"
-                    MarginTop="0"
-                    MarginBottom="0"
+                    Href="https://www.spacedigest.live/"
+                    ImgAlt="Space Digest website"
+                    MarginTop="20"
+                    MarginBottom="20"
                 />
             </div>
         </div>
