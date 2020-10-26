@@ -11,13 +11,16 @@ function ImgTile({
     ImgAlt,
     MarginTop,
     MarginBottom,
+    Rounded,
 }) {
     return (
         <>
             <Link to={LinkTo}>
                 <a href={Href} target="_blank">
                     <div
-                        className={`group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center rounded-md overflow-hidden my-4 md:mt-${MarginTop} md:mb-${MarginBottom}`}
+                        className={`group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center overflow-hidden my-4 md:mt-${MarginTop} md:mb-${MarginBottom} rounded-${
+                            Rounded ? Rounded : 0
+                        } `}
                     >
                         <div
                             className="w-full text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"

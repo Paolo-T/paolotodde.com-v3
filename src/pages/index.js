@@ -89,6 +89,7 @@ function Home() {
                             ImgAlt="Pet Time app ui design"
                             MarginTop="20"
                             MarginBottom="20"
+                            Rounded="md"
                         />
 
                         <TransitionInview>
@@ -100,6 +101,7 @@ function Home() {
                                 ImgAlt="Shuush! app ui design"
                                 MarginTop="20"
                                 MarginBottom="20"
+                                Rounded="md"
                             />
                         </TransitionInview>
 
@@ -112,6 +114,7 @@ function Home() {
                                 ImgAlt="Classica app ui design"
                                 MarginTop="20"
                                 MarginBottom="20"
+                                Rounded="md"
                             />
                         </TransitionInview>
                         <TransitionInview>
@@ -125,6 +128,7 @@ function Home() {
                                 ImgAlt="Space Digest website"
                                 MarginTop="20"
                                 MarginBottom="20"
+                                Rounded="md"
                             />
                         </TransitionInview>
 
