@@ -76,6 +76,15 @@ function InPageNav() {
                     MarginTop="0"
                     MarginBottom="0"
                 />
+                <ImgTile
+                    Title=""
+                    SubTitle=""
+                    TileImg={data.classicaImg.childImageSharp.fluid}
+                    LinkTo="/classica"
+                    ImgAlt="Classica app ui design"
+                    MarginTop="0"
+                    MarginBottom="0"
+                />
             </div>
         </div>
     );
