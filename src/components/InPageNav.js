@@ -46,6 +46,8 @@ function InPageNav() {
         }
     `);
 
+    console.log(data);
+
     return (
         <div className="w-full mb-10 pt-12 md:pt-20">
             <TransitionInview>
@@ -86,6 +88,7 @@ function InPageNav() {
                     MarginTop="0"
                     MarginBottom="0"
                 />
+
                 <ImgTile
                     Title=""
                     SubTitle=""

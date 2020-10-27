@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import InPageNav from "../components/InPageNav";
 
-function petTime() {
+function petTime({ location }) {
     const data = useStaticQuery(graphql`
         query {
             petTime_1: file(relativePath: { eq: "petTime/petTime_1.png" }) {
@@ -58,6 +58,8 @@ function petTime() {
             }
         }
     `);
+
+    console.log(location.pathname);
 
     return (
         <>
@@ -132,9 +134,9 @@ function petTime() {
                             <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
                                 <h2 className="mb-4 md:mb-8">The brief</h2>
                                 <p>
-                                    The app is for those passionate about pets,
-                                    and who want to learn more about domestic
-                                    animals.
+                                    The app is for those passionate about
+                                    pets,and who want to learn more about
+                                    domestic animals.
                                     <br />
                                     The target customers are the curious newbie
                                     who has, so far, lacked a convenient
