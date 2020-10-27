@@ -59,8 +59,6 @@ function petTime({ location }) {
         }
     `);
 
-    console.log(location.pathname);
-
     return (
         <>
             <SEO

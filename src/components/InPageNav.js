@@ -46,8 +46,6 @@ function InPageNav() {
         }
     `);
 
-    console.log(data);
-
     return (
         <div className="w-full mb-10 pt-12 md:pt-20">
             <TransitionInview>
