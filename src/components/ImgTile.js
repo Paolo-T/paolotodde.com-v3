@@ -42,7 +42,7 @@ function ImgTile({
                     </div>
                 </Link>
             ) : (
-                <a to={Href}>
+                <a href={Href}>
                     <div
                         className={`group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center overflow-hidden my-4 md:mt-${MarginTop} md:mb-${MarginBottom} rounded-${
                             Rounded ? Rounded : 0
