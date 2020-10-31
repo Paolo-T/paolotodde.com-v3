@@ -5,10 +5,10 @@ import { useInView } from "react-intersection-observer";
 function TransitionInView({ children }) {
     const [visible, setVisible] = useState(false);
     const [inviewRef, inView] = useInView({
-        rootMargin: "-50px 0px",
+        rootMargin: "0px 0px",
     });
 
-    const spring = { mass: 1, tension: 120, friction: 30 };
+    const spring = { mass: 1, tension: 200, friction: 30 };
 
     const props = useSpring({
         config: spring,

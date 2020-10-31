@@ -56,9 +56,9 @@ function About() {
                     <TransitionInview>
                         <section className="w-10/12 md:w-6/12 mx-auto pt-20 md:pt-10">
                             <h2 className="md:w-12/12 text-4xl md:text-5xl font-bold  ">
-                                Hello
+                                Hi!
                             </h2>
-                            <div className="lg:w-8/12 block  flex-2 pt-4 lg:pt-10">
+                            <div className="lg:w-9/12 block  flex-2 pt-4 lg:pt-10">
                                 <p className="mt-2">
                                     My name is Paolo Todde, and I am a designer
                                     specializing in web and mobile experiences.

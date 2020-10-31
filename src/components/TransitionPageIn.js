@@ -2,7 +2,7 @@ import React from "react";
 import { animated, useSpring } from "react-spring";
 
 function TransitionPageIn({ children }) {
-    const spring = { mass: 1, tension: 175, friction: 30 };
+    const spring = { mass: 1, tension: 200, friction: 30 };
 
     const fadeIn = useSpring({
         config: spring,
