@@ -58,20 +58,24 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-plugin-google-fonts`,
+            resolve: "gatsby-plugin-web-font-loader",
             options: {
-                fonts: [`Avenir\:300, 400, 700, 800`],
-                display: "swap",
+                custom: {
+                    families: ["YoungSerif"],
+                    urls: ["/fonts/fonts.css"],
+                },
+                google: {
+                    families: ["Avenir"],
+                },
             },
         },
-        // {
-        //     resolve: "gatsby-plugin-web-font-loader",
-        //     options: {
-        //         custom: {
-        //             families: ["YoungSerif"],
-        //             urls: ["/fonts/fonts.css"],
-        //         },
-        //     },
-        // },
+        {
+            resolve: `gatsby-plugin-hotjar`,
+            options: {
+                includeInDevelopment: true, // optional parameter to include script in development
+                id: 2084246,
+                sv: 6,
+            },
+        },
     ],
 };
