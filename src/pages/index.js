@@ -83,7 +83,7 @@ function Home() {
 
                         <ImgTile
                             Title="Pet Time"
-                            SubTitle="Pet management app"
+                            SubTitle="UI/UX Design"
                             TileImg={data.petImg.childImageSharp.fluid}
                             LinkTo="/petTime"
                             ImgAlt="Pet Time app ui design"
@@ -95,7 +95,7 @@ function Home() {
                         <TransitionInview>
                             <ImgTile
                                 Title=" Shuush!"
-                                SubTitle="Messaging app"
+                                SubTitle="UI/UX Design"
                                 TileImg={data.shuushImg.childImageSharp.fluid}
                                 LinkTo="/shuush"
                                 ImgAlt="Shuush! app ui design"
@@ -108,7 +108,7 @@ function Home() {
                         <TransitionInview>
                             <ImgTile
                                 Title="Classica"
-                                SubTitle="Music app"
+                                SubTitle="UI/UX Design"
                                 TileImg={data.classicaImg.childImageSharp.fluid}
                                 LinkTo="/classica"
                                 ImgAlt="Classica app ui design"
@@ -121,12 +121,12 @@ function Home() {
                         <TransitionInview>
                             <ImgTile
                                 Title="Space Digest"
-                                SubTitle="Visit website"
+                                SubTitle="Web Design"
                                 TileImg={
                                     data.spaceDigestImg.childImageSharp.fluid
                                 }
                                 Href="https://www.spacedigest.live/"
-                                ImgAlt="Space Digest website"
+                                ImgAlt="Website icon"
                                 MarginTop="20"
                                 MarginBottom="20"
                                 Rounded="lg"

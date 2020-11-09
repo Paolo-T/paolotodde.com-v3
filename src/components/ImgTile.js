@@ -33,7 +33,7 @@ function ImgTile({
                             <h1 className="mb-1 text-3xl md:text-6xl lg:text-9xl">
                                 {Title}
                             </h1>
-                            <p className="text-xs md:text-md md:text-3xl">
+                            <p className="text-xs md:text-md md:text-2xl mt-2 tracking-wider">
                                 {SubTitle}
                             </p>
                         </div>
