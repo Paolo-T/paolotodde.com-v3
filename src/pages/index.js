@@ -45,6 +45,16 @@ function Home() {
                     }
                 }
             }
+            buzzsumoImg: file(
+                relativePath: { eq: "buzzsumo/buzzsumo__tile.png" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid_withWebp
+                    }
+                }
+            }
         }
     `);
 
@@ -144,11 +154,11 @@ function Home() {
 
                         <TransitionInview>
                             <ImgTile
-                                Title="Brandwatch.com"
+                                Title="Buzzsumo.com"
                                 SubTitle="Web design"
-                                TileImg={data.classicaImg.childImageSharp.fluid}
-                                LinkTo="/brandwatch"
-                                ImgAlt="Brandwatch"
+                                TileImg={data.buzzsumoImg.childImageSharp.fluid}
+                                LinkTo="/buzzsumo"
+                                ImgAlt="Buzzsumo"
                                 MarginTop="20"
                                 MarginBottom="20"
                                 Rounded="lg"

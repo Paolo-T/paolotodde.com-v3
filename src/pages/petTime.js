@@ -89,7 +89,7 @@ function petTime({ location }) {
                     <div className="w-full bg-white pt-10 pb-20 md:py-32">
                         <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex ">
                             <div className="md:w-4/12 mt-0 hidden md:block md:mt-20">
-                                <h4 className="font-bold uppercase">
+                                <h4 className="font-extrabold uppercase tracking-widest">
                                     Description
                                 </h4>
                                 <h4 className="pt-4">App design</h4>
@@ -119,7 +119,7 @@ function petTime({ location }) {
 
                         <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
                             <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
-                                <h4 className="font-bold uppercase">
+                                <h4 className="font-extrabold uppercase tracking-widest">
                                     Skills applied
                                 </h4>
                                 <h4 className="pt-4">
@@ -175,7 +175,9 @@ function petTime({ location }) {
                         </section>
                         <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
                             <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
-                                <h4 className="font-bold uppercase">Problem</h4>
+                                <h4 className="font-extrabold uppercase tracking-widest">
+                                    Problem
+                                </h4>
                             </div>
                             <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
                                 <h2 className="mb-4 md:mb-8">The problem</h2>
@@ -200,7 +202,7 @@ function petTime({ location }) {
                         </section>
                         <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
                             <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
-                                <h4 className="font-bold uppercase">
+                                <h4 className="font-extrabold uppercase tracking-widest">
                                     Solution
                                 </h4>
                             </div>
@@ -219,7 +221,9 @@ function petTime({ location }) {
                         </section>
                         <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
                             <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
-                                <h4 className="font-bold uppercase">Flow</h4>
+                                <h4 className="font-extrabold uppercase tracking-widest">
+                                    Flow
+                                </h4>
                             </div>
                             <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
                                 <h2 className="mb-4 md:mb-8">User Flow</h2>
