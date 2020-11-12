@@ -62,7 +62,7 @@ function About() {
                                 <p className="mt-2">
                                     My name is Paolo Todde, and I am a designer
                                     specializing in web and mobile experiences.
-                                    Currently designing at{" "}
+                                    Currently designing remotely for{" "}
                                     <a
                                         className="cursor-pointer text-primary underline"
                                         rel="noopener noreferrer"
@@ -71,19 +71,20 @@ function About() {
                                     >
                                         Brandwatch
                                     </a>{" "}
-                                    in Brighton.
+                                    in Brighton (UK).
                                     <br />
                                     <br />I have a passion for visual
                                     communication, creating and developing well
                                     crafted designs, user focused utilitarian
                                     interfaces. Contributing to the great web
                                     environment making the best experience
-                                    mixing creativity and technology.
+                                    mixing creativity and technology, sifting
+                                    out the unnecessary.
                                 </p>
                                 <p className="mt-8">
                                     Staying curious and seeking new skills,
                                     discovering better ways of implementing
-                                    techniques, sifting out the unnecessary.
+                                    techniques.
                                 </p>
                                 <p className="mt-8">
                                     Learning focus: UI/UX Design, Javascript,
@@ -91,7 +92,7 @@ function About() {
                                 </p>
 
                                 <p className="mt-8">
-                                    Member of the Jury Panel at{" "}
+                                    Member of the Jury Panel at&nbsp;{" "}
                                     <a
                                         className="cursor-pointer text-primary underline "
                                         rel="noopener noreferrer"
@@ -107,7 +108,7 @@ function About() {
                                         rel="noopener noreferrer"
                                         href="mailto:iampaolotodde@gmail.com"
                                     >
-                                        Contact
+                                        Contact me
                                     </a>
                                 </h2>
                             </div>

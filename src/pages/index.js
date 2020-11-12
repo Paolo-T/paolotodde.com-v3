@@ -4,12 +4,13 @@ import { graphql, useStaticQuery } from "gatsby";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 import ImgTile from "../components/ImgTile";
+import ScrollToTop from "../components/ScrollToTop";
 
 function Home() {
     const data = useStaticQuery(graphql`
         query {
             classicaImg: file(
-                relativePath: { eq: "classica/classica__tile.png" }
+                relativePath: { eq: "classica/classica__tile_2.png" }
             ) {
                 id
                 childImageSharp {
@@ -18,7 +19,7 @@ function Home() {
                     }
                 }
             }
-            shuushImg: file(relativePath: { eq: "shuush/shuush__tile.png" }) {
+            shuushImg: file(relativePath: { eq: "shuush/shuush__tile_2.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
@@ -26,7 +27,7 @@ function Home() {
                     }
                 }
             }
-            petImg: file(relativePath: { eq: "petTime/petTime__tile.png" }) {
+            petImg: file(relativePath: { eq: "petTime/petTime__tile_2.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
@@ -141,7 +142,20 @@ function Home() {
                             />
                         </TransitionInview>
 
-                        <section className="mt-5 md:mt-20 bg-gray-100 py-10">
+                        <TransitionInview>
+                            <ImgTile
+                                Title="Brandwatch.com"
+                                SubTitle="Web design"
+                                TileImg={data.classicaImg.childImageSharp.fluid}
+                                LinkTo="/brandwatch"
+                                ImgAlt="Brandwatch"
+                                MarginTop="20"
+                                MarginBottom="20"
+                                Rounded="lg"
+                            />
+                        </TransitionInview>
+
+                        <section className="bg-gray-100 flex flex-col-reverse md:flex-row md:justify-between text-center md:text-left justify-center mt-5 md:mt-20 px-20 py-10">
                             <h2 className="text-2xl md:text-5xl mt-2 text-center">
                                 <a
                                     target="_top"
@@ -149,9 +163,10 @@ function Home() {
                                     rel="noopener noreferrer"
                                     href="mailto:iampaolotodde@gmail.com"
                                 >
-                                    Contact
+                                    Contact me
                                 </a>
                             </h2>
+                            <ScrollToTop showBelow="250" />
                         </section>
                     </div>
                 </div>

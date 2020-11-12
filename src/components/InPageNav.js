@@ -53,7 +53,7 @@ function InPageNav() {
     return (
         <div className="w-full mb-10 pt-12 md:pt-20">
             <TransitionInview>
-                <section className="md:w-8/12 mx-auto flex flex-col-reverse md:flex-row md:justify-between text-center md:text-left justify-center">
+                <section className="md:w-8/12 mx-auto flex flex-col-reverse md:flex-row md:justify-between text-center md:text-left justify-center mb-8">
                     <h2 className="text-2xl md:text-4xl text-primary">
                         Check other projects
                     </h2>
