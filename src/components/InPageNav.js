@@ -8,7 +8,7 @@ function InPageNav() {
     const data = useStaticQuery(graphql`
         query Images {
             classicaImg: file(
-                relativePath: { eq: "classica/classica__tile.png" }
+                relativePath: { eq: "classica/classica__tile_2.png" }
             ) {
                 id
                 childImageSharp {
