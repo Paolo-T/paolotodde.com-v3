@@ -17,7 +17,7 @@ function InPageNav() {
                     }
                 }
             }
-            petImg: file(relativePath: { eq: "petTime/petTime__tile.png" }) {
+            petImg: file(relativePath: { eq: "petTime/petTime__tile_2.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
@@ -25,7 +25,7 @@ function InPageNav() {
                     }
                 }
             }
-            shuushImg: file(relativePath: { eq: "shuush/shuush__tile.png" }) {
+            shuushImg: file(relativePath: { eq: "shuush/shuush__tile_2.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
@@ -43,24 +43,30 @@ function InPageNav() {
                     }
                 }
             }
+            buzzsumoImg: file(
+                relativePath: { eq: "buzzsumo/buzzsumo_33.jpg" }
+            ) {
+                id
+                childImageSharp {
+                    fluid(maxWidth: 2880) {
+                        ...GatsbyImageSharpFluid_withWebp
+                    }
+                }
+            }
         }
     `);
-
-    // {
-    //     console.log(data);
-    // }
 
     return (
         <div className="w-full mb-10 pt-12 md:pt-20">
             <TransitionInview>
-                <section className="md:w-8/12 mx-auto flex flex-col-reverse md:flex-row md:justify-between text-center md:text-left justify-center mb-8">
+                <section className="md:w-8/12 mx-auto flex flex-col-reverse md:flex-row md:justify-between text-center md:text-left justify-center mb-12">
                     <h2 className="text-2xl md:text-4xl text-primary">
                         Check other projects
                     </h2>
                     <ScrollToTop showBelow="250" />
                 </section>
             </TransitionInview>
-            <div className="grid grid-cols-4 gap-0 mx-auto">
+            <div className="grid grid-cols-5 gap-0 mx-auto">
                 <ImgTile
                     Title=""
                     SubTitle=""
@@ -97,6 +103,16 @@ function InPageNav() {
                     TileImg={data.spaceDigestImg.childImageSharp.fluid}
                     Href="https://www.spacedigest.live/"
                     ImgAlt="Space Digest website"
+                    MarginTop="0"
+                    MarginBottom="0"
+                />
+
+                <ImgTile
+                    Title=""
+                    SubTitle=""
+                    TileImg={data.buzzsumoImg.childImageSharp.fluid}
+                    LinkTo="/buzzsumo"
+                    ImgAlt="BuzzSumo"
                     MarginTop="0"
                     MarginBottom="0"
                 />

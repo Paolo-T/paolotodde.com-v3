@@ -8,9 +8,7 @@ import InPageNav from "../components/InPageNav";
 function Classica() {
     const data = useStaticQuery(graphql`
         query {
-            buzzsumoImg_1: file(
-                relativePath: { eq: "buzzsumo/buzzsumo__tile.png" }
-            ) {
+            heroImg: file(relativePath: { eq: "buzzsumo/buzzsumo_33.jpg" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
@@ -18,68 +16,25 @@ function Classica() {
                     }
                 }
             }
-            classicaImg_2: file(
-                relativePath: { eq: "classica/classica_2.png" }
+            buzzsumoImages: allFile(
+                filter: {
+                    relativeDirectory: { eq: "buzzsumo" }
+                    name: { ne: "buzzsumo_blog-grid" }
+                }
+
+                sort: { order: DESC, fields: name }
             ) {
-                id
-                childImageSharp {
-                    fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid_withWebp
+                nodes {
+                    id
+                    childImageSharp {
+                        fluid(maxWidth: 2880) {
+                            ...GatsbyImageSharpFluid_withWebp
+                        }
                     }
                 }
             }
-            classicaImg_3: file(
-                relativePath: { eq: "classica/classica_3.png" }
-            ) {
-                id
-                childImageSharp {
-                    fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid_withWebp
-                    }
-                }
-            }
-            classicaImg_4: file(
-                relativePath: { eq: "classica/classica_4.png" }
-            ) {
-                id
-                childImageSharp {
-                    fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid_withWebp
-                    }
-                }
-            }
-            classicaImg_5: file(
-                relativePath: { eq: "classica/classica_5.png" }
-            ) {
-                id
-                childImageSharp {
-                    fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid_withWebp
-                    }
-                }
-            }
-            classicaImg_6: file(
-                relativePath: { eq: "classica/classica_6.png" }
-            ) {
-                id
-                childImageSharp {
-                    fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid_withWebp
-                    }
-                }
-            }
-            classicaImg_7: file(
-                relativePath: { eq: "classica/classica_7.png" }
-            ) {
-                id
-                childImageSharp {
-                    fluid(maxWidth: 2880) {
-                        ...GatsbyImageSharpFluid_withWebp
-                    }
-                }
-            }
-            classicaImg_8: file(
-                relativePath: { eq: "classica/classica_8.png" }
+            gridImg: file(
+                relativePath: { eq: "buzzsumo/buzzsumo_blog-grid.png" }
             ) {
                 id
                 childImageSharp {
@@ -90,6 +45,9 @@ function Classica() {
             }
         }
     `);
+    // {
+    //     console.log(data);
+    // }
 
     return (
         <>
@@ -108,16 +66,16 @@ function Classica() {
                     `Brighton`,
                     `Uk`,
                 ]}
-                title="Classica App"
+                title="Portfolio page Buzzsumo"
             />
-            <div className="w-12/12 mx-auto bg-blackPure">
+            <div className="w-12/12 mx-auto bg-white">
                 <TransitionPageIn>
                     <Img
-                        fluid={data.buzzsumoImg_1.childImageSharp.fluid}
-                        className="bg-blackPure"
+                        fluid={data.heroImg.childImageSharp.fluid}
+                        className=""
                         loading="eager"
                     />
-                    <div className="w-full bg-white pt-10 pb-20 md:py-32">
+                    <div className="w-full pb-20 md:pb-24">
                         <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-10 md:mt-32 mb-0">
                             <div className="hidden md:block md:w-4/12 mt-24">
                                 <h4 className="font-bold uppercase tracking-widest">
@@ -134,53 +92,76 @@ function Classica() {
                                 <h2 className="mb-4 md:mb-8">Description</h2>
                                 <p>
                                     <span className="font-extrabold">
-                                        Classica
+                                        BuzzSumo
                                     </span>{" "}
-                                    is a fun and friendly app for the classical
-                                    music lovers. Whether they are seasoned
-                                    aficionados or enthusiastic newbies, they'll
-                                    find plenty of learning material to support
-                                    their listening experience.
+                                    Creation of blog image headers to express
+                                    BuzzSumo's branding identity. The tone of
+                                    voice is playful and informal.
+                                </p>
+                            </div>
+                        </section>
+
+                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-10 md:mt-32 mb-0">
+                            <div className="hidden md:block md:w-4/12 mt-24">
+                                <h4 className="font-bold uppercase tracking-widest">
+                                    Blog header images
+                                </h4>
+                            </div>
+
+                            <div className="w-12/12 md:w-7/12 mt-16 md:mt-0 md:pr-24">
+                                <h2 className="mb-4 md:mb-8">Blog Images</h2>
+                                <p>
+                                    <span className="font-extrabold">
+                                        BuzzSumo
+                                    </span>{" "}
+                                    is a platform that allows you to find
+                                    engaging pieces of content and discover new
+                                    potential outreach opportunities. The site
+                                    allows you to search for content that has
+                                    received the most shares, links and
+                                    comments.
                                 </p>
                             </div>
                         </section>
                     </div>
 
-                    <Img
-                        fluid={data.classicaImg_2.childImageSharp.fluid}
-                        className="-m-2"
-                        loading="eager"
-                        alt="App screen"
-                    />
+                    <section className="w-10/12 md:w-8/12 mx-auto mb-32">
+                        <div class="grid grid-cols-3 gap-4">
+                            {data.buzzsumoImages.nodes.map((image) => (
+                                <Img
+                                    key={image.id}
+                                    fluid={image.childImageSharp.fluid}
+                                    className=""
+                                    loading="eager"
+                                    alt="Buzzsumo images"
+                                />
+                            ))}
+                        </div>
+                    </section>
 
-                    <Img
-                        fluid={data.classicaImg_3.childImageSharp.fluid}
-                        className="-m-2"
-                        loading="eager"
-                        alt="App screen"
-                    />
+                    <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-10 md:mt-32 mb-0">
+                        <div className="hidden md:block md:w-4/12 mt-24">
+                            <h4 className="font-bold uppercase tracking-widest">
+                                Web page
+                            </h4>
+                        </div>
 
-                    <Img
-                        fluid={data.classicaImg_4.childImageSharp.fluid}
-                        className="-m-2"
-                        loading="eager"
-                        alt="App screen"
-                    />
+                        <div className="mt-16 md:mt-0 md:pr-24">
+                            <h2 className="mb-4 md:mb-8">Web page</h2>
+                            <p>
+                                How the image come together in the grid on
+                                Buzzsumo's website page.
+                            </p>
+                            <Img
+                                fluid={data.gridImg.childImageSharp.fluid}
+                                className="shadow-lg mt-16"
+                                loading="eager"
+                                alt="App screen"
+                            />
+                        </div>
+                    </section>
 
-                    <Img
-                        fluid={data.classicaImg_5.childImageSharp.fluid}
-                        className="-m-2"
-                        loading="eager"
-                        alt="App screen"
-                    />
-
-                    <Img
-                        fluid={data.classicaImg_7.childImageSharp.fluid}
-                        className="-m-2"
-                        loading="eager"
-                        alt="App screen"
-                    />
-                    <div className=" bg-blackPure">
+                    <div className="bg-blackPure">
                         <InPageNav />
                     </div>
                 </TransitionPageIn>

@@ -76,7 +76,7 @@ function petTime({ location }) {
                     `Brighton`,
                     `Uk`,
                 ]}
-                title="PetTime App"
+                title="Portfolio page PetTime App"
             />
 
             <div className="w-12/12 mx-auto bg-blackPure">

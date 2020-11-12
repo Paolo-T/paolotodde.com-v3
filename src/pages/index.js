@@ -46,7 +46,7 @@ function Home() {
                 }
             }
             buzzsumoImg: file(
-                relativePath: { eq: "buzzsumo/buzzsumo__tile.png" }
+                relativePath: { eq: "buzzsumo/buzzsumo_33.jpg" }
             ) {
                 id
                 childImageSharp {
@@ -139,13 +139,11 @@ function Home() {
 
                         <TransitionInview>
                             <ImgTile
-                                Title="Space Digest"
-                                SubTitle="Web Design"
-                                TileImg={
-                                    data.spaceDigestImg.childImageSharp.fluid
-                                }
-                                Href="https://www.spacedigest.live/"
-                                ImgAlt="Website icon"
+                                Title="BuzzSumo.com"
+                                SubTitle="Web design"
+                                TileImg={data.buzzsumoImg.childImageSharp.fluid}
+                                LinkTo="/buzzsumo"
+                                ImgAlt="Buzzsumo"
                                 MarginTop="20"
                                 MarginBottom="20"
                                 Rounded="lg"
@@ -154,11 +152,13 @@ function Home() {
 
                         <TransitionInview>
                             <ImgTile
-                                Title="Buzzsumo.com"
-                                SubTitle="Web design"
-                                TileImg={data.buzzsumoImg.childImageSharp.fluid}
-                                LinkTo="/buzzsumo"
-                                ImgAlt="Buzzsumo"
+                                Title="Space Digest"
+                                SubTitle="Web Design"
+                                TileImg={
+                                    data.spaceDigestImg.childImageSharp.fluid
+                                }
+                                Href="https://www.spacedigest.live/"
+                                ImgAlt="Website icon"
                                 MarginTop="20"
                                 MarginBottom="20"
                                 Rounded="lg"
