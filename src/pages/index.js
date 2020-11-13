@@ -173,7 +173,7 @@ function Home() {
                                     rel="noopener noreferrer"
                                     href="mailto:iampaolotodde@gmail.com"
                                 >
-                                    Contact me
+                                    Contact
                                 </a>
                             </h2>
                             <ScrollToTop showBelow="250" />
