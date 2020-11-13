@@ -8,7 +8,7 @@ import InPageNav from "../components/InPageNav";
 function Classica() {
     const data = useStaticQuery(graphql`
         query {
-            heroImg: file(relativePath: { eq: "buzzsumo/buzzsumo_33.jpg" }) {
+            heroImg: file(relativePath: { eq: "buzzsumo/buzzsumo_tile.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
@@ -21,8 +21,7 @@ function Classica() {
                     relativeDirectory: { eq: "buzzsumo" }
                     name: { ne: "buzzsumo_blog-grid" }
                 }
-
-                sort: { order: DESC, fields: name }
+                sort: { fields: absolutePath }
             ) {
                 nodes {
                     id
@@ -45,9 +44,9 @@ function Classica() {
             }
         }
     `);
-    // {
-    //     console.log(data);
-    // }
+    {
+        console.log(data);
+    }
 
     return (
         <>
@@ -125,7 +124,7 @@ function Classica() {
                     </div>
 
                     <section className="w-10/12 md:w-8/12 mx-auto mb-32">
-                        <div class="grid grid-cols-3 gap-4">
+                        <div class="grid grid-cols-3 gap-5">
                             {data.buzzsumoImages.nodes.map((image) => (
                                 <Img
                                     key={image.id}

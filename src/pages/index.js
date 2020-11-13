@@ -10,7 +10,7 @@ function Home() {
     const data = useStaticQuery(graphql`
         query {
             classicaImg: file(
-                relativePath: { eq: "classica/classica__tile_2.png" }
+                relativePath: { eq: "classica/classica_tile_2.png" }
             ) {
                 id
                 childImageSharp {
@@ -19,7 +19,7 @@ function Home() {
                     }
                 }
             }
-            shuushImg: file(relativePath: { eq: "shuush/shuush__tile_2.png" }) {
+            shuushImg: file(relativePath: { eq: "shuush/shuush_tile_2.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
@@ -27,7 +27,7 @@ function Home() {
                     }
                 }
             }
-            petImg: file(relativePath: { eq: "petTime/petTime__tile_2.png" }) {
+            petImg: file(relativePath: { eq: "petTime/petTime_tile_2.png" }) {
                 id
                 childImageSharp {
                     fluid(maxWidth: 2880) {
@@ -36,7 +36,7 @@ function Home() {
                 }
             }
             spaceDigestImg: file(
-                relativePath: { eq: "spaceDigest/spaceDigest__tile.png" }
+                relativePath: { eq: "spaceDigest/spaceDigest_tile.png" }
             ) {
                 id
                 childImageSharp {
@@ -46,7 +46,7 @@ function Home() {
                 }
             }
             buzzsumoImg: file(
-                relativePath: { eq: "buzzsumo/buzzsumo_33.jpg" }
+                relativePath: { eq: "buzzsumo/buzzsumo_tile.png" }
             ) {
                 id
                 childImageSharp {
