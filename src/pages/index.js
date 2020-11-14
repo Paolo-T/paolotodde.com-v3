@@ -81,7 +81,7 @@ function Home() {
                                 target="_blank"
                                 href="https://www.linkedin.com/in/paolo-todde/"
                             >
-                                <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl ml-0 sm:ml-10 md:ml-24 lg:pl-8 md:mt-10 lg:mt-4 md:mb-0 lg:pt-32 lg:mb-24">
+                                <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl ml-0 sm:ml-10 md:ml-24 lg:pl-20 md:mt-10 lg:mt-4 md:mb-0 lg:pt-32 lg:mb-24">
                                     Hello, I’m Paolo.
                                     <br />
                                     <span className="inline text-primary">
