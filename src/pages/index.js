@@ -4,7 +4,6 @@ import { graphql, useStaticQuery } from "gatsby";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 import ImgTile from "../components/ImgTile";
-import ScrollToTop from "../components/ScrollToTop";
 
 function Home() {
     const data = useStaticQuery(graphql`
@@ -169,8 +168,8 @@ function Home() {
                             />
                         </TransitionInview>
 
-                        <section className="bg-gray-100 flex flex-col-reverse md:flex-row md:justify-between text-center md:text-left justify-center mt-5 md:mt-20 px-20 py-10">
-                            <h2 className="text-2xl md:text-5xl mt-2 text-center">
+                        <section className="text-center mt-5 md:mt-20 px-20 py-10">
+                            {/* <h2 className="text-2xl md:text-5xl mt-2 text-center">
                                 <a
                                     target="_top"
                                     className="cursor-pointer text-primary underline "
@@ -179,8 +178,15 @@ function Home() {
                                 >
                                     Contact
                                 </a>
-                            </h2>
-                            <ScrollToTop showBelow="250" />
+                            </h2> */}
+                            <button
+                                rel="noopener noreferrer"
+                                onclick="location.href='mailto:iampaolotodde@gmail.com'"
+                                type="button"
+                                class="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none  focus:border-red-600 transition duration-200 ease-in-out font-header text-2xl md:text-5xl py-3 px-10 rounded"
+                            >
+                                Contact
+                            </button>
                         </section>
                     </div>
                 </div>

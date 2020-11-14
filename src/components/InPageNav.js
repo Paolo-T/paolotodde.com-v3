@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import TransitionInview from "../components/TransitionInview";
-import ScrollToTop from "./ScrollToTop";
 import ImgTile from "./ImgTile";
 
 function InPageNav() {
@@ -57,15 +56,11 @@ function InPageNav() {
     `);
 
     return (
-        <div className="w-full mb-10 pt-12 md:pt-20">
-            <TransitionInview>
-                <section className="md:w-8/12 mx-auto flex flex-col-reverse md:flex-row md:justify-between text-center md:text-left justify-center mb-12">
-                    <h2 className="text-2xl md:text-4xl text-primary">
-                        Check other projects
-                    </h2>
-                    <ScrollToTop showBelow="250" />
-                </section>
-            </TransitionInview>
+        <section className="w-full mb-10 pt-12 md:pt-20">
+            <h2 className="block text-center mb-12 text-2xl md:text-4xl text-primary">
+                Check other projects
+            </h2>
+
             <div className="grid grid-cols-5 gap-0 mx-auto">
                 <ImgTile
                     Title=""
@@ -117,7 +112,7 @@ function InPageNav() {
                     MarginBottom="0"
                 />
             </div>
-        </div>
+        </section>
     );
 }
 
