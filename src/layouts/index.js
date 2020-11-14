@@ -3,10 +3,10 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 
-function Layout({ children, location }) {
+function Layout({ children }) {
     return (
         <div className="h-screen">
-            <Navigation location={location} />
+            <Navigation />
 
             <main className="mx-auto">{children}</main>
 

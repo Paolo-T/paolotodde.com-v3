@@ -24,7 +24,7 @@ const ScrollToTop = (showBelow) => {
 
     return (
         <button
-            className="w-10 md:w-12 bg-white hover:bg-primary hover:text-white border-2 border-grey ease-in-out transform hover:-translate-y-1 transition duration-200 focus:outline-none px-3 rounded-full py-3 inline-block mx-auto md:mx-0"
+            className="bg-white hover:bg-primary hover:text-white border-2 border-grey ease-in-out transform hover:-translate-y-1 transition duration-200 focus:outline-none  rounded-full py-3 px-3 inline-block mx-auto md:mx-0"
             onClick={handleClick}
         >
             <svg

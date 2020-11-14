@@ -3,7 +3,7 @@ import logo from "../images/logo.svg";
 // import aboutIcon from "../images/aboutIcon.svg";
 import { Link } from "gatsby";
 
-function Navigation({ location }) {
+function Navigation() {
     const pageStub =
         typeof window !== "undefined" ? window.location.pathname : "";
 
