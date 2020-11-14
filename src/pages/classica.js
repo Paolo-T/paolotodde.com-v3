@@ -5,11 +5,11 @@ import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import InPageNav from "../components/InPageNav";
 
-function Classica() {
+function classNameica() {
     const data = useStaticQuery(graphql`
         query {
-            classicaImg_1: file(
-                relativePath: { eq: "classica/classica_1.png" }
+            classNameicaImg_1: file(
+                relativePath: { eq: "classNameica/classNameica_1.png" }
             ) {
                 id
                 childImageSharp {
@@ -18,8 +18,8 @@ function Classica() {
                     }
                 }
             }
-            classicaImg_2: file(
-                relativePath: { eq: "classica/classica_2.png" }
+            classNameicaImg_2: file(
+                relativePath: { eq: "classNameica/classNameica_2.png" }
             ) {
                 id
                 childImageSharp {
@@ -28,8 +28,8 @@ function Classica() {
                     }
                 }
             }
-            classicaImg_3: file(
-                relativePath: { eq: "classica/classica_3.png" }
+            classNameicaImg_3: file(
+                relativePath: { eq: "classNameica/classNameica_3.png" }
             ) {
                 id
                 childImageSharp {
@@ -38,8 +38,8 @@ function Classica() {
                     }
                 }
             }
-            classicaImg_4: file(
-                relativePath: { eq: "classica/classica_4.png" }
+            classNameicaImg_4: file(
+                relativePath: { eq: "classNameica/classNameica_4.png" }
             ) {
                 id
                 childImageSharp {
@@ -48,8 +48,8 @@ function Classica() {
                     }
                 }
             }
-            classicaImg_5: file(
-                relativePath: { eq: "classica/classica_5.png" }
+            classNameicaImg_5: file(
+                relativePath: { eq: "classNameica/classNameica_5.png" }
             ) {
                 id
                 childImageSharp {
@@ -58,8 +58,8 @@ function Classica() {
                     }
                 }
             }
-            classicaImg_6: file(
-                relativePath: { eq: "classica/classica_6.png" }
+            classNameicaImg_6: file(
+                relativePath: { eq: "classNameica/classNameica_6.png" }
             ) {
                 id
                 childImageSharp {
@@ -68,8 +68,8 @@ function Classica() {
                     }
                 }
             }
-            classicaImg_7: file(
-                relativePath: { eq: "classica/classica_7.png" }
+            classNameicaImg_7: file(
+                relativePath: { eq: "classNameica/classNameica_7.png" }
             ) {
                 id
                 childImageSharp {
@@ -78,8 +78,8 @@ function Classica() {
                     }
                 }
             }
-            classicaImg_8: file(
-                relativePath: { eq: "classica/classica_8.png" }
+            classNameicaImg_8: file(
+                relativePath: { eq: "classNameica/classNameica_8.png" }
             ) {
                 id
                 childImageSharp {
@@ -108,12 +108,12 @@ function Classica() {
                     `Brighton`,
                     `Uk`,
                 ]}
-                title="Portfolio page Classica App"
+                title="Portfolio page classNameica App"
             />
             <div className="w-12/12 mx-auto bg-blackPure">
                 <TransitionPageIn>
                     <Img
-                        fluid={data.classicaImg_1.childImageSharp.fluid}
+                        fluid={data.classNameicaImg_1.childImageSharp.fluid}
                         className="bg-blackPure"
                         loading="eager"
                     />
@@ -130,13 +130,14 @@ function Classica() {
                                 <h2 className="mb-4 md:mb-8">Description</h2>
                                 <p>
                                     <span className="font-extrabold">
-                                        Classica
+                                        classNameica
                                     </span>{" "}
-                                    is a fun and friendly app for the classical
-                                    music lovers. Whether they are seasoned
-                                    aficionados or enthusiastic newbies, they'll
-                                    find plenty of learning material to support
-                                    their listening experience.
+                                    is a fun and friendly app for the
+                                    classNameical music lovers. Whether they are
+                                    seasoned aficionados or enthusiastic
+                                    newbies, they'll find plenty of learning
+                                    material to support their listening
+                                    experience.
                                 </p>
                             </div>
                         </section>
@@ -161,7 +162,7 @@ function Classica() {
                                     mobile app to be run on smartphones only.
                                     Here some information on the app itself: The
                                     app is for listening to and learning about
-                                    classical music.
+                                    classNameical music.
                                     <br />
                                     The app monetizes through subscriptions.
                                     Some of the content and features are free
@@ -175,8 +176,8 @@ function Classica() {
                                     themselves on it; and the long-standing
                                     aficionado that’s looking for a
                                     high-quality, comprehensive library of
-                                    classical music and related content to enjoy
-                                    on the go.
+                                    classNameical music and related content to
+                                    enjoy on the go.
                                     <br />
                                     <br />
                                     There are four different sections: <br />
@@ -209,15 +210,15 @@ function Classica() {
                                 <h2 className="mb-4 md:mb-8">The problem</h2>
                                 <p>
                                     The need for a comprehensive resource hub to
-                                    satisfy the curiosity of the classical music
-                                    enthusiasts.
+                                    satisfy the curiosity of the classNameical
+                                    music enthusiasts.
                                     <br />A place for the curious newbie
                                     searching for high-quality learning
                                     resources, discover interesting content to
-                                    learn about the classical music world. A hub
-                                    for the expert to dig deep into the details
-                                    of their passion subject, discover new music
-                                    and enjoy the classics.
+                                    learn about the classNameical music world. A
+                                    hub for the expert to dig deep into the
+                                    details of their passion subject, discover
+                                    new music and enjoy the classNameics.
                                 </p>
                             </div>
                         </section>
@@ -241,35 +242,35 @@ function Classica() {
                     </div>
 
                     <Img
-                        fluid={data.classicaImg_2.childImageSharp.fluid}
+                        fluid={data.classNameicaImg_2.childImageSharp.fluid}
                         className="-m-2"
                         loading="eager"
                         alt="App screen"
                     />
 
                     <Img
-                        fluid={data.classicaImg_3.childImageSharp.fluid}
+                        fluid={data.classNameicaImg_3.childImageSharp.fluid}
                         className="-m-2"
                         loading="eager"
                         alt="App screen"
                     />
 
                     <Img
-                        fluid={data.classicaImg_4.childImageSharp.fluid}
+                        fluid={data.classNameicaImg_4.childImageSharp.fluid}
                         className="-m-2"
                         loading="eager"
                         alt="App screen"
                     />
 
                     <Img
-                        fluid={data.classicaImg_5.childImageSharp.fluid}
+                        fluid={data.classNameicaImg_5.childImageSharp.fluid}
                         className="-m-2"
                         loading="eager"
                         alt="App screen"
                     />
 
                     <Img
-                        fluid={data.classicaImg_7.childImageSharp.fluid}
+                        fluid={data.classNameicaImg_7.childImageSharp.fluid}
                         className="-m-2"
                         loading="eager"
                         alt="App screen"
@@ -283,4 +284,4 @@ function Classica() {
     );
 }
 
-export default Classica;
+export default classNameica;

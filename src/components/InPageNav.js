@@ -87,7 +87,7 @@ function InPageNav() {
                     SubTitle=""
                     TileImg={data.classicaImg.childImageSharp.fluid}
                     LinkTo="/classica"
-                    ImgAlt="Classica app ui design"
+                    ImgAlt="classica app ui design"
                     MarginTop="0"
                     MarginBottom="0"
                 />

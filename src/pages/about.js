@@ -102,21 +102,20 @@ function About() {
                                         CSS Design Awards
                                     </a>
                                 </p>
-                                <h2 className="text-3xl md:text-4xl mt-16">
-                                    <a
-                                        className="cursor-pointer text-primary underline "
-                                        rel="noopener noreferrer"
-                                        href="mailto:iampaolotodde@gmail.com"
-                                    >
-                                        Contact me
-                                    </a>
-                                </h2>
                             </div>
+                            <button
+                                rel="noopener noreferrer"
+                                onClick="location.href='mailto:iampaolotodde@gmail.com'"
+                                type="button"
+                                className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none  focus:border-red-600 transition duration-200 ease-in-out font-header text-xl md:text-3xl mt-20 py-3 px-10 rounded"
+                            >
+                                Contact
+                            </button>
                         </section>
                     </TransitionInview>
 
                     <TransitionInview>
-                        <section className="w-full bg-orange-100 mt-20 md:mt-46 pt-10 pb-10 md:pb-32">
+                        <section className="w-full bg-orange-100 mt-20 md:mt-40 pt-10 pb-10 md:pb-32">
                             <div className="w-10/12 md:w-6/12 mx-auto">
                                 <h2 className="text-5xl md:text-3xl flex-1 mb-10 mt-10">
                                     Side projects
@@ -163,9 +162,9 @@ function About() {
                     </TransitionInview>
                 </TransitionPageIn>
             </div>
-            <div className=" bg-white">
+            {/* <div className=" bg-white">
                 <InPageNav />
-            </div>
+            </div> */}
         </>
     );
 }

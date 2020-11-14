@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import InPageNav from "../components/InPageNav";
 
-function Classica() {
+function classNameica() {
     const data = useStaticQuery(graphql`
         query {
             heroImg: file(relativePath: { eq: "buzzsumo/buzzsumo_tile.png" }) {
@@ -124,7 +124,7 @@ function Classica() {
                     </div>
 
                     <section className="w-10/12 md:w-8/12 mx-auto mb-32">
-                        <div class="grid grid-cols-3 gap-5">
+                        <div className="grid grid-cols-3 gap-5">
                             {data.buzzsumoImages.nodes.map((image) => (
                                 <Img
                                     key={image.id}
@@ -168,4 +168,4 @@ function Classica() {
     );
 }
 
-export default Classica;
+export default classNameica;

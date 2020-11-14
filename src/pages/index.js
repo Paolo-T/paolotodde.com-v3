@@ -75,32 +75,30 @@ function Home() {
                 <div className="w-screen bg-ImageHomeBg sm:bg-ImageHomeBg__sm md:bg-ImageHomeBg__md lg:bg-ImageHomeBg__lg xl:bg-ImageHomeBg__xl cover bg-no-repeat">
                     <div className="w-10/12 md:w-10/12 mx-auto pt-40 md:pt-30">
                         <TransitionInview>
-                            <a
-                                rel="noopener noreferrer"
-                                target="_blank"
-                                href="https://www.linkedin.com/in/paolo-todde/"
-                            >
-                                <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl ml-0 sm:ml-10 md:ml-24 lg:pl-20 md:mt-10 lg:mt-4 md:mb-0 lg:pt-32 lg:mb-24 cursor-pointer ">
-                                    Hello, I’m{" "}
+                            <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl ml-0 sm:ml-10 md:ml-24 lg:pl-20 md:mt-10 lg:mt-4 md:mb-0 lg:pt-32 lg:mb-24 cursor-pointer ">
+                                Hello, I’m{" "}
+                                <a
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://www.linkedin.com/in/paolo-todde/"
+                                >
                                     <span className="hover:text-primary hover:underline transition duration-200 ">
                                         {" "}
                                         Paolo.
                                     </span>
-                                    <br />
-                                    <span className="inline text-primary">
-                                        Designer
-                                    </span>{" "}
-                                    <span className="inline">and</span>
-                                    <br />
-                                    <span className="inline">
-                                        front-end
-                                    </span>{" "}
-                                    <span className="inline text-primary">
-                                        coder
-                                    </span>
-                                    .
-                                </h1>
-                            </a>
+                                </a>
+                                <br />
+                                <span className="inline text-primary">
+                                    Designer
+                                </span>{" "}
+                                <span className="inline">and</span>
+                                <br />
+                                <span className="inline">front-end</span>{" "}
+                                <span className="inline text-primary">
+                                    coder
+                                </span>
+                                .
+                            </h1>
                         </TransitionInview>
 
                         <ImgTile
@@ -129,11 +127,11 @@ function Home() {
 
                         <TransitionInview>
                             <ImgTile
-                                Title="Classica"
+                                Title="classica"
                                 SubTitle="UI/UX Design"
                                 TileImg={data.classicaImg.childImageSharp.fluid}
                                 LinkTo="/classica"
-                                ImgAlt="Classica app ui design"
+                                ImgAlt="classica app ui design"
                                 MarginTop="20"
                                 MarginBottom="20"
                                 Rounded="lg"
@@ -181,9 +179,9 @@ function Home() {
                             </h2> */}
                             <button
                                 rel="noopener noreferrer"
-                                onclick="location.href='mailto:iampaolotodde@gmail.com'"
+                                onClick="location.href='mailto:iampaolotodde@gmail.com'"
                                 type="button"
-                                class="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none  focus:border-red-600 transition duration-200 ease-in-out font-header text-2xl md:text-5xl py-3 px-10 rounded"
+                                className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none  focus:border-red-600 transition duration-200 ease-in-out font-header text-2xl md:text-5xl py-3 px-10 rounded"
                             >
                                 Contact
                             </button>
