@@ -1,6 +1,5 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import TransitionInview from "../components/TransitionInview";
 import ImgTile from "./ImgTile";
 
 function InPageNav() {

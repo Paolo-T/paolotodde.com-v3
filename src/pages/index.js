@@ -82,7 +82,7 @@ function Home() {
                                     target="_blank"
                                     href="https://www.linkedin.com/in/paolo-todde/"
                                 >
-                                    <span className="hover:text-primary hover:underline transition duration-200 ">
+                                    <span className="hover:text-primary hover:underline transition duration-500 ">
                                         {" "}
                                         Paolo.
                                     </span>
@@ -181,7 +181,7 @@ function Home() {
                                 rel="noopener noreferrer"
                                 onClick="location.href='mailto:iampaolotodde@gmail.com'"
                                 type="button"
-                                className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none  focus:border-red-600 transition duration-200 ease-in-out font-header text-2xl md:text-5xl py-3 px-10 rounded"
+                                className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none  focus:border-red-600 transition duration-500 ease-in-out font-header text-2xl md:text-5xl py-3 px-10 rounded"
                             >
                                 Contact
                             </button>

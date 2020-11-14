@@ -148,7 +148,7 @@ function classNameica() {
                             <h2 className="mb-4 md:mb-8">Web page</h2>
                             <p>
                                 How the image come together in the grid on
-                                Buzzsumo's website page.
+                                Buzzsumo's blog page.
                             </p>
                             <Img
                                 fluid={data.gridImg.childImageSharp.fluid}

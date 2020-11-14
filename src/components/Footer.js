@@ -12,7 +12,7 @@ function Footer() {
                         target="_blank"
                         href="https://www.linkedin.com/in/paolo-todde/"
                     >
-                        <li className="xlg:inline-block sm:text-2xl lg:text-4xl font-bold hover:text-primary transition duration-200 hover:underline ease-in-out mb-3">
+                        <li className="xlg:inline-block sm:text-2xl lg:text-4xl font-bold hover:text-primary transition duration-500 hover:underline ease-in-out mb-3">
                             LinkedIn
                         </li>
                     </a>
@@ -21,7 +21,7 @@ function Footer() {
                         target="_blank"
                         href="https://www.instagram.com/three_design_company/"
                     >
-                        <li className="xlg:inline-block sm:text-2xl lg:text-4xl hover:text-primary transition duration-200 hover:underline ease-in-out mb-3">
+                        <li className="xlg:inline-block sm:text-2xl lg:text-4xl hover:text-primary transition duration-500 hover:underline ease-in-out mb-3">
                             Instagram
                         </li>
                     </a>
@@ -30,7 +30,7 @@ function Footer() {
                         target="_blank"
                         href="https://github.com/Paolo-T"
                     >
-                        <li className="xlg:inline-block sm:text-2xl lg:text-4xl  hover:text-primary transition duration-200 hover:underline ease-in-out mb-3">
+                        <li className="xlg:inline-block sm:text-2xl lg:text-4xl  hover:text-primary transition duration-500 hover:underline ease-in-out mb-3">
                             Github
                         </li>
                     </a>
@@ -39,7 +39,7 @@ function Footer() {
                         rel="noopener noreferrer"
                         href="mailto:iampaolotodde@gmail.com"
                     >
-                        <li className="xlg:inline-block sm:text-2xl lg:text-4xl  hover:text-primary transition duration-200 hover:underline ease-in-out mb-3">
+                        <li className="xlg:inline-block sm:text-2xl lg:text-4xl  hover:text-primary transition duration-500 hover:underline ease-in-out mb-3">
                             Email
                         </li>
                     </a>
