@@ -6,8 +6,6 @@ import { Link } from "gatsby";
 function Navigation({ location }) {
     const pageStub = location.pathname;
 
-    console.log(pageStub);
-
     return (
         <header className="w-full fixed bg-transparent z-10">
             <nav className="w-10/12 md:w-8/12 max-w-screen-xl mx-auto flex justify-between pt-12 md:pt-24">

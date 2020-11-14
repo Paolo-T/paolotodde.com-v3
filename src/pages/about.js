@@ -115,9 +115,9 @@ function About() {
                     </TransitionInview>
 
                     <TransitionInview>
-                        <section className="w-full bg-orange-100 mt-20 md:mt-40 pt-10 pb-10 md:pb-32">
+                        <section className="w-full bg-orange-100 mt-20 md:mt-40 pt-6 pb-10 md:pb-32">
                             <div className="w-10/12 md:w-6/12 mx-auto">
-                                <h2 className="text-5xl md:text-3xl flex-1 mb-10 mt-10">
+                                <h2 className="text-5xl md:text-4xl flex-1 mb-16 mt-10">
                                     Side projects
                                 </h2>
                                 <div className="grid md:grid-cols-2 gap-8">

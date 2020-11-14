@@ -4,6 +4,8 @@ import TransitionInview from "../components/TransitionInview";
 import ImgTile from "./ImgTile";
 
 function InPageNav() {
+    const pageStub = location.pathname;
+
     const data = useStaticQuery(graphql`
         query Images {
             classicaImg: file(
@@ -61,56 +63,66 @@ function InPageNav() {
                 Check other projects
             </h2>
 
-            <div className="grid grid-cols-5 gap-0 mx-auto">
-                <ImgTile
-                    Title=""
-                    SubTitle=""
-                    TileImg={data.petImg.childImageSharp.fluid}
-                    LinkTo="/petTime"
-                    ImgAlt="Pet Time app ui design"
-                    MarginTop="0"
-                    MarginBottom="0"
-                />
+            <div className="grid grid-cols-4 gap-0 mx-auto">
+                {pageStub !== "/petTime" ? (
+                    <ImgTile
+                        Title=""
+                        SubTitle=""
+                        TileImg={data.petImg.childImageSharp.fluid}
+                        LinkTo="/petTime"
+                        ImgAlt="Pet Time app ui design"
+                        MarginTop="0"
+                        MarginBottom="0"
+                    />
+                ) : null}
 
-                <ImgTile
-                    Title=""
-                    SubTitle=""
-                    TileImg={data.shuushImg.childImageSharp.fluid}
-                    LinkTo="/shuush"
-                    ImgAlt="Shuush! app ui design"
-                    MarginTop="0"
-                    MarginBottom="0"
-                />
+                {pageStub !== "/shuush" ? (
+                    <ImgTile
+                        Title=""
+                        SubTitle=""
+                        TileImg={data.shuushImg.childImageSharp.fluid}
+                        LinkTo="/shuush"
+                        ImgAlt="Shuush! app ui design"
+                        MarginTop="0"
+                        MarginBottom="0"
+                    />
+                ) : null}
 
-                <ImgTile
-                    Title=""
-                    SubTitle=""
-                    TileImg={data.classicaImg.childImageSharp.fluid}
-                    LinkTo="/classica"
-                    ImgAlt="classica app ui design"
-                    MarginTop="0"
-                    MarginBottom="0"
-                />
+                {pageStub !== "/classica" ? (
+                    <ImgTile
+                        Title=""
+                        SubTitle=""
+                        TileImg={data.classicaImg.childImageSharp.fluid}
+                        LinkTo="/classica"
+                        ImgAlt="classica app ui design"
+                        MarginTop="0"
+                        MarginBottom="0"
+                    />
+                ) : null}
 
-                <ImgTile
-                    Title=""
-                    SubTitle=""
-                    TileImg={data.spaceDigestImg.childImageSharp.fluid}
-                    Href="https://www.spacedigest.live/"
-                    ImgAlt="Space Digest website"
-                    MarginTop="0"
-                    MarginBottom="0"
-                />
+                {pageStub !== "/spaceDigest" ? (
+                    <ImgTile
+                        Title=""
+                        SubTitle=""
+                        TileImg={data.spaceDigestImg.childImageSharp.fluid}
+                        Href="https://www.spacedigest.live/"
+                        ImgAlt="Space Digest website"
+                        MarginTop="0"
+                        MarginBottom="0"
+                    />
+                ) : null}
 
-                <ImgTile
-                    Title=""
-                    SubTitle=""
-                    TileImg={data.buzzsumoImg.childImageSharp.fluid}
-                    LinkTo="/buzzsumo"
-                    ImgAlt="BuzzSumo"
-                    MarginTop="0"
-                    MarginBottom="0"
-                />
+                {pageStub !== "/buzzsumo" ? (
+                    <ImgTile
+                        Title=""
+                        SubTitle=""
+                        TileImg={data.buzzsumoImg.childImageSharp.fluid}
+                        LinkTo="/buzzsumo"
+                        ImgAlt="BuzzSumo"
+                        MarginTop="0"
+                        MarginBottom="0"
+                    />
+                ) : null}
             </div>
         </section>
     );
