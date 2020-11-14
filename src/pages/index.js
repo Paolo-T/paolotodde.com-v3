@@ -74,7 +74,7 @@ function Home() {
             />
             <TransitionPageIn>
                 <div className="w-screen bg-ImageHomeBg sm:bg-ImageHomeBg__sm md:bg-ImageHomeBg__md lg:bg-ImageHomeBg__lg xl:bg-ImageHomeBg__xl cover bg-no-repeat">
-                    <div className="w-10/12 md:container mx-auto pt-40 md:pt-30">
+                    <div className="w-10/12 md:w-9/12 mx-auto pt-40 md:pt-30">
                         <TransitionInview>
                             <a
                                 rel="noopener noreferrer"
