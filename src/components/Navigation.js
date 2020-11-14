@@ -4,7 +4,8 @@ import logo from "../images/logo.svg";
 import { Link } from "gatsby";
 
 function Navigation({ location }) {
-    const pageStub = location.pathname;
+    const pageStub =
+        typeof window !== "undefined" ? window.location.pathname : "";
 
     return (
         <header className="w-full fixed bg-transparent z-10">

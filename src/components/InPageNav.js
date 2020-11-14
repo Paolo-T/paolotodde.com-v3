@@ -4,7 +4,8 @@ import TransitionInview from "../components/TransitionInview";
 import ImgTile from "./ImgTile";
 
 function InPageNav() {
-    const pageStub = location.pathname;
+    const pageStub =
+        typeof window !== "undefined" ? window.location.pathname : "";
 
     const data = useStaticQuery(graphql`
         query Images {
