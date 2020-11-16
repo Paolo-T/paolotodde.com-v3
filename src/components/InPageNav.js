@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import ImgTile from "./ImgTile";
 
 function InPageNav() {
-    const pageStub =
+    const pageLocation =
         typeof window !== "undefined" ? window.location.pathname : "";
 
     const data = useStaticQuery(graphql`
@@ -63,8 +63,8 @@ function InPageNav() {
                 Check other projects
             </h2>
 
-            <div className="grid grid-cols-4 gap-0 mx-auto">
-                {pageStub !== "/petTime" ? (
+            <div className="grid grid-cols-4 gap-0 mx-auto -mb-10 md:m-0">
+                {pageLocation !== "/petTime" ? (
                     <ImgTile
                         Title=""
                         SubTitle=""
@@ -76,7 +76,7 @@ function InPageNav() {
                     />
                 ) : null}
 
-                {pageStub !== "/shuush" ? (
+                {pageLocation !== "/shuush" ? (
                     <ImgTile
                         Title=""
                         SubTitle=""
@@ -88,7 +88,7 @@ function InPageNav() {
                     />
                 ) : null}
 
-                {pageStub !== "/classica" ? (
+                {pageLocation !== "/classica" ? (
                     <ImgTile
                         Title=""
                         SubTitle=""
@@ -100,7 +100,7 @@ function InPageNav() {
                     />
                 ) : null}
 
-                {pageStub !== "/spaceDigest" ? (
+                {pageLocation !== "/spaceDigest" ? (
                     <ImgTile
                         Title=""
                         SubTitle=""
@@ -112,7 +112,7 @@ function InPageNav() {
                     />
                 ) : null}
 
-                {pageStub !== "/buzzsumo" ? (
+                {pageLocation !== "/buzzsumo" ? (
                     <ImgTile
                         Title=""
                         SubTitle=""

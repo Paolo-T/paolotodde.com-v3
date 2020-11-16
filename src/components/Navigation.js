@@ -3,7 +3,7 @@ import logo from "../images/logo.svg";
 import { Link } from "gatsby";
 
 function Navigation() {
-    const pageStub =
+    const pageLocation =
         typeof window !== "undefined" ? window.location.pathname : "";
 
     return (
@@ -12,7 +12,7 @@ function Navigation() {
                 <Link to="/">
                     <img className="w-8 md:w-8" src={logo} alt="nasa-logo" />
                 </Link>
-                {pageStub === "/about" ? (
+                {pageLocation === "/about" ? (
                     <Link to="/">
                         <div className="group flex">
                             <p className="text-xl md:text-2xl text-grey hover:text-primary transition duration-500 hover:underline pt-3 md:pt-2 align-baseline">
