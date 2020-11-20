@@ -19,7 +19,7 @@ function Footer() {
                     <a
                         rel="noopener noreferrer"
                         target="_blank"
-                        href="https://www.instagram.com/three_design_company/"
+                        href="https://www.instagram.com/pat_img/"
                     >
                         <li className="xlg:inline-block sm:text-2xl lg:text-4xl hover:text-primary transition duration-500 hover:underline ease-in-out mb-3">
                             Instagram
