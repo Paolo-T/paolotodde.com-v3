@@ -126,7 +126,7 @@ function About() {
                                             Digital Art
                                         </h2>
                                         <a
-                                            href="https://www.instagram.com/pat_img/"
+                                            href="https://www.instagram.com/paolo_tde/"
                                             target="_blank"
                                         >
                                             <Img
