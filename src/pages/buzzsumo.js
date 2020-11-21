@@ -137,13 +137,7 @@ function classNameica() {
                         </div>
                     </section>
 
-                    <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-10 md:mt-32 mb-0">
-                        <div className="hidden md:block md:w-4/12 mt-24">
-                            <h4 className="font-bold uppercase tracking-widest">
-                                Web page
-                            </h4>
-                        </div>
-
+                    <section className="w-11/12 md:w-8/12 mx-auto text-black  mt-10 md:mt-32 mb-0">
                         <div className="mt-16 md:mt-0 md:pr-24 mb-40">
                             <h2 className="mb-4 md:mb-8">Web page</h2>
                             <p>
