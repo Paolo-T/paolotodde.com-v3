@@ -57,13 +57,21 @@ function InPageNav() {
         }
     `);
 
+    const navItemsNumber = Object.keys(data).length;
+
     return (
         <section className="w-full mb-10 pt-12 md:pt-20">
             <h2 className="block text-center mb-12 text-2xl md:text-4xl text-primary">
                 Check other projects
             </h2>
 
-            <div className="grid grid-cols-4 gap-0 mx-auto -mb-10 md:m-0">
+            <div
+                className={`grid grid-cols-${
+                    pageLocation === "/three"
+                        ? navItemsNumber
+                        : navItemsNumber - 1
+                } gap-0 mx-auto -mb-10 md:m-0`}
+            >
                 {pageLocation !== "/petTime" ? (
                     <ImgTile
                         Title=""
@@ -76,7 +84,7 @@ function InPageNav() {
                     />
                 ) : null}
 
-                {pageLocation !== "/shuush" ? (
+                {pageLocation !== "/shuush/" ? (
                     <ImgTile
                         Title=""
                         SubTitle=""

@@ -70,7 +70,7 @@ function Three() {
                     </div>
                 </a>
             </TransitionPageIn>
-            <div className=" bg-white">
+            <div className="bg-blackPure">
                 <InPageNav />
             </div>
         </>
