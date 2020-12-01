@@ -177,14 +177,18 @@ function Home() {
                                     Contact
                                 </a>
                             </h2> */}
-                            <button
+                            <a
+                                target="_parent"
                                 rel="noopener noreferrer"
-                                onClick="location.href='mailto:iampaolotodde@gmail.com'"
-                                type="button"
-                                className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none  focus:border-red-600 transition duration-500 ease-in-out font-header text-2xl md:text-5xl py-3 px-10 rounded"
+                                href="mailto:iampaolotodde@gmail.com"
                             >
-                                Contact
-                            </button>
+                                <button
+                                    type="button"
+                                    className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none  focus:border-red-600 transition duration-500 ease-in-out font-header text-2xl md:text-5xl py-3 px-12 rounded"
+                                >
+                                    Contact
+                                </button>
+                            </a>
                         </section>
                     </div>
                 </div>

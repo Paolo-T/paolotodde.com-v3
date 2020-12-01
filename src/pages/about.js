@@ -103,14 +103,19 @@ function About() {
                                     </a>
                                 </p>
                             </div>
-                            <button
+
+                            <a
+                                target="_parent"
                                 rel="noopener noreferrer"
-                                onClick="location.href='mailto:iampaolotodde@gmail.com'"
-                                type="button"
-                                className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none  focus:border-red-600 transition duration-500 ease-in-out font-header text-xl md:text-3xl mt-20 py-3 px-10 rounded"
+                                href="mailto:iampaolotodde@gmail.com"
                             >
-                                Contact
-                            </button>
+                                <button
+                                    type="button"
+                                    className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none  focus:border-red-600 transition duration-500 ease-in-out font-header text-xl md:text-3xl mt-20 py-3 px-10 rounded"
+                                >
+                                    Contact
+                                </button>
+                            </a>
                         </section>
                     </TransitionInview>
 
