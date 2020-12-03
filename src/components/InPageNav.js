@@ -66,7 +66,10 @@ function InPageNav() {
             </h2>
 
             <div
-                className={`grid grid-cols-4
+                className={`grid grid-cols-${
+                    pageLocation === "/three"
+                        ? navItemsNumber
+                        : navItemsNumber - 1
                 } gap-0 mx-auto -mb-10 md:m-0`}
             >
                 {pageLocation !== "/petTime" ? (
