@@ -18,7 +18,7 @@ function ImgTile({
             {LinkTo ? (
                 <Link to={LinkTo}>
                     <div
-                        className={`group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center overflow-hidden my-4 md:mt-${MarginTop} md:mb-${MarginBottom} rounded-${
+                        className={`group  w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center overflow-hidden md:mt-${MarginTop} md:mb-${MarginBottom} rounded-${
                             Rounded ? Rounded : 0
                         } `}
                     >
@@ -44,7 +44,7 @@ function ImgTile({
             ) : (
                 <a href={Href} target="_blank">
                     <div
-                        className={`group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center overflow-hidden my-4 md:mt-${MarginTop} md:mb-${MarginBottom} rounded-${
+                        className={`group inline-block w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center overflow-hidden md:mt-${MarginTop} md:mb-${MarginBottom} rounded-${
                             Rounded ? Rounded : 0
                         } `}
                     >
