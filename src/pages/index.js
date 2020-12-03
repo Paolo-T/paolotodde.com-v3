@@ -127,7 +127,7 @@ function Home() {
 
                         <TransitionInview>
                             <ImgTile
-                                Title="classica"
+                                Title="Classica"
                                 SubTitle="UI/UX Design"
                                 TileImg={data.classicaImg.childImageSharp.fluid}
                                 LinkTo="/classica"
