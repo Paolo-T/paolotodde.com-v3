@@ -8,7 +8,7 @@ function TransitionPageIn({ children }) {
         config: spring,
         from: {
             opacity: 0,
-            transform: `translate3d(0,5rem,0)`,
+            transform: `translate3d(0,3rem,0)`,
         },
         to: {
             opacity: 1,

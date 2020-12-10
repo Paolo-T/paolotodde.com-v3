@@ -50,7 +50,7 @@ function About() {
                 ]}
                 title="About"
             />
-
+            <div className="h-2 w-100 bg-primary"></div>
             <div className="w-full bg-white pt-20 md:pt-48">
                 <TransitionPageIn>
                     <TransitionInview>
@@ -111,7 +111,7 @@ function About() {
                             >
                                 <button
                                     type="button"
-                                    className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none  focus:border-red-600 transition duration-500 ease-in-out font-header text-xl md:text-3xl mt-20 py-3 px-10 rounded"
+                                    className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none transition duration-500 ease-in-out font-header text-xl md:text-3xl mt-20 py-3 px-10 rounded"
                                 >
                                     Contact
                                 </button>
