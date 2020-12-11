@@ -140,19 +140,6 @@ function Home() {
 
                         <TransitionInview>
                             <ImgTile
-                                Title="BuzzSumo.com"
-                                SubTitle="Web design"
-                                TileImg={data.buzzsumoImg.childImageSharp.fluid}
-                                LinkTo="/buzzsumo"
-                                ImgAlt="Buzzsumo"
-                                MarginTop="20"
-                                MarginBottom="20"
-                                Rounded="lg"
-                            />
-                        </TransitionInview>
-
-                        <TransitionInview>
-                            <ImgTile
                                 Title="Space Digest"
                                 SubTitle="Web Design / Development"
                                 TileImg={
@@ -161,6 +148,19 @@ function Home() {
                                 LinkTo="/spaceDigest"
                                 // Href="https://www.spacedigest.live/"
                                 ImgAlt="Website icon"
+                                MarginTop="20"
+                                MarginBottom="20"
+                                Rounded="lg"
+                            />
+                        </TransitionInview>
+
+                        <TransitionInview>
+                            <ImgTile
+                                Title="BuzzSumo.com"
+                                SubTitle="Web design"
+                                TileImg={data.buzzsumoImg.childImageSharp.fluid}
+                                LinkTo="/buzzsumo"
+                                ImgAlt="Buzzsumo"
                                 MarginTop="20"
                                 MarginBottom="20"
                                 Rounded="lg"
