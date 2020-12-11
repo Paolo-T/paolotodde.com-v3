@@ -118,7 +118,7 @@ function classica() {
                         loading="eager"
                     />
                     <div className="w-full bg-white pt-10 pb-20 md:py-32">
-                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-10 md:mt-32 mb-0">
+                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-10 mb-0">
                             <div className="hidden md:block md:w-4/12 mt-24">
                                 <h4 className="font-extrabold uppercase tracking-widest">
                                     Description
@@ -141,7 +141,7 @@ function classica() {
                             </div>
                         </section>
 
-                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
+                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-12 mb-0">
                             <div className="hidden md:block md:w-4/12 mt-24">
                                 <h4 className="font-extrabold uppercase tracking-widest">
                                     Skills applied
@@ -222,7 +222,7 @@ function classica() {
                             </div>
                         </section>
 
-                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 pb-20 md:pb-32">
+                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-12 pb-20">
                             <div className="hidden md:block md:w-4/12 mt-24">
                                 <h4 className="font-extrabold uppercase tracking-widest">
                                     Solution

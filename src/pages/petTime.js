@@ -117,7 +117,7 @@ function petTime({ location }) {
                             </div>
                         </section>
 
-                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
+                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-12 mb-0">
                             <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                                 <h4 className="font-extrabold uppercase tracking-widest">
                                     Skills applied
@@ -173,7 +173,7 @@ function petTime({ location }) {
                                 </p>
                             </div>
                         </section>
-                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
+                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-12 mb-0">
                             <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                                 <h4 className="font-extrabold uppercase tracking-widest">
                                     Problem
@@ -200,7 +200,7 @@ function petTime({ location }) {
                                 </p>
                             </div>
                         </section>
-                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
+                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-12 mb-0">
                             <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                                 <h4 className="font-extrabold uppercase tracking-widest">
                                     Solution
@@ -219,7 +219,7 @@ function petTime({ location }) {
                                 </p>
                             </div>
                         </section>
-                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-16 mb-0">
+                        <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-12 mb-0">
                             <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                                 <h4 className="font-extrabold uppercase tracking-widest">
                                     Flow

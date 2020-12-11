@@ -154,11 +154,12 @@ function Home() {
                         <TransitionInview>
                             <ImgTile
                                 Title="Space Digest"
-                                SubTitle="Web Design"
+                                SubTitle="Web Design / Development"
                                 TileImg={
                                     data.spaceDigestImg.childImageSharp.fluid
                                 }
-                                Href="https://www.spacedigest.live/"
+                                LinkTo="/spaceDigest"
+                                // Href="https://www.spacedigest.live/"
                                 ImgAlt="Website icon"
                                 MarginTop="20"
                                 MarginBottom="20"
