@@ -167,7 +167,7 @@ function Home() {
                             />
                         </TransitionInview>
 
-                        <section className="text-center mt-16 md:mt-32">
+                        <section className="text-center mt-16 md:mt-32 md:mb-20">
                             {/* <h2 className="text-2xl md:text-5xl mt-2 text-center">
                                 <a
                                     target="_top"

@@ -13,7 +13,7 @@ function TransitionInView({ children }) {
     const props = useSpring({
         config: spring,
         opacity: visible ? 1 : 0,
-        transform: visible ? `translate3d(0,0rem,0)` : `translate3d(0,3rem,0)`,
+        transform: visible ? `translate3d(0,0rem,0)` : `translate3d(0,9rem,0)`,
     });
 
     useEffect(() => {
