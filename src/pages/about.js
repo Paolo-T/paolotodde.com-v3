@@ -32,12 +32,12 @@ function About() {
    const softSkills = [
       "Empathy",
       "Ability and eagerness to learn",
+      "Judgement and Decision-Making",
+      "Interpersonal Abilities",
       "Problem Solving",
+      "Managing Priorities",
       "Analytical",
       "Adaptability",
-      "Managing Priorities",
-      "Interpersonal Abilities",
-      "Judgement and Decision-Making",
    ];
 
    const techSkills = [
@@ -124,7 +124,7 @@ function About() {
                      <a target="_parent" rel="noopener noreferrer" href="mailto:iampaolotodde@gmail.com">
                         <button
                            type="button"
-                           className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none transition duration-500 ease-in-out font-header text-xl md:text-3xl mt-20 py-3 px-10 rounded"
+                           className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none transition duration-500 ease-in-out font-header text-xl md:text-2xl mt-20 py-3 px-10 rounded"
                         >
                            Contact
                         </button>
@@ -135,11 +135,11 @@ function About() {
                <TransitionInview>
                   <section className="w-full bg-teal-100 mt-20 md:mt-32 py-6 md:pb-20">
                      <div className="w-10/12 md:w-6/12 mx-auto md:flex">
-                        <div className="">
-                           <h2 className="text-4xl md:text-5xl mb-6 md:mt-10">Skills</h2>
+                        <div className="pr-16">
+                           <h2 className="text-2xl md:text-3xl mb-6 md:mt-10">Skills</h2>
                            <ul className="text-xl">
-                              {softSkills.map((softSkill, i) => (
-                                 <li className="inline-block text-xl mb-2">
+                              {softSkills.map((softSkill) => (
+                                 <li className="inline-block text-xl mb-1">
                                     {softSkill}
                                     {softSkill === lastSoftSkill ? "" : ","}&nbsp;
                                  </li>
@@ -147,11 +147,10 @@ function About() {
                            </ul>
                         </div>
                         <div>
-                           <h2 className="text-4xl md:text-5xl mb-6 mt-10">Tech Skills</h2>
-
+                           <h2 className="text-2xl md:text-3xl mb-6 mt-10">Tech Skills</h2>
                            <ul className="text-xl inline-block">
                               {techSkills.map((techSkill) => (
-                                 <li className="inline-block text-xl mb-2">
+                                 <li className="inline-block text-xl mb-1">
                                     {techSkill}
                                     {techSkill === lastTechSkill ? "" : ","}&nbsp;
                                  </li>
@@ -165,10 +164,9 @@ function About() {
                <TransitionInview>
                   <section className="w-full my-20">
                      <div className="w-10/12 md:w-6/12 mx-auto">
-                        <h2 className="text-4xl md:text-5xl flex-1 mb-10 mt-10">Side projects</h2>
+                        <h2 className="ext-2xl md:text-3xl flex-1 mb-10 mt-10">Side projects</h2>
                         <div className="grid md:grid-cols-2 gap-8">
                            <div className="w-full">
-                              <h2 className="text-2xl mb-4">Digital Art</h2>
                               <a href="https://www.instagram.com/paolo_tde/" target="_blank">
                                  <Img
                                     fluid={data.digitalArtImg.childImageSharp.fluid}
@@ -177,9 +175,9 @@ function About() {
                                     loading="eager"
                                  />
                               </a>
+                              <h2 className="text-2xl mt-4">Digital Art</h2>
                            </div>
                            <div className="w-full">
-                              <h2 className="text-2xl mb-4">3DC (Brand)</h2>
                               <Link to="/three" target="_blank">
                                  <Img
                                     fluid={data.threeImg.childImageSharp.fluid}
@@ -188,6 +186,7 @@ function About() {
                                     loading="eager"
                                  />
                               </Link>
+                              <h2 className="text-2xl mt-4">3DC (Brand)</h2>
                            </div>
                         </div>
                      </div>
