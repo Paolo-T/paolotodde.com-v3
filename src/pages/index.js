@@ -147,7 +147,7 @@ function Home() {
                      />
                   </TransitionInview>
 
-                  <section className="text-center mt-16 md:mt-32 md:mb-20">
+                  <section className="text-center mt-16 md:mt-20 md:mb-10">
                      <a target="_parent" rel="noopener noreferrer" href="mailto:iampaolotodde@gmail.com">
                         <button
                            type="button"

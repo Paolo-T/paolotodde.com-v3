@@ -31,30 +31,33 @@ function About() {
 
    const softSkills = [
       "Empathy",
+      "Adaptability",
       "Ability and eagerness to learn",
-      "Judgement and Decision-Making",
+      "Judgement",
+      "Decision-Making",
       "Interpersonal Abilities",
       "Problem Solving",
-      "Managing Priorities",
       "Analytical",
-      "Adaptability",
+      "Managing Priorities",
    ];
 
    const techSkills = [
       "Sketch",
       "Figma",
+      "Git",
       "Adobe Photoshop",
       "Adobe Illustrator",
       "Adobe InDesign",
       "HTML5",
       "CSS/SCSS",
       "Javascript",
-      "React",
-      "JAM Stack",
+      "React.js",
+      "Responsive design",
       "PHP",
       "Wordpress",
-      "Git",
       "Principle",
+      "UI design",
+      "Web design",
    ];
 
    const lastSoftSkill = softSkills[softSkills.length - 1];
@@ -132,39 +135,39 @@ function About() {
                   </section>
                </TransitionInview>
 
-               <TransitionInview>
-                  <section className="w-full bg-teal-100 mt-20 md:mt-32 py-6 md:pb-20">
+               {/* <TransitionInview>
+                  <section className="w-full mt-20 py-6 md:pb-20 bg-yellow-100">
                      <div className="w-10/12 md:w-6/12 mx-auto md:flex">
-                        <div className="pr-16">
+                        <div className="flex-1">
                            <h2 className="text-2xl md:text-3xl mb-6 md:mt-10">Skills</h2>
                            <ul className="text-xl">
                               {softSkills.map((softSkill) => (
-                                 <li className="inline-block text-xl mb-1">
+                                 <li className="inline-block text-xl mb-1 bg-black text-white px-3 py-1 mr-3 mt-2 rounded-md">
                                     {softSkill}
-                                    {softSkill === lastSoftSkill ? "" : ","}&nbsp;
+                                    {softSkill === lastSoftSkill ? null : ","}&nbsp;
                                  </li>
                               ))}
                            </ul>
                         </div>
-                        <div>
-                           <h2 className="text-2xl md:text-3xl mb-6 mt-10">Tech Skills</h2>
+                        <div className="flex-1">
+                           <h2 className="text-2xl md:text-3xl mb-6 md:mt-10">Tech Skills</h2>
                            <ul className="text-xl inline-block">
                               {techSkills.map((techSkill) => (
-                                 <li className="inline-block text-xl mb-1">
+                                 <li className="inline-block text-xl mb-1 bg-black text-white px-3 py-1 mr-3 mt-2 rounded-md">
                                     {techSkill}
-                                    {techSkill === lastTechSkill ? "" : ","}&nbsp;
+                                    {techSkill === lastTechSkill ? null : ","}&nbsp;
                                  </li>
                               ))}
                            </ul>
                         </div>
                      </div>
                   </section>
-               </TransitionInview>
+               </TransitionInview> */}
 
                <TransitionInview>
-                  <section className="w-full my-20">
+                  <section className="w-full mt-20 mb-10 bg-yellow-100 py-10">
                      <div className="w-10/12 md:w-6/12 mx-auto">
-                        <h2 className="ext-2xl md:text-3xl flex-1 mb-10 mt-10">Side projects</h2>
+                        <h2 className="text-2xl md:text-3xl flex-1 mb-10 text-center">Side projects</h2>
                         <div className="grid md:grid-cols-2 gap-8">
                            <div className="w-full">
                               <a href="https://www.instagram.com/paolo_tde/" target="_blank">
@@ -175,7 +178,7 @@ function About() {
                                     loading="eager"
                                  />
                               </a>
-                              <h2 className="text-2xl mt-4">Digital Art</h2>
+                              <h2 className="text-lg mt-4">Digital Art</h2>
                            </div>
                            <div className="w-full">
                               <Link to="/three" target="_blank">
@@ -186,7 +189,8 @@ function About() {
                                     loading="eager"
                                  />
                               </Link>
-                              <h2 className="text-2xl mt-4">3DC (Brand)</h2>
+
+                              <h2 className="text-lg mt-4">3DC (Brand)</h2>
                            </div>
                         </div>
                      </div>

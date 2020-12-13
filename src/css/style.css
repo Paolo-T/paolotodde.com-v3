@@ -5,55 +5,55 @@
 /* purgecss end ignore */
 
 h1 {
-    @apply font-header text-9xl inline-block leading-tight tracking-tight mt-4 mb-8;
+   @apply font-header text-9xl inline-block leading-tight tracking-tight mt-4 mb-8;
 }
 
 h2 {
-    @apply font-header text-3xl leading-tight tracking-normal mb-2;
+   @apply font-header text-3xl leading-tight tracking-normal mb-2;
 }
 
 h3 {
-    @apply text-lg leading-tight mb-4;
+   @apply text-lg leading-tight mb-4;
 }
 
 p {
-    @apply font-sans font-light text-xl;
+   @apply font-sans font-light text-xl;
 }
 
 li {
-    @apply font-sans font-extrabold text-base;
+   @apply font-sans font-extrabold text-base;
 }
 
 .a {
-    @apply font-sans text-2xl underline;
+   @apply font-sans text-2xl underline;
 }
 
 .span {
-    @apply font-sans text-base font-light text-black leading-snug inline-block my-2;
+   @apply font-sans text-base font-light text-black leading-snug inline-block my-2;
 }
 
 @screen sm {
-    h1 {
-        @apply text-7xl;
-    }
+   h1 {
+      @apply text-7xl;
+   }
 }
 
 @screen sm {
-    h2 {
-        @apply text-5xl;
-    }
+   h2 {
+      @apply text-5xl;
+   }
 }
 
 @screen sm {
-    h3 {
-        @apply text-3xl leading-none;
-    }
+   h3 {
+      @apply text-3xl leading-none;
+   }
 }
 
 @screen sm {
-    p {
-        @apply font-sans text-2xl font-light;
-    }
+   p {
+      @apply font-sans text-2xl font-light;
+   }
 }
 
 @tailwind utilities;
