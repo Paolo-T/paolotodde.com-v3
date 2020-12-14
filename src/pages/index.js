@@ -51,6 +51,49 @@ function Home() {
       }
    `);
 
+   const tilesData = [
+      {
+         title: "Pet Time",
+         subTitle: "UI/UX Design",
+         tileImg: data.petImg.childImageSharp.fluid,
+         linkTo: "/petTime",
+         imgAlt: "Pet Time app ui design",
+         rounded: "lg",
+      },
+      {
+         title: "Shuush!",
+         subTitle: "UI/UX Design",
+         tileImg: data.shuushImg.childImageSharp.fluid,
+         linkTo: "/shuush",
+         imgAlt: "Shuush! app ui design",
+         rounded: "lg",
+      },
+      {
+         title: "Classica",
+         subTitle: "UI/UX Design",
+         tileImg: data.classicaImg.childImageSharp.fluid,
+         linkTo: "/classica",
+         imgAlt: "classica app ui design",
+         rounded: "lg",
+      },
+      {
+         title: "Space Digest",
+         subTitle: "Web Design / Development",
+         tileImg: data.spaceDigestImg.childImageSharp.fluid,
+         linkTo: "/spaceDigest",
+         imgAlt: "Website page",
+         rounded: "lg",
+      },
+      {
+         title: "BuzzSumo.com",
+         subTitle: "Web design",
+         tileImg: data.buzzsumoImg.childImageSharp.fluid,
+         linkTo: "/buzzsumo",
+         imgAlt: "Buzzsumo web page",
+         rounded: "lg",
+      },
+   ];
+
    return (
       <>
          <SEO
@@ -84,68 +127,23 @@ function Home() {
                      </h1>
                   </TransitionInview>
 
-                  <ImgTile
-                     Title="Pet Time"
-                     SubTitle="UI/UX Design"
-                     TileImg={data.petImg.childImageSharp.fluid}
-                     LinkTo="/petTime"
-                     ImgAlt="Pet Time app ui design"
-                     MarginTop="20"
-                     MarginBottom="20"
-                     Rounded="lg"
-                  />
-
-                  <TransitionInview>
-                     <ImgTile
-                        Title=" Shuush!"
-                        SubTitle="UI/UX Design"
-                        TileImg={data.shuushImg.childImageSharp.fluid}
-                        LinkTo="/shuush"
-                        ImgAlt="Shuush! app ui design"
-                        MarginTop="20"
-                        MarginBottom="20"
-                        Rounded="lg"
-                     />
-                  </TransitionInview>
-
-                  <TransitionInview>
-                     <ImgTile
-                        Title="Classica"
-                        SubTitle="UI/UX Design"
-                        TileImg={data.classicaImg.childImageSharp.fluid}
-                        LinkTo="/classica"
-                        ImgAlt="classica app ui design"
-                        MarginTop="20"
-                        MarginBottom="20"
-                        Rounded="lg"
-                     />
-                  </TransitionInview>
-
-                  <TransitionInview>
-                     <ImgTile
-                        Title="Space Digest"
-                        SubTitle="Web Design / Development"
-                        TileImg={data.spaceDigestImg.childImageSharp.fluid}
-                        LinkTo="/spaceDigest"
-                        ImgAlt="Website icon"
-                        MarginTop="20"
-                        MarginBottom="20"
-                        Rounded="lg"
-                     />
-                  </TransitionInview>
-
-                  <TransitionInview>
-                     <ImgTile
-                        Title="BuzzSumo.com"
-                        SubTitle="Web design"
-                        TileImg={data.buzzsumoImg.childImageSharp.fluid}
-                        LinkTo="/buzzsumo"
-                        ImgAlt="Buzzsumo"
-                        MarginTop="20"
-                        MarginBottom="20"
-                        Rounded="lg"
-                     />
-                  </TransitionInview>
+                  {tilesData.map((tile, i) => (
+                     <TransitionInview>
+                        <div className="mb-5 md:my-20">
+                           <ImgTile
+                              key={i}
+                              Title={tile.title}
+                              SubTitle={tile.subTitle}
+                              TileImg={tile.tileImg}
+                              LinkTo={tile.linkTo}
+                              ImgAlt={tile.imgAlt}
+                              MarginTop={tile.marginTop}
+                              MarginBottom={tile.marginBottom}
+                              Rounded={tile.rounded}
+                           />
+                        </div>
+                     </TransitionInview>
+                  ))}
 
                   <section className="text-center mt-16 md:mt-20 md:mb-10">
                      <a target="_parent" rel="noopener noreferrer" href="mailto:iampaolotodde@gmail.com">

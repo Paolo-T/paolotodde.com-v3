@@ -50,6 +50,49 @@ function InPageNav() {
       }
    `);
 
+   const tilesData = [
+      {
+         title: "",
+         subTitle: "",
+         tileImg: data.petImg.childImageSharp.fluid,
+         linkTo: "/petTime",
+         imgAlt: "Pet Time app ui design",
+         rounded: "",
+      },
+      {
+         title: "",
+         subTitle: "",
+         tileImg: data.shuushImg.childImageSharp.fluid,
+         linkTo: "/shuush",
+         imgAlt: "Shuush! app ui design",
+         rounded: "",
+      },
+      {
+         title: "",
+         subTitle: "",
+         tileImg: data.classicaImg.childImageSharp.fluid,
+         linkTo: "/classica",
+         imgAlt: "classica app ui design",
+         rounded: "",
+      },
+      {
+         title: "",
+         subTitle: "",
+         tileImg: data.spaceDigestImg.childImageSharp.fluid,
+         linkTo: "/spaceDigest",
+         imgAlt: "Website page",
+         rounded: "",
+      },
+      {
+         title: "",
+         subTitle: "",
+         tileImg: data.buzzsumoImg.childImageSharp.fluid,
+         linkTo: "/buzzsumo",
+         imgAlt: "Buzzsumo web page",
+         rounded: "",
+      },
+   ];
+
    // const navItemsNumber = Object.keys(data).length;
    // console.log(navItemsNumber);
    // console.log(pageLocation);
@@ -57,67 +100,23 @@ function InPageNav() {
    return (
       <section className="w-full mb-10 pt-12 md:pt-20">
          <h2 className="block text-center mb-12 text-2xl md:text-4xl text-primary">Check other projects</h2>
-
          <div className="grid grid-cols-5 gap-0 mx-auto -mb-10 md:m-0">
-            {pageLocation !== "/petTime" ? (
-               <ImgTile
-                  Title=""
-                  SubTitle=""
-                  TileImg={data.petImg.childImageSharp.fluid}
-                  LinkTo="/petTime"
-                  ImgAlt="Pet Time app ui design"
-                  MarginTop="0"
-                  MarginBottom="0"
-               />
-            ) : null}
-
-            {pageLocation !== "/shuush/" ? (
-               <ImgTile
-                  Title=""
-                  SubTitle=""
-                  TileImg={data.shuushImg.childImageSharp.fluid}
-                  LinkTo="/shuush"
-                  ImgAlt="Shuush! app ui design"
-                  MarginTop="0"
-                  MarginBottom="0"
-               />
-            ) : null}
-
-            {pageLocation !== "/classica" ? (
-               <ImgTile
-                  Title=""
-                  SubTitle=""
-                  TileImg={data.classicaImg.childImageSharp.fluid}
-                  LinkTo="/classica"
-                  ImgAlt="classica app ui design"
-                  MarginTop="0"
-                  MarginBottom="0"
-               />
-            ) : null}
-
-            {pageLocation !== "/spaceDigest" ? (
-               <ImgTile
-                  Title=""
-                  SubTitle=""
-                  TileImg={data.spaceDigestImg.childImageSharp.fluid}
-                  LinkTo="/spaceDigest"
-                  ImgAlt="Space Digest website"
-                  MarginTop="0"
-                  MarginBottom="0"
-               />
-            ) : null}
-
-            {pageLocation !== "/buzzsumo" ? (
-               <ImgTile
-                  Title=""
-                  SubTitle=""
-                  TileImg={data.buzzsumoImg.childImageSharp.fluid}
-                  LinkTo="/buzzsumo"
-                  ImgAlt="BuzzSumo"
-                  MarginTop="0"
-                  MarginBottom="0"
-               />
-            ) : null}
+            {tilesData.map(
+               (tile, i) =>
+                  pageLocation !== tile.linkTo && (
+                     <ImgTile
+                        key={i}
+                        Title={tile.title}
+                        SubTitle={tile.subTitle}
+                        TileImg={tile.tileImg}
+                        LinkTo={tile.linkTo}
+                        ImgAlt={tile.imgAlt}
+                        MarginTop={tile.marginTop}
+                        MarginBottom={tile.marginBottom}
+                        Rounded={tile.rounded}
+                     />
+                  )
+            )}
          </div>
       </section>
    );

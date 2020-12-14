@@ -8,10 +8,9 @@ function ImgTile({ LinkTo, Href, Title, SubTitle, TileImg, ImgAlt, MarginTop, Ma
          {LinkTo ? (
             <Link to={LinkTo}>
                <div
-                  className={`group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center overflow-hidden mb-5
-                  md:mt-${MarginTop}
-                  md:mb-${MarginBottom}
-                  rounded-${Rounded ? Rounded : 0} `}
+                  className={`group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center overflow-hidden  md:mt-${MarginTop} md:mb-${MarginBottom} rounded-${
+                     Rounded ? Rounded : 0
+                  } `}
                >
                   <div
                      className="w-full text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
@@ -31,7 +30,7 @@ function ImgTile({ LinkTo, Href, Title, SubTitle, TileImg, ImgAlt, MarginTop, Ma
          ) : (
             <a href={Href} target="_blank">
                <div
-                  className={`group inline-block w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center overflow-hidden md:mt-${MarginTop} md:mb-${MarginBottom} rounded-${
+                  className={`group inline-block w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center overflow-hidden mb-5 md:mt-${MarginTop} md:mb-${MarginBottom} rounded-${
                      Rounded ? Rounded : 0
                   } `}
                >
