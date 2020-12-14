@@ -82,13 +82,12 @@ function About() {
             ]}
             title="About"
          />
-         {/* <div className="h-2 w-100 bg-primary"></div> */}
-         <div className="w-full bg-white pt-20 md:pt-48">
-            <TransitionPageIn>
+         <TransitionPageIn>
+            <div className="w-screen bg-ImageAboutBg sm:bg-ImageAboutBg__sm md:bg-ImageAboutBg__md lg:bg-ImageAboutBg__lg xl:bg-ImageAboutBg__xl bg-no-repeats pt-20 md:pt-48">
                <TransitionInview>
-                  <section className="w-10/12 md:w-6/12 mx-auto pt-20 md:pt-10">
+                  <section className="w-10/12 md:w-7/12 mx-auto pt-20 md:pt-10">
                      <h2 className="md:w-12/12 text-4xl md:text-5xl">Hi!</h2>
-                     <div className="lg:w-9/12 block flex-2 pt-4 lg:pt-10">
+                     <div className="lg:w-8/12 block flex-2 pt-4 lg:pt-10">
                         <p className="mt-2">
                            My name is Paolo Todde, and I am a designer specializing in web and mobile experiences.
                            Currently designing remotely for&nbsp;
@@ -166,7 +165,7 @@ function About() {
 
                <TransitionInview>
                   <section className="w-full mt-20 mb-10 bg-yellow-100 py-10">
-                     <div className="w-10/12 md:w-6/12 mx-auto">
+                     <div className="w-10/12 md:w-8/12 mx-auto">
                         <h2 className="text-2xl md:text-3xl flex-1 mb-10 text-center">Side projects</h2>
                         <div className="grid md:grid-cols-2 gap-8">
                            <div className="w-full">
@@ -196,8 +195,8 @@ function About() {
                      </div>
                   </section>
                </TransitionInview>
-            </TransitionPageIn>
-         </div>
+            </div>
+         </TransitionPageIn>
          {/* <div className=" bg-white">
                 <InPageNav />
             </div> */}
