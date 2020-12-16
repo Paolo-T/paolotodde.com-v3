@@ -16,15 +16,11 @@ module.exports = {
       colors: {
          primary: "#ffad1e",
          secondary: "#e21e3b",
-         //  grey: "#858585",
          lightGrey: "dedfdf",
-
-         // black: "#212121",
          black: "#1c2d35",
-         blackPure: "#0f0f0f",
+         blackPure: "#000000",
          white: "#ffffff",
          offWhite: "#ededee",
-         // offWhite: "#f1efe8",
          transparent: "transparent",
          gray: {
             100: "#f7f7f7",
