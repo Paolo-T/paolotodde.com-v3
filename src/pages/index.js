@@ -4,7 +4,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 import ImgTile from "../components/ImgTile";
-// import ImgRotator from "../components/ImgRotator";
+import ImgRotator from "../components/ImgRotator";
 
 function Home() {
    const data = useStaticQuery(graphql`
@@ -128,9 +128,11 @@ function Home() {
                      </h1>
                   </TransitionInview>
 
+                  <ImgRotator />
+
                   {tilesData.map((tile, i) => (
                      <TransitionInview>
-                        <div className="mb-5 md:my-20">
+                        <div className="mb-5 mt-4 md:my-20">
                            <ImgTile
                               key={i}
                               Title={tile.title}
