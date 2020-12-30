@@ -111,14 +111,14 @@ function InPageNav() {
                   pageLocation !== tile.linkTo && (
                      <ImgTile
                         key={i}
-                        Title={tile.title}
-                        SubTitle={tile.subTitle}
-                        TileImg={tile.tileImg}
-                        LinkTo={tile.linkTo}
-                        ImgAlt={tile.imgAlt}
-                        MarginTop={tile.marginTop}
-                        MarginBottom={tile.marginBottom}
-                        Rounded={tile.rounded}
+                        title={tile.title}
+                        subTitle={tile.subTitle}
+                        tileImg={tile.tileImg}
+                        linkTo={tile.linkTo}
+                        imgAlt={tile.imgAlt}
+                        marginTop={tile.marginTop}
+                        marginBottom={tile.marginBottom}
+                        rounded={tile.rounded}
                      />
                   )
             )}
