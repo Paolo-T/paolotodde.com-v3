@@ -106,7 +106,7 @@ function petTime({ location }) {
                      </div>
                   </section>
 
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Skills applied</h4>
                         <h4 className="pt-4">
@@ -145,7 +145,7 @@ function petTime({ location }) {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Problem</h4>
                      </div>
@@ -163,7 +163,7 @@ function petTime({ location }) {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Solution</h4>
                      </div>
@@ -176,11 +176,11 @@ function petTime({ location }) {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Flow</h4>
                      </div>
-                     <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
+                     <div className="w-11/12 md:w-8/12 md:mt-0 pr-0 md:pr-24">
                         <h2 className="mb-4 md:mb-8">User Flow</h2>
                         <p>
                            After the initial Log in / Sign Up, the user is presented with the Home screen where they can

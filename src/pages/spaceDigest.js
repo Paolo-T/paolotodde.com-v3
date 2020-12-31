@@ -74,13 +74,13 @@ function spaceDigest() {
             <TransitionPageIn>
                <Img fluid={data.spaceDigestImg_1.childImageSharp.fluid} className="bg-blackPure" loading="eager" />
                <div className="w-full bg-white pt-10 pb-20 md:pt-28 md:pb-48">
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-10 md:mt-12 mb-0">
-                     <div className="hidden md:block md:w-4/12 mt-24">
+                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
+                     <div className="hidden md:block md:w-4/12">
                         <h4 className="font-extrabold uppercase tracking-widest">Description</h4>
                         {/* <h4 className="pt-4">App design</h4> */}
                      </div>
 
-                     <div className="w-12/12 md:w-7/12 mt-16 md:mt-0 md:pr-24">
+                     <div className="w-12/12 md:w-7/12 md:mt-0 md:pr-24">
                         <h2 className="mb-4 md:mb-8">Description</h2>
                         <p>
                            <span className="font-extrabold">Space Digest's</span> is an informative web resource for the
@@ -89,12 +89,12 @@ function spaceDigest() {
                      </div>
                   </section>
                   <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-10 md:mt-12 mb-0">
-                     <div className="hidden md:block md:w-4/12 mt-24">
+                     <div className="hidden md:block md:w-4/12">
                         <h4 className="font-extrabold uppercase tracking-widest">Design</h4>
                         {/* <h4 className="pt-4">App design</h4> */}
                      </div>
 
-                     <div className="w-12/12 md:w-7/12 mt-16 md:mt-0 md:pr-24">
+                     <div className="w-12/12 md:w-7/12 md:mt-0 md:pr-24">
                         <h2 className="mb-4 md:mb-8">Design</h2>
                         <p>
                            <span className="font-extrabold">Space Digest's</span> design is simple and accessible. The
@@ -103,12 +103,12 @@ function spaceDigest() {
                      </div>
                   </section>
                   <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-10 md:mt-12 mb-0">
-                     <div className="hidden md:block md:w-4/12 mt-24">
+                     <div className="hidden md:block md:w-4/12">
                         <h4 className="font-extrabold uppercase tracking-widest">Development</h4>
                         {/* <h4 className="pt-4">App design</h4> */}
                      </div>
 
-                     <div className="w-12/12 md:w-7/12 mt-16 md:mt-0 md:pr-24">
+                     <div className="w-12/12 md:w-7/12 md:mt-0 md:pr-24">
                         <h2 className="mb-4 md:mb-8"> Development</h2>
                         <p>
                            <span className="font-extrabold">Space Digest</span> is developed using the Jam stack.
@@ -118,12 +118,12 @@ function spaceDigest() {
                      </div>
                   </section>
                   <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-10 md:mt-12 mb-0">
-                     <div className="hidden md:block md:w-4/12 mt-24">
+                     <div className="hidden md:block md:w-4/12">
                         <h4 className="font-extrabold uppercase tracking-widest">Website</h4>
                         {/* <h4 className="pt-4">App design</h4> */}
                      </div>
 
-                     <div className="w-12/12 md:w-7/12 mt-16 md:mt-0 md:pr-24">
+                     <div className="w-12/12 md:w-7/12 md:mt-0 md:pr-24">
                         <h2 className="mb-4 md:mb-8">Visit the website</h2>
                         <a
                            href="https://spacedigest.live"
@@ -134,7 +134,7 @@ function spaceDigest() {
                         </a>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto flex space-x-16 text-black mt-10 md:mt-32 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto flex space-x-4 md:space-x-16 text-black mt-10 md:mt-32 mb-0">
                      <Img
                         fluid={data.spaceDigestImg_2.childImageSharp.fluid}
                         className="flex-1 shadow-lg"
@@ -148,7 +148,7 @@ function spaceDigest() {
                         alt="App screen"
                      />
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto flex space-x-16 text-black mt-10 md:mt-32 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto flex space-x-4 md:space-x-16 text-black mt-10 md:mt-32 mb-0">
                      <Img
                         fluid={data.spaceDigestImg_4.childImageSharp.fluid}
                         className="flex-1 shadow-lg"
