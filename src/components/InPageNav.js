@@ -94,8 +94,6 @@ function InPageNav() {
    ];
 
    // const navItemsNumber = Object.keys(data).length;
-   // console.log(navItemsNumber);
-   // console.log(pageLocation);
 
    return (
       <section className="w-full mb-10 pt-12 md:pt-20">

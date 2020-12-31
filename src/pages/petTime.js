@@ -82,7 +82,7 @@ function petTime({ location }) {
          <div className="w-12/12 mx-auto bg-blackPure">
             <TransitionPageIn>
                <Img fluid={data.petTime_1.childImageSharp.fluid} className="" loading="eager" />
-               <div className="w-full bg-white pt-10 pb-20 md:py-32">
+               <div className="w-full bg-white pt-1 pb-20 md:py-32">
                   <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex ">
                      <div className="md:w-4/12 mt-0 hidden md:block md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Description</h4>
@@ -106,7 +106,7 @@ function petTime({ location }) {
                      </div>
                   </section>
 
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-12 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Skills applied</h4>
                         <h4 className="pt-4">
@@ -116,7 +116,7 @@ function petTime({ location }) {
                            <br /> Product Design
                         </h4>
                      </div>
-                     <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
+                     <div className="w-11/12 md:w-8/12 pr-0 md:pr-24">
                         <h2 className="mb-4 md:mb-8">The brief</h2>
                         <p>
                            The app is for those passionate about pets,and who want to learn more about domestic animals.
@@ -145,11 +145,11 @@ function petTime({ location }) {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-12 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Problem</h4>
                      </div>
-                     <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
+                     <div className="w-11/12 md:w-8/12  pr-0 md:pr-24">
                         <h2 className="mb-4 md:mb-8">The problem</h2>
                         <p>
                            Pet owners need a resource to help looking after their pet friends and making sure they are
@@ -163,11 +163,11 @@ function petTime({ location }) {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-12 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Solution</h4>
                      </div>
-                     <div className="w-11/12 md:w-8/12 mt-16 md:mt-0 pr-0 md:pr-24">
+                     <div className="w-11/12 md:w-8/12 pr-0 md:pr-24">
                         <h2 className="mb-4 md:mb-8">The solution</h2>
                         <p>
                            An app that provides a dedicated section for interesting articles, news, podcasts, learning
@@ -176,7 +176,7 @@ function petTime({ location }) {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-12 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Flow</h4>
                      </div>
@@ -193,7 +193,7 @@ function petTime({ location }) {
                      </div>
                   </section>
                </div>
-               <section className="w-12/12 mx-auto bg-blackPure mt-20 px-0 md:px-50 py-24">
+               <section className="w-12/12 mx-auto bg-blackPure mt-10 px-0 md:px-50 py-24">
                   <Img fluid={data.petTime_6.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
                </section>
 

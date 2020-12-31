@@ -21,7 +21,7 @@ p {
 }
 
 li {
-   @apply font-sans font-extrabold text-base;
+   @apply font-sans text-base;
 }
 
 .a {
