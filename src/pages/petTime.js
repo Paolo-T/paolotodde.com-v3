@@ -4,6 +4,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import InPageNav from "../components/InPageNav";
+import Card from "../components/Card";
 
 function petTime({ location }) {
    const data = useStaticQuery(graphql`
@@ -105,7 +106,6 @@ function petTime({ location }) {
                         </p>
                      </div>
                   </section>
-
                   <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Skills applied</h4>
@@ -145,7 +145,7 @@ function petTime({ location }) {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-8 md:mt-16 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Problem</h4>
                      </div>
@@ -163,7 +163,7 @@ function petTime({ location }) {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-8 md:mt-16 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Solution</h4>
                      </div>
@@ -176,7 +176,7 @@ function petTime({ location }) {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-8 md:mt-16 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Flow</h4>
                      </div>
@@ -193,8 +193,15 @@ function petTime({ location }) {
                      </div>
                   </section>
                </div>
+
                <section className="w-12/12 mx-auto bg-blackPure mt-10 px-0 md:px-50 py-24">
                   <Img fluid={data.petTime_6.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
+               </section>
+               <section className=" bg-white mt-8 md:mt-16">
+                  <div className="w-11/12 md:w-8/12 mx-auto py-32">
+                     <h2 className="mb-4 md:mb-8">User Personas</h2>
+                     <Card />
+                  </div>
                </section>
 
                <Img fluid={data.petTime_2.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
