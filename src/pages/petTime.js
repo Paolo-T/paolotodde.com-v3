@@ -83,7 +83,7 @@ function petTime({ location }) {
          <div className="w-12/12 mx-auto bg-blackPure">
             <TransitionPageIn>
                <Img fluid={data.petTime_1.childImageSharp.fluid} className="" loading="eager" />
-               <div className="w-full bg-white pt-1 pb-20 md:py-32">
+               <div className="w-full bg-white pt-1 pb-20 md:pt-32">
                   <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex ">
                      <div className="md:w-4/12 mt-0 hidden md:block md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Description</h4>
@@ -163,7 +163,7 @@ function petTime({ location }) {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-8 md:mt-16 mb-0">
+                  <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-8 md:mt-16 mb-20">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Solution</h4>
                      </div>
@@ -176,11 +176,14 @@ function petTime({ location }) {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-8 md:mt-16 mb-0">
-                     <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
-                        <h4 className="font-extrabold uppercase tracking-widest">Flow</h4>
+                  <section className="mt-8 md:mt-16">
+                     <div className="w-11/12 md:w-8/12 mx-auto pt-20 pb-0">
+                        <h2 className="mb-4 md:mb-8">User Personas</h2>
+                        <Card />
                      </div>
-                     <div className="w-11/12 md:w-8/12 md:mt-0 pr-0 md:pr-24">
+                  </section>
+                  <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-8 md:mt-16 mb-0">
+                     <div className="w-11/12 md:w-10/12 md:mt-0 pr-0 md:pr-24">
                         <h2 className="mb-4 md:mb-8">User Flow</h2>
                         <p>
                            After the initial Log in / Sign Up, the user is presented with the Home screen where they can
@@ -196,12 +199,6 @@ function petTime({ location }) {
 
                <section className="w-12/12 mx-auto bg-blackPure mt-10 px-0 md:px-50 py-24">
                   <Img fluid={data.petTime_6.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
-               </section>
-               <section className=" bg-white mt-8 md:mt-16">
-                  <div className="w-11/12 md:w-8/12 mx-auto py-32">
-                     <h2 className="mb-4 md:mb-8">User Personas</h2>
-                     <Card />
-                  </div>
                </section>
 
                <Img fluid={data.petTime_2.childImageSharp.fluid} className="" loading="eager" alt="App screen" />

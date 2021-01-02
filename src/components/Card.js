@@ -5,7 +5,7 @@ const userPersonas = [
       name: "Jenny",
       pet: "Two dogs",
       bio:
-         "26 years old. Lives in the city and works as a Marketing manager in a medium sized tech company. Lives a very active lifestyle, loves sports and the outdoors and enjoys long walks and traveling",
+         "26 years old. Lives in the city and works as a Marketing manager in a medium sized tech company. Lives a very active lifestyle, loves sports and the outdoors and enjoys walks and traveling",
       goals: [
          "Enjoying the outdoords with her pets",
          "Find dog friendly venues",
@@ -28,7 +28,7 @@ const userPersonas = [
 
 function UserCard() {
    return (
-      <div className="grid grid-cols-2 gap-5">
+      <div className="md:grid grid-cols-2 gap-5">
          {userPersonas.map((persona, i) => (
             <div key={i} className="w-28 bg-white shadow-lg rounded-lg overflow-hidden my-4">
                <img
@@ -37,12 +37,12 @@ function UserCard() {
                   alt="avatar"
                />
 
-               <div className="pt-3 pb-5 px-8">
+               <div className="pt-4 pb-8 px-8">
                   <div className="flex justify-between items-baseline">
                      <h1 className="text-2xl font-semibold text-gray-800 mb-2">{persona.name}</h1>
                      <h1 className="text-sm mb-2 mt-0">Pets owned: {persona.pet}</h1>
                   </div>
-                  <p className="py-2 text-sm text-gray-700">{persona.bio}</p>
+                  <p className="pt-4 text-sm text-gray-700">{persona.bio}</p>
 
                   <div className="mt-4 text-gray-700">
                      <h1 className="text-sm mb-2 mt-0">Goals</h1>
@@ -64,7 +64,6 @@ function UserCard() {
                </div>
             </div>
          ))}
-         ;
       </div>
    );
 }
