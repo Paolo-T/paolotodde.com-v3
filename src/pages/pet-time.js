@@ -6,7 +6,43 @@ import TransitionPageIn from "../components/TransitionPageIn";
 import InPageNav from "../components/InPageNav";
 import Card from "../components/Card";
 
-function petTime({ location }) {
+import persona_image_1 from "../images/petTime/petTime_persona_1.png";
+import persona_image_2 from "../images/petTime/petTime_persona_2.png";
+
+// User Personas Data
+const userPersonas = [
+   {
+      name: "Jenny",
+      pet: "Two dogs",
+      bio:
+         "26 years old. Lives in the city and works as a Marketing manager in a medium sized tech company. Lives a very active lifestyle, loves sports and the outdoors and enjoys walks and traveling",
+      goals: [
+         "Enjoying the outdoors with her pets",
+         "Find dog friendly venues",
+         "Find where her dogs will be taken care of when needed (Vet, Dog groomer)",
+      ],
+      frustrations: [
+         "She is new in the city and doesn't know the best places where she can walk her dogs",
+         "Some shops/venues don't allow in dogs",
+      ],
+      image: persona_image_1,
+   },
+   {
+      name: "Drew",
+      pet: "Cat",
+      bio:
+         "34 years old. Lives in the city and works long hours as Chef in a restaurant he owns. Has a family and not much free time. Recently adopted a pet cat from animal shelter.",
+      goals: [
+         "Learn how to welcome newly adopted cat",
+         "Find learning resources about rescue animals",
+         "Find where their cat will be taken care of when needed (Vet, Cat groomer)",
+      ],
+      frustrations: ["Doesn't have much experience with rescue pets", "Doesn't much free time"],
+      image: persona_image_2,
+   },
+];
+
+function petTime() {
    const data = useStaticQuery(graphql`
       query {
          petTime_1: file(relativePath: { eq: "petTime/petTime_1.png" }) {
@@ -82,7 +118,7 @@ function petTime({ location }) {
 
          <div className="w-12/12 mx-auto bg-blackPure">
             <TransitionPageIn>
-               <Img fluid={data.petTime_1.childImageSharp.fluid} className="" loading="eager" />
+               <Img fluid={data.petTime_1.childImageSharp.fluid} loading="eager" />
                <div className="w-full bg-white pt-1 pb-10 md:pb-20 md:pt-32">
                   <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex ">
                      <div className="md:w-4/12 mt-0 hidden md:block md:mt-20">
@@ -179,7 +215,20 @@ function petTime({ location }) {
                   <section className="mt-8 md:mt-16">
                      <div className="w-11/12 md:w-8/12 mx-auto md:pt-10 pb-0">
                         <h2 className="mb-4 md:mb-8">User Personas</h2>
-                        <Card />
+                        <div className="md:grid grid-cols-2 gap-5">
+                           {userPersonas.map((persona) => (
+                              <Card
+                                 title={persona.name}
+                                 subtitle={`Pets owned: ${persona.pet}`}
+                                 description={persona.bio}
+                                 list_top={persona.goals}
+                                 list_top_title="Goals"
+                                 list_bottom={persona.frustrations}
+                                 list_bottom_title="Frustrations"
+                                 image={persona.image}
+                              />
+                           ))}
+                        </div>
                      </div>
                   </section>
                   <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-8 md:mt-16 mb-0">
@@ -198,13 +247,14 @@ function petTime({ location }) {
                </div>
 
                <section className="w-12/12 mx-auto bg-blackPure mt-10 px-0 md:px-50 py-24">
-                  <Img fluid={data.petTime_6.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
+                  <Img fluid={data.petTime_6.childImageSharp.fluid} loading="eager" alt="App screen" />
                </section>
 
-               <Img fluid={data.petTime_2.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
-               <Img fluid={data.petTime_3.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
-               <Img fluid={data.petTime_4.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
-               <Img fluid={data.petTime_5.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
+               <Img fluid={data.petTime_2.childImageSharp.fluid} loading="eager" alt="App screen" />
+               <Img fluid={data.petTime_3.childImageSharp.fluid} loading="eager" alt="App screen" />
+               <Img fluid={data.petTime_4.childImageSharp.fluid} loading="eager" alt="App screen" />
+               <Img fluid={data.petTime_5.childImageSharp.fluid} loading="eager" alt="App screen" />
+
                <div className="bg-blackPure">
                   <InPageNav />
                </div>

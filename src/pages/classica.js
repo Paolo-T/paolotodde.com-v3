@@ -5,6 +5,37 @@ import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import InPageNav from "../components/InPageNav";
 
+import Card from "../components/Card";
+
+import persona_image_1 from "../images/classica/classica_persona_2.png";
+import persona_image_2 from "../images/classica/classica_persona_1.png";
+
+// User Personas Data
+const userPersonas = [
+   {
+      name: "Gabriel",
+      // pet: "Two dogs",
+      bio:
+         "25 years old. Lives in the city and works as a retail assistant for a small clothing shop. Loves music and he is a self taught guitar player. Wants to expand his musical boundaries by listening to classical music and learning about its culture",
+      goals: [
+         "Learn about the culture surrounding classical music",
+         "Start listening to classical music",
+         "Find learning resources",
+      ],
+      frustrations: ["Confusion on what learning path should take", "Scattered learning resources"],
+      image: persona_image_1,
+   },
+   {
+      name: "Emmalynn",
+      // pet: "Cat",
+      bio:
+         "48 years old. Lives in a small town where she works as a teacher. Has a family and not much free time. Recently rediscovered her love for classical music and wants to resume listening to the classics and learn about the modern composers ",
+      goals: ["Deepen knowledge of the classics", "Discover modern composers", "Find curated learning resources"],
+      frustrations: ["Not much free time available to research", "Scattered learning resources"],
+      image: persona_image_2,
+   },
+];
+
 function classica() {
    const data = useStaticQuery(graphql`
       query {
@@ -173,7 +204,7 @@ function classica() {
                      </div>
                   </section>
 
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 md:pb-20">
+                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 md:pb-0">
                      <div className="hidden md:block md:w-4/12">
                         <h4 className="font-extrabold uppercase tracking-widest">Solution</h4>
                      </div>
@@ -183,6 +214,25 @@ function classica() {
                            An app that besides the excellent music player, provides a learning center to access
                            articles, podcasts, blogs and relevevant personalities in the field.
                         </p>
+                     </div>
+                  </section>
+                  <section className="mt-8 md:mt-16">
+                     <div className="w-11/12 md:w-8/12 mx-auto md:pt-10 pb-0">
+                        <h2 className="mb-4 md:mb-8">User Personas</h2>
+                        <div className="md:grid grid-cols-2 gap-5">
+                           {userPersonas.map((persona) => (
+                              <Card
+                                 title={persona.name}
+                                 // subtitle={persona.pet}
+                                 description={persona.bio}
+                                 list_top={persona.goals}
+                                 list_top_title="Goals"
+                                 list_bottom={persona.frustrations}
+                                 list_bottom_title="Frustrations"
+                                 image={persona.image}
+                              />
+                           ))}
+                        </div>
                      </div>
                   </section>
                </div>
