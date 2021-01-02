@@ -98,8 +98,8 @@ function Shuush() {
          <div className="w-full max-w-full mx-auto bg" style={{ backgroundColor: "#f6f6f6" }}>
             <TransitionPageIn>
                <Img fluid={data.shuushImg_0.childImageSharp.fluid} className="" loading="eager" />
-               <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-10 md:mb-32">
-                  <div className="md:w-4/12">
+               <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-0 mb-10 md:mb-32">
+                  <div className="md:w-4/12 md:mt-20">
                      <h4 className="font-extrabold uppercase tracking-widest">Description</h4>
                      <h4 className="pt-4">App design</h4>
                   </div>

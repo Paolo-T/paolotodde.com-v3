@@ -128,10 +128,10 @@ function classica() {
          <div className="w-12/12 mx-auto bg-blackPure">
             <TransitionPageIn>
                <Img fluid={data.classicaImg_1.childImageSharp.fluid} className="bg-blackPure" loading="eager" />
-               <div className="w-full bg-white pt-10 pb-20 md:py-32">
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
-                     <div className="hidden md:block md:w-4/12">
-                        <h4 className="font-extrabold uppercase tracking-widest">Description</h4>
+               <div className="w-full bg-white pt-1 pb-10 md:pb-20 md:pt-32">
+                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-0 mb-0">
+                     <div className="hidden md:block md:w-4/12 md:mt-20">
+                        <h4 className="font-extrabold uppercase tracking-widest mt-3">Description</h4>
                         <h4 className="pt-4">App design</h4>
                      </div>
 
@@ -188,8 +188,8 @@ function classica() {
                   </section>
 
                   <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
-                     <div className="md:w-4/12">
-                        <h4 className="hidden md:block font-extrabold uppercase tracking-widest">Problem</h4>
+                     <div className="md:w-4/12 md:mt-20">
+                        <h4 className="hidden md:block font-extrabold uppercase tracking-widest mt-2">Problem</h4>
                      </div>
                      <div className="md:w-8/12 md:pr-24">
                         <h2 className="mb-4 md:mb-8">The problem</h2>
@@ -205,34 +205,37 @@ function classica() {
                   </section>
 
                   <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 md:pb-0">
-                     <div className="hidden md:block md:w-4/12">
-                        <h4 className="font-extrabold uppercase tracking-widest">Solution</h4>
+                     <div className="hidden md:block md:w-4/12 md:mt-20">
+                        <h4 className="font-extrabold uppercase tracking-widest mt-2">Solution</h4>
                      </div>
                      <div className="md:w-8/12 md:pr-24">
-                        <h2 className="mb-4 md:mb-8">The solution</h2>
+                        <h2 className="mb-4 md:mb-8 ">The solution</h2>
                         <p>
                            An app that besides the excellent music player, provides a learning center to access
                            articles, podcasts, blogs and relevevant personalities in the field.
                         </p>
                      </div>
                   </section>
-                  <section className="mt-8 md:mt-16">
-                     <div className="w-11/12 md:w-8/12 mx-auto md:pt-10 pb-0">
-                        <h2 className="mb-4 md:mb-8">User Personas</h2>
-                        <div className="md:grid grid-cols-2 gap-5">
-                           {userPersonas.map((persona) => (
-                              <Card
-                                 title={persona.name}
-                                 // subtitle={persona.pet}
-                                 description={persona.bio}
-                                 list_top={persona.goals}
-                                 list_top_title="Goals"
-                                 list_bottom={persona.frustrations}
-                                 list_bottom_title="Frustrations"
-                                 image={persona.image}
-                              />
-                           ))}
+                  <section className="w-11/12 md:w-8/12 mx-auto text-black mt-8 md:mt-16 mb-0">
+                     <div className="md:flex">
+                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-20"></div>
+                        <div className="w-11/12 md:w-8/12 md:mx-auto">
+                           <h2 className="mb-4 md:mb-8">User Personas</h2>
                         </div>
+                     </div>
+                     <div className="md:grid grid-cols-2 gap-5">
+                        {userPersonas.map((persona) => (
+                           <Card
+                              title={persona.name}
+                              // subtitle={persona.pet}
+                              description={persona.bio}
+                              list_top={persona.goals}
+                              list_top_title="Goals"
+                              list_bottom={persona.frustrations}
+                              list_bottom_title="Frustrations"
+                              image={persona.image}
+                           />
+                        ))}
                      </div>
                   </section>
                </div>
