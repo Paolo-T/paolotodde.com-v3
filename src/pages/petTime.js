@@ -83,7 +83,7 @@ function petTime({ location }) {
          <div className="w-12/12 mx-auto bg-blackPure">
             <TransitionPageIn>
                <Img fluid={data.petTime_1.childImageSharp.fluid} className="" loading="eager" />
-               <div className="w-full bg-white pt-1 pb-10 md:pt-32">
+               <div className="w-full bg-white pt-1 pb-10 md:pb-20 md:pt-32">
                   <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex ">
                      <div className="md:w-4/12 mt-0 hidden md:block md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Description</h4>
@@ -177,7 +177,7 @@ function petTime({ location }) {
                      </div>
                   </section>
                   <section className="mt-8 md:mt-16">
-                     <div className="w-11/12 md:w-8/12 mx-auto md:pt-20 pb-0">
+                     <div className="w-11/12 md:w-8/12 mx-auto md:pt-10 pb-0">
                         <h2 className="mb-4 md:mb-8">User Personas</h2>
                         <Card />
                      </div>
