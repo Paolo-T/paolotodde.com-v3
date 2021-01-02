@@ -41,7 +41,7 @@ function UserCard() {
             <div key={i} className="w-28 bg-white shadow-lg rounded-lg overflow-hidden my-4">
                <img className="w-full h-64 object-cover object-center" src={persona.image} alt="avatar" />
 
-               <div className="pt-4 pb-8 px-8">
+               <div className="pt-4 pb-8 px-4 md:px-8">
                   <div className="flex justify-between items-baseline">
                      <h1 className="text-2xl font-semibold text-gray-800 mb-2">{persona.name}</h1>
                      <h1 className="text-sm mb-2 mt-0">Pets owned: {persona.pet}</h1>
