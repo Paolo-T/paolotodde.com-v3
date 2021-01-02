@@ -48529,25 +48529,25 @@ function Footer() {
     target: "_blank",
     href: "https://www.linkedin.com/in/paolo-todde/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "xl:inline-block text-3xl lg:text-4xl hover:text-primary transition duration-500 hover:underline ease-in-out mb-3 md:mb-0"
+    className: "xl:inline-block text-1xl lg:text-4xl hover:text-primary transition duration-500 hover:underline ease-in-out mb-3 md:mb-0"
   }, "LinkedIn")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     rel: "noopener noreferrer",
     target: "_blank",
     href: "https://www.instagram.com/paolo_tde/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "xl:inline-block text-3xl lg:text-4xl hover:text-primary transition duration-500 hover:underline ease-in-out mb-3 md:mb-0"
+    className: "xl:inline-block text-1xl lg:text-4xl hover:text-primary transition duration-500 hover:underline ease-in-out mb-3 md:mb-0"
   }, "Instagram")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     rel: "noopener noreferrer",
     target: "_blank",
     href: "https://github.com/Paolo-T"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "xlg:inline-block text-3xl lg:text-4xl  hover:text-primary transition duration-500 hover:underline ease-in-out mb-3 md:mb-0"
+    className: "xlg:inline-block text-1xl lg:text-4xl  hover:text-primary transition duration-500 hover:underline ease-in-out mb-3 md:mb-0"
   }, "Github")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_parent",
     rel: "noopener noreferrer",
     href: "mailto:iampaolotodde@gmail.com"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "xlg:inline-block text-3xl lg:text-4xl  hover:text-primary transition duration-500 hover:underline ease-in-out mb-3 md:mb-0"
+    className: "xlg:inline-block text-1xl lg:text-4xl  hover:text-primary transition duration-500 hover:underline ease-in-out mb-3 md:mb-0"
   }, "Email")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ScrollToTop__WEBPACK_IMPORTED_MODULE_2__["default"], {
     showBelow: "250"
   })))));

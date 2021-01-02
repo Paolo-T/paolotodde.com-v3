@@ -1,4 +1,6 @@
 import React from "react";
+import persona_image_1 from "../images/personas/persona_1.png";
+import persona_image_2 from "../images/personas/persona_2.png";
 
 const userPersonas = [
    {
@@ -7,7 +9,7 @@ const userPersonas = [
       bio:
          "26 years old. Lives in the city and works as a Marketing manager in a medium sized tech company. Lives a very active lifestyle, loves sports and the outdoors and enjoys walks and traveling",
       goals: [
-         "Enjoying the outdoords with her pets",
+         "Enjoying the outdoors with her pets",
          "Find dog friendly venues",
          "Find where her dogs will be taken care of when needed (Vet, Dog groomer)",
       ],
@@ -15,14 +17,20 @@ const userPersonas = [
          "She is new in the city and doesn't know the best places where she can walk her dogs",
          "Some shops/venues don't allow in dogs",
       ],
+      image: persona_image_1,
    },
    {
       name: "Drew",
       pet: "Cat",
       bio:
-         "26 years old. Lives in the city and works as a Marketing manager in a medium sized tech company. Lives a very active lifestyle, loves sports and the outdoors and enjoys long walks and traveling",
-      goals: ["Goal 3", "Goal 4", "Goal 5"],
-      frustrations: ["frustrations 4", "frustrations 5", "frustrations 6"],
+         "34 years old. Lives in the city and works long hours as Chef in a restaurant he owns. Has a family and not much free time. Recently adopted a pet cat from animal shelter.",
+      goals: [
+         "Learn how to welcome newly adopted cat",
+         "Find learning resources about rescue animals",
+         "Find where their cat will be taken care of when needed (Vet, Cat groomer)",
+      ],
+      frustrations: ["Doesn't have much experience with rescue pets", "Doesn't much free time"],
+      image: persona_image_2,
    },
 ];
 
@@ -31,11 +39,7 @@ function UserCard() {
       <div className="md:grid grid-cols-2 gap-5">
          {userPersonas.map((persona, i) => (
             <div key={i} className="w-28 bg-white shadow-lg rounded-lg overflow-hidden my-4">
-               <img
-                  className="w-full h-56 object-cover object-center"
-                  src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
-                  alt="avatar"
-               />
+               <img className="w-full h-64 object-cover object-center" src={persona.image} alt="avatar" />
 
                <div className="pt-4 pb-8 px-8">
                   <div className="flex justify-between items-baseline">
@@ -43,7 +47,6 @@ function UserCard() {
                      <h1 className="text-sm mb-2 mt-0">Pets owned: {persona.pet}</h1>
                   </div>
                   <p className="pt-4 text-sm text-gray-700">{persona.bio}</p>
-
                   <div className="mt-4 text-gray-700">
                      <h1 className="text-sm mb-2 mt-0">Goals</h1>
                      <ul className="text-sm list-disc pl-4">
