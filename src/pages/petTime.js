@@ -164,7 +164,7 @@ function petTime({ location }) {
                      </div>
                   </section>
                   <section className="w-11/12 md:w-8/12 mx-auto md:flex mt-8 md:mt-16 mb-20">
-                     <div className="hidden md:block md:w-4/12 mt-0 mb-10 md:mb-20">
+                     <div className="hidden md:block md:w-4/12 mt-0 mb-10 md:pb-20">
                         <h4 className="font-extrabold uppercase tracking-widest">Solution</h4>
                      </div>
                      <div className="w-11/12 md:w-8/12 pr-0 md:pr-24">
