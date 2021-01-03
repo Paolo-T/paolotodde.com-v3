@@ -1,6 +1,6 @@
 {
    "extends": ["eslint:recommended", "prettier", "prettier/react"],
-   "plugins": ["react/recommended", "react-hooks"],
+   "plugins": ["react/recommended", "react", "react-hooks/recommended"],
    "parserOptions": {
       "ecmaVersion": 2018,
       "sourceType": "module",
@@ -16,5 +16,7 @@
    "rules": {
       "no-console": "off",
       "react-hooks/rules-of-hooks": "error"
+      // "react/jsx-uses-react": "error",
+      // "react/jsx-uses-vars": "error"
    }
 }

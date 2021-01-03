@@ -128,7 +128,7 @@ function Home() {
                   </TransitionInview>
 
                   {tilesData.map((tile, i) => (
-                     <TransitionInview>
+                     <TransitionInview key={i}>
                         <div className="mb-5 mt-4 md:my-20">
                            <ImgTile
                               key={i}

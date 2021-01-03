@@ -43,6 +43,7 @@ const userPersonas = [
 ];
 
 function petTime() {
+   // Image data
    const data = useStaticQuery(graphql`
       query {
          petTime_1: file(relativePath: { eq: "petTime/petTime_1.png" }) {
@@ -123,7 +124,7 @@ function petTime() {
                   <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex ">
                      <div className="md:w-4/12 mt-0 hidden md:block md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest mt-2">Description</h4>
-                        <h4 className="pt-4">App design</h4>
+                        <h4 className="pt-1">App design</h4>
                      </div>
                      <div className="md:w-7/12 mt-10 md:mt-0 pr-0 md:pr-24">
                         <h2 className="mb-4 md:mb-8">Description</h2>
@@ -144,7 +145,7 @@ function petTime() {
                   <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest mt-2">Skills applied</h4>
-                        <h4 className="pt-4">
+                        <h4 className="pt-1">
                            Strategy
                            <br /> Concept
                            <br /> UI Design
@@ -218,9 +219,11 @@ function petTime() {
                            <h2 className="mb-4 md:mb-8">User Personas</h2>
                         </div>
                      </div>
-                     <div className="md:grid grid-cols-2 gap-6">
-                        {userPersonas.map((persona) => (
+                     <div className="md:grid grid-cols-2 gap-8">
+                        {userPersonas.map((persona, i) => (
                            <Card
+                              key={i}
+                              id={i}
                               title={persona.name}
                               subtitle={`Pets owned: ${persona.pet}`}
                               description={persona.bio}
