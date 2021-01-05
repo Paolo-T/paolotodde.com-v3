@@ -54,7 +54,7 @@ function Home() {
    const tilesData = [
       {
          title: "Pet Time",
-         subTitle: "UI/UX Design",
+         subTitle: "Pet management app - UI/UX Design",
          tileImg: data.petImg.childImageSharp.fluid,
          linkTo: "/pet-time",
          imgAlt: "Pet Time app ui design",
@@ -62,7 +62,7 @@ function Home() {
       },
       {
          title: "Shuush!",
-         subTitle: "UI/UX Design",
+         subTitle: "Messaging app - UI/UX Design",
          tileImg: data.shuushImg.childImageSharp.fluid,
          linkTo: "/shuush",
          imgAlt: "Shuush! app ui design",
@@ -70,7 +70,7 @@ function Home() {
       },
       {
          title: "Classica",
-         subTitle: "UI/UX Design",
+         subTitle: "Classical music app - UI/UX Design",
          tileImg: data.classicaImg.childImageSharp.fluid,
          linkTo: "/classica",
          imgAlt: "classica app ui design",
@@ -78,7 +78,7 @@ function Home() {
       },
       {
          title: "Space Digest",
-         subTitle: "Web Design / Development",
+         subTitle: "Website - Web Design / Development",
          tileImg: data.spaceDigestImg.childImageSharp.fluid,
          linkTo: "/space-digest",
          imgAlt: "Website page",
@@ -86,7 +86,7 @@ function Home() {
       },
       {
          title: "BuzzSumo.com",
-         subTitle: "Web design",
+         subTitle: "Web marketing assets - Web design",
          tileImg: data.buzzsumoImg.childImageSharp.fluid,
          linkTo: "/buzzsumo",
          imgAlt: "Buzzsumo web page",

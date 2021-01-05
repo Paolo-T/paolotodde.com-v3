@@ -22,15 +22,26 @@ function ImgTile({ linkTo, href, title, subTitle, tileImg, imgAlt, marginTop, ma
                   } `}
                >
                   <div
-                     className="w-full text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
+                     className="w-full text-primary absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
                      style={{
                         top: "50%",
                         left: "50%",
                         transform: "translate(-50%, -50%)",
                      }}
                   >
-                     <h1 className="mb-1 text-3xl md:text-6xl lg:text-9xl">{title}</h1>
-                     <p className="text-xs md:text-md md:text-2xl mt-2 tracking-wider">{subTitle}</p>
+                     <h1 className="mb-0 md:mb-1 text-4xl md:text-6xl lg:text-9xl">{title}</h1>
+                     <p className="text-xs md:text-2xl md:mt-2">{subTitle}</p>
+
+                     <p
+                        className="absolute z-100 text-xs md:text-lg bg-primary px-2 text-blackPure rounded md:rounded-md"
+                        style={{
+                           top: "140%",
+                           left: "50%",
+                           transform: "translate(-50%, -50%)",
+                        }}
+                     >
+                        Click for more
+                     </p>
                   </div>
 
                   <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
@@ -49,7 +60,7 @@ function ImgTile({ linkTo, href, title, subTitle, tileImg, imgAlt, marginTop, ma
                   } `}
                >
                   <div
-                     className="w-full text-yellow-500 absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
+                     className="w-full text-primary absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
                      style={{
                         top: "50%",
                         left: "50%",
