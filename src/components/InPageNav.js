@@ -104,7 +104,7 @@ function InPageNav() {
                pageLocation === "/three" ? navItemsNumber : navItemsNumber - 1
             } gap-0 mx-auto -mb-10 md:m-0`}
          > */}
-            {tilesData.map(
+            {/* {tilesData.map(
                (tile, i) =>
                   pageLocation !== tile.linkTo && (
                      <ImgTile
@@ -119,7 +119,20 @@ function InPageNav() {
                         rounded={tile.rounded}
                      />
                   )
-            )}
+            )} */}
+            {tilesData.map((tile, i) => (
+               <ImgTile
+                  key={i}
+                  title={tile.title}
+                  subTitle={tile.subTitle}
+                  tileImg={tile.tileImg}
+                  linkTo={tile.linkTo}
+                  imgAlt={tile.imgAlt}
+                  marginTop={tile.marginTop}
+                  marginBottom={tile.marginBottom}
+                  rounded={tile.rounded}
+               />
+            ))}
          </div>
       </section>
    );
