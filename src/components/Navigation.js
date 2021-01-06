@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 
 function Navigation() {
    const pageLocation = typeof window !== "undefined" ? window.location.pathname : "";
+   const aboutPage = pageLocation === "/about";
 
    return (
       <header className="w-full fixed bg-transparent z-10">
@@ -11,23 +12,14 @@ function Navigation() {
             <Link to="/">
                <img className="w-8 md:w-8" src={logo} alt="nasa-logo" />
             </Link>
-            {pageLocation === "/about" ? (
-               <Link to="/">
-                  <div className="group flex">
-                     <p className="text-xl md:text-2xl hover:text-primary transition duration-500 hover:underline pt-3 md:pt-2 align-baseline">
-                        Home
-                     </p>
-                  </div>
-               </Link>
-            ) : (
-               <Link to="/about">
-                  <div className="group flex">
-                     <p className="text-xl md:text-2xl text-grey hover:text-primary transition duration-500 hover:underline pt-3 md:pt-2 align-baseline">
-                        About
-                     </p>
-                  </div>
-               </Link>
-            )}
+
+            <Link to={aboutPage ? "/" : "/about"}>
+               <div className="group flex">
+                  <p className="text-xl md:text-2xl text-primary transition duration-500 hover:underline pt-3 md:pt-2 align-baseline">
+                     {aboutPage ? "Home" : "About"}
+                  </p>
+               </div>
+            </Link>
          </nav>
       </header>
    );
