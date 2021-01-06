@@ -76,6 +76,14 @@ function Shuush() {
       }
    `);
 
+   const imageData = [
+      data.shuushImg_2.childImageSharp.fluid,
+      data.shuushImg_3.childImageSharp.fluid,
+      data.shuushImg_4.childImageSharp.fluid,
+      data.shuushImg_5.childImageSharp.fluid,
+      data.shuushImg_7.childImageSharp.fluid,
+   ];
+
    return (
       <>
          <SEO
@@ -114,14 +122,11 @@ function Shuush() {
                   </div>
                </section>
 
-               <Img fluid={data.shuushImg_1.childImageSharp.fluid} className="" loading="eager" />
-               <Img fluid={data.shuushImg_2.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
-               <Img fluid={data.shuushImg_3.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
-               <Img fluid={data.shuushImg_4.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
-               <Img fluid={data.shuushImg_5.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
-               <Img fluid={data.shuushImg_6.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
-               <Img fluid={data.shuushImg_7.childImageSharp.fluid} className="" loading="eager" alt="App screen" />
-               <div className="bg-gray-100">
+               {imageData.map((image, i) => (
+                  <Img key={i} fluid={image} className="-m-2" loading="eager" alt="App screen" />
+               ))}
+
+               <div className="bg-blackPure">
                   <InPageNav />
                </div>
             </TransitionPageIn>

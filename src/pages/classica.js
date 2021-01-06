@@ -104,6 +104,14 @@ function classica() {
       }
    `);
 
+   const imageData = [
+      data.classicaImg_2.childImageSharp.fluid,
+      data.classicaImg_3.childImageSharp.fluid,
+      data.classicaImg_4.childImageSharp.fluid,
+      data.classicaImg_5.childImageSharp.fluid,
+      data.classicaImg_7.childImageSharp.fluid,
+   ];
+
    return (
       <>
          <SEO
@@ -237,40 +245,10 @@ function classica() {
                   </section>
                </div>
 
-               <Img
-                  fluid={data.classicaImg_2.childImageSharp.fluid}
-                  className="-m-2"
-                  loading="eager"
-                  alt="App screen"
-               />
+               {imageData.map((image, i) => (
+                  <Img key={i} fluid={image} className="-m-2" loading="eager" alt="App screen" />
+               ))}
 
-               <Img
-                  fluid={data.classicaImg_3.childImageSharp.fluid}
-                  className="-m-2"
-                  loading="eager"
-                  alt="App screen"
-               />
-
-               <Img
-                  fluid={data.classicaImg_4.childImageSharp.fluid}
-                  className="-m-2"
-                  loading="eager"
-                  alt="App screen"
-               />
-
-               <Img
-                  fluid={data.classicaImg_5.childImageSharp.fluid}
-                  className="-m-2"
-                  loading="eager"
-                  alt="App screen"
-               />
-
-               <Img
-                  fluid={data.classicaImg_7.childImageSharp.fluid}
-                  className="-m-2"
-                  loading="eager"
-                  alt="App screen"
-               />
                <div className=" bg-blackPure">
                   <InPageNav />
                </div>

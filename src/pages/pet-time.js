@@ -97,6 +97,14 @@ function petTime() {
       }
    `);
 
+   const imageData = [
+      data.petTime_2.childImageSharp.fluid,
+      data.petTime_3.childImageSharp.fluid,
+      data.petTime_4.childImageSharp.fluid,
+      data.petTime_5.childImageSharp.fluid,
+      data.petTime_7.childImageSharp.fluid,
+   ];
+
    return (
       <>
          <SEO
@@ -258,10 +266,9 @@ function petTime() {
                   <Img fluid={data.petTime_6.childImageSharp.fluid} loading="eager" alt="App screen" />
                </section>
 
-               <Img fluid={data.petTime_2.childImageSharp.fluid} loading="eager" alt="App screen" />
-               <Img fluid={data.petTime_3.childImageSharp.fluid} loading="eager" alt="App screen" />
-               <Img fluid={data.petTime_4.childImageSharp.fluid} loading="eager" alt="App screen" />
-               <Img fluid={data.petTime_5.childImageSharp.fluid} loading="eager" alt="App screen" />
+               {imageData.map((image, i) => (
+                  <Img key={i} fluid={image} className="-m-2" loading="eager" alt="App screen" />
+               ))}
 
                <div className="bg-blackPure">
                   <InPageNav />
