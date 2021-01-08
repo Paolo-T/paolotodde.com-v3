@@ -6,7 +6,7 @@ import Img from "gatsby-image";
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 80, (x - window.innerWidth / 2) / 80, 0.96];
 const trans = (x, y, s) => `perspective(1200px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
 
-function ImgTile({ linkTo, href, title, subTitle, tileImg, imgAlt, marginTop, marginBottom, rounded }) {
+function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTop, marginBottom, rounded }) {
    const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 150, friction: 30 } }));
 
    return (
@@ -40,7 +40,7 @@ function ImgTile({ linkTo, href, title, subTitle, tileImg, imgAlt, marginTop, ma
                            transform: "translate(-50%, -50%)",
                         }}
                      >
-                        Click for more
+                        {cta}
                      </p>
                   </div>
 

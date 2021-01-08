@@ -55,6 +55,7 @@ function Home() {
       {
          title: "Pet Time",
          subTitle: "Pet management app - UI/UX Design",
+         cta: "View use case",
          tileImg: data.petImg.childImageSharp.fluid,
          linkTo: "/pet-time",
          imgAlt: "Pet Time app ui design",
@@ -63,6 +64,7 @@ function Home() {
       {
          title: "Shuush!",
          subTitle: "Messaging app - UI/UX Design",
+         cta: "View use case",
          tileImg: data.shuushImg.childImageSharp.fluid,
          linkTo: "/shuush",
          imgAlt: "Shuush! app ui design",
@@ -71,6 +73,7 @@ function Home() {
       {
          title: "Classica",
          subTitle: "Classical music app - UI/UX Design",
+         cta: "View use case",
          tileImg: data.classicaImg.childImageSharp.fluid,
          linkTo: "/classica",
          imgAlt: "classica app ui design",
@@ -79,6 +82,7 @@ function Home() {
       {
          title: "Space Digest",
          subTitle: "Website - Web Design / Development",
+         cta: "View more",
          tileImg: data.spaceDigestImg.childImageSharp.fluid,
          linkTo: "/space-digest",
          imgAlt: "Website page",
@@ -87,6 +91,7 @@ function Home() {
       {
          title: "BuzzSumo.com",
          subTitle: "Web marketing assets - Web design",
+         cta: "View more",
          tileImg: data.buzzsumoImg.childImageSharp.fluid,
          linkTo: "/buzzsumo",
          imgAlt: "Buzzsumo web page",
@@ -134,6 +139,7 @@ function Home() {
                               key={i}
                               title={tile.title}
                               subTitle={tile.subTitle}
+                              cta={tile.cta}
                               tileImg={tile.tileImg}
                               linkTo={tile.linkTo}
                               imgAlt={tile.imgAlt}
