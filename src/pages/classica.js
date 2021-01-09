@@ -3,7 +3,7 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
-import InPageNav from "../components/InPageNav";
+import Tiles from "../components/Tiles";
 import Card from "../components/Card";
 
 import persona_image_1 from "../images/classica/classica_persona_2.png";
@@ -249,8 +249,8 @@ function classica() {
                   <Img key={i} fluid={image} className="-m-2" loading="eager" alt="App screen" />
                ))}
 
-               <div className=" bg-blackPure">
-                  <InPageNav />
+               <div className="bg-blackPure">
+                  <Tiles isPageNav={true} />
                </div>
             </TransitionPageIn>
          </div>

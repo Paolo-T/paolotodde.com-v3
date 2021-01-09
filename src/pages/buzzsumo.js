@@ -3,7 +3,7 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
-import InPageNav from "../components/InPageNav";
+import Tiles from "../components/Tiles";
 
 function classNameica() {
    const data = useStaticQuery(graphql`
@@ -146,7 +146,7 @@ function classNameica() {
                </section>
 
                <div className="bg-blackPure">
-                  <InPageNav />
+                  <Tiles isPageNav={true} />
                </div>
             </TransitionPageIn>
          </div>

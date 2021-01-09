@@ -6,7 +6,7 @@ import Img from "gatsby-image";
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 80, (x - window.innerWidth / 2) / 80, 0.96];
 const trans = (x, y, s) => `perspective(1200px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
 
-function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTop, marginBottom, rounded }) {
+function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTop, marginBottom, rounded, isPageNav }) {
    const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 150, friction: 30 } }));
 
    return (
@@ -29,13 +29,16 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
                         transform: "translate(-50%, -50%)",
                      }}
                   >
-                     <h1 className="mb-0 md:mb-1 text-4xl md:text-6xl lg:text-9xl">{title}</h1>
-                     <p className="text-xs md:text-2xl md:mt-2">{subTitle}</p>
-
+                     {!isPageNav ? (
+                        <>
+                           <h1 className="mb-0 md:mb-1 text-4xl md:text-6xl lg:text-9xl">{title}</h1>
+                           <p className="text-xs md:text-2xl md:mt-2">{subTitle}</p>
+                        </>
+                     ) : null}
                      <p
-                        className="absolute z-100 text-xs md:text-lg bg-primary px-2 text-blackPure rounded md:rounded-md"
+                        className="absolute z-100 text-xs md:text-2xl text-primary border-2 border-primary px-4 py-2  rounded md:rounded "
                         style={{
-                           top: "140%",
+                           top: "130%",
                            left: "50%",
                            transform: "translate(-50%, -50%)",
                         }}
@@ -67,8 +70,12 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
                         transform: "translate(-50%, -50%)",
                      }}
                   >
-                     <h1 className="mb-1 text-3xl md:text-6xl lg:text-9xl">{title}</h1>
-                     <p className="text-xs md:text-md md:text-3xl">{subTitle}</p>
+                     {!isPageNav && (
+                        <>
+                           <h1 className="mb-0 md:mb-1 text-4xl md:text-6xl lg:text-9xl">{title}</h1>
+                           <p className="text-xs md:text-2xl md:mt-2">{subTitle}</p>
+                        </>
+                     )}
                   </div>
                   <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
                   <Img fluid={tileImg} alt={imgAlt} loading="eager" />

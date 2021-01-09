@@ -3,8 +3,8 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
-import InPageNav from "../components/InPageNav";
 import Card from "../components/Card";
+import Tiles from "../components/Tiles";
 
 import persona_image_1 from "../images/petTime/petTime_persona_1.png";
 import persona_image_2 from "../images/petTime/petTime_persona_2.png";
@@ -100,9 +100,7 @@ function petTime() {
    const imageData = [
       data.petTime_2.childImageSharp.fluid,
       data.petTime_3.childImageSharp.fluid,
-      data.petTime_4.childImageSharp.fluid,
       data.petTime_5.childImageSharp.fluid,
-      data.petTime_7.childImageSharp.fluid,
    ];
 
    return (
@@ -271,7 +269,7 @@ function petTime() {
                ))}
 
                <div className="bg-blackPure">
-                  <InPageNav />
+                  <Tiles isPageNav={true} />
                </div>
             </TransitionPageIn>
          </div>

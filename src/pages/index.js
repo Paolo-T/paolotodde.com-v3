@@ -1,104 +1,10 @@
 import React from "react";
 import SEO from "../components/Seo";
-import { graphql, useStaticQuery } from "gatsby";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
-import ImgTile from "../components/ImgTile";
+import Tiles from "../components/Tiles";
 
 function Home() {
-   const data = useStaticQuery(graphql`
-      query {
-         classicaImg: file(relativePath: { eq: "classica/classica_tile_2.png" }) {
-            id
-            childImageSharp {
-               fluid(maxWidth: 2880) {
-                  ...GatsbyImageSharpFluid_withWebp
-               }
-            }
-         }
-         shuushImg: file(relativePath: { eq: "shuush/shuush_tile_2.png" }) {
-            id
-            childImageSharp {
-               fluid(maxWidth: 2880) {
-                  ...GatsbyImageSharpFluid_withWebp
-               }
-            }
-         }
-         petImg: file(relativePath: { eq: "petTime/petTime_tile_2.png" }) {
-            id
-            childImageSharp {
-               fluid(maxWidth: 2880) {
-                  ...GatsbyImageSharpFluid_withWebp
-               }
-            }
-         }
-         spaceDigestImg: file(relativePath: { eq: "spaceDigest/spaceDigest_tile.png" }) {
-            id
-            childImageSharp {
-               fluid(maxWidth: 2880) {
-                  ...GatsbyImageSharpFluid_withWebp
-               }
-            }
-         }
-         buzzsumoImg: file(relativePath: { eq: "buzzsumo/buzzsumo_tile.png" }) {
-            id
-            childImageSharp {
-               fluid(maxWidth: 2880) {
-                  ...GatsbyImageSharpFluid_withWebp
-               }
-            }
-         }
-      }
-   `);
-
-   const tilesData = [
-      {
-         title: "Pet Time",
-         subTitle: "Pet management app - UI/UX Design",
-         cta: "View use case",
-         tileImg: data.petImg.childImageSharp.fluid,
-         linkTo: "/pet-time",
-         imgAlt: "Pet Time app ui design",
-         rounded: "lg",
-      },
-      {
-         title: "Shuush!",
-         subTitle: "Messaging app - UI/UX Design",
-         cta: "View use case",
-         tileImg: data.shuushImg.childImageSharp.fluid,
-         linkTo: "/shuush",
-         imgAlt: "Shuush! app ui design",
-         rounded: "lg",
-      },
-      {
-         title: "Classica",
-         subTitle: "Classical music app - UI/UX Design",
-         cta: "View use case",
-         tileImg: data.classicaImg.childImageSharp.fluid,
-         linkTo: "/classica",
-         imgAlt: "classica app ui design",
-         rounded: "lg",
-      },
-      {
-         title: "Space Digest",
-         subTitle: "Website - Web Design / Development",
-         cta: "View more",
-         tileImg: data.spaceDigestImg.childImageSharp.fluid,
-         linkTo: "/space-digest",
-         imgAlt: "Website page",
-         rounded: "lg",
-      },
-      {
-         title: "BuzzSumo.com",
-         subTitle: "Web marketing assets - Web design",
-         cta: "View more",
-         tileImg: data.buzzsumoImg.childImageSharp.fluid,
-         linkTo: "/buzzsumo",
-         imgAlt: "Buzzsumo web page",
-         rounded: "lg",
-      },
-   ];
-
    return (
       <>
          <SEO
@@ -132,26 +38,13 @@ function Home() {
                      </h1>
                   </TransitionInview>
 
-                  {tilesData.map((tile, i) => (
-                     <TransitionInview key={i}>
-                        <div className="mb-5 mt-4 md:my-20">
-                           <ImgTile
-                              key={i}
-                              title={tile.title}
-                              subTitle={tile.subTitle}
-                              cta={tile.cta}
-                              tileImg={tile.tileImg}
-                              linkTo={tile.linkTo}
-                              imgAlt={tile.imgAlt}
-                              marginTop={tile.marginTop}
-                              marginBottom={tile.marginBottom}
-                              rounded={tile.rounded}
-                           />
-                        </div>
-                     </TransitionInview>
-                  ))}
+                  <TransitionInview>
+                     <div className="mb-5 mt-4 md:my-20">
+                        <Tiles isPageNav={false} />
+                     </div>
+                  </TransitionInview>
 
-                  <section className="text-center mt-16 md:mt-20 md:mb-10">
+                  <section className="text-center mt-20 md:mb-10">
                      <a target="_parent" rel="noopener noreferrer" href="mailto:iampaolotodde@gmail.com">
                         <button
                            type="button"

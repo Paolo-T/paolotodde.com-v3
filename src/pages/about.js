@@ -5,7 +5,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
-// import InPageNav from "../components/InPageNav";
+import Tiles from "../components/Tiles";
 
 function About() {
    const data = useStaticQuery(graphql`
@@ -169,7 +169,7 @@ function About() {
                         <h2 className="text-2xl md:text-3xl flex-1 mb-10 text-center">Side projects</h2>
                         <div className="grid md:grid-cols-2 gap-8">
                            <div className="w-full">
-                              <a href="https://www.instagram.com/paolo_tde/" target="_blank">
+                              <a href="https://www.instagram.com/roomzeroone/" target="_blank">
                                  <Img
                                     fluid={data.digitalArtImg.childImageSharp.fluid}
                                     alt="Digital Art"
@@ -197,9 +197,9 @@ function About() {
                </TransitionInview>
             </div>
          </TransitionPageIn>
-         {/* <div className=" bg-white">
-                <InPageNav />
-            </div> */}
+         <div className="bg-blackPure">
+            <Tiles isPageNav={true} />
+         </div>
       </>
    );
 }

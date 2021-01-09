@@ -3,7 +3,7 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
-import InPageNav from "../components/InPageNav";
+import Tiles from "../components/Tiles";
 
 function spaceDigest() {
    const data = useStaticQuery(graphql`
@@ -164,8 +164,8 @@ function spaceDigest() {
                   </section>
                </div>
 
-               <div className=" bg-blackPure">
-                  <InPageNav />
+               <div className="bg-blackPure">
+                  <Tiles isPageNav={true} />
                </div>
             </TransitionPageIn>
          </div>
