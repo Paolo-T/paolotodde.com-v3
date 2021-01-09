@@ -36,7 +36,7 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
                         </>
                      ) : null}
                      <p
-                        className="absolute z-100 text-xs md:text-2xl text-primary border-2 border-primary px-4 py-2  rounded md:rounded "
+                        className="absolute z-100 text-xs md:text-2xl text-primary leading-6 border-2 border-primary px-4 py-2 rounded md:rounded "
                         style={{
                            top: "130%",
                            left: "50%",

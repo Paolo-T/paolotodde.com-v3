@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import ImgTile from "./ImgTile";
 
 function Tiles({ isPageNav }) {
-   const pageLocation = typeof window !== "undefined" ? window.location.pathname : "";
+   // const pageLocation = typeof window !== "undefined" ? window.location.pathname : "";
 
    const data = useStaticQuery(graphql`
       query {
