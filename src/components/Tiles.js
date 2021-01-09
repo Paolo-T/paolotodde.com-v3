@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import ImgTile from "./ImgTile";
+import TransitionInview from "../components/TransitionInview";
 
 function Tiles({ isPageNav }) {
    // const pageLocation = typeof window !== "undefined" ? window.location.pathname : "";
@@ -113,19 +114,21 @@ function Tiles({ isPageNav }) {
          >
             {tilesData.map((tile, i) => (
                // pageLocation !== tile.linkTo && (
-               <ImgTile
-                  key={i}
-                  title={!isPageNav && tile.title}
-                  subTitle={!isPageNav && tile.subTitle}
-                  cta={tile.cta}
-                  tileImg={tile.tileImg}
-                  linkTo={tile.linkTo}
-                  imgAlt={tile.imgAlt}
-                  marginTop={tile.marginTop}
-                  marginBottom={tile.marginBottom}
-                  rounded={!isPageNav && tile.rounded}
-                  isPageNav={isPageNav}
-               />
+               <TransitionInview>
+                  <ImgTile
+                     key={i}
+                     title={!isPageNav && tile.title}
+                     subTitle={!isPageNav && tile.subTitle}
+                     cta={tile.cta}
+                     tileImg={tile.tileImg}
+                     linkTo={tile.linkTo}
+                     imgAlt={tile.imgAlt}
+                     marginTop={tile.marginTop}
+                     marginBottom={tile.marginBottom}
+                     rounded={!isPageNav && tile.rounded}
+                     isPageNav={isPageNav}
+                  />
+               </TransitionInview>
             ))}
          </div>
       </section>

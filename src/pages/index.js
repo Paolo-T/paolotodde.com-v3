@@ -38,11 +38,9 @@ function Home() {
                      </h1>
                   </TransitionInview>
 
-                  <TransitionInview>
-                     <div className="mb-5 mt-4 md:my-20">
-                        <Tiles isPageNav={false} />
-                     </div>
-                  </TransitionInview>
+                  <div className="mb-5 mt-4 md:my-20">
+                     <Tiles isPageNav={false} />
+                  </div>
 
                   <section className="text-center mt-20 md:mb-10">
                      <a target="_parent" rel="noopener noreferrer" href="mailto:iampaolotodde@gmail.com">

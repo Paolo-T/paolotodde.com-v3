@@ -164,7 +164,7 @@ function About() {
                </TransitionInview> */}
 
                <TransitionInview>
-                  <section className="w-full mt-20 mb-10 bg-yellow-100 py-10">
+                  <section className="w-full mt-20 pb-20 bg-yellow-100 py-10">
                      <div className="w-10/12 md:w-8/12 mx-auto">
                         <h2 className="text-2xl md:text-3xl flex-1 mb-10 text-center">Side projects</h2>
                         <div className="grid md:grid-cols-2 gap-8">
