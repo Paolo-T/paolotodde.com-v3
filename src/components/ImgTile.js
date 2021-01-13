@@ -35,7 +35,7 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
                            <p className="text-xs md:text-2xl md:mt-2">{subTitle}</p>
                         </>
                      ) : null}
-                     <p
+                     {/* <p
                         className="absolute z-100 text-xs md:text-2xl text-primary leading-6 border-2 border-primary px-4 py-2 rounded md:rounded "
                         style={{
                            top: "130%",
@@ -44,7 +44,7 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
                         }}
                      >
                         {cta}
-                     </p>
+                     </p> */}
                   </div>
 
                   <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>

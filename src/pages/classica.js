@@ -3,7 +3,7 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
-import Tiles from "../components/Tiles";
+import ImgTiles from "../components/ImgTiles";
 import Card from "../components/Card";
 
 import persona_image_1 from "../images/classica/classica_persona_2.png";
@@ -109,7 +109,6 @@ function classica() {
       data.classicaImg_3.childImageSharp.fluid,
       data.classicaImg_4.childImageSharp.fluid,
       data.classicaImg_5.childImageSharp.fluid,
-      data.classicaImg_7.childImageSharp.fluid,
    ];
 
    return (
@@ -133,9 +132,13 @@ function classica() {
          />
          <div className="w-12/12 mx-auto bg-blackPure">
             <TransitionPageIn>
-               <Img fluid={data.classicaImg_1.childImageSharp.fluid} className="bg-blackPure" loading="eager" />
+               <Img
+                  fluid={data.classicaImg_1.childImageSharp.fluid}
+                  className="max-w-screen-xl mx-auto bg-blackPure"
+                  loading="eager"
+               />
                <div className="w-full bg-white pt-1 pb-10 md:pb-20 md:pt-32">
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-0 mb-0">
+                  <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-8 md:mt-0 mb-0">
                      <div className="hidden md:block md:w-4/12 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest mt-3">Description</h4>
                         <h4 className="pt-1">App design</h4>
@@ -150,7 +153,7 @@ function classica() {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
+                  <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-24">
                         <h4 className="font-extrabold uppercase tracking-widest">Skills applied</h4>
                         <h4 className="pt-1">
@@ -161,7 +164,7 @@ function classica() {
                         </h4>
                      </div>
 
-                     <div className="w-11/12 md:w-7/12 md:pr-24">
+                     <div className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto md:pr-24">
                         <h2 className="mb-4 md:mb-8">The brief</h2>
                         <p>
                            You’re asked to design some materials for a mobile app to be run on smartphones only. Here
@@ -191,7 +194,7 @@ function classica() {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
+                  <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
                      <div className="md:w-4/12 md:mt-20">
                         <h4 className="hidden md:block font-extrabold uppercase tracking-widest mt-2">Problem</h4>
                      </div>
@@ -207,7 +210,7 @@ function classica() {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-16 md:pb-0">
+                  <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-8 md:mt-16 md:pb-0">
                      <div className="hidden md:block md:w-4/12 md:mt-20">
                         <h4 className="font-extrabold uppercase tracking-widest mt-2">Solution</h4>
                      </div>
@@ -219,7 +222,7 @@ function classica() {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 mx-auto text-black mt-8 md:mt-16 mb-0">
+                  <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black mt-8 md:mt-16 mb-0">
                      <div className="md:flex">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-20"></div>
                         <div className="w-11/12 md:w-8/12 md:mx-auto">
@@ -244,13 +247,18 @@ function classica() {
                      </div>
                   </section>
                </div>
+               <div className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto">
+                  {imageData.map((image, i) => (
+                     <Img key={i} fluid={image} loading="eager" alt="App screen" />
+                  ))}
+               </div>
 
-               {imageData.map((image, i) => (
-                  <Img key={i} fluid={image} className="-m-2" loading="eager" alt="App screen" />
-               ))}
+               <div className="w-full mx-auto">
+                  <Img fluid={data.classicaImg_7.childImageSharp.fluid} loading="eager" alt="App screen" />
+               </div>
 
-               <div className="bg-blackPure">
-                  <Tiles isPageNav={true} />
+               <div className="w-full bg-blackPure mx-auto">
+                  <ImgTiles isPageNav={true} />
                </div>
             </TransitionPageIn>
          </div>

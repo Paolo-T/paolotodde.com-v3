@@ -3,7 +3,7 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
-import Tiles from "../components/Tiles";
+import ImgTiles from "../components/ImgTiles";
 
 function Shuush() {
    const data = useStaticQuery(graphql`
@@ -81,7 +81,6 @@ function Shuush() {
       data.shuushImg_3.childImageSharp.fluid,
       data.shuushImg_4.childImageSharp.fluid,
       data.shuushImg_5.childImageSharp.fluid,
-      data.shuushImg_7.childImageSharp.fluid,
    ];
 
    return (
@@ -105,14 +104,18 @@ function Shuush() {
          />
          <div className="w-full max-w-full mx-auto bg" style={{ backgroundColor: "#f6f6f6" }}>
             <TransitionPageIn>
-               <Img fluid={data.shuushImg_0.childImageSharp.fluid} className="" loading="eager" />
-               <section className="w-11/12 md:w-8/12 mx-auto text-black md:flex mt-8 md:mt-0 mb-10 md:mb-32">
+               <Img
+                  className="max-w-screen-xl mx-auto"
+                  fluid={data.shuushImg_0.childImageSharp.fluid}
+                  loading="eager"
+               />
+               <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-8 md:mt-0 mb-10 md:mb-0">
                   <div className="md:w-4/12 md:mt-20">
                      <h4 className="font-extrabold uppercase tracking-widest">Description</h4>
                      <h4 className="pt-4">App design</h4>
                   </div>
 
-                  <div className="md:w-7/12 mt-16 md:mt-0 md:pr-24">
+                  <div className="md:w-7/12 max-w-screen-lg mx-auto mt-16 md:mt-0">
                      <h2 className="mb-8 md:mb-8">Description</h2>
                      <p>
                         <span className="font-extrabold">Shuush!</span> is a fun messaging app. Its fresh and friendly
@@ -123,11 +126,17 @@ function Shuush() {
                </section>
 
                {imageData.map((image, i) => (
-                  <Img key={i} fluid={image} className="-m-2" loading="eager" alt="App screen" />
+                  <div className="max-w-screen-lg mx-auto">
+                     <Img key={i} fluid={image} loading="eager" alt="App screen" />
+                  </div>
                ))}
 
-               <div className="bg-blackPure">
-                  <Tiles isPageNav={true} />
+               <div className="w-full mx-auto">
+                  <Img fluid={data.shuushImg_7.childImageSharp.fluid} loading="eager" alt="App screen" />
+               </div>
+
+               <div className="w-full bg-blackPure mx-auto">
+                  <ImgTiles isPageNav={true} />
                </div>
             </TransitionPageIn>
          </div>

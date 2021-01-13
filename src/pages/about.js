@@ -5,7 +5,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
-import Tiles from "../components/Tiles";
+import ImgTiles from "../components/ImgTiles";
 
 function About() {
    const data = useStaticQuery(graphql`
@@ -85,7 +85,7 @@ function About() {
          <TransitionPageIn>
             <div className="w-screen bg-ImageAboutBg sm:bg-ImageAboutBg__sm md:bg-ImageAboutBg__md lg:bg-ImageAboutBg__lg xl:bg-ImageAboutBg__xl bg-no-repeats pt-20 md:pt-48">
                <TransitionInview>
-                  <section className="w-10/12 md:w-7/12 mx-auto pt-20 md:pt-10">
+                  <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto pt-20 md:pt-10">
                      <h2 className="md:w-12/12 text-4xl md:text-5xl">Hi!</h2>
                      <div className="lg:w-8/12 block flex-2 pt-4 lg:pt-10">
                         <p className="mt-2">
@@ -165,7 +165,7 @@ function About() {
 
                <TransitionInview>
                   <section className="w-full mt-20 pb-20 bg-yellow-100 py-10">
-                     <div className="w-10/12 md:w-8/12 mx-auto">
+                     <div className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto">
                         <h2 className="text-2xl md:text-3xl flex-1 mb-10 text-center">Side projects</h2>
                         <div className="grid md:grid-cols-2 gap-8">
                            <div className="w-full">
@@ -198,7 +198,7 @@ function About() {
             </div>
          </TransitionPageIn>
          <div className="bg-blackPure">
-            <Tiles isPageNav={true} />
+            <ImgTiles isPageNav={true} />
          </div>
       </>
    );

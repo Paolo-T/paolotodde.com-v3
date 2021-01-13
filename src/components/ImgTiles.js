@@ -1,9 +1,9 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import ImgTile from "./ImgTile";
-import TransitionInview from "../components/TransitionInview";
+import TransitionInview from "./TransitionInview";
 
-function Tiles({ isPageNav }) {
+function ImgTiles({ isPageNav }) {
    // const pageLocation = typeof window !== "undefined" ? window.location.pathname : "";
 
    const data = useStaticQuery(graphql`
@@ -135,4 +135,4 @@ function Tiles({ isPageNav }) {
    );
 }
 
-export default Tiles;
+export default ImgTiles;

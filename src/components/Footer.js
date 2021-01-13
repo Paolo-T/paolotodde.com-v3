@@ -25,7 +25,7 @@ function Footer() {
    return (
       <TransitionPageIn>
          <footer className="w-full max-w-screen-xxl mx-auto pb-10 md:pb-20 pt-8 md:pt-10">
-            <ul className="w-6/12 md:w-8/12 max-w-screen-xl mx-auto flex flex-col md:flex-row text-center justify-between xlg:ml-32 md:pt-10 ">
+            <ul className="grow-10/12 md:w-8/12 max-w-screen-lg mx-auto flex flex-col md:flex-row text-center justify-between xlg:ml-32 md:pt-10 ">
                {footerItems.map((item, i) => (
                   <a key={i} rel="noopener noreferrer" target="_blank" href={item.href}>
                      <li className="xl:inline-block text-1xl lg:text-4xl hover:text-primary  hover:border-b-2 hover:border-primary transition duration-300 ease-in-out mb-3 md:mb-0">

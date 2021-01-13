@@ -4,19 +4,19 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 
 function Layout({ children }) {
-    return (
-        <div className="h-screen">
-            <Navigation />
+   return (
+      <div className="h-screen">
+         <Navigation />
 
-            <main className="mx-auto">{children}</main>
+         <main className="mx-auto">{children}</main>
 
-            <Footer />
-        </div>
-    );
+         <Footer />
+      </div>
+   );
 }
 
 Layout.propTypes = {
-    children: PropTypes.node.isRequired,
+   children: PropTypes.node.isRequired,
 };
 
 export default Layout;
