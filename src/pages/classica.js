@@ -164,7 +164,7 @@ function classica() {
                         </h4>
                      </div>
 
-                     <div className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto md:pr-24">
+                     <div className="w-11/12 md:w-7/12 max-w-screen-lg md:pr-24">
                         <h2 className="mb-4 md:mb-8">The brief</h2>
                         <p>
                            You’re asked to design some materials for a mobile app to be run on smartphones only. Here
