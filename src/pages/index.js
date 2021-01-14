@@ -20,7 +20,7 @@ function Home() {
             title="Home"
          />
          <TransitionPageIn>
-            <div className="bg-ImageHomeBg sm:bg-ImageHomeBg__sm md:bg-ImageHomeBg__md lg:bg-ImageHomeBg__lg xl:bg-ImageHomeBg__xl cover ">
+            <div className="w-full bg-ImageHomeBg sm:bg-ImageHomeBg__sm md:bg-ImageHomeBg__md lg:bg-ImageHomeBg__lg xl:bg-ImageHomeBg__xl cover bg-no-repeat">
                <div className="w-10/12 md:w-10/12 max-w-screen-xl mx-auto pt-40 md:pt-30">
                   <TransitionInview>
                      <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl ml-0 sm:ml-10 md:ml-24 lg:pl-20 md:mt-10 lg:mt-4 md:mb-0 lg:pt-32 lg:mb-24">
