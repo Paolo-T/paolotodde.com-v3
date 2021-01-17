@@ -4,7 +4,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import Card from "../components/Card";
-import ImgTiles from "../components/ImgTiles";
+import ImgNavTiles from "../components/ImgNavTiles";
 
 import persona_image_1 from "../images/petTime/petTime_persona_1.png";
 import persona_image_2 from "../images/petTime/petTime_persona_2.png";
@@ -271,7 +271,7 @@ function petTime() {
                </div>
 
                <div className="w-full bg-blackPure mx-auto">
-                  <ImgTiles isPageNav={true} />
+                  <ImgNavTiles isPageNav={true} />
                </div>
             </TransitionPageIn>
          </div>

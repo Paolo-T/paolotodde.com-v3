@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import ImgTile from "./ImgTile";
 import TransitionInview from "./TransitionInview";
 
-function ImgTiles({ isPageNav }) {
+function ImgNavTiles({ isPageNav }) {
    // const pageLocation = typeof window !== "undefined" ? window.location.pathname : "";
 
    const data = useStaticQuery(graphql`
@@ -105,12 +105,12 @@ function ImgTiles({ isPageNav }) {
    return (
       <section className="w-full">
          {isPageNav && (
-            <h2 className="block text-center mb-12 text-2xl md:text-4xl text-primary pt-10">Check other projects</h2>
+            <h2 className="block text-center text-2xl md:text-4xl text-primary pt-10">Check other projects</h2>
          )}
 
          <div
-            className={`mx-auto -mb-10 md:m-0
-            grid ${isPageNav ? "grid-cols-2 md:grid-cols-5 gap-0" : "grid-cols-1 md:gap-20 gap-3"}`}
+            className={`w-100 mx-auto md:m-0
+            grid ${isPageNav ? "grid-cols-3 md:grid-cols-5 gap-0" : "grid-cols-1 md:gap-20 gap-3"}`}
          >
             {tilesData.map((tile, i) => (
                // pageLocation !== tile.linkTo && (
@@ -135,4 +135,4 @@ function ImgTiles({ isPageNav }) {
    );
 }
 
-export default ImgTiles;
+export default ImgNavTiles;

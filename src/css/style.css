@@ -5,19 +5,19 @@
 /* purgecss end ignore */
 
 h1 {
-   @apply font-header text-9xl inline-block leading-tight tracking-tight mt-4 mb-8;
+   @apply font-header text-9xl inline-block leading-none tracking-tight mt-4 mb-8;
 }
 
 h2 {
-   @apply font-header text-3xl leading-tight tracking-normal mb-2;
+   @apply font-header text-3xl tracking-normal mb-2;
 }
 
 h3 {
-   @apply text-lg leading-tight mb-4;
+   @apply text-lg mb-4;
 }
 
 p {
-   @apply font-sans font-light text-xl;
+   @apply font-sans font-light leading-9 text-xl;
 }
 
 li {

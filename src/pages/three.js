@@ -3,7 +3,7 @@ import SEO from "../components/Seo";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
-import ImgTiles from "../components/ImgTiles";
+import ImgNavTiles from "../components/ImgNavTiles";
 
 function Three() {
    const data = useStaticQuery(graphql`
@@ -57,7 +57,7 @@ function Three() {
             </a>
          </TransitionPageIn>
          <div className="bg-blackPure">
-            <ImgTiles isPageNav={true} />
+            <ImgNavTiles isPageNav={true} />
          </div>
       </>
    );

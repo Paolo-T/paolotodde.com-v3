@@ -5,7 +5,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
-import ImgTiles from "../components/ImgTiles";
+import ImgNavTiles from "../components/ImgNavTiles";
 
 function About() {
    const data = useStaticQuery(graphql`
@@ -88,7 +88,7 @@ function About() {
                   <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto pt-20 md:pt-10">
                      <h2 className="md:w-12/12 text-4xl md:text-5xl">Hi!</h2>
                      <div className="lg:w-8/12 block flex-2 pt-4 lg:pt-10">
-                        <p className="mt-2">
+                        <p className="mt-2 leading-9">
                            My name is Paolo Todde, and I am a designer specializing in web and mobile experiences.
                            Currently designing remotely for&nbsp;
                            <a
@@ -105,12 +105,12 @@ function About() {
                            designs, user focused utilitarian interfaces. Contributing to the great web environment
                            making the best experience mixing creativity and technology, sifting out the unnecessary.
                         </p>
-                        <p className="mt-8">
+                        <p className="mt-9 leading-9">
                            Staying curious and seeking new skills, discovering better ways of implementing techniques.
                         </p>
-                        <p className="mt-8">Learning focus: UI/UX Design, Javascript, React.</p>
+                        <p className="mt-9 leading-9">Learning focus: UI/UX Design, Javascript, React.</p>
 
-                        <p className="mt-8">
+                        <p className="mt-9 leading-9">
                            Member of the Jury Panel at&nbsp;
                            <a
                               className="cursor-pointer text-primary underline "
@@ -126,7 +126,7 @@ function About() {
                      <a target="_parent" rel="noopener noreferrer" href="mailto:iampaolotodde@gmail.com">
                         <button
                            type="button"
-                           className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none transition duration-500 ease-in-out font-header text-xl md:text-2xl mt-20 py-3 px-10 rounded"
+                           className="inline-block bg-primary hover:bg-yellow-400 hover:text-white focus:outline-none transition duration-500 ease-in-out font-header text-xl md:text-2xl mt-20 py-3 px-10 rounded"
                         >
                            Contact
                         </button>
@@ -164,16 +164,16 @@ function About() {
                </TransitionInview> */}
 
                <TransitionInview>
-                  <section className="w-full mt-20 pb-20 bg-yellow-100 py-10">
+                  <section className="w-full mt-20 pb-20 bg-gray-50 py-16">
                      <div className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto">
-                        <h2 className="text-2xl md:text-3xl flex-1 mb-10 text-center">Side projects</h2>
+                        <h2 className="text-2xl md:text-3xl flex-1 mb-10 ">Side projects</h2>
                         <div className="grid md:grid-cols-2 gap-8">
                            <div className="w-full">
                               <a href="https://www.instagram.com/roomzeroone/" target="_blank">
                                  <Img
                                     fluid={data.digitalArtImg.childImageSharp.fluid}
                                     alt="Digital Art"
-                                    className="transition duration-500 transform hover:scale-98 rounded-lg cursor-pointer underline"
+                                    className="transition duration-500 transform hover:scale-95 rounded-lg cursor-pointer underline"
                                     loading="eager"
                                  />
                               </a>
@@ -184,12 +184,12 @@ function About() {
                                  <Img
                                     fluid={data.threeImg.childImageSharp.fluid}
                                     alt="3dc designs"
-                                    className="transition duration-500 transform hover:scale-98 rounded-lg cursor-pointer underline"
+                                    className="transition duration-500 transform hover:scale-95 rounded-lg cursor-pointer underline"
                                     loading="eager"
                                  />
                               </Link>
 
-                              <h2 className="text-lg mt-4">3DC (Brand)</h2>
+                              <h2 className="text-lg mt-4">3 Design Company (Visual Brand)</h2>
                            </div>
                         </div>
                      </div>
@@ -198,7 +198,7 @@ function About() {
             </div>
          </TransitionPageIn>
          <div className="bg-blackPure">
-            <ImgTiles isPageNav={true} />
+            <ImgNavTiles isPageNav={true} />
          </div>
       </>
    );

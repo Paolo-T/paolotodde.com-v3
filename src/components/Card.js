@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({ title, subtitle, description, list_top, list_top_title, list_bottom, list_bottom_title, image, id }) {
    return (
-      <div key={id} className="w-28 bg-white shadow-md rounded-lg overflow-hidden my-4">
+      <div key={id} className="w-100 bg-white shadow-md rounded-lg overflow-hidden my-4">
          <img className="w-full h-64 object-cover object-center" src={image} alt="avatar" />
          <div className="pt-4 pb-8 px-4 md:px-8">
             <div className="flex justify-between items-baseline ">
