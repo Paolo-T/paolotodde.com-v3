@@ -1,6 +1,5 @@
 const resolveConfig = require("tailwindcss/resolveConfig");
 const tailwindConfig = require("./tailwind.config.js");
-
 const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
@@ -17,7 +16,6 @@ module.exports = {
       `gatsby-plugin-styled-components`,
       `gatsby-plugin-postcss`,
       `gatsby-plugin-sitemap`,
-      `gatsby-plugin-offline`,
       `gatsby-transformer-sharp`,
       `gatsby-plugin-sharp`,
       {
