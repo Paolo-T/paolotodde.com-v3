@@ -108,7 +108,9 @@ function About() {
                         <p className="mt-9 leading-9">
                            Staying curious and seeking new skills, discovering better ways of implementing techniques.
                         </p>
-                        <p className="mt-9 leading-9">Learning focus: UI/UX Design, Javascript, React.</p>
+                        <p className="mt-9 leading-9">
+                           <span className="font-header">Learning focus:</span> UI/UX Design, Javascript, React.
+                        </p>
 
                         <p className="mt-9 leading-9">
                            Member of the Jury Panel at&nbsp;

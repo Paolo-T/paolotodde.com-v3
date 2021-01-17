@@ -32,7 +32,7 @@ function Home() {
                            </span>
                         </a>
                         <br />
-                        <span className="inline text-primary">Designer</span> <span className="inline">and</span>
+                        <span className="inline text-primary">UI Designer</span> <span className="inline">and</span>
                         <br />
                         <span className="inline">front-end</span> <span className="inline text-primary">coder</span>.
                      </h1>
