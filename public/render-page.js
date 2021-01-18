@@ -38335,7 +38335,7 @@ function Navigation() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "group flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-xl md:text-2xl text-primary transition duration-300 hover:border-b-2 hover:border-primary hover:ml-2  pt-3 md:pt-2 align-baseline"
+    className: "text-xl md:text-2xl text-primary transition duration-300 hover:border-b-2 hover:border-primary hover:ml-2 pt-3 mt-0.5 md:pt-2 align-baseline"
   }, aboutPage ? "Home" : "About")))));
 }
 
