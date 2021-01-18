@@ -133,7 +133,7 @@ function About() {
                   </section>
                </TransitionInview>
 
-               <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto md:mb-20 mt-24 grid md:grid-cols-12 gap-5 md:gap-10 border-t border-b border-primary pt-12 pb-10git">
+               <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto md:mb-20 mt-24 grid md:grid-cols-12 gap-5 md:gap-10 border-t border-b border-primary pt-12 pb-10">
                   <div className="mb-5 col-span-6 md:col-span-6">
                      <p className="text-lg mb-3">
                         <span className="font-header">Books read / Recent courses taken:</span>
