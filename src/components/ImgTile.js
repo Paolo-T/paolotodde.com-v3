@@ -3,11 +3,11 @@ import { Link } from "gatsby";
 import { useSpring, animated, config } from "react-spring";
 import Img from "gatsby-image";
 
-const calc = (x, y) => [-(y - window.innerHeight / 2) / 80, (x - window.innerWidth / 2) / 80, 0.96];
-const trans = (x, y, s) => `perspective(1200px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
+const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 0.9];
+const trans = (x, y, s) => `perspective(1000px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
 
 function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTop, marginBottom, rounded, isPageNav }) {
-   const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 150, friction: 30 } }));
+   const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }));
 
    return (
       <>
@@ -17,7 +17,7 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
                   onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
                   onMouseLeave={() => set({ xys: [0, 0, 1] })}
                   style={{ transform: props.xys.interpolate(trans) }}
-                  className={`group w-full cursor-pointer relative transition duration-500 transform hover:scale-98 text-center overflow-hidden  md:mt-${marginTop} md:mb-${marginBottom} rounded-${
+                  className={`group w-full cursor-pointer relative transition duration-500 transform text-center overflow-hidden  md:mt-${marginTop} md:mb-${marginBottom} rounded-${
                      rounded ? rounded : 0
                   } `}
                >
