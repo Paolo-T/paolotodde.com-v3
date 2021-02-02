@@ -158,8 +158,8 @@ function petTime() {
                         <div className="w-11/12 md:w-7/12">
                            <h2 className="mb-4 md:mb-8">The brief</h2>
                            <p>
-                              The app is for those passionate about pets,and who want to learn more about domestic
-                              animals.
+                              The app is for those passionate about pets, who want to learn more about their loved
+                              domestic animals.
                               <br />
                               The target customers are the curious newbie who has, so far, lacked a convenient
                               opportunity to educate themselves on the topic, and the long-standing aficionado who’s

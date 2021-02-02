@@ -14,7 +14,7 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
          {linkTo ? (
             <Link to={linkTo}>
                <div
-                  onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                  // onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
                   // onMouseLeave={() => set({ xys: [0, 0, 1] })}
                   // style={{ transform: props.xys.interpolate(trans) }}
                   className={`group w-full cursor-pointer relative transition duration-500 transform text-center hover:scale-95 overflow-hidden md:mt-${marginTop} md:mb-${marginBottom} rounded-${
