@@ -38266,11 +38266,11 @@ var footerItems = [{
   item: "LinkedIn",
   href: "https://www.linkedin.com/in/paolo-todde/"
 }, {
-  item: "Instagram",
-  href: "https://www.instagram.com/roomzeroone/"
-}, {
   item: "Github",
   href: "https://github.com/Paolo-T"
+}, {
+  item: "Digital art",
+  href: "https://www.instagram.com/roomzeroone/"
 }, {
   item: "Email",
   href: "mailto:iampaolotodde@gmail.com"
@@ -38323,7 +38323,7 @@ function Navigation() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
     className: "w-full fixed bg-transparent z-10"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "w-10/12 md:w-8/12 max-w-screen-lg mx-auto flex justify-between pt-12 md:pt-24"
+    className: "w-11/12 md:w-7/12 max-w-screen-lg mx-auto flex justify-between pt-12 md:pt-24"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { useSpring, animated, config } from "react-spring";
+// import { useSpring, animated, config } from "react-spring";
 import Img from "gatsby-image";
 
 // const calc = (x, y) => [-(y - window.innerHeight / 2) / 50, (x - window.innerWidth / 2) / 20, 0.95];
@@ -31,8 +31,8 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
                   >
                      {!isPageNav ? (
                         <>
-                           <h1 className="mb-0 md:mb-1 text-4xl md:text-6xl lg:text-9xl">{title}</h1>
-                           <p className="text-xs md:text-2xl md:mt-2">{subTitle}</p>
+                           <h1 className="mb-0 md:mb-1 text-5xl md:text-6xl lg:text-8xl">{title}</h1>
+                           <p className="text-sm md:text-xl md:mt-2">{subTitle}</p>
                         </>
                      ) : null}
                      {/* <p
@@ -47,7 +47,7 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
                      </p> */}
                   </div>
 
-                  <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-75 transition-all duration-1000"></div>
+                  <div className="bg-blackPure absolute inset-0 z-40 opacity-0 group-hover:opacity-90 transition-all duration-500"></div>
 
                   <Img fluid={tileImg} alt={imgAlt} loading="eager" />
                </div>

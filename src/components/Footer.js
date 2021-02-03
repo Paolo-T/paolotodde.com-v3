@@ -8,12 +8,12 @@ const footerItems = [
       href: "https://www.linkedin.com/in/paolo-todde/",
    },
    {
-      item: "Instagram",
-      href: "https://www.instagram.com/roomzeroone/",
-   },
-   {
       item: "Github",
       href: "https://github.com/Paolo-T",
+   },
+   {
+      item: "Digital art",
+      href: "https://www.instagram.com/roomzeroone/",
    },
    {
       item: "Email",

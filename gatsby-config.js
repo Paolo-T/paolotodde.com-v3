@@ -4,7 +4,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
    siteMetadata: {
-      siteUrl: `https://www.paolotodde.com`,
+      siteUrl: `https://paolotodde.com`,
       title: `paolotodde.com`,
       description: `Paolo Todde | UI Designer | Web Designer | Product Designer | Front-end Developer`,
       author: `Paolo Todde | Designer | Developer.`,
