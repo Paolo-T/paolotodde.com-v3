@@ -29,39 +29,39 @@ function About() {
       }
    `);
 
-   const softSkills = [
-      "Empathy",
-      "Adaptability",
-      "Ability and eagerness to learn",
-      "Judgement",
-      "Decision-Making",
-      "Interpersonal Abilities",
-      "Problem Solving",
-      "Analytical",
-      "Managing Priorities",
-   ];
+   // const softSkills = [
+   //    "Empathy",
+   //    "Adaptability",
+   //    "Ability and eagerness to learn",
+   //    "Judgement",
+   //    "Decision-Making",
+   //    "Interpersonal Abilities",
+   //    "Problem Solving",
+   //    "Analytical",
+   //    "Managing Priorities",
+   // ];
 
-   const techSkills = [
-      "Sketch",
-      "Figma",
-      "Git",
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Adobe InDesign",
-      "HTML5",
-      "CSS/SCSS",
-      "Javascript",
-      "React.js",
-      "Responsive design",
-      "PHP",
-      "Wordpress",
-      "Principle",
-      "UI design",
-      "Web design",
-   ];
+   // const techSkills = [
+   //    "Sketch",
+   //    "Figma",
+   //    "Git",
+   //    "Adobe Photoshop",
+   //    "Adobe Illustrator",
+   //    "Adobe InDesign",
+   //    "HTML5",
+   //    "CSS/SCSS",
+   //    "Javascript",
+   //    "React.js",
+   //    "Responsive design",
+   //    "PHP",
+   //    "Wordpress",
+   //    "Principle",
+   //    "UI design",
+   //    "Web design",
+   // ];
 
-   const lastSoftSkill = softSkills[softSkills.length - 1];
-   const lastTechSkill = techSkills[techSkills.length - 1];
+   // const lastSoftSkill = softSkills[softSkills.length - 1];
+   // const lastTechSkill = techSkills[techSkills.length - 1];
 
    return (
       <>
@@ -83,7 +83,7 @@ function About() {
             title="About"
          />
          <TransitionPageIn>
-            <div className="w-screen bg-ImageAboutBg sm:bg-ImageAboutBg__sm md:bg-ImageAboutBg__md lg:bg-ImageAboutBg__lg xl:bg-ImageAboutBg__xl bg-no-repeats pt-20 md:pt-48">
+            <div className="w-screen pt-20 md:pt-48">
                <TransitionInview>
                   <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto pt-20 md:pt-10">
                      <h2 className="md:w-12/12 text-4xl md:text-5xl">Hi!</h2>
