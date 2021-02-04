@@ -125,7 +125,7 @@ function About() {
                      <a target="_parent" rel="noopener noreferrer" href="mailto:iampaolotodde@gmail.com">
                         <button
                            type="button"
-                           className="inline-block bg-primary hover:bg-yellow-400 hover:text-white focus:outline-none transition duration-500 ease-in-out font-header text-2xl md:text-2xl mt-10 py-3 px-10 rounded"
+                           className="inline-block bg-primary hover:bg-yellow-400 text-dark hover:text-white focus:outline-none transition duration-500 ease-in-out font-header text-2xl md:text-2xl mt-10 py-3 px-10 rounded"
                         >
                            Contact
                         </button>
@@ -399,7 +399,7 @@ function About() {
                </TransitionInview>
             </div>
          </TransitionPageIn>
-         <div className="bg-black">
+         <div className="bg-dark">
             <ImgNavTiles isPageNav={true} />
          </div>
       </>

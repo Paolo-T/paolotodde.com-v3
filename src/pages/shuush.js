@@ -109,7 +109,7 @@ function Shuush() {
                   fluid={data.shuushImg_0.childImageSharp.fluid}
                   loading="eager"
                />
-               <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-8 md:mt-0 mb-10 md:mb-0">
+               <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-0 mb-10 md:mb-0">
                   <div className="md:w-4/12 md:mt-20">
                      <h4 className="font-extrabold uppercase tracking-widest">Description</h4>
                      <h4 className="pt-4">App design</h4>
@@ -135,7 +135,7 @@ function Shuush() {
                   <Img fluid={data.shuushImg_7.childImageSharp.fluid} loading="eager" alt="App screen" />
                </div>
 
-               <div className="w-full bg-blackPure mx-auto">
+               <div className="w-full bg-dark mx-auto">
                   <ImgNavTiles isPageNav={true} />
                </div>
             </TransitionPageIn>

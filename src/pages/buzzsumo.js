@@ -66,7 +66,7 @@ function classNameica() {
             <TransitionPageIn>
                <Img fluid={data.heroImg.childImageSharp.fluid} className="" loading="eager" />
                <div className="w-full max-w-screen-lg mx-auto pb-20 md:pb-24">
-                  <section className="w-11/12 md:w-/12 mx-auto text-black md:flex mt-10 md:mt-32 mb-0">
+                  <section className="w-11/12 md:w-/12 mx-auto text-dark md:flex mt-10 md:mt-32 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-24">
                         <h4 className="font-bold uppercase tracking-widest">Skills applied</h4>
                         <h4 className="pt-4">
@@ -84,7 +84,7 @@ function classNameica() {
                      </div>
                   </section>
 
-                  <section className="w-11/12 max-w-screen-lg mx-auto text-black md:flex mt-10 md:mt-24 mb-0">
+                  <section className="w-11/12 max-w-screen-lg mx-auto text-dark md:flex mt-10 md:mt-24 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-24">
                         <h4 className="font-bold uppercase tracking-widest">Blog header images</h4>
                      </div>
@@ -99,7 +99,7 @@ function classNameica() {
                      </div>
                   </section>
 
-                  <section className="w-11/12 max-w-screen-lg mx-auto text-black md:flex mt-10 md:mt-12 mb-0">
+                  <section className="w-11/12 max-w-screen-lg mx-auto text-dark md:flex mt-10 md:mt-12 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-24">
                         <h4 className="font-extrabold uppercase tracking-widest">Live</h4>
                         {/* <h4 className="pt-4">App design</h4> */}
@@ -133,7 +133,7 @@ function classNameica() {
                   </div>
                </section>
 
-               <section className="w-11/12 md:w-8/12 max-w-screen-lg mx-auto text-black  mt-10 md:mt-32 mb-0">
+               <section className="w-11/12 md:w-8/12 max-w-screen-lg mx-auto text-dark  mt-10 md:mt-32 mb-0">
                   <div className="mt-16 md:mt-0 md:pr-24 mb-40">
                      <h2 className="mb-4 md:mb-8">Web page</h2>
                      <p>How the image come together in the grid on Buzzsumo's blog page.</p>
@@ -146,7 +146,7 @@ function classNameica() {
                   </div>
                </section>
 
-               <div className="bg-blackPure">
+               <div className="bg-dark">
                   <ImgNavTiles isPageNav={true} />
                </div>
             </TransitionPageIn>
