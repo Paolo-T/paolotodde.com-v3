@@ -1,7 +1,12 @@
-/* html {
-    scroll-behavior: smooth;
-} */
+html {
+   /* scroll-behavior: smooth; */
+   /* background-color: #020202;
+   background-color: #111111; */
+   background-color: #020202;
+   background-color: #121212;
+}
 
 body {
-   color: #0f1419;
+   /* color: #0f1419; */
+   color: #e1e1e1;
 }

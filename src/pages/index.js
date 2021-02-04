@@ -23,8 +23,8 @@ function Home() {
             <div className="w-full">
                <div className="w-11/12 md:w-8/12 max-w-screen-lg mx-auto pt-32 md:pt-24">
                   <TransitionInview>
-                     <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-7xl leading-none ml-0 sm:ml-10 md:ml-10 lg:pl-20 md:mt-10 lg:mt-4 md:mb-0 lg:pt-32 lg:mb-10">
-                        Hello, I’m{" "}
+                     <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-8xl xl:text-8xl leading-none ml-10 sm:ml-10 md:ml-10 lg:pl-20 md:mt-10 lg:mt-4 md:mb-0 lg:pt-32 lg:mb-10">
+                        Hi, I’m{" "}
                         <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/paolo-todde/">
                            <span className="hover:text-primary hover:underline transition duration-500 cursor-pointer">
                               {" "}
@@ -32,7 +32,7 @@ function Home() {
                            </span>
                         </a>
                         <br />
-                        <span className="inline text-primary">UI Designer</span> <span className="inline">and</span>
+                        <span className="inline text-primary">UI Designer</span> <span className="inline">&</span>
                         <br />
                         <span className="inline">front-end</span> <span className="inline text-primary">coder</span>.
                      </h1>
@@ -46,7 +46,7 @@ function Home() {
                      <a target="_parent" rel="noopener noreferrer" href="mailto:iampaolotodde@gmail.com">
                         <button
                            type="button"
-                           className="inline-block bg-primary hover:bg-yellow-600 hover:text-white focus:outline-none transition duration-500 ease-in-out font-header text-lg md:text-4xl py-3 px-12 rounded"
+                           className="inline-block bg-primary hover:bg-yellow-400 text-dark hover:text-white focus:outline-none transition duration-500 ease-in-out font-header text-2xl md:text-4xl mt-10 py-3 px-10 rounded"
                         >
                            Contact
                         </button>

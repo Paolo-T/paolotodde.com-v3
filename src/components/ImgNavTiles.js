@@ -48,6 +48,14 @@ function ImgNavTiles({ isPageNav }) {
                }
             }
          }
+         testImg: file(relativePath: { eq: "petTime/petTime_tile_3.png" }) {
+            id
+            childImageSharp {
+               fluid(maxWidth: 2880) {
+                  ...GatsbyImageSharpFluid_withWebp
+               }
+            }
+         }
       }
    `);
 
@@ -56,10 +64,19 @@ function ImgNavTiles({ isPageNav }) {
          title: "Pet Time",
          subTitle: "Pet management app - UI/UX Design",
          cta: "View use case",
+         tileImg: data.testImg.childImageSharp.fluid,
+         linkTo: "",
+         imgAlt: "Pet Time app ui design",
+         rounded: "lg",
+      },
+      {
+         title: "Pet Time",
+         subTitle: "Pet management app - UI/UX Design",
+         cta: "View use case",
          tileImg: data.petImg.childImageSharp.fluid,
          linkTo: "/pet-time",
          imgAlt: "Pet Time app ui design",
-         rounded: "xl",
+         rounded: "lg",
       },
       {
          title: "Shuush!",
@@ -68,7 +85,7 @@ function ImgNavTiles({ isPageNav }) {
          tileImg: data.shuushImg.childImageSharp.fluid,
          linkTo: "/shuush",
          imgAlt: "Shuush! app ui design",
-         rounded: "xl",
+         rounded: "lg",
       },
       {
          title: "Classica",
@@ -77,7 +94,7 @@ function ImgNavTiles({ isPageNav }) {
          tileImg: data.classicaImg.childImageSharp.fluid,
          linkTo: "/classica",
          imgAlt: "classica app ui design",
-         rounded: "xl",
+         rounded: "lg",
       },
       {
          title: "Space Digest",
@@ -86,7 +103,7 @@ function ImgNavTiles({ isPageNav }) {
          tileImg: data.spaceDigestImg.childImageSharp.fluid,
          linkTo: "/space-digest",
          imgAlt: "Website page",
-         rounded: "xl",
+         rounded: "lg",
       },
       {
          title: "BuzzSumo.com",
@@ -95,7 +112,7 @@ function ImgNavTiles({ isPageNav }) {
          tileImg: data.buzzsumoImg.childImageSharp.fluid,
          linkTo: "/buzzsumo",
          imgAlt: "Buzzsumo web page",
-         rounded: "xl",
+         rounded: "lg",
       },
    ];
 
