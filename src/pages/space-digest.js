@@ -170,7 +170,7 @@ function spaceDigest() {
                   </div>
                </div>
 
-               <div className="w-full bg-blackPure  mx-auto">
+               <div className="w-full bg-dark mx-auto">
                   <ImgNavTiles isPageNav={true} />
                </div>
             </TransitionPageIn>

@@ -146,7 +146,7 @@ function classNameica() {
                   </div>
                </section>
 
-               <div className="bg-blackPure">
+               <div className="bg-dark">
                   <ImgNavTiles isPageNav={true} />
                </div>
             </TransitionPageIn>
