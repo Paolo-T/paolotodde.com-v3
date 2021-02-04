@@ -119,12 +119,12 @@ function petTime() {
             title="Portfolio page PetTime App"
          />
 
-         <div className="w-12/12 mx-auto bg-blackPure">
+         <div className="w-12/12 mx-auto bg-dark text-dark">
             <TransitionPageIn>
                <Img className="max-w-screen-xl mx-auto" fluid={data.petTime_1.childImageSharp.fluid} loading="eager" />
                <div className="w-full bg-white">
                   <div className="w-full mx-auto pt-1 pb-10 md:pb-20 md:pt-32">
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex ">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto md:flex ">
                         <div className="md:w-4/12 mt-0 hidden md:block md:mt-20">
                            <h4 className="font-extrabold uppercase tracking-widest mt-2">Description</h4>
                            <h4 className="pt-1">App design</h4>
@@ -257,7 +257,7 @@ function petTime() {
                      </section>
                   </div>
                </div>
-               <section className="w-full max-w-screen-xl mx-auto bg-blackPure mt-10 px-0 md:px-50 py-24">
+               <section className="w-full max-w-screen-xl mx-auto mt-10 px-0 md:px-50 py-24">
                   <Img fluid={data.petTime_6.childImageSharp.fluid} loading="eager" alt="App screen" />
                </section>
                {imageData.map((image, i) => (
@@ -270,7 +270,7 @@ function petTime() {
                   <Img fluid={data.petTime_5.childImageSharp.fluid} className="-m-2" loading="eager" alt="App screen" />
                </div>
 
-               <div className="w-full bg-blackPure mx-auto">
+               <div className="w-full mx-auto">
                   <ImgNavTiles isPageNav={true} />
                </div>
             </TransitionPageIn>

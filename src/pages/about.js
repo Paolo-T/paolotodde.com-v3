@@ -399,7 +399,7 @@ function About() {
                </TransitionInview>
             </div>
          </TransitionPageIn>
-         <div className="bg-black">
+         <div className="bg-dark">
             <ImgNavTiles isPageNav={true} />
          </div>
       </>
