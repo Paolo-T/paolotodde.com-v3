@@ -74,12 +74,12 @@ function spaceDigest() {
             <TransitionPageIn>
                <Img
                   fluid={data.spaceDigestImg_1.childImageSharp.fluid}
-                  className="max-w-screen-xxl mx-auto bg-blackPure"
+                  className="max-w-screen-xxl mx-auto bg-dark"
                   loading="eager"
                />
                <div className="w-full bg-white">
                   <div className="pt-10 pb-20 md:pt-28 md:pb-48">
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-8 md:mt-32 mb-0">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-32 mb-0">
                         <div className="hidden md:block md:w-4/12 md:mt-20">
                            <h4 className="font-extrabold uppercase tracking-widest mt-2">Description</h4>
                            {/* <h4 className="pt-4">App design</h4> */}
@@ -93,7 +93,7 @@ function spaceDigest() {
                            </p>
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-10 md:mt-12 mb-0">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-10 md:mt-12 mb-0">
                         <div className="hidden md:block md:w-4/12 md:mt-20">
                            <h4 className="uppercase tracking-widest mt-2">Design</h4>
                            {/* <h4 className="pt-4">App design</h4> */}
@@ -107,7 +107,7 @@ function spaceDigest() {
                            </p>
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-10 md:mt-12 mb-0">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-10 md:mt-12 mb-0">
                         <div className="hidden md:block md:w-4/12 md:mt-20">
                            <h4 className="uppercase tracking-widest mt-2">Development</h4>
                            {/* <h4 className="pt-4">App design</h4> */}
@@ -122,7 +122,7 @@ function spaceDigest() {
                            </p>
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-10 md:mt-12 mb-0">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-10 md:mt-12 mb-0">
                         <div className="hidden md:block md:w-4/12 md:mt-20">
                            <h4 className="font-extrabold uppercase tracking-widest mt-2">Website</h4>
                            {/* <h4 className="pt-4">App design</h4> */}
@@ -139,7 +139,7 @@ function spaceDigest() {
                            </a>
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto flex space-x-4 md:space-x-16 text-black mt-10 md:mt-32 mb-0">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto flex space-x-4 md:space-x-16 text-dark mt-10 md:mt-32 mb-0">
                         <Img
                            fluid={data.spaceDigestImg_2.childImageSharp.fluid}
                            className="flex-1 shadow-lg"
@@ -153,7 +153,7 @@ function spaceDigest() {
                            alt="App screen"
                         />
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto flex space-x-4 md:space-x-16 text-black mt-10 md:mt-32 mb-0">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto flex space-x-4 md:space-x-16 text-dark mt-10 md:mt-32 mb-0">
                         <Img
                            fluid={data.spaceDigestImg_4.childImageSharp.fluid}
                            className="flex-1 shadow-lg"

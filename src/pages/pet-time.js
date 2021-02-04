@@ -119,12 +119,12 @@ function petTime() {
             title="Portfolio page PetTime App"
          />
 
-         <div className="w-12/12 mx-auto bg-dark text-dark">
+         <div className="w-12/12 mx-auto bg-dark">
             <TransitionPageIn>
                <Img className="max-w-screen-xl mx-auto" fluid={data.petTime_1.childImageSharp.fluid} loading="eager" />
                <div className="w-full bg-white">
                   <div className="w-full mx-auto pt-1 pb-10 md:pb-20 md:pt-32">
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto md:flex ">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto md:flex text-dark">
                         <div className="md:w-4/12 mt-0 hidden md:block md:mt-20">
                            <h4 className="font-extrabold uppercase tracking-widest mt-2">Description</h4>
                            <h4 className="pt-1">App design</h4>
@@ -145,7 +145,7 @@ function petTime() {
                            </p>
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                            <h4 className="font-extrabold uppercase tracking-widest mt-2">Skills applied</h4>
                            <h4 className="pt-1">
@@ -185,7 +185,7 @@ function petTime() {
                            </p>
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                            <h4 className="font-extrabold uppercase tracking-widest mt-2">Problem</h4>
                         </div>
@@ -203,7 +203,7 @@ function petTime() {
                            </p>
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 mb-10 md:mt-20">
                            <h4 className="font-extrabold uppercase tracking-widest mt-2">Solution</h4>
                         </div>
@@ -217,7 +217,7 @@ function petTime() {
                            </p>
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black mt-8 md:mt-16 mb-0">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark mt-8 md:mt-16 mb-0">
                         <div className="md:flex">
                            <div className="hidden md:block md:w-4/12 mt-0 md:mt-20"></div>
                            <h2 className="mb-4 md:mb-8">User Personas</h2>
@@ -239,7 +239,7 @@ function petTime() {
                            ))}
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-black md:flex mt-8 md:mt-16 mb-0">
+                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
                            <h4 className="font-extrabold uppercase tracking-widest md:mt-3">Flow</h4>
                         </div>
