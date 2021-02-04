@@ -48,27 +48,10 @@ function ImgNavTiles({ isPageNav }) {
                }
             }
          }
-         testImg: file(relativePath: { eq: "petTime/petTime_tile_3.png" }) {
-            id
-            childImageSharp {
-               fluid(maxWidth: 2880) {
-                  ...GatsbyImageSharpFluid_withWebp
-               }
-            }
-         }
       }
    `);
 
    const tilesData = [
-      {
-         title: "Pet Time",
-         subTitle: "Pet management app - UI/UX Design",
-         cta: "View use case",
-         tileImg: data.testImg.childImageSharp.fluid,
-         linkTo: "",
-         imgAlt: "Pet Time app ui design",
-         rounded: "lg",
-      },
       {
          title: "Pet Time",
          subTitle: "Pet management app - UI/UX Design",

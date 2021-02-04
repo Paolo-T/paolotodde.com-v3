@@ -46,7 +46,7 @@ function Home() {
                      <a target="_parent" rel="noopener noreferrer" href="mailto:iampaolotodde@gmail.com">
                         <button
                            type="button"
-                           className="inline-block bg-primary hover:bg-yellow-400 text-dark hover:text-white focus:outline-none transition duration-500 ease-in-out font-header text-2xl md:text-4xl mt-10 py-3 px-10 rounded"
+                           className="inline-block bg-primary hover:bg-yellow-400 text-dark hover:text-offWhite focus:outline-none transition duration-500 ease-in-out font-header text-2xl md:text-4xl mt-10 py-3 px-10 rounded"
                         >
                            Contact
                         </button>

@@ -47,7 +47,7 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
                      </p> */}
                   </div>
 
-                  <div className="bg-dark absolute inset-0 z-40 opacity-0 group-hover:opacity-90 transition-all duration-500"></div>
+                  <div className="bg-black absolute inset-0 z-40 opacity-0 group-hover:opacity-90 transition-all duration-500"></div>
 
                   <Img fluid={tileImg} alt={imgAlt} loading="eager" />
                </div>
@@ -88,7 +88,7 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
                      </p> */}
                   </div>
 
-                  <div className="bg-dark absolute inset-0 z-40 opacity-0 group-hover:opacity-90 transition-all duration-500"></div>
+                  <div className="bg-black absolute inset-0 z-40 opacity-0 group-hover:opacity-90 transition-all duration-500"></div>
 
                   <Img fluid={tileImg} alt={imgAlt} loading="eager" />
                </div>
