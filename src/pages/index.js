@@ -42,7 +42,7 @@ function Home() {
                      <ImgNavTiles isPageNav={false} />
                   </div>
 
-                  <section className="text-center mt-12 md:mb-10">
+                  <section className="text-center mt-0 md:mb-10">
                      <a target="_parent" rel="noopener noreferrer" href="mailto:iampaolotodde@gmail.com">
                         <button
                            type="button"

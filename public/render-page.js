@@ -38278,7 +38278,7 @@ var footerItems = [{
 
 function Footer() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TransitionPageIn__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
-    className: "w-full max-w-screen-xxl mx-auto mb-10 md:mb-20 mt-8 md:mt-20"
+    className: "w-full max-w-screen-xxl mx-auto mb-10 md:mb-20 mt-16 md:mt-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "grow-10/12 md:w-8/12 max-w-screen-lg mx-auto flex flex-col md:flex-row text-center justify-between xlg:ml-32 md:pt-10 "
   }, footerItems.map(function (item, i) {
