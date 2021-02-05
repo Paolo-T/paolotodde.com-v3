@@ -21,9 +21,14 @@ function Home() {
          />
          <TransitionPageIn>
             <div className="w-full">
-               <div className="w-11/12 md:w-8/12 max-w-screen-lg mx-auto pt-32 md:pt-24">
+               <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-9/12 max-w-screen-lg mx-auto pt-32 md:pt-24">
                   <TransitionInview>
-                     <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-8xl xl:text-8xl leading-none ml-7 sm:ml-10 md:ml-10 lg:pl-20 md:mt-10 lg:mt-4 md:mb-0 lg:pt-32 lg:mb-10">
+                     <h1
+                        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-8xl leading-none ml-7 sm:ml-16 md:ml-28 lg:ml-20 xl:ml-32 2xl:ml-24
+                        md:mt-32 lg:mt-10
+                        md:mb-0 lg:mb-10
+                        lg:pt-32"
+                     >
                         Hi, I’m{" "}
                         <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/paolo-todde/">
                            <span className="hover:text-primary hover:underline transition duration-500 cursor-pointer">
