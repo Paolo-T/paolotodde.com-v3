@@ -105,7 +105,7 @@ function ImgNavTiles({ isPageNav }) {
    return (
       <section className="w-full">
          {isPageNav && (
-            <h2 className="block text-center text-2xl md:text-4xl text-primary py-10">Check other projects</h2>
+            <h1 className="block text-center text-2xl md:text-4xl text-primary pt-12 pb-5">Check other projects</h1>
          )}
 
          <div

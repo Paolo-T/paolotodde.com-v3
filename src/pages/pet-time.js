@@ -125,12 +125,12 @@ function petTime() {
                <div className="w-full bg-white">
                   <div className="w-full mx-auto pt-1 pb-10 md:pb-20 md:pt-32">
                      <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto md:flex text-dark">
-                        <div className="md:w-4/12 mt-0 hidden md:block md:mt-20">
-                           <h4 className="font-extrabold uppercase tracking-widest mt-2">Description</h4>
-                           <h4 className="pt-1">App design</h4>
+                        <div className="md:w-4/12 mt-0 hidden md:block md:mt-16">
+                           <h4 className="text-sm font-extrabold uppercase tracking-widest">Description</h4>
+                           <h4 className="text-sm pt-1">App design</h4>
                         </div>
                         <div className="md:w-7/12 mt-10 md:mt-0">
-                           <h2 className="mb-4 md:mb-8">Description</h2>
+                           <h2 className="text-3xl font-black mb-4 md:mb-4">Description</h2>
                            <p>
                               <span className="font-extrabold">Pet Time</span> is a fun and friendly managing app for
                               animal lovers. Whether you are experts or enthusiastic newbies, you'll find plenty of
@@ -146,9 +146,9 @@ function petTime() {
                         </div>
                      </section>
                      <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
-                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
-                           <h4 className="font-extrabold uppercase tracking-widest mt-2">Skills applied</h4>
-                           <h4 className="pt-1">
+                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-16">
+                           <h4 className="text-sm font-extrabold uppercase tracking-widest">Skills applied</h4>
+                           <h4 className="text-sm pt-1">
                               Strategy
                               <br /> Concept
                               <br /> UI Design
@@ -156,7 +156,7 @@ function petTime() {
                            </h4>
                         </div>
                         <div className="w-11/12 md:w-7/12">
-                           <h2 className="mb-4 md:mb-8">The brief</h2>
+                           <h2 className="text-3xl font-black mb-4 md:mb-4">The brief</h2>
                            <p>
                               The app is for those passionate about pets, who want to learn more about their loved
                               domestic animals.
@@ -186,11 +186,11 @@ function petTime() {
                         </div>
                      </section>
                      <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
-                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
-                           <h4 className="font-extrabold uppercase tracking-widest mt-2">Problem</h4>
+                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-16">
+                           <h4 className="text-sm font-extrabold uppercase tracking-widest">Problem</h4>
                         </div>
                         <div className="w-11/12 md:w-7/12">
-                           <h2 className="mb-4 md:mb-8">The problem</h2>
+                           <h2 className="text-3xl font-black mb-4 md:mb-4">The problem</h2>
                            <p>
                               Pet owners need a resource to help looking after their pet friends and making sure they
                               are happy and pampered. They need a hub to gather educational material such as articles,
@@ -204,11 +204,11 @@ function petTime() {
                         </div>
                      </section>
                      <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
-                        <div className="hidden md:block md:w-4/12 mt-0 mb-10 md:mt-20">
-                           <h4 className="font-extrabold uppercase tracking-widest mt-2">Solution</h4>
+                        <div className="hidden md:block md:w-4/12 mt-0 mb-10 md:mt-16">
+                           <h4 className="text-sm font-extrabold uppercase tracking-widest">Solution</h4>
                         </div>
                         <div className="w-11/12 md:w-7/12">
-                           <h2 className="mb-4 md:mb-8">The solution</h2>
+                           <h2 className="text-3xl font-black mb-4 md:mb-4">The solution</h2>
                            <p>
                               An app that provides a dedicated section for interesting articles, news, podcasts,
                               learning resources. A section to help finding pet friendly locations and facilities. The
@@ -219,8 +219,8 @@ function petTime() {
                      </section>
                      <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark mt-8 md:mt-16 mb-0">
                         <div className="md:flex">
-                           <div className="hidden md:block md:w-4/12 mt-0 md:mt-20"></div>
-                           <h2 className="mb-4 md:mb-8">User Personas</h2>
+                           <div className="hidden md:block md:w-4/12 mt-0 md:mt-16"></div>
+                           <h2 className="text-3xl font-black mb-4 md:mb-4">User Personas</h2>
                         </div>
                         <div className="md:grid grid-cols-2 gap-8">
                            {userPersonas.map((persona, i) => (
@@ -240,11 +240,11 @@ function petTime() {
                         </div>
                      </section>
                      <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
-                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-20">
-                           <h4 className="font-extrabold uppercase tracking-widest md:mt-3">Flow</h4>
+                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-16">
+                           <h4 className="text-sm font-extrabold uppercase tracking-widest">Flow</h4>
                         </div>
                         <div className="w-11/12 md:w-8/12 pr-0 md:pr-16">
-                           <h2 className="mb-4 md:mb-8">User Flow</h2>
+                           <h2 className="text-3xl font-black mb-4 md:mb-4">User Flow</h2>
                            <p>
                               After the initial Log in / Sign Up, the user is presented with the Home screen where they
                               can browse the most important topics regarding the care of their beloved pets. After

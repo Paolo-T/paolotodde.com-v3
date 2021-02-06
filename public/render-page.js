@@ -38323,7 +38323,7 @@ function Navigation() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
     className: "w-full fixed bg-transparent z-10"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "w-10/12 md:w-7/12 max-w-screen-lg mx-auto flex justify-between pt-12 md:pt-24"
+    className: "w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto flex justify-between items-center pt-12 md:pt-24"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -38386,7 +38386,7 @@ var ScrollToTop = function ScrollToTop(showBelow) {
   };
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "bg-transparent hover:bg-primary hover:text-dark border-2 border-primary ease-in-out transform hover:-translate-y-1 transition duration-200 focus:outline-none rounded-full py-3 px-3 inline-block mx-auto md:mx-0",
+    className: "bg-transparent hover:bg-primary hover:text-dark border-2 border-primary ease-in-out transform hover:-translate-y-1 transition duration-200 focus:outline-none rounded-full py-2 px-2 inline-block mx-auto md:mx-0",
     onClick: handleClick
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
     width: "15",
