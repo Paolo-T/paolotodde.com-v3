@@ -139,9 +139,9 @@ function classica() {
                />
                <div className="w-full bg-white pt-1 pb-10 md:pb-20 md:pt-32">
                   <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-0 mb-0">
-                     <div className="hidden md:block md:w-4/12 md:mt-20">
-                        <h4 className="font-extrabold uppercase tracking-widest mt-3">Description</h4>
-                        <h4 className="pt-1">App design</h4>
+                     <div className="hidden md:block md:w-4/12 md:mt-16">
+                        <h4 className="text-sm font-extrabold uppercase tracking-widest mt-3">Description</h4>
+                        <h4 className="text-sm pt-1">App design</h4>
                      </div>
 
                      <div className="w-12/12 md:w-7/12 md:pr-24">
@@ -155,8 +155,8 @@ function classica() {
                   </section>
                   <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-24">
-                        <h4 className="font-extrabold uppercase tracking-widest">Skills applied</h4>
-                        <h4 className="pt-1">
+                        <h4 className="text-sm font-extrabold uppercase tracking-widest">Skills applied</h4>
+                        <h4 className="text-sm pt-1">
                            Strategy
                            <br /> Concept
                            <br /> Product Design
@@ -195,11 +195,13 @@ function classica() {
                      </div>
                   </section>
                   <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
-                     <div className="md:w-4/12 md:mt-20">
-                        <h4 className="hidden md:block font-extrabold uppercase tracking-widest mt-2">Problem</h4>
+                     <div className="md:w-4/12 md:mt-16">
+                        <h4 className="text-sm hidden md:block font-extrabold uppercase tracking-widest mt-2">
+                           Problem
+                        </h4>
                      </div>
                      <div className="md:w-8/12 md:pr-24">
-                        <h2 className="mb-4 md:mb-8">The problem</h2>
+                        <h2 className="text-3xl mb-4 md:mb-4">The problem</h2>
                         <p>
                            The need for a comprehensive resource hub to satisfy the curiosity of the classical music
                            enthusiasts.
@@ -211,11 +213,11 @@ function classica() {
                      </div>
                   </section>
                   <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 md:pb-0">
-                     <div className="hidden md:block md:w-4/12 md:mt-20">
-                        <h4 className="font-extrabold uppercase tracking-widest mt-2">Solution</h4>
+                     <div className="hidden md:block md:w-4/12 md:mt-16">
+                        <h4 className="text-sm font-extrabold uppercase tracking-widest mt-2">Solution</h4>
                      </div>
                      <div className="md:w-8/12 md:pr-24">
-                        <h2 className="mb-4 md:mb-8 ">The solution</h2>
+                        <h2 className="text-3xl mb-4 md:mb-4">The solution</h2>
                         <p>
                            An app that besides the excellent music player, provides a learning center to access
                            articles, podcasts, blogs and relevevant personalities in the field.
@@ -224,9 +226,9 @@ function classica() {
                   </section>
                   <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark mt-8 md:mt-16 mb-0">
                      <div className="md:flex">
-                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-20"></div>
+                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-16"></div>
                         <div className="w-11/12 md:w-8/12 md:mx-auto">
-                           <h2 className="mb-4 md:mb-8">User Personas</h2>
+                           <h2 className="text-3xl mb-4 md:mb-4">User Personas</h2>
                         </div>
                      </div>
                      <div className="md:grid grid-cols-2 gap-8">

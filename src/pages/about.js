@@ -86,8 +86,8 @@ function About() {
             <div className="w-screen pt-20 md:pt-48">
                <TransitionInview>
                   <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto pt-20 md:pt-10 md:pl-20">
-                     <h2 className="md:w-12/12 text-4xl md:text-5xl">Hi!</h2>
-                     <div className="lg:w-10/12 block flex-2 pt-4 lg:pt-10">
+                     <h1 className="md:w-12/12 text-4xl md:text-5xl">Hi!</h1>
+                     <div className="lg:w-10/12 block flex-2 pt-4 lg:pt-6">
                         <p className="mt-2 leading-9">
                            My name is Paolo Todde, and I am a designer specializing in web and mobile experiences.
                            Currently designing remotely for&nbsp;
@@ -368,7 +368,7 @@ function About() {
                <TransitionInview>
                   <section className="w-full pb-28 pt-4">
                      <div className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto">
-                        <h2 className="text-2xl md:text-3xl flex-1 mb-10">Side projects</h2>
+                        <h1 className="text-2xl md:text-3xl flex-1 mb-10">Side projects</h1>
                         <div className="grid md:grid-cols-2 gap-8">
                            <div className="w-full">
                               <a href="https://www.instagram.com/roomzeroone/" target="_blank">
@@ -391,7 +391,7 @@ function About() {
                                  />
                               </Link>
 
-                              <h2 className="text-lg mt-4">3 Design Company (Visual Brand)</h2>
+                              <h2 className="text-lg mt-4">3 Design Company ( Visual Brand )</h2>
                            </div>
                         </div>
                      </div>
