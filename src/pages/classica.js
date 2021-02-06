@@ -138,24 +138,24 @@ function classica() {
                   loading="eager"
                />
                <div className="w-full bg-white pt-1 pb-10 md:pb-20 md:pt-32">
-                  <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-0 mb-0">
+                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-0 mb-0">
                      <div className="hidden md:block md:w-4/12 md:mt-16">
-                        <h4 className="text-sm font-extrabold uppercase tracking-widest mt-3">Description</h4>
+                        <h4 className="text-sm font-black uppercase tracking-widest">Description</h4>
                         <h4 className="text-sm pt-1">App design</h4>
                      </div>
 
-                     <div className="w-12/12 md:w-7/12 md:pr-24">
-                        <h2 className="mb-4 md:mb-8">Description</h2>
+                     <div className="w-12/12 md:w-8/12 md:pr-16">
+                        <h2 className="text-3xl font-black mb-4 md:mb-4">Description</h2>
                         <p>
-                           <span className="font-extrabold">classica</span> is a fun and friendly app for the classical
+                           <span className="font-black">classica</span> is a fun and friendly app for the classical
                            music lovers. Whether they are seasoned aficionados or enthusiastic newbies, they'll find
                            plenty of learning material to support their listening experience.
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
+                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
                      <div className="hidden md:block md:w-4/12 mt-24">
-                        <h4 className="text-sm font-extrabold uppercase tracking-widest">Skills applied</h4>
+                        <h4 className="text-sm font-black uppercase tracking-widest">Skills applied</h4>
                         <h4 className="text-sm pt-1">
                            Strategy
                            <br /> Concept
@@ -164,8 +164,8 @@ function classica() {
                         </h4>
                      </div>
 
-                     <div className="w-11/12 md:w-7/12 max-w-screen-lg md:pr-24">
-                        <h2 className="mb-4 md:mb-8">The brief</h2>
+                     <div className="w-11/12 md:w-8/12 max-w-screen-lg md:pr-16">
+                        <h2 className="text-3xl font-black mb-4 md:mb-4">The brief</h2>
                         <p>
                            You’re asked to design some materials for a mobile app to be run on smartphones only. Here
                            some information on the app itself: The app is for listening to and learning about classical
@@ -194,13 +194,11 @@ function classica() {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
+                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
                      <div className="md:w-4/12 md:mt-16">
-                        <h4 className="text-sm hidden md:block font-extrabold uppercase tracking-widest mt-2">
-                           Problem
-                        </h4>
+                        <h4 className="text-sm hidden md:block font-black uppercase tracking-widest mt-2">Problem</h4>
                      </div>
-                     <div className="md:w-8/12 md:pr-24">
+                     <div className="md:w-8/12 md:pr-16">
                         <h2 className="text-3xl mb-4 md:mb-4">The problem</h2>
                         <p>
                            The need for a comprehensive resource hub to satisfy the curiosity of the classical music
@@ -212,11 +210,11 @@ function classica() {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 md:pb-0">
+                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 md:pb-0">
                      <div className="hidden md:block md:w-4/12 md:mt-16">
-                        <h4 className="text-sm font-extrabold uppercase tracking-widest mt-2">Solution</h4>
+                        <h4 className="text-sm font-black uppercase tracking-widest mt-2">Solution</h4>
                      </div>
-                     <div className="md:w-8/12 md:pr-24">
+                     <div className="md:w-8/12 md:pr-16">
                         <h2 className="text-3xl mb-4 md:mb-4">The solution</h2>
                         <p>
                            An app that besides the excellent music player, provides a learning center to access
@@ -224,7 +222,7 @@ function classica() {
                         </p>
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark mt-8 md:mt-16 mb-0">
+                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark mt-8 md:mt-16 mb-0">
                      <div className="md:flex">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-16"></div>
                         <div className="w-11/12 md:w-8/12 md:mx-auto">
@@ -249,7 +247,7 @@ function classica() {
                      </div>
                   </section>
                </div>
-               <div className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto pt-20">
+               <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto pt-20">
                   {imageData.map((image, i) => (
                      <Img key={i} fluid={image} loading="eager" alt="App screen" />
                   ))}

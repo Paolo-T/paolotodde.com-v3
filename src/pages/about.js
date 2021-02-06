@@ -85,7 +85,7 @@ function About() {
          <TransitionPageIn>
             <div className="w-screen pt-20 md:pt-48">
                <TransitionInview>
-                  <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto pt-20 md:pt-10 md:pl-20">
+                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto pt-20 md:pt-10 md:pl-20">
                      <h1 className="md:w-12/12 text-4xl md:text-5xl">Hi!</h1>
                      <div className="lg:w-10/12 block flex-2 pt-4 lg:pt-6">
                         <p className="mt-2 leading-9">
@@ -134,7 +134,7 @@ function About() {
                </TransitionInview>
 
                <section
-                  className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto mb-10 md:mb-20 mt-20
+                  className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto mb-10 md:mb-20 mt-20
                 grid md:grid-cols-12 gap-5 md:gap-10 border-t border-b border-primary pt-6 md:pt-12 pb-3 md:pb-10 pl-5 md:pl-10"
                >
                   <div className="mb-5 col-span-6 md:col-span-6">
@@ -367,7 +367,7 @@ function About() {
 
                <TransitionInview>
                   <section className="w-full pb-28 pt-4">
-                     <div className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto">
+                     <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto">
                         <h1 className="text-2xl md:text-3xl flex-1 mb-10">Side projects</h1>
                         <div className="grid md:grid-cols-2 gap-8">
                            <div className="w-full">
