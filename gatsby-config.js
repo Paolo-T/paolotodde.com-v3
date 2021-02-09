@@ -61,7 +61,7 @@ module.exports = {
                urls: ["/fonts/fonts.css"],
             },
             google: {
-               families: ["Avenir"],
+               families: ["Avenir", "Space Grotesk"],
             },
          },
       },
