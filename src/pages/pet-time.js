@@ -124,18 +124,18 @@ function petTime() {
                <Img className="max-w-screen-xl mx-auto" fluid={data.petTime_1.childImageSharp.fluid} loading="eager" />
                <div className="w-full bg-white">
                   <div className="w-full mx-auto pt-1 pb-10 md:pb-20 md:pt-32">
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto md:flex text-dark">
+                     <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto md:flex text-dark">
                         <div className="md:w-4/12 mt-0 hidden md:block md:mt-16">
-                           <h4 className="text-sm font-extrabold uppercase tracking-widest">Description</h4>
+                           <h4 className="text-sm font-black uppercase tracking-widest">Description</h4>
                            <h4 className="text-sm pt-1">App design</h4>
                         </div>
                         <div className="md:w-7/12 mt-10 md:mt-0">
                            <h2 className="text-3xl font-black mb-4 md:mb-4">Description</h2>
                            <p>
-                              <span className="font-extrabold">Pet Time</span> is a fun and friendly managing app for
-                              animal lovers. Whether you are experts or enthusiastic newbies, you'll find plenty of
-                              learning resources to help taking care of your pet friends.
-                              {/* <span className="font-extrabold">Pet Time</span>{" "}
+                              <span className="font-black">Pet Time</span> is a fun and friendly managing app for animal
+                              lovers. Whether you are experts or enthusiastic newbies, you'll find plenty of learning
+                              resources to help taking care of your pet friends.
+                              {/* <span className="font-black">Pet Time</span>{" "}
                                 provides a dedicated section for interesting
                                 articles, news, podcasts, learning resources. A
                                 section to help finding pet friendly locations
@@ -145,9 +145,9 @@ function petTime() {
                            </p>
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
+                     <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-16">
-                           <h4 className="text-sm font-extrabold uppercase tracking-widest">Skills applied</h4>
+                           <h4 className="text-sm font-black uppercase tracking-widest">Skills applied</h4>
                            <h4 className="text-sm pt-1">
                               Strategy
                               <br /> Concept
@@ -185,9 +185,9 @@ function petTime() {
                            </p>
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
+                     <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-16">
-                           <h4 className="text-sm font-extrabold uppercase tracking-widest">Problem</h4>
+                           <h4 className="text-sm font-black uppercase tracking-widest">Problem</h4>
                         </div>
                         <div className="w-11/12 md:w-7/12">
                            <h2 className="text-3xl font-black mb-4 md:mb-4">The problem</h2>
@@ -203,9 +203,9 @@ function petTime() {
                            </p>
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
+                     <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 mb-10 md:mt-16">
-                           <h4 className="text-sm font-extrabold uppercase tracking-widest">Solution</h4>
+                           <h4 className="text-sm font-black uppercase tracking-widest">Solution</h4>
                         </div>
                         <div className="w-11/12 md:w-7/12">
                            <h2 className="text-3xl font-black mb-4 md:mb-4">The solution</h2>
@@ -217,7 +217,7 @@ function petTime() {
                            </p>
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark mt-8 md:mt-16 mb-0">
+                     <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark mt-8 md:mt-16 mb-0">
                         <div className="md:flex">
                            <div className="hidden md:block md:w-4/12 mt-0 md:mt-16"></div>
                            <h2 className="text-3xl font-black mb-4 md:mb-4">User Personas</h2>
@@ -239,9 +239,9 @@ function petTime() {
                            ))}
                         </div>
                      </section>
-                     <section className="w-11/12 md:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
+                     <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
                         <div className="hidden md:block md:w-4/12 mt-0 md:mt-16">
-                           <h4 className="text-sm font-extrabold uppercase tracking-widest">Flow</h4>
+                           <h4 className="text-sm font-black uppercase tracking-widest">Flow</h4>
                         </div>
                         <div className="w-11/12 md:w-8/12 pr-0 md:pr-16">
                            <h2 className="text-3xl font-black mb-4 md:mb-4">User Flow</h2>

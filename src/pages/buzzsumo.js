@@ -119,7 +119,7 @@ function classNameica() {
                   </section>
                </div>
 
-               <section className="w-10/12 md:w-7/12 mx-auto max-w-screen-lg mb-32">
+               <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto mb-32">
                   <div className="grid grid-cols-3 gap-5">
                      {data.buzzsumoImages.nodes.map((image) => (
                         <Img
@@ -135,7 +135,7 @@ function classNameica() {
 
                <section className="w-11/12 md:w-8/12 max-w-screen-lg mx-auto text-dark  mt-10 md:mt-32 mb-0">
                   <div className="mt-16 md:mt-0 md:pr-24 mb-40">
-                     <h2 className="text-3xl mb-4 md:mb-4">Web page</h2>
+                     <h2 className="text-3xl font-black mb-4 md:mb-4">Web page</h2>
                      <p>How the image come together in the grid on Buzzsumo's blog page.</p>
                      <Img
                         fluid={data.gridImg.childImageSharp.fluid}

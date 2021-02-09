@@ -181,7 +181,7 @@ module.exports = {
          DEFAULT: "1",
       },
       fontFamily: {
-         header: ["YoungSerif"],
+         header: ["BagnardSans"],
          sans: [
             "Avenir",
             "ui-sans-serif",
