@@ -15,7 +15,7 @@ function Navigation() {
 
             <Link to={aboutPage ? "/" : "/about"}>
                <div className="group flex">
-                  <p className="text-xl md:text-2xl text-primary transition duration-300 hover:border-b-2 hover:border-primary hover:ml-2 pt-3 mt-0.5 md:pt-2 align-baseline">
+                  <p className="font-header text-xl md:text-2xl text-primary transition duration-300 hover:border-b-2 hover:border-primary hover:ml-2 pt-3 mt-0.5 md:pt-2 align-baseline">
                      {aboutPage ? "Home" : "About"}
                   </p>
                </div>
