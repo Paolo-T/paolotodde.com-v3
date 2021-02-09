@@ -57,7 +57,7 @@ module.exports = {
          resolve: "gatsby-plugin-web-font-loader",
          options: {
             custom: {
-               families: ["YoungSerif"],
+               families: ["BagnardSans"],
                urls: ["/fonts/fonts.css"],
             },
             google: {
