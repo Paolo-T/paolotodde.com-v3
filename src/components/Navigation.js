@@ -10,7 +10,7 @@ function Navigation() {
       <header className="w-full fixed bg-transparent z-10">
          <nav className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto flex justify-between items-center pt-12 md:pt-24">
             <Link to="/">
-               <img className="w-8 md:w-8" src={logo} alt="nasa-logo" />
+               <img className="w-5 md:w-7" src={logo} alt="nasa-logo" />
             </Link>
 
             <Link to={aboutPage ? "/" : "/about"}>

@@ -39,8 +39,7 @@ function Home() {
                         <br />
                         <span className="inline text-primary">UI Designer</span> <span className="inline">&</span>
                         <br />
-                        <span className="inline">front-end</span>
-                        <span className="inline text-primary">coder</span>.
+                        <span className="inline">front-end</span> <span className="inline text-primary">coder</span>.
                      </h1>
                   </TransitionInview>
 
