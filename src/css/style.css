@@ -5,7 +5,7 @@
 /* purgecss end ignore */
 
 h1 {
-   @apply font-header text-9xl inline-block leading-none tracking-tight mt-4 mb-5;
+   @apply font-header font-semibold text-9xl inline-block leading-none tracking-less mt-4 mb-5;
 }
 
 h2 {

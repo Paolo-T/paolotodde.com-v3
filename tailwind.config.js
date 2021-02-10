@@ -181,7 +181,7 @@ module.exports = {
          DEFAULT: "1",
       },
       fontFamily: {
-         header: ["BagnardSans"],
+         header: ["Space Grotesk"],
          sans: [
             "Avenir",
             "ui-sans-serif",
@@ -434,7 +434,8 @@ module.exports = {
       },
       letterSpacing: {
          tighter: "-0.05em",
-         tight: "-0.035em",
+         tight: "-0.025em",
+         less: "-0.015em",
          normal: "0em",
          wide: "0.025em",
          wider: "0.05em",
