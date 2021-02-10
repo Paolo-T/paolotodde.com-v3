@@ -137,97 +137,96 @@ function classica() {
                   className="max-w-screen-xl mx-auto bg-dark"
                   loading="eager"
                />
-               <div className="w-full bg-white pt-1 pb-10 md:pb-20 md:pt-32">
-                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-0 mb-0">
-                     <div className="hidden md:block md:w-4/12 md:mt-16">
-                        <h4 className="text-sm font-black uppercase tracking-widest">Description</h4>
-                        <h4 className="text-sm pt-1">App design</h4>
-                     </div>
 
-                     <div className="w-12/12 md:w-8/12 md:pr-16">
-                        <h2 className="text-3xl font-black mb-4 md:mb-4">Description</h2>
-                        <p>
-                           <span className="font-black">classica</span> is a fun and friendly app for the classical
-                           music lovers. Whether they are seasoned aficionados or enthusiastic newbies, they'll find
-                           plenty of learning material to support their listening experience.
-                        </p>
-                     </div>
-                  </section>
-                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
-                     <div className="hidden md:block md:w-4/12 mt-24">
-                        <h4 className="text-sm font-black uppercase tracking-widest">Skills applied</h4>
-                        <h4 className="text-sm pt-1">
-                           Strategy
-                           <br /> Concept
-                           <br /> Product Design
-                           <br /> UI Design
-                        </h4>
-                     </div>
-
-                     <div className="w-11/12 md:w-8/12 max-w-screen-lg md:pr-16">
-                        <h2 className="text-3xl font-black mb-4 md:mb-4">The brief</h2>
-                        <p>
-                           You’re asked to design some materials for a mobile app to be run on smartphones only. Here
-                           some information on the app itself: The app is for listening to and learning about classical
-                           music.
-                           <br />
-                           The app monetizes through subscriptions. Some of the content and features are free for all
-                           users, while some are reserved to subscribers.
-                           <br />
-                           <br />
-                           The target customers are the newbie with curiosity for the topic, but that so far has lacked
-                           a convenient opportunity to educate themselves on it; and the long-standing aficionado that’s
-                           looking for a high-quality, comprehensive library of classical music and related content to
-                           enjoy on the go.
-                           <br />
-                           <br />
-                           There are four different sections: <br />
-                           <br />• &nbsp; DISCOVER. Here users are recommended content,​
-                           <br />• &nbsp; SEARCH​. Here they can search for content,
-                           <br />
-                           ​• &nbsp; LEARN. Users can follow an educational track and test their knowledge,
-                           <br />• &nbsp; ​PROFILE​. This includes their history of content consumption, their
-                           favorites, their achievements, and some settings.
-                           <br />
-                           <br />
-                           The main navigation between sections may happen through a tab bar UI.
-                        </p>
-                     </div>
-                  </section>
-                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
-                     <div className="md:w-4/12 md:mt-16">
-                        <h4 className="text-sm hidden md:block font-black uppercase tracking-widest mt-2">Problem</h4>
-                     </div>
-                     <div className="md:w-8/12 md:pr-16">
-                        <h2 className="text-3xl mb-4 md:mb-4">The problem</h2>
-                        <p>
-                           The need for a comprehensive resource hub to satisfy the curiosity of the classical music
-                           enthusiasts.
-                           <br />A place for the curious newbie searching for high-quality learning resources, discover
-                           interesting content to learn about the classical music world. A hub for the expert to dig
-                           deep into the details of their passion subject, discover new music and enjoy the
-                           classNameics.
-                        </p>
-                     </div>
-                  </section>
-                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 md:pb-0">
-                     <div className="hidden md:block md:w-4/12 md:mt-16">
-                        <h4 className="text-sm font-black uppercase tracking-widest mt-2">Solution</h4>
-                     </div>
-                     <div className="md:w-8/12 md:pr-16">
-                        <h2 className="text-3xl mb-4 md:mb-4">The solution</h2>
-                        <p>
-                           An app that besides the excellent music player, provides a learning center to access
-                           articles, podcasts, blogs and relevevant personalities in the field.
-                        </p>
-                     </div>
-                  </section>
-                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark mt-8 md:mt-16 mb-0">
-                     <div className="md:flex">
-                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-16"></div>
-                        <div className="w-11/12 md:w-8/12 md:mx-auto">
-                           <h2 className="text-3xl mb-4 md:mb-4">User Personas</h2>
+               <div className="w-full bg-white mx-auto pb-10 md:pb-20 md:pt-32">
+                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark">
+                     <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0">
+                        {/* Paragraph */}
+                        <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
+                           <h4 className="font-sansTitle text-sm uppercase tracking-widest">Description</h4>
+                           <h4 className="text-sm pt-1">App design</h4>
                         </div>
+                        <div className="col-start-5 col-end-13 mt-10 md:mt-0">
+                           <h2 className="text-3xl mb-4 md:mb-4">Description</h2>
+                           <p>
+                              <span className="font-sansTitle">classica</span> is a fun and friendly app for the
+                              classical music lovers. Whether they are seasoned aficionados or enthusiastic newbies,
+                              they'll find plenty of learning material to support their listening experience.
+                           </p>
+                        </div>
+                        {/* Paragraph */}
+                        <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
+                           <h4 className="font-sansTitle text-sm uppercase tracking-widest">Skills applied</h4>
+                           <h4 className="text-sm pt-1">
+                              Strategy
+                              <br /> Concept
+                              <br /> Product Design
+                              <br /> UI Design
+                           </h4>
+                        </div>
+                        <div className="col-start-5 col-end-13">
+                           <h2 className="text-3xl mb-4 md:mb-4">The brief</h2>
+                           <p>
+                              You’re asked to design some materials for a mobile app to be run on smartphones only. Here
+                              some information on the app itself: The app is for listening to and learning about
+                              classical music.
+                              <br />
+                              The app monetizes through subscriptions. Some of the content and features are free for all
+                              users, while some are reserved to subscribers.
+                              <br />
+                              <br />
+                              The target customers are the newbie with curiosity for the topic, but that so far has
+                              lacked a convenient opportunity to educate themselves on it; and the long-standing
+                              aficionado that’s looking for a high-quality, comprehensive library of classical music and
+                              related content to enjoy on the go.
+                              <br />
+                              <br />
+                              There are four different sections: <br />
+                              <br />• &nbsp; DISCOVER. Here users are recommended content,​
+                              <br />• &nbsp; SEARCH​. Here they can search for content,
+                              <br />
+                              ​• &nbsp; LEARN. Users can follow an educational track and test their knowledge,
+                              <br />• &nbsp; ​PROFILE​. This includes their history of content consumption, their
+                              favorites, their achievements, and some settings.
+                              <br />
+                              <br />
+                              The main navigation between sections may happen through a tab bar UI.
+                           </p>
+                        </div>
+                        {/* Paragraph */}
+                        <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
+                           <h4 className="font-sansTitle text-sm hidden md:block  uppercase tracking-widest">
+                              Problem
+                           </h4>
+                        </div>
+                        <div className="col-start-5 col-end-13">
+                           <h2 className="text-3xl mb-4 md:mb-4">The problem</h2>
+                           <p>
+                              The need for a comprehensive resource hub to satisfy the curiosity of the classical music
+                              enthusiasts.
+                              <br />A place for the curious newbie searching for high-quality learning resources,
+                              discover interesting content to learn about the classical music world. A hub for the
+                              expert to dig deep into the details of their passion subject, discover new music and enjoy
+                              the classNameics.
+                           </p>
+                        </div>
+                        {/* Paragraph */}
+                        <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
+                           <h4 className="font-sansTitle text-sm  uppercase tracking-widest">Solution</h4>
+                        </div>
+                        <div className="col-start-5 col-end-13">
+                           <h2 className="text-3xl mb-4 md:mb-4">The solution</h2>
+                           <p>
+                              An app that besides the excellent music player, provides a learning center to access
+                              articles, podcasts, blogs and relevevant personalities in the field.
+                           </p>
+                        </div>
+                     </div>
+                  </section>
+
+                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark mt-10 md:mt-20">
+                     <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0">
+                        <h2 className="text-3xl mb-3 md:mb-4 md:col-start-5 md:col-end-13">User Personas</h2>
                      </div>
                      <div className="md:grid grid-cols-2 gap-8">
                         {userPersonas.map((persona, i) => (
