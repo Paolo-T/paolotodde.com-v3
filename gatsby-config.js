@@ -56,12 +56,12 @@ module.exports = {
       {
          resolve: "gatsby-plugin-web-font-loader",
          options: {
-            // custom: {
-            //    families: ["BagnardSans"],
-            //    urls: ["/fonts/fonts.css"],
-            // },
+            custom: {
+               families: ["SpaceGrotesk-Medium", "SpaceGrotesk-Regular", "Avenir-Black", "Avenir-Book"],
+               urls: ["/fonts/fonts.css"],
+            },
             google: {
-               families: ["Space Grotesk", "Avenir"],
+               families: ["Avenir"],
             },
          },
       },
