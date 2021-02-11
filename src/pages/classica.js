@@ -144,7 +144,7 @@ function classica() {
                         {/* Paragraph */}
                         <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
                            <h4 className="font-sansTitle text-sm uppercase tracking-widest">Description</h4>
-                           <h4 className="text-sm pt-1">App design</h4>
+                           <h4 className="text-sm pt-1">Music player app</h4>
                         </div>
                         <div className="col-start-5 col-end-13 mt-10 md:mt-0">
                            <h2 className="text-3xl mb-4 md:mb-4">Description</h2>

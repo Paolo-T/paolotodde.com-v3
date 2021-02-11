@@ -136,11 +136,7 @@ function petTime() {
                            <p>
                               <span className="font-sansTitle">Pet Time</span> is a fun and friendly managing app for
                               animal lovers. Whether you are experts or enthusiastic newbies, you'll find plenty of
-                              learning resources to help taking care of your pet friends.<br></br>
-                              It provides a dedicated section for interesting articles, news, podcasts, learning
-                              resources. A section to help finding pet friendly locations and facilities. The UI will be
-                              user friendly and easy to navigate. All resources will be easy to access and quick to
-                              find.
+                              learning resources to help taking care of your pet friends.
                            </p>
                         </div>
                         {/* Paragraph */}
@@ -155,7 +151,7 @@ function petTime() {
                            </h4>
                         </div>
                         <div className="col-start-5 col-end-13">
-                           <h2 className="text-3xl  mb-3 md:mb-4">The brief</h2>
+                           <h2 className="text-3xl mb-3 md:mb-4">The brief</h2>
                            <p>
                               The app is for those passionate about pets, who want to learn more about their loved
                               domestic animals.
@@ -170,13 +166,20 @@ function petTime() {
                               while others are reserved for subscribers.
                               <br />
                               <br />
-                              There are four sections: <br />
-                              <br />• &nbsp; DISCOVER. The User are recommended content.
-                              <br />• &nbsp; MAPS. The User can find pet shops, veterinary clinics, and so on.
+                              There are four sections:
                               <br />
-                              ​• &nbsp; LEARN. The User can follow an educational track and test their knowledge on pets
-                              <br />• &nbsp; ​PROFILE​. This includes the User's history of content consumption, their
-                              favourites, their achievements, and some settings.
+                              <br />• &nbsp;<span className="font-sansTitle text-base tracking-widest">
+                                 DISCOVER —
+                              </span>{" "}
+                              The User are recommended content.
+                              <br />• &nbsp;<span className="font-sansTitle text-base tracking-widest">MAPS —</span> The
+                              User can find pet shops, veterinary clinics, and so on.
+                              <br />
+                              ​• &nbsp;<span className="font-sansTitle text-base tracking-widest">LEARN —</span> The
+                              User can follow an educational track and test their knowledge on pets
+                              <br />• &nbsp;<span className="font-sansTitle text-base tracking-widest">PROFILE​ —</span>
+                              ​ This includes the User's history of content consumption, their favourites, their
+                              achievements, and some settings.
                               <br />
                               <br />
                               The main navigation between sections may happen through a tab bar UI, or another system of
@@ -193,7 +196,7 @@ function petTime() {
                               An app that provides a dedicated section for interesting articles, news, podcasts,
                               learning resources. A section to help finding pet friendly locations and facilities. The
                               UI will be user friendly and easy to navigate. All resources will be easy to access and
-                              quick to find.
+                              find.
                            </p>
                         </div>
                      </div>
