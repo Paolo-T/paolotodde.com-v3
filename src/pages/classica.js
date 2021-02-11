@@ -166,7 +166,7 @@ function classica() {
                         </div>
                         <div className="col-start-5 col-end-13">
                            <h2 className="text-3xl mb-4 md:mb-4">The brief</h2>
-                           <p>
+                           <p className="mb-8">
                               You’re asked to design some materials for a mobile app to be run on smartphones only. Here
                               some information on the app itself: The app is for listening to and learning about
                               classical music.
@@ -182,14 +182,34 @@ function classica() {
                               <br />
                               <br />
                               There are four different sections: <br />
-                              <br />• &nbsp; DISCOVER. Here users are recommended content,​
-                              <br />• &nbsp; SEARCH​. Here they can search for content,
-                              <br />
-                              ​• &nbsp; LEARN. Users can follow an educational track and test their knowledge,
-                              <br />• &nbsp; ​PROFILE​. This includes their history of content consumption, their
-                              favorites, their achievements, and some settings.
-                              <br />
-                              <br />
+                           </p>
+
+                           <div class="grid grid-cols-1 md:grid-cols-12 gap-y-4 md:gap-y-4 gap-x-0 items-start mb-8">
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                                 • Discover
+                              </span>
+                              <p className="col-start-4 col-end-13 row-start-1 row-end-2">
+                                 Here users are recommended content
+                              </p>
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                                 • Search
+                              </span>
+                              <p className="col-start-4 col-end-13">Here they can search for content</p>
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                                 • Learn
+                              </span>
+                              <p className="col-start-4 col-end-13">
+                                 Users can follow an educational track and test their knowledge,
+                              </p>
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                                 • Profile
+                              </span>
+                              <p className="col-start-4 col-end-13">
+                                 This includes their history of content consumption, their favorites, their
+                                 achievements, and some settings.
+                              </p>
+                           </div>
+                           <p className="col-start-5 col-end-13">
                               The main navigation between sections may happen through a tab bar UI.
                            </p>
                         </div>

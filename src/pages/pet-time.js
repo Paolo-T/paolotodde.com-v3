@@ -152,7 +152,7 @@ function petTime() {
                         </div>
                         <div className="col-start-5 col-end-13">
                            <h2 className="text-3xl mb-3 md:mb-4">The brief</h2>
-                           <p>
+                           <p className="mb-8">
                               The app is for those passionate about pets, who want to learn more about their loved
                               domestic animals.
                               <br />
@@ -167,21 +167,37 @@ function petTime() {
                               <br />
                               <br />
                               There are four sections:
-                              <br />
-                              <br />• &nbsp;<span className="font-sansTitle text-base tracking-widest">
-                                 DISCOVER —
-                              </span>{" "}
-                              The User are recommended content.
-                              <br />• &nbsp;<span className="font-sansTitle text-base tracking-widest">MAPS —</span> The
-                              User can find pet shops, veterinary clinics, and so on.
-                              <br />
-                              ​• &nbsp;<span className="font-sansTitle text-base tracking-widest">LEARN —</span> The
-                              User can follow an educational track and test their knowledge on pets
-                              <br />• &nbsp;<span className="font-sansTitle text-base tracking-widest">PROFILE​ —</span>
-                              ​ This includes the User's history of content consumption, their favourites, their
-                              achievements, and some settings.
-                              <br />
-                              <br />
+                           </p>
+
+                           <div class="grid grid-cols-1 md:grid-cols-12 gap-y-4 md:gap-y-3 gap-x-0 items-start mb-8">
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                                 • Discover
+                              </span>
+                              <p className="col-start-4 col-end-13 row-start-1 row-end-2">
+                                 The User are recommended content.
+                              </p>
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                                 • Maps
+                              </span>
+                              <p className="col-start-4 col-end-13">
+                                 The User can follow an educational track and test their knowledge on pets
+                              </p>
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                                 • Learn
+                              </span>
+                              <p className="col-start-4 col-end-13">
+                                 The User can find pet shops, veterinary clinics, and so on.
+                              </p>
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                                 • Profile
+                              </span>
+                              <p className="col-start-4 col-end-13 ">
+                                 This includes the User's history of content consumption, their favourites, their
+                                 achievements, and some settings.
+                              </p>
+                           </div>
+
+                           <p>
                               The main navigation between sections may happen through a tab bar UI, or another system of
                               your choosing.
                            </p>
