@@ -122,42 +122,37 @@ function petTime() {
          <div className="w-12/12 mx-auto bg-dark">
             <TransitionPageIn>
                <Img className="max-w-screen-xl mx-auto" fluid={data.petTime_1.childImageSharp.fluid} loading="eager" />
-               <div className="w-full bg-white">
-                  <div className="w-full mx-auto pt-1 pb-10 md:pb-20 md:pt-32">
-                     <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto md:flex text-dark">
-                        <div className="md:w-4/12 mt-0 hidden md:block md:mt-16">
-                           <h4 className="text-sm font-black uppercase tracking-widest">Description</h4>
-                           <h4 className="text-sm pt-1">App design</h4>
+
+               <div className="w-full bg-white mx-auto pb-10 md:pb-20 md:pt-32 ">
+                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark">
+                     <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0">
+                        {/* Paragraph */}
+                        <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
+                           <h4 className="font-sansTitle text-sm uppercase tracking-widest">Description</h4>
+                           <h4 className="text-sm">Pet management</h4>
                         </div>
-                        <div className="md:w-7/12 mt-10 md:mt-0">
-                           <h2 className="text-3xl font-black mb-4 md:mb-4">Description</h2>
+                        <div className="mt-10 md:mt-0 col-start-5 col-end-13">
+                           <h2 className="font-sansTitle text-3xl mb-3 md:mb-4">Description</h2>
                            <p>
-                              <span className="font-black">Pet Time</span> is a fun and friendly managing app for animal
-                              lovers. Whether you are experts or enthusiastic newbies, you'll find plenty of learning
-                              resources to help taking care of your pet friends.
-                              {/* <span className="font-black">Pet Time</span>{" "}
-                                provides a dedicated section for interesting
-                                articles, news, podcasts, learning resources. A
-                                section to help finding pet friendly locations
-                                and facilities. The UI will be user friendly and
-                                easy to navigate. All resources will be easy to
-                                access and quick to find. */}
+                              <span className="font-sansTitle">Pet Time</span> is a fun and friendly managing app for
+                              animal lovers. Whether you are experts or enthusiastic newbies, you'll find plenty of
+                              learning resources to help taking care of your pet friends.
                            </p>
                         </div>
-                     </section>
-                     <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
-                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-16">
-                           <h4 className="text-sm font-black uppercase tracking-widest">Skills applied</h4>
-                           <h4 className="text-sm pt-1">
+                        {/* Paragraph */}
+                        <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
+                           <h4 className="font-sansTitle text-sm uppercase tracking-widest">Skills applied</h4>
+                           <h4 className="text-sm">
+                              Product Design
+                              <br />
                               Strategy
                               <br /> Concept
                               <br /> UI Design
-                              <br /> Product Design
                            </h4>
                         </div>
-                        <div className="w-11/12 md:w-7/12">
-                           <h2 className="text-3xl font-black mb-4 md:mb-4">The brief</h2>
-                           <p>
+                        <div className="col-start-5 col-end-13">
+                           <h2 className="text-3xl mb-3 md:mb-4">The brief</h2>
+                           <p className="mb-8">
                               The app is for those passionate about pets, who want to learn more about their loved
                               domestic animals.
                               <br />
@@ -171,93 +166,104 @@ function petTime() {
                               while others are reserved for subscribers.
                               <br />
                               <br />
-                              There are four sections: <br />
-                              <br />• &nbsp; DISCOVER. The User are recommended content.
-                              <br />• &nbsp; MAPS. The User can find pet shops, veterinary clinics, and so on.
-                              <br />
-                              ​• &nbsp; LEARN. The User can follow an educational track and test their knowledge on pets
-                              <br />• &nbsp; ​PROFILE​. This includes the User's history of content consumption, their
-                              favourites, their achievements, and some settings.
-                              <br />
-                              <br />
+                              There are four sections:
+                           </p>
+
+                           <div class="grid grid-cols-1 md:grid-cols-12 gap-y-4 md:gap-y-3 gap-x-0 items-start mb-8">
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                                 • Discover
+                              </span>
+                              <p className="col-start-4 col-end-13 row-start-1 row-end-2">
+                                 The User are recommended content.
+                              </p>
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                                 • Maps
+                              </span>
+                              <p className="col-start-4 col-end-13">
+                                 The User can follow an educational track and test their knowledge on pets
+                              </p>
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                                 • Learn
+                              </span>
+                              <p className="col-start-4 col-end-13">
+                                 The User can find pet shops, veterinary clinics, and so on.
+                              </p>
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                                 • Profile
+                              </span>
+                              <p className="col-start-4 col-end-13 ">
+                                 This includes the User's history of content consumption, their favourites, their
+                                 achievements, and some settings.
+                              </p>
+                           </div>
+
+                           <p>
                               The main navigation between sections may happen through a tab bar UI, or another system of
                               your choosing.
                            </p>
                         </div>
-                     </section>
-                     <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
-                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-16">
-                           <h4 className="text-sm font-black uppercase tracking-widest">Problem</h4>
+                        {/* Paragraph */}
+                        <div className="hidden md:block mb-10 md:mt-14 col-start-1 col-end-4">
+                           <h4 className="font-sansTitle text-sm uppercase tracking-widest">Solution</h4>
                         </div>
-                        <div className="w-11/12 md:w-7/12">
-                           <h2 className="text-3xl font-black mb-4 md:mb-4">The problem</h2>
-                           <p>
-                              Pet owners need a resource to help looking after their pet friends and making sure they
-                              are happy and pampered. They need a hub to gather educational material such as articles,
-                              blog posts, podcasts as well as information on the best vets in the area, the best pet
-                              friendly shops, pet friendly shops and cafes.
-                              <br />
-                              The curious newbie and aficionados looking for a high-quality, comprehensive app to teach
-                              them how to take care of their beloved pets. The app is for those passionate about pets,
-                              and who want to learn more about domestic animals.
-                           </p>
-                        </div>
-                     </section>
-                     <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
-                        <div className="hidden md:block md:w-4/12 mt-0 mb-10 md:mt-16">
-                           <h4 className="text-sm font-black uppercase tracking-widest">Solution</h4>
-                        </div>
-                        <div className="w-11/12 md:w-7/12">
-                           <h2 className="text-3xl font-black mb-4 md:mb-4">The solution</h2>
+                        <div className="col-start-5 col-end-13">
+                           <h2 className="text-3xl mb-3 md:mb-4">The solution</h2>
                            <p>
                               An app that provides a dedicated section for interesting articles, news, podcasts,
                               learning resources. A section to help finding pet friendly locations and facilities. The
                               UI will be user friendly and easy to navigate. All resources will be easy to access and
-                              quick to find.
+                              find.
                            </p>
                         </div>
-                     </section>
-                     <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark mt-8 md:mt-16 mb-0">
-                        <div className="md:flex">
-                           <div className="hidden md:block md:w-4/12 mt-0 md:mt-16"></div>
-                           <h2 className="text-3xl font-black mb-4 md:mb-4">User Personas</h2>
+                     </div>
+                  </section>
+
+                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark mt-10 md:mt-20">
+                     <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0">
+                        <h2 className="text-3xl mb-3 md:mb-4 md:col-start-5 md:col-end-13">User Personas</h2>
+                     </div>
+                     <div className="md:grid grid-cols-2 gap-8">
+                        {userPersonas.map((persona, i) => (
+                           <Card
+                              key={i}
+                              id={i}
+                              title={persona.name}
+                              subtitle={`Pets owned: ${persona.pet}`}
+                              description={persona.bio}
+                              list_top={persona.goals}
+                              list_top_title="Goals"
+                              list_bottom={persona.frustrations}
+                              list_bottom_title="Frustrations"
+                              image={persona.image}
+                           />
+                        ))}
+                     </div>
+                  </section>
+                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark mt-10 md:mt-20">
+                     <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0">
+                        {/* Paragraph */}
+                        <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
+                           <div className="hidden md:block">
+                              <h4 className="font-sansTitle text-sm uppercase tracking-widest">Flow</h4>
+                           </div>
                         </div>
-                        <div className="md:grid grid-cols-2 gap-8">
-                           {userPersonas.map((persona, i) => (
-                              <Card
-                                 key={i}
-                                 id={i}
-                                 title={persona.name}
-                                 subtitle={`Pets owned: ${persona.pet}`}
-                                 description={persona.bio}
-                                 list_top={persona.goals}
-                                 list_top_title="Goals"
-                                 list_bottom={persona.frustrations}
-                                 list_bottom_title="Frustrations"
-                                 image={persona.image}
-                              />
-                           ))}
-                        </div>
-                     </section>
-                     <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-16 mb-0">
-                        <div className="hidden md:block md:w-4/12 mt-0 md:mt-16">
-                           <h4 className="text-sm font-black uppercase tracking-widest">Flow</h4>
-                        </div>
-                        <div className="w-11/12 md:w-8/12 pr-0 md:pr-16">
-                           <h2 className="text-3xl font-black mb-4 md:mb-4">User Flow</h2>
+                        <div className="col-start-5 col-end-13">
+                           <h2 className="text-3xl  mb-3 md:mb-4">User Flow</h2>
                            <p>
                               After the initial Log in / Sign Up, the user is presented with the Home screen where they
                               can browse the most important topics regarding the care of their beloved pets. After
                               choosing their subject of interest, they are presented with all the available resources
-                              and content focused on that particular topic. Some of the content is free and some is
-                              "Premium" that requires a paid subscription to access. If the user is not yet subscribed,
-                              is directed to a paywall where they can subscribe before accessing the Premium content.
+                              and content focused on that particular topic.
+                              <br></br>
+                              <br></br>Some of the content is free and some is "Premium" that requires a paid
+                              subscription to access. If the user is not yet subscribed, is directed to a paywall where
+                              they can subscribe before accessing the Premium content.
                            </p>
                         </div>
-                     </section>
-                  </div>
+                     </div>
+                  </section>
                </div>
-               <section className="w-full max-w-screen-xl mx-auto mt-10 px-0 md:px-50 py-24">
+               <section className="w-full max-w-screen-xl mx-auto mt-10 px-0 md:px-50 md:py-24">
                   <Img fluid={data.petTime_6.childImageSharp.fluid} loading="eager" alt="App screen" />
                </section>
                {imageData.map((image, i) => (

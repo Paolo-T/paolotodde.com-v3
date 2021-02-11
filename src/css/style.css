@@ -5,11 +5,11 @@
 /* purgecss end ignore */
 
 h1 {
-   @apply font-header font-semibold text-9xl inline-block leading-none tracking-less mt-4 mb-5;
+   @apply font-header text-9xl inline-block leading-none tracking-less mt-4 mb-5;
 }
 
 h2 {
-   @apply font-sans font-black text-4xl tracking-normal mb-4 md:mb-6;
+   @apply font-sansTitle text-4xl tracking-normal mb-4 md:mb-6;
 }
 
 h3 {
@@ -17,7 +17,7 @@ h3 {
 }
 
 p {
-   @apply font-sans font-light leading-9 text-xl;
+   @apply font-sans text-xl;
 }
 
 li {
@@ -29,7 +29,7 @@ li {
 }
 
 .span {
-   @apply font-sans text-base font-light text-black leading-snug inline-block my-2;
+   @apply font-sans text-base inline-block my-2;
 }
 
 @screen sm {
@@ -46,13 +46,13 @@ li {
 
 @screen sm {
    h3 {
-      @apply text-3xl leading-none;
+      @apply text-3xl;
    }
 }
 
 @screen sm {
    p {
-      @apply font-sans text-2xl font-light;
+      @apply font-sans;
    }
 }
 

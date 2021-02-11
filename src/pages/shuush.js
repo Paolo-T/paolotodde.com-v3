@@ -109,21 +109,26 @@ function Shuush() {
                   fluid={data.shuushImg_0.childImageSharp.fluid}
                   loading="eager"
                />
-               <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark md:flex mt-8 md:mt-0 mb-10 md:mb-0">
-                  <div className="md:w-4/12 md:mt-16">
-                     <h4 className="text-sm font-black uppercase tracking-widest">Description</h4>
-                     <h4 className="text-sm pt-4">App design</h4>
-                  </div>
 
-                  <div className="md:w-7/12 max-w-screen-lg mx-auto mt-16 md:mt-0">
-                     <h2 className="text-3xl font-black mb-4 md:mb-4">Description</h2>
-                     <p>
-                        <span className="font-black">Shuush!</span> is a fun messaging app. Its fresh and friendly
-                        design will help you keeping in contact with your loved ones. The simple and intuitive user
-                        interface will facilitate communications and sharing.
-                     </p>
-                  </div>
-               </section>
+               <div className="w-full bg-white mx-auto pb-10 md:pb-20 md:pt-32 ">
+                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark">
+                     <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0">
+                        {/* Paragraph */}
+                        <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
+                           <h4 className="font-sansTitle text-sm uppercase tracking-widest">Description</h4>
+                           <h4 className="text-sm">Messaging app</h4>
+                        </div>
+                        <div className="mt-10 md:mt-0 col-start-5 col-end-13">
+                           <h2 className="text-3xl mb-4 md:mb-4">Description</h2>
+                           <p>
+                              <span className="font-sansTitle">Shuush!</span> is a fun messaging app. Its fresh and
+                              friendly design will help you keeping in contact with your loved ones. The simple and
+                              intuitive user interface will facilitate communications and sharing.
+                           </p>
+                        </div>
+                     </div>
+                  </section>
+               </div>
 
                {imageData.map((image, i) => (
                   <div className="max-w-screen-lg mx-auto">

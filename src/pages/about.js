@@ -88,7 +88,7 @@ function About() {
                   <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto pt-20 md:pt-10 md:pl-20">
                      <h1 className="md:w-12/12 text-4xl md:text-5xl">Hi!</h1>
                      <div className="lg:w-10/12 block flex-2 pt-4 lg:pt-6">
-                        <p className="mt-2 leading-9">
+                        <p className="mt-2 leading-8">
                            My name is Paolo Todde, and I am a designer specializing in web and mobile experiences.
                            Currently designing remotely for&nbsp;
                            <a
@@ -99,18 +99,7 @@ function About() {
                            >
                               Brandwatch
                            </a>
-                           &nbsp;in Brighton (UK).
-                           <br />
-                           <br />I have a passion for visual communication, creating and developing well crafted
-                           designs, user focused utilitarian interfaces. Contributing to the great web environment
-                           making the best experience mixing creativity and technology, sifting out the unnecessary.
-                        </p>
-                        <p className="mt-9 leading-9">
-                           Staying curious and seeking new skills, discovering better ways of implementing techniques.
-                        </p>
-
-                        <p className="mt-9 leading-9">
-                           Member of the Jury Panel at&nbsp;
+                           &nbsp;in Brighton (UK) and member of the Jury Panel at&nbsp;
                            <a
                               className="cursor-pointer text-primary underline "
                               rel="noopener noreferrer"
@@ -119,6 +108,14 @@ function About() {
                            >
                               CSS Design Awards
                            </a>
+                           .
+                           <br />
+                           <br />I have a passion for visual communication, creating and developing well crafted
+                           designs, user focused utilitarian interfaces. Contributing to the great web environment
+                           making the best experience mixing creativity and technology, sifting out the unnecessary.
+                        </p>
+                        <p className="mt-9 leading-9">
+                           Staying curious and seeking new skills, discovering better ways of implementing techniques.
                         </p>
                      </div>
 
