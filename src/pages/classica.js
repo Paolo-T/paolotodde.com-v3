@@ -184,28 +184,29 @@ function classica() {
                               There are four different sections: <br />
                            </p>
 
-                           <div class="grid grid-cols-1 md:grid-cols-12 gap-y-4 md:gap-y-4 gap-x-0 items-start mb-8">
-                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                           <div class="grid grid-cols-1 md:grid-cols-12 gap-y-2 md:gap-y-4 gap-x-0 items-start mb-6">
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-13 md:col-start-1 md:col-end-4 mt-1.5">
                                  • Discover
                               </span>
-                              <p className="col-start-4 col-end-13 row-start-1 row-end-2">
-                                 Here users are recommended content
+                              <p className="col-start-4 col-end-13">
+                                 Users are recommended interesting classical music content.
                               </p>
-                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-13 md:col-start-1 md:col-end-4 mt-1.5">
                                  • Search
                               </span>
-                              <p className="col-start-4 col-end-13">Here they can search for content</p>
-                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                              <p className="col-start-4 col-end-13">Users can search their music library. </p>
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-13 md:col-start-1 md:col-end-4 mt-1.5">
                                  • Learn
                               </span>
                               <p className="col-start-4 col-end-13">
-                                 Users can follow an educational track and test their knowledge,
+                                 Users can follow an educational track and test and improve their classical music
+                                 knowledge.
                               </p>
-                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-13 md:col-start-1 md:col-end-4 mt-1.5">
                                  • Profile
                               </span>
                               <p className="col-start-4 col-end-13">
-                                 This includes their history of content consumption, their favorites, their
+                                 Section that includes their history of content consumption, their favorites, their
                                  achievements, and some settings.
                               </p>
                            </div>
