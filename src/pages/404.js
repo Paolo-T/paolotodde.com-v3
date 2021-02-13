@@ -29,7 +29,7 @@ function NotFoundPage() {
                </h1>
 
                <Link
-                  className="iinline-block bg-primary hover:bg-yellow-400 text-dark hover:text-offWhite
+                  className="inline-block bg-primary hover:bg-yellow-400 text-dark hover:text-offWhite
                      focus:outline-none transition duration-500 ease-in-out font-header text-2xl md:text-2xl mt-32 py-3
                      px-10 rounded"
                   to="/"
