@@ -169,31 +169,32 @@ function petTime() {
                               There are four sections:
                            </p>
 
-                           <div class="grid grid-cols-1 md:grid-cols-12 gap-y-4 md:gap-y-3 gap-x-0 items-start mb-8">
-                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                           <div class="grid grid-cols-1 md:grid-cols-12 gap-y-3 md:gap-y-3 gap-x-0 items-start mb-6">
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-13 md:col-start-1 md:col-end-4 mt-1.5">
                                  • Discover
                               </span>
-                              <p className="col-start-4 col-end-13 row-start-1 row-end-2">
-                                 The User are recommended content.
-                              </p>
-                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
-                                 • Maps
-                              </span>
                               <p className="col-start-4 col-end-13">
-                                 The User can follow an educational track and test their knowledge on pets
+                                 Users are recommended interesting content about their pet.
                               </p>
-                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-13 md:col-start-1 md:col-end-4 mt-1.5">
                                  • Learn
                               </span>
                               <p className="col-start-4 col-end-13">
-                                 The User can find pet shops, veterinary clinics, and so on.
+                                 Users can follow an educational track and test and improve their knowledge on pets.
                               </p>
-                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-4 mt-1.5">
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-13 md:col-start-1 md:col-end-4 mt-1.5">
+                                 • Maps
+                              </span>
+                              <p className="col-start-4 col-end-13">
+                                 Users can find pet shops, veterinary clinics, pet friendly venues and places for pet
+                                 care.
+                              </p>
+                              <span className="font-sansTitle text-sm uppercase tracking-widest col-start-1 col-end-13 md:col-start-1 md:col-end-4 mt-1.5">
                                  • Profile
                               </span>
                               <p className="col-start-4 col-end-13 ">
-                                 This includes the User's history of content consumption, their favourites, their
-                                 achievements, and some settings.
+                                 Section that includes the User's history of content consumption, their favourites,
+                                 their achievements, and some settings.
                               </p>
                            </div>
 
