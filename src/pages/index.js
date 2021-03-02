@@ -21,10 +21,10 @@ function Home() {
          />
          <TransitionPageIn>
             <div className="w-full">
-               <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-/12 max-w-screen-lg mx-auto pt-32 md:pt-24">
+               <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-9/12 max-w-screen-lg mx-auto pt-32 md:pt-24">
                   <TransitionInview>
                      <h1
-                        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-8xl  ml-7 sm:ml-16 md:ml-28 lg:ml-20 xl:ml-32 2xl:ml-24
+                        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-8xl  ml-7 sm:ml-16 md:ml-28 lg:ml-20 xl:ml-32 2xl:ml-24
                         md:mt-32 lg:mt-10
                         md:mb-0 lg:mb-10
                         lg:pt-32"
@@ -47,17 +47,6 @@ function Home() {
                   <div className="mb-5 mt-4 md:my-20">
                      <ImgNavTiles isPageNav={false} />
                   </div>
-
-                  {/* <section className="text-center mt-0 md:mb-10">
-                     <a target="_parent" rel="noopener noreferrer" href="mailto:iampaolotodde@gmail.com">
-                        <button
-                           type="button"
-                           className="inline-block bg-primary hover:bg-yellow-400 text-dark hover:text-offWhite focus:outline-none transition duration-500 ease-in-out font-header text-2xl md:text-4xl mt-10 py-3 px-10 rounded"
-                        >
-                           Contact
-                        </button>
-                     </a>
-                  </section> */}
                </div>
             </div>
          </TransitionPageIn>
