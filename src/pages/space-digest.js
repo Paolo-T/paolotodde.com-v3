@@ -77,7 +77,7 @@ function spaceDigest() {
                   className="max-w-screen-xxl mx-auto bg-dark"
                   loading="eager"
                />
-               <div className="w-full bg-white mx-auto pb-10 md:pb-20 md:pt-32">
+               <div className="w-full bg-white mx-auto pb-10 md:pb-40 md:pt-32">
                   <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark">
                      <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0">
                         {/* Paragraph */}
@@ -115,7 +115,7 @@ function spaceDigest() {
                            </p>
                         </div>
                         {/* Paragraph */}
-                        <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
+                        {/* <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
                            <h4 className="font-sansTitle text-sm uppercase tracking-widest">Website</h4>
                         </div>
                         <div className="col-start-5 col-end-13">
@@ -127,7 +127,7 @@ function spaceDigest() {
                            >
                               www.spacedigest.live
                            </a>
-                        </div>
+                        </div> */}
                      </div>
                   </section>
 
@@ -161,9 +161,7 @@ function spaceDigest() {
                   </section>
                </div>
 
-               <div className="w-full bg-dark mx-auto">
-                  <ImgNavTiles isPageNav={true} />
-               </div>
+               <ImgNavTiles isPageNav={true} />
             </TransitionPageIn>
          </div>
       </>

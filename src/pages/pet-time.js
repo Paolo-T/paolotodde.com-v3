@@ -277,9 +277,7 @@ function petTime() {
                   <Img fluid={data.petTime_5.childImageSharp.fluid} className="-m-2" loading="eager" alt="App screen" />
                </div>
 
-               <div className="w-full bg-dark mx-auto">
-                  <ImgNavTiles isPageNav={true} />
-               </div>
+               <ImgNavTiles isPageNav={true} />
             </TransitionPageIn>
          </div>
       </>
