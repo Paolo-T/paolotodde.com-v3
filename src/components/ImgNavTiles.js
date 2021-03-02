@@ -59,7 +59,7 @@ function ImgNavTiles({ isPageNav }) {
          tileImg: data.petImg.childImageSharp.fluid,
          linkTo: "/pet-time",
          imgAlt: "Pet Time app ui design",
-         rounded: "lg",
+         rounded: "2xl",
       },
       {
          title: "Shuush!",
@@ -68,7 +68,7 @@ function ImgNavTiles({ isPageNav }) {
          tileImg: data.shuushImg.childImageSharp.fluid,
          linkTo: "/shuush",
          imgAlt: "Shuush! app ui design",
-         rounded: "lg",
+         rounded: "2xl",
       },
       {
          title: "Classica",
@@ -77,7 +77,7 @@ function ImgNavTiles({ isPageNav }) {
          tileImg: data.classicaImg.childImageSharp.fluid,
          linkTo: "/classica",
          imgAlt: "classica app ui design",
-         rounded: "lg",
+         rounded: "2xl",
       },
       {
          title: "Space Digest",
@@ -86,16 +86,16 @@ function ImgNavTiles({ isPageNav }) {
          tileImg: data.spaceDigestImg.childImageSharp.fluid,
          linkTo: "/space-digest",
          imgAlt: "Website page",
-         rounded: "lg",
+         rounded: "2xl",
       },
       {
-         title: "BuzzSumo.com",
+         title: "BuzzSumo",
          subTitle: "Web marketing assets - Web design",
          cta: "View more",
          tileImg: data.buzzsumoImg.childImageSharp.fluid,
          linkTo: "/buzzsumo",
          imgAlt: "Buzzsumo web page",
-         rounded: "lg",
+         rounded: "2xl",
       },
    ];
 
