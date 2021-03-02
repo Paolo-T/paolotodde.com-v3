@@ -86,8 +86,8 @@ function About() {
             <div className="w-screen pt-20 md:pt-48">
                <TransitionInview>
                   <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto pt-20 md:pt-10 md:pl-20">
-                     <h1 className="md:w-12/12 text-4xl md:text-5xl">Hi!</h1>
-                     <div className="lg:w-10/12 block flex-2 pt-4 lg:pt-6">
+                     <h1 className="md:w-12/12 text-4xl md:text-5xl text-gray-300">Hi!</h1>
+                     <div className="lg:w-10/12 block flex-2 pt-4 lg:pt-6  text-gray-400">
                         <p className="mt-2 leading-8">
                            My name is Paolo Todde, and I am a designer specializing in web and mobile experiences.
                            Currently designing remotely for&nbsp;
@@ -118,25 +118,17 @@ function About() {
                            Staying curious and seeking new skills, discovering better ways of implementing techniques.
                         </p>
                      </div>
-
-                     <a target="_parent" rel="noopener noreferrer" href="mailto:iampaolotodde@gmail.com">
-                        <button
-                           type="button"
-                           className="inline-block bg-primary hover:bg-yellow-400 text-dark hover:text-white focus:outline-none transition duration-500 ease-in-out font-header text-2xl md:text-2xl mt-10 py-3 px-10 rounded"
-                        >
-                           Contact
-                        </button>
-                     </a>
                   </section>
                </TransitionInview>
 
                <section
                   className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto mb-10 md:mb-20 mt-20
-                grid md:grid-cols-12 gap-5 md:gap-10 border-t border-b border-primary pt-6 md:pt-12 pb-3 md:pb-10 pl-5 md:pl-10"
+                grid md:grid-cols-12 gap-5 md:gap-10 pt-6 md:pt-12 pb-3 md:pb-10 pl-5 md:pl-10 rounded-2xl"
+                  style={{ backgroundColor: "#1d1d1d" }}
                >
-                  <div className="mb-5 col-span-6 md:col-span-6">
+                  <div className="col-span-6 md:col-span-6 text-gray-400">
                      <p className="text-lg mb-3">
-                        <span className="font-header">Books read / Recent courses taken:</span>
+                        <span className="font-header text-white">Recent books / courses</span>
                      </p>
                      <div className="flex">
                         <div className="flex flex-col space-y-2 mr-3 mt-0.5">
@@ -162,9 +154,9 @@ function About() {
                                  viewBox="0 0 24 24"
                                  stroke="currentColor"
                               >
-                                 <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />
+                                 <path fill="none" d="M12 14l9-5-9-5-9 5 9 5z" />
                                  <path
-                                    fill="#fff"
+                                    fill="none"
                                     d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
                                  />
                                  <path
@@ -182,9 +174,9 @@ function About() {
                                  viewBox="0 0 24 24"
                                  stroke="currentColor"
                               >
-                                 <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />
+                                 <path fill="none" d="M12 14l9-5-9-5-9 5 9 5z" />
                                  <path
-                                    fill="#fff"
+                                    fill="none"
                                     d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
                                  />
                                  <path
@@ -197,7 +189,7 @@ function About() {
                            </span>
                         </div>
                         <ul>
-                           <li className="">
+                           <li>
                               <span className="italic">‘Refactoring UI’</span>&nbsp;&nbsp;by A. Wathan & S. Schoger
                            </li>
                            <li>
@@ -213,9 +205,9 @@ function About() {
                         </ul>
                      </div>
                   </div>
-                  <div className="mb-5 col-span-6 md:col-span-3">
+                  <div className="col-span-6 md:col-span-3 text-gray-400">
                      <p className="text-lg mb-3">
-                        <span className="font-header">Current focus:</span>
+                        <span className="font-header text-white">Current focus</span>
                      </p>
                      <div className="flex">
                         <div className="flex flex-col space-y-2 mr-3 mt-0.5">
@@ -272,9 +264,9 @@ function About() {
                         </ul>
                      </div>
                   </div>
-                  <div className="mb-5 col-span-2 md:col-span-3">
+                  <div className="col-span-2 md:col-span-3 text-gray-400">
                      <p className="text-lg mb-3">
-                        <span className="font-header">Next focus:</span>
+                        <span className="font-header text-white">Next focus</span>
                      </p>
                      <div className="flex">
                         <div className="flex flex-col space-y-2 mr-3 mt-0.5">
@@ -376,7 +368,7 @@ function About() {
                                     loading="eager"
                                  />
                               </a>
-                              <h2 className="text-lg mt-4">Digital Art</h2>
+                              <h3 className="text-lg mt-4 text-gray-400">Digital Art</h3>
                            </div>
                            <div className="w-full">
                               <Link to="/three" target="_blank">
@@ -388,7 +380,7 @@ function About() {
                                  />
                               </Link>
 
-                              <h2 className="text-lg mt-4">3 Design Company ( Visual Brand )</h2>
+                              <p className="text-lg mt-4 text-gray-400">3 Design Company ( Visual Brand )</p>
                            </div>
                         </div>
                      </div>
