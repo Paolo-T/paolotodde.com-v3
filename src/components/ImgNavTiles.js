@@ -104,7 +104,7 @@ function ImgNavTiles({ isPageNav }) {
 
    return (
       <section className={`w-full pt-10 ${isPageNav ? "bg-dark" : ""}`}>
-         {isPageNav && <h1 className="block text-center text-2xl md:text-4xl text-primary mb-14">Other projects</h1>}
+         {isPageNav && <h1 className="block text-center text-2xl md:text-4xl text-primary mb-20">Other projects</h1>}
 
          <div
             className={`w-100 mx-auto md:m-0

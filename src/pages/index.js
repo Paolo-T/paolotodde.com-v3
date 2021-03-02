@@ -32,10 +32,7 @@ function Home() {
                      >
                         Hi, I’m{" "}
                         <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/paolo-todde/">
-                           <span className="hover:text-primary hover:underline transition duration-500 cursor-pointer">
-                              {" "}
-                              Paolo.
-                           </span>
+                           <span className="hover:text-primary transition duration-500 cursor-pointer"> Paolo.</span>
                         </a>
                         <br />
                         <span className="inline text-primary">UI Designer</span> <span className="inline">&</span>
