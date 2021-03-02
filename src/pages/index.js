@@ -45,7 +45,7 @@ function Home() {
                   </TransitionInview>
 
                   <div className="mb-5 mt-4 md:my-20">
-                     <ImgNavTiles isPageNav={false} />
+                     <ImgNavTiles />
                   </div>
                </div>
             </div>

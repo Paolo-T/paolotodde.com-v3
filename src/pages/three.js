@@ -56,9 +56,8 @@ function Three() {
                </div>
             </a>
          </TransitionPageIn>
-         <div className="bg-dark">
-            <ImgNavTiles isPageNav={true} />
-         </div>
+
+         <ImgNavTiles isPageNav={true} />
       </>
    );
 }
