@@ -183,7 +183,7 @@ module.exports = {
       fontFamily: {
          header: ["SpaceGrotesk-Medium"],
          headerRegular: ["SpaceGrotesk-Regular"],
-         sansTitle: ["Avenir-Black"],
+         sansTitle: ["Avenir-Roman"],
          sans: [
             "Avenir-Book",
             "Avenir",
