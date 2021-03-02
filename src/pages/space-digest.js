@@ -70,7 +70,7 @@ function spaceDigest() {
             ]}
             title="Portfolio page classica App"
          />
-         <div className="w-12/12 mx-auto bg-blackPure">
+         <div className="w-12/12 mx-auto">
             <TransitionPageIn>
                <Img
                   fluid={data.spaceDigestImg_1.childImageSharp.fluid}
@@ -161,7 +161,9 @@ function spaceDigest() {
                   </section>
                </div>
 
-               <ImgNavTiles isPageNav={true} />
+               <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto">
+                  <ImgNavTiles isPageNav={true} />
+               </div>
             </TransitionPageIn>
          </div>
       </>

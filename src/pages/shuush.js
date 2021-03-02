@@ -140,7 +140,11 @@ function Shuush() {
                   <Img fluid={data.shuushImg_7.childImageSharp.fluid} loading="eager" alt="App screen" />
                </div>
 
-               <ImgNavTiles isPageNav={true} />
+               <div className="w-100 bg-dark">
+                  <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto">
+                     <ImgNavTiles isPageNav={true} />
+                  </div>
+               </div>
             </TransitionPageIn>
          </div>
       </>

@@ -103,12 +103,12 @@ function ImgNavTiles({ isPageNav }) {
    // const onOneLine = pageLocation === "/three" ? navItemsNumber : navItemsNumber - 1;
 
    return (
-      <section className={`w-full pt-14 ${isPageNav ? "bg-lessDark" : ""}`}>
-         {isPageNav && <h1 className="block text-center text-2xl md:text-4xl text-primary mb-10">Other projects</h1>}
+      <section className={`w-full pt-32 ${isPageNav ? "bg-dark" : ""}`}>
+         {isPageNav && <h1 className="block text-center text-2xl md:text-4xl text-primary mb-14">Other projects</h1>}
 
          <div
             className={`w-100 mx-auto md:m-0
-            grid ${isPageNav ? "grid-cols-3 md:grid-cols-5 gap-0" : "grid-cols-1 md:gap-20 gap-3"}`}
+            grid ${isPageNav ? "grid-cols-1 md:grid-cols-2 gap-6 md:gap-10" : "grid-cols-1 md:gap-20 gap-3"}`}
          >
             {tilesData.map((tile, i) => (
                // pageLocation !== tile.linkTo && (
@@ -123,7 +123,7 @@ function ImgNavTiles({ isPageNav }) {
                      imgAlt={tile.imgAlt}
                      marginTop={tile.marginTop}
                      marginBottom={tile.marginBottom}
-                     rounded={!isPageNav && tile.rounded}
+                     rounded={tile.rounded}
                      isPageNav={isPageNav}
                   />
                </TransitionInview>
