@@ -87,7 +87,7 @@ function About() {
                <TransitionInview>
                   <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto pt-20 md:pt-10 md:pl-20">
                      <h1 className="md:w-12/12 text-4xl md:text-5xl text-gray-300">Hi!</h1>
-                     <div className="lg:w-10/12 block flex-2 pt-4 lg:pt-6  text-gray-400">
+                     <div className="lg:w-10/12 block flex-2 pt-4 text-gray-400">
                         <p className="mt-2 leading-8">
                            My name is Paolo Todde, and I am a designer specializing in web and mobile experiences.
                            Currently designing remotely for&nbsp;
@@ -355,7 +355,7 @@ function About() {
                </TransitionInview> */}
 
                <TransitionInview>
-                  <section className="w-full pb-28 pt-4">
+                  <section className="w-full pb-10 pt-4">
                      <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto">
                         <h1 className="text-2xl md:text-3xl flex-1 mb-10">Side projects</h1>
                         <div className="grid md:grid-cols-2 gap-8">
@@ -388,9 +388,6 @@ function About() {
                </TransitionInview>
             </div>
          </TransitionPageIn>
-         <div className="bg-dark">
-            <ImgNavTiles isPageNav={true} />
-         </div>
       </>
    );
 }
