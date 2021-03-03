@@ -24,11 +24,11 @@ const footerItems = [
 function Footer() {
    return (
       <TransitionPageIn>
-         <footer className="w-full max-w-screen-xxl mx-auto mb-10 md:pb-24 mt-16 md:mt-24">
+         <footer className="w-full max-w-screen-xxl mx-auto mb-10 pb-24 mt-16 md:mt-24">
             <ul className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto flex flex-col md:flex-row text-center justify-between xlg:ml-32 md:pt-10 ">
                {footerItems.map((item, i) => (
                   <a key={i} rel="noopener noreferrer" target="_blank" href={item.href}>
-                     <li className="xl:inline-block text-1xl lg:text-4xl font-headerRegular text-primary  hover:border-b-2 hover:border-primary transition duration-300 ease-in-out mb-3 md:mb-0">
+                     <li className="xl:inline-block text-1xl lg:text-4xl font-headerRegular text-primary  hover:border-b-2 md:hover:border-primary transition duration-300 ease-in-out mb-3 md:mb-0">
                         {item.item}
                      </li>
                   </a>
