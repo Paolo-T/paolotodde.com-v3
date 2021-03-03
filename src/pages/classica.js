@@ -149,7 +149,7 @@ function classica() {
                         <div className="col-start-5 col-end-13 mt-10 md:mt-0">
                            <h2 className="text-3xl mb-4 md:mb-4">Description</h2>
                            <p>
-                              <span className="font-sansTitle">classica</span> is a fun and friendly app for the
+                              <span className="font-sansTitle">Classica</span> is a fun and friendly app for the
                               classical music lovers. Whether they are seasoned aficionados or enthusiastic newbies,
                               they'll find plenty of learning material to support their listening experience.
                            </p>
