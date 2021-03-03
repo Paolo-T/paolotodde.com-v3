@@ -103,14 +103,14 @@ function ImgNavTiles({ isPageNav }) {
    // const onOneLine = pageLocation === "/three" ? navItemsNumber : navItemsNumber - 1;
 
    return (
-      <section className={`w-full pt-10 ${isPageNav ? "bg-dark" : ""}`}>
+      <section className={`w-full md:pt-10 ${isPageNav ? "bg-dark" : ""}`}>
          {isPageNav && (
             <h1 className="block text-center text-2xl md:text-4xl text-primary mb-10 md:mb-20">Other projects</h1>
          )}
 
          <div
             className={`w-100 mx-auto md:m-0
-            grid ${isPageNav ? "grid-cols-1 md:grid-cols-2 gap-6 md:gap-10" : "grid-cols-1 md:gap-20 gap-3"}`}
+            grid ${isPageNav ? "grid-cols-1 md:grid-cols-2 gap-6 md:gap-10" : "grid-cols-1 md:gap-20 gap-6"}`}
          >
             {tilesData.map((tile, i) => (
                // pageLocation !== tile.linkTo && (
