@@ -1,0 +1,12 @@
+.bg {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 70vh;
+   background-size: cover;
+   background-position: center;
+   will-change: opacity;
+   z-index: 0;
+   /* filter: opacity(5%); */
+}
