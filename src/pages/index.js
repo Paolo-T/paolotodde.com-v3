@@ -3,6 +3,7 @@ import SEO from "../components/Seo";
 import TransitionPageIn from "../components/TransitionPageIn";
 import TransitionInview from "../components/TransitionInview";
 import ImgNavTiles from "../components/ImgNavTiles";
+// import Carousel from "../components/carousel/Carousel";
 
 function Home() {
    return (
@@ -20,11 +21,12 @@ function Home() {
             title="Home"
          />
          <TransitionPageIn>
-            <div className="w-full">
-               <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-9/12 max-w-screen-lg mx-auto pt-32 md:pt-24">
+            <div className="w-full relative">
+               {/* <Carousel /> */}
+               <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-9/12 max-w-screen-lg mx-auto pt-32 md:pt-24 z-100">
                   <TransitionInview>
                      <h1
-                        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-8xl  ml-7 sm:ml-16 md:ml-28 lg:ml-20 xl:ml-32 2xl:ml-24
+                        className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-8xl 2xl:text-8xl ml-7 sm:ml-16 md:ml-20 lg:ml-20 xl:ml-32 2xl:ml-24
                         md:mt-32 lg:mt-10
                         md:mb-0 lg:mb-10
                         lg:pt-32"

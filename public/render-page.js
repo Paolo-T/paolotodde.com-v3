@@ -38278,7 +38278,7 @@ var footerItems = [{
 
 function Footer() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TransitionPageIn__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
-    className: "w-full max-w-screen-xxl mx-auto mb-10 md:pb-24 mt-16 md:mt-24"
+    className: "w-full max-w-screen-xxl mx-auto mb-10 pb-24 mt-16 md:mt-24"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto flex flex-col md:flex-row text-center justify-between xlg:ml-32 md:pt-10 "
   }, footerItems.map(function (item, i) {
@@ -38288,7 +38288,7 @@ function Footer() {
       target: "_blank",
       href: item.href
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "xl:inline-block text-1xl lg:text-4xl font-headerRegular text-primary  hover:border-b-2 hover:border-primary transition duration-300 ease-in-out mb-3 md:mb-0"
+      className: "xl:inline-block text-1xl lg:text-4xl font-headerRegular text-primary  hover:border-b-2 md:hover:border-primary transition duration-300 ease-in-out mb-3 md:mb-0"
     }, item.item));
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ScrollToTop__WEBPACK_IMPORTED_MODULE_2__["default"], {
     showBelow: "250"
