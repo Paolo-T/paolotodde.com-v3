@@ -103,7 +103,7 @@ function ImgNavTiles({ isPageNav }) {
    // const onOneLine = pageLocation === "/three" ? navItemsNumber : navItemsNumber - 1;
 
    return (
-      <section className={`w-full md:pt-10 ${isPageNav ? "bg-dark" : ""}`}>
+      <section className={`w-full ${isPageNav ? "bg-dark" : ""}`}>
          {isPageNav && (
             <h1 className="block text-center text-2xl md:text-4xl text-primary mb-10 md:mb-20">Other projects</h1>
          )}
