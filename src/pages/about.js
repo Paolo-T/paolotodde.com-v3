@@ -85,7 +85,7 @@ function About() {
          <TransitionPageIn>
             <div className="w-screen pt-20 md:pt-48">
                <TransitionInview>
-                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto pt-20 md:pt-10 md:pl-20">
+                  <section className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto pt-20 md:pt-10 md:pl-20">
                      <h1 className="md:w-12/12 text-4xl md:text-5xl text-gray-300">Hi!</h1>
                      <div className="lg:w-10/12 block flex-2 pt-4 text-gray-400">
                         <p className="mt-2 leading-8">
@@ -122,12 +122,12 @@ function About() {
                </TransitionInview>
 
                <section
-                  className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto mb-10 md:mb-20 mt-20
-                grid md:grid-cols-12 gap-5 md:gap-10 pt-6 md:pt-12 pb-3 md:pb-10 pl-5 md:pl-10 rounded-2xl"
+                  className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto mb-10 md:mb-20 mt-20
+                grid lg:grid-cols-12 gap-5 md:gap-10 xl:gap-4 pt-6 md:pt-12 pb-3 md:pb-10 pl-5 md:pl-10 rounded-2xl"
                   style={{ backgroundColor: "#181818" }}
                >
                   <div className="col-span-6 md:col-span-6 text-gray-400">
-                     <p className="text-lg mb-3">
+                     <p className="text-base mb-3">
                         <span className="font-header text-white">Recent books / courses</span>
                      </p>
                      <div className="flex">
@@ -190,14 +190,15 @@ function About() {
                         </div>
                         <ul>
                            <li>
-                              <span className="italic">‘Refactoring UI’</span>&nbsp;&nbsp;by A. Wathan & S. Schoger
+                              <span className="text-sm italic">‘Refactoring UI’</span>&nbsp;&nbsp;by A. Wathan & S.
+                              Schoger
                            </li>
                            <li>
-                              <span className="italic">‘User Experience for web design’</span>&nbsp;&nbsp;by Chris
-                              nodder
+                              <span className="text-sm italic">‘User Experience for web design’</span>&nbsp;&nbsp;by
+                              Chris nodder
                            </li>
                            <li>
-                              <span className="italic">
+                              <span className="text-sm italic">
                                  ‘UX & Web Design Master Course: Strategy, Design,<br></br>Development’
                               </span>
                               &nbsp;&nbsp;by Joe Natoli
@@ -205,13 +206,13 @@ function About() {
                         </ul>
                      </div>
                   </div>
-                  <div className="col-span-6 md:col-span-3 text-gray-400">
-                     <p className="text-lg mb-3">
+                  <div className="col-span-6 md:col-span-3 xl:col-span-3 text-gray-400">
+                     <p className="text-base mb-3">
                         <span className="font-header text-white">Current focus</span>
                      </p>
                      <div className="flex">
                         <div className="flex flex-col space-y-2 mr-3 mt-0.5">
-                           <span className="w-4">
+                           <span className="md:w-4 xl:w-3">
                               <svg
                                  xmlns="http://www.w3.org/2000/svg"
                                  fill="none"
@@ -226,7 +227,7 @@ function About() {
                                  />
                               </svg>
                            </span>
-                           <span className="w-4">
+                           <span className="md:w-4 xl:w-3">
                               <svg
                                  xmlns="http://www.w3.org/2000/svg"
                                  fill="none"
@@ -241,7 +242,7 @@ function About() {
                                  />
                               </svg>
                            </span>
-                           <span className="w-4">
+                           <span className="md:w-4 xl:w-3">
                               <svg
                                  xmlns="http://www.w3.org/2000/svg"
                                  fill="none"
@@ -258,14 +259,14 @@ function About() {
                            </span>
                         </div>
                         <ul>
-                           <li>UI / UX Design</li>
-                           <li>Design Systems</li>
-                           <li>React.js</li>
+                           <li className="text-sm">UI / UX Design</li>
+                           <li className="text-sm">Design Systems</li>
+                           <li className="text-sm">React.js</li>
                         </ul>
                      </div>
                   </div>
                   <div className="col-span-2 md:col-span-3 text-gray-400">
-                     <p className="text-lg mb-3">
+                     <p className="text-base mb-3">
                         <span className="font-header text-white">Next focus</span>
                      </p>
                      <div className="flex">
@@ -317,9 +318,9 @@ function About() {
                            </span>
                         </div>
                         <ul>
-                           <li>Web animations</li>
-                           <li>User Research</li>
-                           <li>Design Sprints</li>
+                           <li className="text-sm">Web animations</li>
+                           <li className="text-sm">User Research</li>
+                           <li className="text-sm">Design Sprints</li>
                         </ul>
                      </div>
                   </div>
@@ -356,7 +357,7 @@ function About() {
 
                <TransitionInview>
                   <section className="w-full pb-10 pt-4">
-                     <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto">
+                     <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto">
                         <h1 className="text-2xl md:text-3xl flex-1 mb-10">Side projects</h1>
                         <div className="grid md:grid-cols-2 gap-8">
                            <div className="w-full">

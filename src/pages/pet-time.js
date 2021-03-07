@@ -124,7 +124,7 @@ function petTime() {
                <Img className="max-w-screen-xl mx-auto" fluid={data.petTime_1.childImageSharp.fluid} loading="eager" />
 
                <div className="w-full bg-white mx-auto pb-10 md:pb-20 md:pt-32 ">
-                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark">
+                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto text-dark">
                      <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0">
                         {/* Paragraph */}
                         <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
@@ -219,7 +219,7 @@ function petTime() {
                      </div>
                   </section>
 
-                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark mt-10 md:mt-20">
+                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto text-dark mt-10 md:mt-20">
                      <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0">
                         <h2 className="text-3xl mb-3 md:mb-4 md:col-start-5 md:col-end-13">User Personas</h2>
                      </div>
@@ -240,7 +240,7 @@ function petTime() {
                         ))}
                      </div>
                   </section>
-                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark mt-10 md:mt-20">
+                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto text-dark mt-10 md:mt-20">
                      <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0">
                         {/* Paragraph */}
                         <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
@@ -277,7 +277,7 @@ function petTime() {
                   <Img fluid={data.petTime_5.childImageSharp.fluid} className="-m-2" loading="eager" alt="App screen" />
                </div>
 
-               <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto">
+               <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto">
                   <ImgNavTiles isPageNav={true} />
                </div>
             </TransitionPageIn>

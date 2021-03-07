@@ -57,7 +57,7 @@ function Three() {
             </a>
          </TransitionPageIn>
 
-         <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto">
+         <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto">
             <ImgNavTiles isPageNav={true} />
          </div>
       </>
