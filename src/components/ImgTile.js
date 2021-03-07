@@ -43,9 +43,9 @@ function ImgTile({
                   >
                      {!isPageNav ? (
                         <>
-                           <p className="text-sm md:text-xl md:mt-2">{label}</p>
+                           <p className="text-sm md:text-xl md:mt-2 uppercase tracking-wider">{label}</p>
                            <h1 className="mb-0 md:mb-1 text-5xl md:text-6xl lg:text-8xl">{title}</h1>
-                           <p className="text-sm md:text-xl md:mt-2">{subTitle}</p>
+                           <p className="text-base md:text-3xl md:mt-2">{subTitle}</p>
                         </>
                      ) : null}
                      {/* <p
@@ -87,7 +87,7 @@ function ImgTile({
                         <>
                            <p className="text-sm md:text-xl md:mt-2">{label}</p>
                            <h1 className="mb-0 md:mb-1 text-5xl md:text-6xl lg:text-8xl">{title}</h1>
-                           <p className="text-sm md:text-xl md:mt-2">{subTitle}</p>
+                           <p className="text-base md:text-3xl md:mt-2">{subTitle}</p>
                         </>
                      ) : null}
                      {/* <p
