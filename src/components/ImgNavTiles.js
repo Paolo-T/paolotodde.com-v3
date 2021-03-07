@@ -53,8 +53,9 @@ function ImgNavTiles({ isPageNav }) {
 
    const tilesData = [
       {
+         label: "UI/UX Design",
          title: "Pet Time",
-         subTitle: "Pet management app - UI/UX Design",
+         subTitle: "Pet management app",
          cta: "View use case",
          tileImg: data.petImg.childImageSharp.fluid,
          linkTo: "/pet-time",
@@ -62,8 +63,9 @@ function ImgNavTiles({ isPageNav }) {
          rounded: "2xl",
       },
       {
+         label: "UI/UX Design",
          title: "Shuush!",
-         subTitle: "Messaging app - UI/UX Design",
+         subTitle: "Messaging app",
          cta: "View use case",
          tileImg: data.shuushImg.childImageSharp.fluid,
          linkTo: "/shuush",
@@ -71,8 +73,9 @@ function ImgNavTiles({ isPageNav }) {
          rounded: "2xl",
       },
       {
+         label: "UI/UX Design",
          title: "Classica",
-         subTitle: "Classical music app - UI/UX Design",
+         subTitle: "Classical music app",
          cta: "View use case",
          tileImg: data.classicaImg.childImageSharp.fluid,
          linkTo: "/classica",
@@ -80,8 +83,9 @@ function ImgNavTiles({ isPageNav }) {
          rounded: "2xl",
       },
       {
+         label: "Web Design / Development",
          title: "Space Digest",
-         subTitle: "Website - Web Design / Development",
+         subTitle: "Website",
          cta: "View more",
          tileImg: data.spaceDigestImg.childImageSharp.fluid,
          linkTo: "/space-digest",
@@ -89,8 +93,9 @@ function ImgNavTiles({ isPageNav }) {
          rounded: "2xl",
       },
       {
+         label: "Web Design",
          title: "BuzzSumo",
-         subTitle: "Web marketing assets - Web design",
+         subTitle: "Web marketing assets",
          cta: "View more",
          tileImg: data.buzzsumoImg.childImageSharp.fluid,
          linkTo: "/buzzsumo",
@@ -117,6 +122,7 @@ function ImgNavTiles({ isPageNav }) {
                <TransitionInview>
                   <ImgTile
                      key={i}
+                     label={!isPageNav && tile.label}
                      title={!isPageNav && tile.title}
                      subTitle={!isPageNav && tile.subTitle}
                      cta={tile.cta}

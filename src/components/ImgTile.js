@@ -6,7 +6,19 @@ import Img from "gatsby-image";
 // const calc = (x, y) => [-(y - window.innerHeight / 2) / 50, (x - window.innerWidth / 2) / 20, 0.95];
 // const trans = (x, y, s) => `perspective(1200px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
 
-function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTop, marginBottom, rounded, isPageNav }) {
+function ImgTile({
+   linkTo,
+   href,
+   label,
+   title,
+   subTitle,
+   tileImg,
+   imgAlt,
+   marginTop,
+   marginBottom,
+   rounded,
+   isPageNav,
+}) {
    // const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 250, friction: 40 } }));
 
    return (
@@ -31,6 +43,7 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
                   >
                      {!isPageNav ? (
                         <>
+                           <p className="text-sm md:text-xl md:mt-2">{label}</p>
                            <h1 className="mb-0 md:mb-1 text-5xl md:text-6xl lg:text-8xl">{title}</h1>
                            <p className="text-sm md:text-xl md:mt-2">{subTitle}</p>
                         </>
@@ -72,6 +85,7 @@ function ImgTile({ linkTo, href, title, subTitle, cta, tileImg, imgAlt, marginTo
                   >
                      {!isPageNav ? (
                         <>
+                           <p className="text-sm md:text-xl md:mt-2">{label}</p>
                            <h1 className="mb-0 md:mb-1 text-5xl md:text-6xl lg:text-8xl">{title}</h1>
                            <p className="text-sm md:text-xl md:mt-2">{subTitle}</p>
                         </>
