@@ -67,7 +67,7 @@ function classNameica() {
                <Img fluid={data.heroImg.childImageSharp.fluid} className="" loading="eager" />
 
                <section className="w-full bg-white mx-auto pb-10 md:pb-40 md:pt-32">
-                  <div className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark">
+                  <div className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto text-dark">
                      <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0">
                         {/* Paragraph */}
                         <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
@@ -115,7 +115,7 @@ function classNameica() {
                   </div>
                </section>
 
-               <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto">
+               <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto">
                   <div className="grid grid-cols-3 gap-5">
                      {data.buzzsumoImages.nodes.map((image) => (
                         <Img
@@ -129,7 +129,7 @@ function classNameica() {
                   </div>
                </section>
 
-               <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark mt-52">
+               <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto text-dark mt-52">
                   <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0 mb-14 md:mb-32">
                      {/* Paragraph */}
                      <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
@@ -150,7 +150,7 @@ function classNameica() {
                </section>
 
                <div className="w-100 bg-dark">
-                  <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto">
+                  <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto">
                      <ImgNavTiles isPageNav={true} />
                   </div>
                </div>

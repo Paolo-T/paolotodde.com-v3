@@ -111,7 +111,7 @@ function Shuush() {
                />
 
                <div className="w-full bg-white mx-auto pb-10 md:pb-20 md:pt-32 ">
-                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto text-dark">
+                  <section className="w-11/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto text-dark">
                      <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10 md:gap-y-14 gap-x-0">
                         {/* Paragraph */}
                         <div className="hidden md:block md:mt-14 col-start-1 col-end-4">
@@ -131,7 +131,7 @@ function Shuush() {
                </div>
 
                {imageData.map((image, i) => (
-                  <div className="max-w-screen-lg mx-auto">
+                  <div className="max-w-screen-xl mx-auto">
                      <Img key={i} fluid={image} loading="eager" alt="App screen" />
                   </div>
                ))}
@@ -141,7 +141,7 @@ function Shuush() {
                </div>
 
                <div className="w-100 bg-dark">
-                  <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-lg mx-auto">
+                  <div className="w-10/12 md:w-8/12 lg:w-8/12 xl:w-7/12 max-w-screen-xl mx-auto">
                      <ImgNavTiles isPageNav={true} />
                   </div>
                </div>
