@@ -48,11 +48,20 @@ function ImgNavTiles({ isPageNav }) {
                }
             }
          }
+         brandwatchImg: file(relativePath: { eq: "brandwatch/brandwatch_tile.png" }) {
+            id
+            childImageSharp {
+               fluid(maxWidth: 2880) {
+                  ...GatsbyImageSharpFluid_withWebp
+               }
+            }
+         }
       }
    `);
 
    const tilesData = [
       {
+         inProgress: false,
          label: "UI/UX Design",
          title: "Pet Time",
          subTitle: "Pet management app",
@@ -60,9 +69,10 @@ function ImgNavTiles({ isPageNav }) {
          tileImg: data.petImg.childImageSharp.fluid,
          linkTo: "/pet-time",
          imgAlt: "Pet Time app ui design",
-         rounded: "3xl",
+         rounded: "2xl",
       },
       {
+         inProgress: false,
          label: "UI/UX Design",
          title: "Shuush!",
          subTitle: "Messaging app",
@@ -70,9 +80,10 @@ function ImgNavTiles({ isPageNav }) {
          tileImg: data.shuushImg.childImageSharp.fluid,
          linkTo: "/shuush",
          imgAlt: "Shuush! app ui design",
-         rounded: "3xl",
+         rounded: "2xl",
       },
       {
+         inProgress: false,
          label: "UI/UX Design",
          title: "Classica",
          subTitle: "Classical music app",
@@ -80,27 +91,39 @@ function ImgNavTiles({ isPageNav }) {
          tileImg: data.classicaImg.childImageSharp.fluid,
          linkTo: "/classica",
          imgAlt: "classica app ui design",
-         rounded: "3xl",
+         rounded: "2xl",
       },
+      // {
+      //    label: "Web Design / Development",
+      //    title: "Space Digest",
+      //    subTitle: "Website",
+      //    cta: "View more",
+      //    tileImg: data.spaceDigestImg.childImageSharp.fluid,
+      //    linkTo: "/space-digest",
+      //    imgAlt: "Website page",
+      //    rounded: "2xl",
+      // },
       {
-         label: "Web Design / Development",
-         title: "Space Digest",
-         subTitle: "Website",
-         cta: "View more",
-         tileImg: data.spaceDigestImg.childImageSharp.fluid,
-         linkTo: "/space-digest",
-         imgAlt: "Website page",
-         rounded: "3xl",
-      },
-      {
+         inProgress: false,
          label: "Web Design",
          title: "BuzzSumo",
-         subTitle: "Web marketing assets",
+         subTitle: "Website marketing",
          cta: "View more",
          tileImg: data.buzzsumoImg.childImageSharp.fluid,
          linkTo: "/buzzsumo",
          imgAlt: "Buzzsumo web page",
-         rounded: "3xl",
+         rounded: "2xl",
+      },
+      {
+         inProgress: true,
+         label: "Web Design",
+         title: "Brandwatch",
+         subTitle: "Coming soon",
+         cta: "View more",
+         tileImg: data.brandwatchImg.childImageSharp.fluid,
+         linkTo: null,
+         imgAlt: "Brandwatch webpage",
+         rounded: "2xl",
       },
    ];
 
@@ -108,7 +131,7 @@ function ImgNavTiles({ isPageNav }) {
    // const onOneLine = pageLocation === "/three" ? navItemsNumber : navItemsNumber - 1;
 
    return (
-      <section className={`w-full ${isPageNav ? "bg-dark" : ""}`}>
+      <section className={`w-full ${isPageNav ? "bg-dark pt-0" : ""}`}>
          {isPageNav && (
             <h1 className="block text-center text-2xl md:text-4xl text-primary mb-10 md:mb-20">Other projects</h1>
          )}
@@ -122,6 +145,7 @@ function ImgNavTiles({ isPageNav }) {
                <TransitionInview>
                   <ImgTile
                      key={i}
+                     inProgress={tile.inProgress}
                      label={!isPageNav && tile.label}
                      title={!isPageNav && tile.title}
                      subTitle={!isPageNav && tile.subTitle}
