@@ -20,9 +20,10 @@ function ImgTile({
          <Link to={linkTo}>
             <div
                className={`group w-full relative transition duration-500 transform text-center
-               ${inProgress ? null : "hover:scale-95 cursor-pointer"}
+               ${inProgress ? "" : "hover:scale-95 cursor-pointer"}
                md:mt-${marginTop} md:mb-${marginBottom}
                rounded-${rounded ? rounded : 0} overflow-hidden`}
+               style={{ borderRadius: "1.5rem" }}
             >
                <div
                   className="w-full text-primary absolute top-1 z-50 opacity-0 group-hover:opacity-100 transition duration-500"
