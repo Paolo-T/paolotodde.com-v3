@@ -80,8 +80,9 @@ function classNameica() {
                         <div className="mt-10 md:mt-0 col-start-5 col-end-13">
                            <h2 className=" text-3xl mb-3 md:mb-4">Description</h2>
                            <p>
-                              <span className="">BuzzSumo</span> Creation of blog image headers to express BuzzSumo's
-                              branding identity. The tone of voice is playful and informal.
+                              BuzzSumo is a powerful platform that allows you to find engaging pieces of content and
+                              discover new potential outreach opportunities. The site allows you to search for content
+                              that has received the most shares, links and comments.
                            </p>
                         </div>
                         {/* Paragraph */}
@@ -91,9 +92,8 @@ function classNameica() {
                         <div className="col-start-5 col-end-13">
                            <h2 className=" text-3xl mb-3 md:mb-4">Blog Images</h2>
                            <p>
-                              <span className="">BuzzSumo</span> is a platform that allows you to find engaging pieces
-                              of content and discover new potential outreach opportunities. The site allows you to
-                              search for content that has received the most shares, links and comments.
+                              Creation of blog image headers to express BuzzSumo's brand identity. The tone of voice is
+                              playful and human.
                            </p>
                         </div>
                         {/* Paragraph */}
